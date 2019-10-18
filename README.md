@@ -10,8 +10,6 @@ Authors:
 </ul>
 <br>
 
-<br><br>
-
 ## Main objective
 
   - Make a Web application for finding available bicycles, using open data from the bicycle sharing systems of many cities.
