@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.util.Iterator;
 import java.util.Map;
 
-public class JSONReadExample  
+public class JSONReadExample
 { 
     public static void main(String[] args) throws Exception  
     { 
