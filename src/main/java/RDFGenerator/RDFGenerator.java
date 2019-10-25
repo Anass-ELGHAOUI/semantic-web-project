@@ -1,14 +1,22 @@
 package RDFGenerator;
 
 import Models.City;
-import org.apache.jena.rdf.model.*;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.rdfconnection.RDFConnection;
+import org.apache.jena.rdfconnection.RDFConnectionFactory;
+import org.apache.jena.riot.Lang;
 import org.apache.jena.riot.RDFDataMgr;
+import org.apache.jena.riot.RDFFormat;
 
-import java.io.OutputStream;
-import java.math.BigDecimal;
+import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
 
 public class RDFGenerator {
-    public void generateRDF(City city) {
+    public void generateRDF(City city) throws IOException {
         Model m = ModelFactory.createDefaultModel();
 
         String ex = "http://www.example.com/";
@@ -43,9 +51,13 @@ public class RDFGenerator {
 //            Resource bikeStationRsrc = m.createResource(ex + "bikeStation" + (i + 1))
 //                    .addProperty(typeProp, )
 //        }
+        URL url = new URL("http://localhost:3030/bikstation_db");
+        URLConnection connection = url.openConnection();
+        connection.setDoOutput(true);
 
         m.write(System.out, "Turtle");
+        RDFConnection conn = RDFConnectionFactory.connect("http://localhost:3030/bikstation_db");
+        conn.load("C:/Users/Anass/Documents/vocabulaire.ttl") ;
 
-//        RDFDataMgr.write(new OutputStream());
     }
 }
