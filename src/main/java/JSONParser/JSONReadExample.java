@@ -1,7 +1,7 @@
 package JSONParser;
 
-import models.BikeStation;
-import models.City;
+import Models.BikeStation;
+import Models.City;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;

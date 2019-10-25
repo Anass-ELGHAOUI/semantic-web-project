@@ -2,7 +2,6 @@ package XMLParser;
 
 import java.io.IOException;
 import java.io.StringWriter;
-import java.net.MalformedURLException;
 import java.net.URL;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -14,8 +13,9 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
-import models.BikeStation;
-import models.City;
+import Models.BikeStation;
+import Models.City;
+import RDFGenerator.RDFGenerator;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -25,6 +25,8 @@ import org.xml.sax.SAXException;
 public class XMLParser {
 
     public static void main(String[] args) {
+        RDFGenerator rdfGenerator = new RDFGenerator();
+
         try {
             /* Getting the XML file from a url */
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -105,17 +107,19 @@ public class XMLParser {
                 }
 
                 /* Print all bike stations */
-                for (int i = 0; i < montpellier.getBikeStations().size(); i++) {
-                    System.out.println("Name: " + montpellier.getBikeStations().get(i).getName());
-                    System.out.println("Id: " + montpellier.getBikeStations().get(i).getId());
-                    System.out.println("Lattitude: " + montpellier.getBikeStations().get(i).getLattitude());
-                    System.out.println("Longitude: " + montpellier.getBikeStations().get(i).getLongitude());
-                    System.out.println("Available: " + montpellier.getBikeStations().get(i).getAvailable());
-                    System.out.println("Free: " + montpellier.getBikeStations().get(i).getFree());
-                    System.out.println("Total: " + montpellier.getBikeStations().get(i).getTotal());
-                    System.out.println("Card paiement: " + montpellier.getBikeStations().get(i).getCardPaiement());
-                    System.out.println();
-                }
+//                for (int i = 0; i < montpellier.getBikeStations().size(); i++) {
+//                    System.out.println("Name: " + montpellier.getBikeStations().get(i).getName());
+//                    System.out.println("Id: " + montpellier.getBikeStations().get(i).getId());
+//                    System.out.println("Lattitude: " + montpellier.getBikeStations().get(i).getLattitude());
+//                    System.out.println("Longitude: " + montpellier.getBikeStations().get(i).getLongitude());
+//                    System.out.println("Available: " + montpellier.getBikeStations().get(i).getAvailable());
+//                    System.out.println("Free: " + montpellier.getBikeStations().get(i).getFree());
+//                    System.out.println("Total: " + montpellier.getBikeStations().get(i).getTotal());
+//                    System.out.println("Card paiement: " + montpellier.getBikeStations().get(i).getCardPaiement());
+//                    System.out.println();
+//                }
+
+                rdfGenerator.generateRDF(montpellier);
             }
 
         } catch (ParserConfigurationException e) {
