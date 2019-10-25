@@ -8,7 +8,9 @@ import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdfconnection.RDFConnection;
 import org.apache.jena.rdfconnection.RDFConnectionFactory;
 
+import java.io.FileWriter;
 import java.io.IOException;
+import java.math.BigDecimal;
 
 public class RDFGenerator {
     public void generateRDF(City city) throws IOException {
@@ -19,7 +21,7 @@ public class RDFGenerator {
         String rdfs = "http://www.w3.org/2000/01/rdf-schema#";
         String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
         String xsd = "http://www.w3.org/2001/XMLSchema#";
-        String dbo = "<http://dbpedia.org/ontology/>";
+        String dbo = "http://dbpedia.org/ontology/";
 
         Property typeProp = m.createProperty(rdf, "type");
         Property cityProp = m.createProperty(dbo + "city");
@@ -52,7 +54,6 @@ public class RDFGenerator {
             cityRsrc.addProperty(bikeStationsProp, bikeStationProp[i]);
         }
 
-
         for (int i = 0; i < city.getBikeStations().size(); i++) {
             Resource bikeStationRsrc = m.createResource(ex + "bikeStation" + (i + 1))
                     .addProperty(typeProp, spatialThingProp);
@@ -64,10 +65,10 @@ public class RDFGenerator {
                 bikeStationRsrc.addProperty(idProp, city.getBikeStations().get(i).getId());
             }
             if (city.getBikeStations().get(i).getLattitude() != null) {
-                bikeStationRsrc.addProperty(latProp, city.getBikeStations().get(i).getLattitude());
+                bikeStationRsrc.addProperty(latProp, m.createTypedLiteral(new BigDecimal(city.getBikeStations().get(i).getLattitude())));
             }
             if (city.getBikeStations().get(i).getLongitude() != null) {
-                bikeStationRsrc.addProperty(longProp, city.getBikeStations().get(i).getLongitude());
+                bikeStationRsrc.addProperty(longProp,  m.createTypedLiteral(new BigDecimal(city.getBikeStations().get(i).getLongitude())));
             }
             if (city.getBikeStations().get(i).getAvailable() != null) {
                 bikeStationRsrc.addProperty(availableProp, city.getBikeStations().get(i).getAvailable());
@@ -83,8 +84,21 @@ public class RDFGenerator {
             }
         }
 
-        m.write(System.out, "Turtle");
+        FileWriter out = new FileWriter(city.getName() + ".ttl");
+        try {
+            m.write( out, "Turtle" );
+        }
+        finally {
+            try {
+                out.close();
+            }
+            catch (IOException closeException) {
+                // ignore
+            }
+        }
+
         RDFConnection conn = RDFConnectionFactory.connect("http://localhost:3030/bikstation_db");
-        conn.load("C:/Users/Anass/Documents/vocabulaire.ttl");
+        conn.delete();
+        conn.load(city.getName() + ".ttl");
     }
 }
