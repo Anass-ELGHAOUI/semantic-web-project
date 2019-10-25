@@ -1,6 +1,7 @@
 package RDFGenerator;
 
 import Models.City;
+import com.sun.org.apache.xml.internal.utils.StringBufferPool;
 import org.apache.jena.rdf.model.*;
 import org.apache.jena.riot.RDFDataMgr;
 
@@ -27,6 +28,15 @@ public class RDFGenerator {
             bikeStationProp[i] = m.createProperty(ex + "bikeStation" + (i + 1));
         }
 
+        Property spatialThingProp = m.createProperty(geo + "SpatialThing");
+        Property idProp = m.createProperty(ex + "id");
+        Property availableProp = m.createProperty(ex + "available");
+        Property freeProp = m.createProperty(ex + "free");
+        Property totalProp = m.createProperty(ex + "total");
+        Property cardPaiementProp = m.createProperty(ex + "cardPaiement");
+        Property latProp = m.createProperty(geo + "lat");
+        Property longProp = m.createProperty(geo + "long");
+
         m.setNsPrefix("ex", ex);
         m.setNsPrefix("geo", geo);
         m.setNsPrefix("rdfs", rdfs);
@@ -34,18 +44,42 @@ public class RDFGenerator {
         m.setNsPrefix("dbo", dbo);
 
         Resource cityRsrc = m.createResource(dbo + city.getName())
-                .addProperty(typeProp, cityProp);
+                .addProperty(typeProp, cityProp)
+                .addProperty(labelProp, city.getName());
         for (int i = 0; i < city.getBikeStations().size(); i++) {
             cityRsrc.addProperty(bikeStationsProp, bikeStationProp[i]);
         }
 
-//        for (int i = 0; i < city.getBikeStations().size(); i++) {
-//            Resource bikeStationRsrc = m.createResource(ex + "bikeStation" + (i + 1))
-//                    .addProperty(typeProp, )
-//        }
+        for (int i = 0; i < city.getBikeStations().size(); i++) {
+            Resource bikeStationRsrc = m.createResource(ex + "bikeStation" + (i + 1))
+                    .addProperty(typeProp, spatialThingProp);
+
+            if (city.getBikeStations().get(i).getName() != null) {
+                bikeStationRsrc.addProperty(labelProp, city.getBikeStations().get(i).getName());
+            }
+            if (city.getBikeStations().get(i).getId() != null) {
+                bikeStationRsrc.addProperty(idProp, city.getBikeStations().get(i).getId());
+            }
+            if (city.getBikeStations().get(i).getLattitude() != null) {
+                bikeStationRsrc.addProperty(latProp, city.getBikeStations().get(i).getLattitude());
+            }
+            if (city.getBikeStations().get(i).getLongitude() != null) {
+                bikeStationRsrc.addProperty(longProp, city.getBikeStations().get(i).getLongitude());
+            }
+            if (city.getBikeStations().get(i).getAvailable() != null) {
+                bikeStationRsrc.addProperty(availableProp, city.getBikeStations().get(i).getAvailable());
+            }
+            if (city.getBikeStations().get(i).getFree() != null) {
+                bikeStationRsrc.addProperty(freeProp, city.getBikeStations().get(i).getFree());
+            }
+            if (city.getBikeStations().get(i).getTotal() != null) {
+                bikeStationRsrc.addProperty(totalProp, city.getBikeStations().get(i).getTotal());
+            }
+            if (city.getBikeStations().get(i).getCardPaiement() != null) {
+                bikeStationRsrc.addProperty(cardPaiementProp, city.getBikeStations().get(i).getCardPaiement());
+            }
+        }
 
         m.write(System.out, "Turtle");
-
-//        RDFDataMgr.write(new OutputStream());
     }
 }
