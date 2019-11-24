@@ -1,0 +1,604 @@
+@prefix dbo:   <http://dbpedia.org/page/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Montpellier41  a   geo:SpatialThing ;
+        rdfs:label    "41 Euromédecine" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "0" ;
+        ex:free       "8" ;
+        ex:id         "41" ;
+        ex:total      "8" ;
+        geo:lat       "41"^^xsd:decimal ;
+        geo:long      "41"^^xsd:decimal .
+
+ex:Montpellier13  a   geo:SpatialThing ;
+        rdfs:label    "13 Emile Combes" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "3" ;
+        ex:free       "5" ;
+        ex:id         "13" ;
+        ex:total      "8" ;
+        geo:lat       "13"^^xsd:decimal ;
+        geo:long      "13"^^xsd:decimal .
+
+ex:Montpellier54  a      geo:SpatialThing ;
+        rdfs:label       "55 Pérols Etang de l'Or" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "18" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "50" ;
+        ex:id            "55" ;
+        ex:total         "68" ;
+        geo:lat          "55"^^xsd:decimal ;
+        geo:long         "55"^^xsd:decimal .
+
+ex:Montpellier26  a   geo:SpatialThing ;
+        rdfs:label    "26 Renouvier" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "0" ;
+        ex:free       "8" ;
+        ex:id         "26" ;
+        ex:total      "8" ;
+        geo:lat       "26"^^xsd:decimal ;
+        geo:long      "26"^^xsd:decimal .
+
+ex:Montpellier39  a   geo:SpatialThing ;
+        rdfs:label    "39 Aiguelongue" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "9" ;
+        ex:free       "0" ;
+        ex:id         "39" ;
+        ex:total      "8" ;
+        geo:lat       "39"^^xsd:decimal ;
+        geo:long      "39"^^xsd:decimal .
+
+ex:Montpellier20  a   geo:SpatialThing ;
+        rdfs:label    "20 Gambetta" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "6" ;
+        ex:free       "2" ;
+        ex:id         "20" ;
+        ex:total      "8" ;
+        geo:lat       "20"^^xsd:decimal ;
+        geo:long      "20"^^xsd:decimal .
+
+ex:Montpellier8  a    geo:SpatialThing ;
+        rdfs:label    "8 Halles Castellane" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "6" ;
+        ex:free       "10" ;
+        ex:id         "8" ;
+        ex:total      "16" ;
+        geo:lat       "8"^^xsd:decimal ;
+        geo:long      "8"^^xsd:decimal .
+
+ex:Montpellier33  a   geo:SpatialThing ;
+        rdfs:label    "33 Garcia Lorca" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "6" ;
+        ex:free       "2" ;
+        ex:id         "33" ;
+        ex:total      "8" ;
+        geo:lat       "33"^^xsd:decimal ;
+        geo:long      "33"^^xsd:decimal .
+
+ex:Montpellier46  a   geo:SpatialThing ;
+        rdfs:label    "46 Père Soulas" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "6" ;
+        ex:free       "2" ;
+        ex:id         "46" ;
+        ex:total      "8" ;
+        geo:lat       "46"^^xsd:decimal ;
+        geo:long      "46"^^xsd:decimal .
+
+ex:Montpellier18  a      geo:SpatialThing ;
+        rdfs:label       "18 Nombre d'Or" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "1" ;
+        ex:id            "18" ;
+        ex:total         "16" ;
+        geo:lat          "18"^^xsd:decimal ;
+        geo:long         "18"^^xsd:decimal .
+
+ex:Montpellier2  a       geo:SpatialThing ;
+        rdfs:label       "2 Comédie" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "22" ;
+        ex:id            "2" ;
+        ex:total         "24" ;
+        geo:lat          "2"^^xsd:decimal ;
+        geo:long         "2"^^xsd:decimal .
+
+ex:Montpellier40  a   geo:SpatialThing ;
+        rdfs:label    "40 Jeu de Mail des Abbés" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "7" ;
+        ex:free       "1" ;
+        ex:id         "40" ;
+        ex:total      "8" ;
+        geo:lat       "40"^^xsd:decimal ;
+        geo:long      "40"^^xsd:decimal .
+
+ex:Montpellier12  a      geo:SpatialThing ;
+        rdfs:label       "12 Boutonnet" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:id            "12" ;
+        ex:total         "12" ;
+        geo:lat          "12"^^xsd:decimal ;
+        geo:long         "12"^^xsd:decimal .
+
+ex:Montpellier53  a   geo:SpatialThing ;
+        rdfs:label    "54 Providence - Ovalie" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "4" ;
+        ex:free       "4" ;
+        ex:id         "54" ;
+        ex:total      "8" ;
+        geo:lat       "54"^^xsd:decimal ;
+        geo:long      "54"^^xsd:decimal .
+
+ex:Montpellier25  a   geo:SpatialThing ;
+        rdfs:label    "25 Nouveau Saint-Roch" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "6" ;
+        ex:free       "2" ;
+        ex:id         "25" ;
+        ex:total      "8" ;
+        geo:lat       "25"^^xsd:decimal ;
+        geo:long      "25"^^xsd:decimal .
+
+ex:Montpellier38  a      geo:SpatialThing ;
+        rdfs:label       "38 Fac de Lettres" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:id            "38" ;
+        ex:total         "21" ;
+        geo:lat          "38"^^xsd:decimal ;
+        geo:long         "38"^^xsd:decimal .
+
+ex:Montpellier7  a    geo:SpatialThing ;
+        rdfs:label    "7 Foch" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "2" ;
+        ex:free       "6" ;
+        ex:id         "7" ;
+        ex:total      "8" ;
+        geo:lat       "7"^^xsd:decimal ;
+        geo:long      "7"^^xsd:decimal .
+
+ex:Montpellier32  a   geo:SpatialThing ;
+        rdfs:label    "32 Prés d'Arènes" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "5" ;
+        ex:free       "3" ;
+        ex:id         "32" ;
+        ex:total      "8" ;
+        geo:lat       "32"^^xsd:decimal ;
+        geo:long      "32"^^xsd:decimal .
+
+ex:Montpellier45  a   geo:SpatialThing ;
+        rdfs:label    "45 Jardin de la Lironde" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "2" ;
+        ex:free       "6" ;
+        ex:id         "45" ;
+        ex:total      "8" ;
+        geo:lat       "45"^^xsd:decimal ;
+        geo:long      "45"^^xsd:decimal .
+
+ex:Montpellier17  a      geo:SpatialThing ;
+        rdfs:label       "17 Médiathèque Emile Zola" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:id            "17" ;
+        ex:total         "16" ;
+        geo:lat          "17"^^xsd:decimal ;
+        geo:long         "17"^^xsd:decimal .
+
+ex:Montpellier1  a       geo:SpatialThing ;
+        rdfs:label       "1 Rue Jules Ferry - Gare Saint-Roch" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:id            "1" ;
+        ex:total         "16" ;
+        geo:lat          "1"^^xsd:decimal ;
+        geo:long         "1"^^xsd:decimal .
+
+ex:Montpellier11  a      geo:SpatialThing ;
+        rdfs:label       "11 Plan Cabanes" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:id            "11" ;
+        ex:total         "12" ;
+        geo:lat          "11"^^xsd:decimal ;
+        geo:long         "11"^^xsd:decimal .
+
+ex:Montpellier52  a   geo:SpatialThing ;
+        rdfs:label    "53 Deux Ponts - Gare Saint-Roch" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "6" ;
+        ex:free       "2" ;
+        ex:id         "53" ;
+        ex:total      "8" ;
+        geo:lat       "53"^^xsd:decimal ;
+        geo:long      "53"^^xsd:decimal .
+
+ex:Montpellier24  a   geo:SpatialThing ;
+        rdfs:label    "24 Cité Mion" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "6" ;
+        ex:free       "2" ;
+        ex:id         "24" ;
+        ex:total      "8" ;
+        geo:lat       "24"^^xsd:decimal ;
+        geo:long      "24"^^xsd:decimal .
+
+ex:Montpellier37  a   geo:SpatialThing ;
+        rdfs:label    "37 FacdesSciences" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "8" ;
+        ex:free       "16" ;
+        ex:id         "37" ;
+        ex:total      "24" ;
+        geo:lat       "37"^^xsd:decimal ;
+        geo:long      "37"^^xsd:decimal .
+
+ex:Montpellier6  a       geo:SpatialThing ;
+        rdfs:label       "6 Place Albert 1er - St Charles" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:id            "6" ;
+        ex:total         "31" ;
+        geo:lat          "6"^^xsd:decimal ;
+        geo:long         "6"^^xsd:decimal .
+
+ex:Montpellier31  a   geo:SpatialThing ;
+        rdfs:label    "31 Voltaire" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "5" ;
+        ex:free       "3" ;
+        ex:id         "31" ;
+        ex:total      "8" ;
+        geo:lat       "31"^^xsd:decimal ;
+        geo:long      "31"^^xsd:decimal .
+
+ex:Montpellier44  a   geo:SpatialThing ;
+        rdfs:label    "44 Celleneuve" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "1" ;
+        ex:free       "7" ;
+        ex:id         "44" ;
+        ex:total      "8" ;
+        geo:lat       "44"^^xsd:decimal ;
+        geo:long      "44"^^xsd:decimal .
+
+ex:Montpellier16  a      geo:SpatialThing ;
+        rdfs:label       "16 Antigone centre" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:id            "16" ;
+        ex:total         "16" ;
+        geo:lat          "16"^^xsd:decimal ;
+        geo:long         "16"^^xsd:decimal .
+
+ex:Montpellier57  a   geo:SpatialThing ;
+        rdfs:label    "59 Sud De France" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "2" ;
+        ex:free       "6" ;
+        ex:id         "59" ;
+        ex:total      "8" ;
+        geo:lat       "59"^^xsd:decimal ;
+        geo:long      "59"^^xsd:decimal .
+
+ex:Montpellier29  a      geo:SpatialThing ;
+        rdfs:label       "29 Richter" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:id            "29" ;
+        ex:total         "16" ;
+        geo:lat          "29"^^xsd:decimal ;
+        geo:long         "29"^^xsd:decimal .
+
+ex:Montpellier10  a      geo:SpatialThing ;
+        rdfs:label       "10 Rondelet" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:id            "10" ;
+        ex:total         "16" ;
+        geo:lat          "10"^^xsd:decimal ;
+        geo:long         "10"^^xsd:decimal .
+
+ex:Montpellier51  a      geo:SpatialThing ;
+        rdfs:label       "51 Pont de Lattes - Gare Saint-Roch" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:id            "51" ;
+        ex:total         "12" ;
+        geo:lat          "51"^^xsd:decimal ;
+        geo:long         "51"^^xsd:decimal .
+
+ex:Montpellier23  a      geo:SpatialThing ;
+        rdfs:label       "23 Les Arceaux" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "15" ;
+        ex:id            "23" ;
+        ex:total         "16" ;
+        geo:lat          "23"^^xsd:decimal ;
+        geo:long         "23"^^xsd:decimal .
+
+ex:Montpellier36  a      geo:SpatialThing ;
+        rdfs:label       "36 Occitanie" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "23" ;
+        ex:id            "36" ;
+        ex:total         "32" ;
+        geo:lat          "36"^^xsd:decimal ;
+        geo:long         "36"^^xsd:decimal .
+
+ex:Montpellier49  a   geo:SpatialThing ;
+        rdfs:label    "49 Tonnelles" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "7" ;
+        ex:free       "1" ;
+        ex:id         "49" ;
+        ex:total      "8" ;
+        geo:lat       "49"^^xsd:decimal ;
+        geo:long      "49"^^xsd:decimal .
+
+ex:Montpellier5  a       geo:SpatialThing ;
+        rdfs:label       "5 Corum" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:id            "5" ;
+        ex:total         "12" ;
+        geo:lat          "5"^^xsd:decimal ;
+        geo:long         "5"^^xsd:decimal .
+
+ex:Montpellier30  a   geo:SpatialThing ;
+        rdfs:label    "30 Charles Flahault" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "4" ;
+        ex:free       "4" ;
+        ex:id         "30" ;
+        ex:total      "8" ;
+        geo:lat       "30"^^xsd:decimal ;
+        geo:long      "30"^^xsd:decimal .
+
+ex:Montpellier43  a   geo:SpatialThing ;
+        rdfs:label    "43 Sabines" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "5" ;
+        ex:free       "3" ;
+        ex:id         "43" ;
+        ex:total      "8" ;
+        geo:lat       "43"^^xsd:decimal ;
+        geo:long      "43"^^xsd:decimal .
+
+ex:Montpellier15  a   geo:SpatialThing ;
+        rdfs:label    "15 Les Aubes" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "7" ;
+        ex:free       "1" ;
+        ex:id         "15" ;
+        ex:total      "8" ;
+        geo:lat       "15"^^xsd:decimal ;
+        geo:long      "15"^^xsd:decimal .
+
+ex:Montpellier56  a   geo:SpatialThing ;
+        rdfs:label    "57 Saint-Guilhem - Courreau" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "2" ;
+        ex:free       "6" ;
+        ex:id         "57" ;
+        ex:total      "8" ;
+        geo:lat       "57"^^xsd:decimal ;
+        geo:long      "57"^^xsd:decimal .
+
+ex:Montpellier28  a   geo:SpatialThing ;
+        rdfs:label    "28 Saint-Denis" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "4" ;
+        ex:free       "4" ;
+        ex:id         "28" ;
+        ex:total      "8" ;
+        geo:lat       "28"^^xsd:decimal ;
+        geo:long      "28"^^xsd:decimal .
+
+ex:Montpellier50  a      geo:SpatialThing ;
+        rdfs:label       "50 Parvis Jules Ferry - Gare Saint-Roch" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:id            "50" ;
+        ex:total         "8" ;
+        geo:lat          "50"^^xsd:decimal ;
+        geo:long         "50"^^xsd:decimal .
+
+ex:Montpellier22  a   geo:SpatialThing ;
+        rdfs:label    "22 Clemenceau" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "9" ;
+        ex:free       "3" ;
+        ex:id         "22" ;
+        ex:total      "12" ;
+        geo:lat       "22"^^xsd:decimal ;
+        geo:long      "22"^^xsd:decimal .
+
+ex:Montpellier35  a   geo:SpatialThing ;
+        rdfs:label    "35 Malbosc" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "5" ;
+        ex:free       "3" ;
+        ex:id         "35" ;
+        ex:total      "8" ;
+        geo:lat       "35"^^xsd:decimal ;
+        geo:long      "35"^^xsd:decimal .
+
+ex:Montpellier48  a   geo:SpatialThing ;
+        rdfs:label    "48 Hôtel du Département" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "6" ;
+        ex:free       "2" ;
+        ex:id         "48" ;
+        ex:total      "8" ;
+        geo:lat       "48"^^xsd:decimal ;
+        geo:long      "48"^^xsd:decimal .
+
+ex:Montpellier4  a       geo:SpatialThing ;
+        rdfs:label       "4 Hôtel de Ville" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:id            "4" ;
+        ex:total         "16" ;
+        geo:lat          "4"^^xsd:decimal ;
+        geo:long         "4"^^xsd:decimal .
+
+dbo:Montpellier  a       dbo:city ;
+        rdfs:label       "Montpellier" ;
+        ex:bikeStations  ex:Montpellier56 , ex:Montpellier52 , ex:Montpellier27 , ex:Montpellier47 , ex:Montpellier46 , ex:Montpellier14 , ex:Montpellier54 , ex:Montpellier42 , ex:Montpellier13 , ex:Montpellier33 , ex:Montpellier9 , ex:Montpellier23 , ex:Montpellier10 , ex:Montpellier7 , ex:Montpellier18 , ex:Montpellier6 , ex:Montpellier38 , ex:Montpellier57 , ex:Montpellier25 , ex:Montpellier1 , ex:Montpellier53 , ex:Montpellier24 , ex:Montpellier44 , ex:Montpellier40 , ex:Montpellier28 , ex:Montpellier48 , ex:Montpellier3 , ex:Montpellier15 , ex:Montpellier55 , ex:Montpellier34 , ex:Montpellier30 , ex:Montpellier50 , ex:Montpellier21 , ex:Montpellier29 , ex:Montpellier17 , ex:Montpellier49 , ex:Montpellier4 , ex:Montpellier11 , ex:Montpellier19 , ex:Montpellier39 , ex:Montpellier26 , ex:Montpellier2 , ex:Montpellier45 , ex:Montpellier41 , ex:Montpellier12 , ex:Montpellier32 , ex:Montpellier20 , ex:Montpellier16 , ex:Montpellier36 , ex:Montpellier8 , ex:Montpellier35 , ex:Montpellier43 , ex:Montpellier31 , ex:Montpellier51 , ex:Montpellier22 , ex:Montpellier5 , ex:Montpellier37 .
+
+ex:Montpellier42  a   geo:SpatialThing ;
+        rdfs:label    "42 Marie Caizergues" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "3" ;
+        ex:free       "5" ;
+        ex:id         "42" ;
+        ex:total      "8" ;
+        geo:lat       "42"^^xsd:decimal ;
+        geo:long      "42"^^xsd:decimal .
+
+ex:Montpellier14  a   geo:SpatialThing ;
+        rdfs:label    "14 Beaux-Arts" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "2" ;
+        ex:free       "6" ;
+        ex:id         "14" ;
+        ex:total      "8" ;
+        geo:lat       "14"^^xsd:decimal ;
+        geo:long      "14"^^xsd:decimal .
+
+ex:Montpellier55  a      geo:SpatialThing ;
+        rdfs:label       "56 Albert 1er - Cathédrale" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:id            "56" ;
+        ex:total         "12" ;
+        geo:lat          "56"^^xsd:decimal ;
+        geo:long         "56"^^xsd:decimal .
+
+ex:Montpellier27  a      geo:SpatialThing ;
+        rdfs:label       "27 Odysseum" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "2" ;
+        ex:id            "27" ;
+        ex:total         "8" ;
+        geo:lat          "27"^^xsd:decimal ;
+        geo:long         "27"^^xsd:decimal .
+
+ex:Montpellier21  a      geo:SpatialThing ;
+        rdfs:label       "21 Port Marianne" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "1" ;
+        ex:id            "21" ;
+        ex:total         "16" ;
+        geo:lat          "21"^^xsd:decimal ;
+        geo:long         "21"^^xsd:decimal .
+
+ex:Montpellier9  a       geo:SpatialThing ;
+        rdfs:label       "9 Observatoire" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:id            "9" ;
+        ex:total         "8" ;
+        geo:lat          "9"^^xsd:decimal ;
+        geo:long         "9"^^xsd:decimal .
+
+ex:Montpellier34  a   geo:SpatialThing ;
+        rdfs:label    "34 Vert Bois" ;
+        dbo:city      "Montpellier" ;
+        ex:available  "2" ;
+        ex:free       "14" ;
+        ex:id         "34" ;
+        ex:total      "16" ;
+        geo:lat       "34"^^xsd:decimal ;
+        geo:long      "34"^^xsd:decimal .
+
+ex:Montpellier47  a      geo:SpatialThing ;
+        rdfs:label       "47 Place Viala" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:id            "47" ;
+        ex:total         "8" ;
+        geo:lat          "47"^^xsd:decimal ;
+        geo:long         "47"^^xsd:decimal .
+
+ex:Montpellier19  a      geo:SpatialThing ;
+        rdfs:label       "19 Louis Blanc" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:id            "19" ;
+        ex:total         "16" ;
+        geo:lat          "19"^^xsd:decimal ;
+        geo:long         "19"^^xsd:decimal .
+
+ex:Montpellier3  a       geo:SpatialThing ;
+        rdfs:label       "3 Esplanade" ;
+        dbo:city         "Montpellier" ;
+        ex:available     "32" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:id            "3" ;
+        ex:total         "32" ;
+        geo:lat          "3"^^xsd:decimal ;
+        geo:long         "3"^^xsd:decimal .

@@ -15,6 +15,7 @@ import javax.xml.transform.stream.StreamResult;
 
 import Models.BikeStation;
 import Models.City;
+import RDFClient.RDFClient;
 import RDFGenerator.RDFGenerator;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -24,14 +25,14 @@ import org.xml.sax.SAXException;
 
 public class XMLParser {
 
-    public static void main(String[] args) {
-        RDFGenerator rdfGenerator = new RDFGenerator();
-
+    public void XMLFileParser (String url) {
         try {
+            RDFGenerator rdfGenerator = new RDFGenerator();
+
             /* Getting the XML file from a url */
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
-            Document doc = db.parse(new URL("https://data.montpellier3m.fr/sites/default/files/ressources/TAM_MMM_VELOMAG.xml").openStream());
+            Document doc = db.parse(new URL(url).openStream());
 
             /* Printing the XML file */
             DOMSource domSource = new DOMSource(doc);
@@ -108,7 +109,7 @@ public class XMLParser {
 
                 /* Print all bike stations */
 //                for (int i = 0; i < montpellier.getBikeStations().size(); i++) {
-//                    System.out.println("Name: " + montpellier.getBikeStations().get(i).getName());
+//                    System.out.println("Bike station name: " + montpellier.getBikeStations().get(i).getName());
 //                    System.out.println("Id: " + montpellier.getBikeStations().get(i).getId());
 //                    System.out.println("Lattitude: " + montpellier.getBikeStations().get(i).getLattitude());
 //                    System.out.println("Longitude: " + montpellier.getBikeStations().get(i).getLongitude());
