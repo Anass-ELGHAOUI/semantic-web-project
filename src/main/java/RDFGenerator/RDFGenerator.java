@@ -21,7 +21,7 @@ public class RDFGenerator {
         String rdfs = "http://www.w3.org/2000/01/rdf-schema#";
         String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
         String xsd = "http://www.w3.org/2001/XMLSchema#";
-        String dbo = "http://dbpedia.org/ontology/";
+        String dbo = "http://dbpedia.org/page/";
 
         Property typeProp = m.createProperty(rdf, "type");
         Property cityProp = m.createProperty(dbo + "city");
@@ -29,7 +29,7 @@ public class RDFGenerator {
         Property bikeStationsProp = m.createProperty(ex + "bikeStations");
         Property[] bikeStationProp = new Property[city.getBikeStations().size()];
         for (int i = 0; i < city.getBikeStations().size(); i++) {
-            bikeStationProp[i] = m.createProperty(ex + "bikeStation" + (i + 1));
+            bikeStationProp[i] = m.createProperty(ex + city.getName() + (i + 1));
         }
 
         Property spatialThingProp = m.createProperty(geo + "SpatialThing");
@@ -50,14 +50,28 @@ public class RDFGenerator {
         Resource cityRsrc = m.createResource(dbo + city.getName())
                 .addProperty(typeProp, cityProp)
                 .addProperty(labelProp, city.getName());
+
+//        ex:montpellier a dbo:city;
+//        rdfs:label  "Montpellier";
+//        ex:bikeStations ex:bikeStation1, ex:bikeStation2, ex:bikeStation3 .
         for (int i = 0; i < city.getBikeStations().size(); i++) {
             cityRsrc.addProperty(bikeStationsProp, bikeStationProp[i]);
         }
 
+//        ex:bikeStation1  a geo:SpatialThing;
+//        rdfs:label  "Bike Station Name"@fr;
+//        ex:id 1;
+//        geo:lat  23.232^^xsd:decimal;
+//        geo:long  221.21^^xsd:decimal;
+//        ex:available  3;
+//        ex:free  4;
+//        ex:total  20;
+//        ex:cardpaiement 1 .
         for (int i = 0; i < city.getBikeStations().size(); i++) {
-            Resource bikeStationRsrc = m.createResource(ex + "bikeStation" + (i + 1))
+            Resource bikeStationRsrc = m.createResource(ex + city.getName() + (i + 1))
                     .addProperty(typeProp, spatialThingProp);
 
+            bikeStationRsrc.addProperty(cityProp, city.getName());
             if (city.getBikeStations().get(i).getName() != null) {
                 bikeStationRsrc.addProperty(labelProp, city.getBikeStations().get(i).getName());
             }
@@ -97,7 +111,7 @@ public class RDFGenerator {
             }
         }
 
-        RDFConnection conn = RDFConnectionFactory.connect("http://localhost:3030/bikstation_db");
+        RDFConnection conn = RDFConnectionFactory.connect("http://localhost:3030/bike_station_db");
         conn.delete();
         conn.load(city.getName() + ".ttl");
     }
