@@ -1,6 +1,6 @@
 package Main;
 
-import RDFClient.RDFClient;
+import RDFExtractor.RDFExtractor;
 import XMLParser.XMLParser;
 
 public class Main {
@@ -11,7 +11,7 @@ public class Main {
         xmlParser.XMLFileParser("https://data.montpellier3m.fr/sites/default/files/ressources/TAM_MMM_VELOMAG.xml");
 
         /* Get info from triplestore */
-        RDFClient rdfClient = new RDFClient();
+        RDFExtractor rdfClient = new RDFExtractor();
         rdfClient.getTriples();
     }
 }

@@ -15,7 +15,6 @@ import javax.xml.transform.stream.StreamResult;
 
 import Models.BikeStation;
 import Models.City;
-import RDFClient.RDFClient;
 import RDFGenerator.RDFGenerator;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

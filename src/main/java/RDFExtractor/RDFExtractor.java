@@ -1,4 +1,4 @@
-package RDFClient;
+package RDFExtractor;
 
 import Models.BikeStation;
 import Models.City;
@@ -16,7 +16,7 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RDFClient {
+public class RDFExtractor {
     /* This method will get all the triples from the triplestore in a JSON file */
     public void getTriples() {
         RDFConnection conn = RDFConnectionFactory.connect("http://localhost:3030/bike_station_db");
