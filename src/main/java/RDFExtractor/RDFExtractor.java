@@ -18,14 +18,14 @@ import java.util.List;
 
 public class RDFExtractor {
     /* This method will get all the triples from the triplestore in a JSON file */
-    public void getTriples() {
-        RDFConnection conn = RDFConnectionFactory.connect("http://localhost:3030/bike_station_db");
+    public List<City> getTriples() {
+        RDFConnection conn = RDFConnectionFactory.connect("http://localhost:3030/bikstation_db");
         /* Returns url to json response file */
         String result = conn.query("SELECT ?subject ?predicate ?object" +
                 " WHERE {" +
                 " ?subject ?predicate ?object" +
                 "}" ).toString().replace("GET ", "").concat("&output=json");
-        parseJson(result);
+        return parseJson(result);
     }
 
     /* This method parses the json file and returns the information about cities */

@@ -111,8 +111,9 @@ public class RDFGenerator {
             }
         }
 
-        RDFConnection conn = RDFConnectionFactory.connect("http://localhost:3030/bike_station_db");
+        RDFConnection conn = RDFConnectionFactory.connect("http://localhost:3030/bikstation_db");
         conn.delete();
         conn.load(city.getName() + ".ttl");
+        conn.close();
     }
 }
