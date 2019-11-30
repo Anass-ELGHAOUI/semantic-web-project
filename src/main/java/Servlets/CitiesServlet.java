@@ -19,7 +19,7 @@ public class CitiesServlet extends HttpServlet {
     public void init() throws ServletException {
         super.init();
         RDFExtractor rdfExtractor = new RDFExtractor();
-        cities = rdfExtractor.getTriples();
+//        cities = rdfExtractor.getTriples();
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

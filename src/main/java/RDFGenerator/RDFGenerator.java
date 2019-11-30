@@ -1,5 +1,6 @@
 package RDFGenerator;
 
+import Constants.Constants;
 import Models.City;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -21,7 +22,7 @@ public class RDFGenerator {
         String rdfs = "http://www.w3.org/2000/01/rdf-schema#";
         String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
         String xsd = "http://www.w3.org/2001/XMLSchema#";
-        String dbo = "http://dbpedia.org/page/";
+        String dbo = "http://dbpedia.org/ontology/";
 
         Property typeProp = m.createProperty(rdf, "type");
         Property cityProp = m.createProperty(dbo + "city");
@@ -96,6 +97,9 @@ public class RDFGenerator {
             if (city.getBikeStations().get(i).getCardPaiement() != null) {
                 bikeStationRsrc.addProperty(cardPaiementProp, city.getBikeStations().get(i).getCardPaiement());
             }
+            else {
+                bikeStationRsrc.addProperty(cardPaiementProp, "0");
+            }
         }
 
         FileWriter out = new FileWriter(city.getName() + ".ttl");
@@ -111,8 +115,8 @@ public class RDFGenerator {
             }
         }
 
-        RDFConnection conn = RDFConnectionFactory.connect("http://localhost:3030/bikstation_db");
-        conn.delete();
+        RDFConnection conn = RDFConnectionFactory.connect(Constants.triplestore);
+//        conn.delete();
         conn.load(city.getName() + ".ttl");
         conn.close();
     }

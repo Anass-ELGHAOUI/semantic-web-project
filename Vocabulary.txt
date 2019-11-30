@@ -1,0 +1,21 @@
+@prefix ex: <http://example.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+
+ex:montpellier a dbo:city;
+  rdfs:label  "Montpellier";
+  ex:bikeStations ex:Montpellier1, ex:Montpellier2, ex:Montpellier3 .
+
+ex:Montpellier1  a geo:SpatialThing;
+  dbo:city	ex:montpellier;
+  rdfs:label  "Bike Station Name"@fr;
+  ex:id 1;
+  geo:lat  23.232^^xsd:decimal;
+  geo:long  221.21^^xsd:decimal;
+  ex:available  3;
+  ex:free  4;
+  ex:total  20;
+  ex:cardPaiement 1 .

@@ -3,18 +3,18 @@ package Helper;
 import lombok.Data;
 
 @Data
-public class pagination {
+public class Pagination {
     private int totalItems;
     private int totalItemPerPage;
     private int pageRange;
     private int totalPages;
     private int currentPage;
 
-    public pagination() {
+    public Pagination() {
         super();
     }
 
-    public pagination(int totalItems, int totalItemPerPage, int pageRange, int currentPage) {
+    public Pagination(int totalItems, int totalItemPerPage, int pageRange, int currentPage) {
         this.totalItems = totalItems;
         this.totalItemPerPage = totalItemPerPage;
         this.pageRange = (pageRange % 2 == 0) ? ++pageRange : pageRange;
