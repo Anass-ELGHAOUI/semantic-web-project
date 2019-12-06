@@ -20,3 +20,8 @@ td {
 tr {
 	height: 50px;
 }
+
+#location {
+	height: 300px;
+	width: 400px;
+}
