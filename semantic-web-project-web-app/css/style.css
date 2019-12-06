@@ -1,0 +1,22 @@
+* {
+	font-family: roboto;
+	font-size: 25px;
+	text-align: center;
+}
+table,
+td {
+    border: 1px solid #333;
+}
+
+table {
+	margin: auto;
+	margin-top: 100px;
+}
+
+td {
+	width: 160px;
+}
+
+tr {
+	height: 50px;
+}
