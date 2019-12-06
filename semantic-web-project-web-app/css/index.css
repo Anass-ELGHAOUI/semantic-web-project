@@ -20,7 +20,7 @@ body {
     background-size: cover;
 }
 
-#citiesList, #countriesList, #message, #uploadData {
+#message {
     margin-top: 200px;
 }
 
@@ -30,4 +30,12 @@ body {
 
 #countriesList {
     margin-right: 10px;
+}
+
+#getData, #uploadData {
+    margin-top: 100px;
+}
+
+hr {
+    margin: 100px;
 }

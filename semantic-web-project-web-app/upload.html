@@ -10,24 +10,26 @@
     <script type="text/javascript" src="js/rdf.js"></script>
 </head>
 
-<body>
+<body onload="verifyUrlParams()">
     <div id="uploadData">
         <h1>Upload new data</h1>
 
+        <br/><br/>
+
         <SELECT id="fileFormat">
             <OPTION selected>Choose a file format</OPTION>
-            <OPTION>JSON</OPTION>
+            <OPTION>Json</OPTION>
             <OPTION>XML</OPTION>
             <OPTION>CSV</OPTION>
         </SELECT>
 
-        <br /><br />
+        <br/><br/>
 
         <form id="uploadDataForm">
             <label>Country: </label>
             <input type="file" accept=".txt" required>
 
-            <br /><br />
+            <br/><br/>
 
             <input type="submit" value="Submit" />
         </form>

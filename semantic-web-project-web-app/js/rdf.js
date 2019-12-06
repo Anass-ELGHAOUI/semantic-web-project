@@ -12,6 +12,11 @@ function getAllCountries() {
         var bindings = jsonData.results.bindings;
 
         if (bindings.length > 0) {
+            var message = document.createElement('h1');
+            message.setAttribute("id", "title")
+            message.appendChild(document.createTextNode("Look at existing data"));
+            document.getElementById("getData").appendChild(message);
+
             /* Create html list */
             var list = document.createElement('select');
             list.setAttribute("id", "countriesList");
@@ -252,4 +257,13 @@ function initMap(lat, lon, id, mapTitle) {
         map: map
     });
     marker.setMap(map);
+}
+
+function verifyUrlParams () {
+    var country = getUrlVars()["country"];
+    var city = getUrlVars()["city"];
+
+    if (country == null && city == null) {
+        window.location.href = "index.html";
+    }
 }
