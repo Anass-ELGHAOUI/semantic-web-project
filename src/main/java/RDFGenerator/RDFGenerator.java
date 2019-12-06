@@ -23,6 +23,7 @@ public class RDFGenerator {
         String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
         String xsd = "http://www.w3.org/2001/XMLSchema#";
         String dbo = "http://dbpedia.org/ontology/";
+        String dbr = "http://dbpedia.org/resource/";
 
         Property typeProp = m.createProperty(rdf, "type");
         Property cityProp = m.createProperty(dbo + "city");
@@ -34,7 +35,7 @@ public class RDFGenerator {
             bikeStationProp[i] = m.createProperty(ex + city.getName() + (i + 1));
         }
 
-        Property spatialThingProp = m.createProperty(geo + "SpatialThing");
+        Property bicycleSharingProp = m.createProperty(dbr + "Bicycle-sharing_system");
         Property idProp = m.createProperty(ex + "id");
         Property availableProp = m.createProperty(ex + "available");
         Property freeProp = m.createProperty(ex + "free");
@@ -49,7 +50,7 @@ public class RDFGenerator {
         m.setNsPrefix("xsd", xsd);
         m.setNsPrefix("dbo", dbo);
 
-        Resource cityRsrc = m.createResource(dbo + city.getName())
+        Resource cityRsrc = m.createResource(dbr + city.getName())
                 .addProperty(typeProp, cityProp)
                 .addProperty(labelProp, city.getName())
                 .addProperty(countryProp, city.getCountry());
@@ -75,7 +76,7 @@ public class RDFGenerator {
 //        ex:cardPaiement 1 .
         for (int i = 0; i < city.getBikeStations().size(); i++) {
             Resource bikeStationRsrc = m.createResource(ex + city.getName() + (i + 1))
-                    .addProperty(typeProp, spatialThingProp);
+                    .addProperty(typeProp, bicycleSharingProp);
 
             bikeStationRsrc.addProperty(cityProp, city.getName());
             if (city.getBikeStations().get(i).getName() != null) {

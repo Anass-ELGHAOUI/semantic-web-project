@@ -108,12 +108,18 @@ function getCityInfo() {
         window.location.href = "index.html";
     }
     else {
+        /* RDFa */
+        document.getElementById('body').setAttribute("about", "dbr:" + cityName);
+
         /* Table head */
         var tableHead = document.getElementById('tableHead');
 
+        /* City name */
         var tableTitle = document.createElement('tr');
         var tableTitleCell = document.createElement('th');
         tableTitleCell.setAttribute("colspan", 6);
+        /* RDFa */
+        tableTitleCell.setAttribute("property", "rdfs:label");
         var tableTitleCellValue = document.createTextNode(cityName);
         tableTitleCell.appendChild(tableTitleCellValue);
         tableTitle.appendChild(tableTitleCell);
@@ -153,8 +159,6 @@ function getCityInfo() {
 
         tableHead.appendChild(tableAttributes);
 
-
-
         /* Table body */
         var query = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
             " SELECT DISTINCT ?label ?id ?lat ?long ?available ?free ?total ?cardPaiement WHERE {" +
@@ -177,44 +181,80 @@ function getCityInfo() {
             /* Parse json file */
             var bindings = jsonData.results.bindings;
 
-            for (var i = 0; i < bindings.length; i++) {
-                var table = document.getElementById('tableBody');
+            var table = document.getElementById('tableBody');
+            /* RDFa */
+            table.setAttribute("property", "ex:bikeStations");
 
+            for (var i = 0; i < bindings.length; i++) {
                 var bikeStation = document.createElement('tr');
+                /* RDFa */
+                bikeStation.setAttribute("about", "ex:" + cityName + bindings[i].id.value);
+
+                /* Bike station id (hidden input for RDFa) */
+                var id = document.createElement('input');
+                id.setAttribute("type", "hidden");
+                /* RDFa */
+                id.setAttribute("property", "ex:id");
+                id.appendChild(document.createTextNode(bindings[i].id.value));
 
                 /* Bike station name */
                 var bikeStationName = document.createElement('td');
+                /* RDFa */
+                bikeStationName.setAttribute("property", "rdfs:label");
                 var bikeStationNameValue = document.createTextNode(bindings[i].label.value);
                 bikeStationName.appendChild(bikeStationNameValue);
                 bikeStation.appendChild(bikeStationName);
 
                 /* Bike station location */
                 var bikeStationLocation = document.createElement('td');
+
+                /* Create hidden input fields to store lattitude and longitude values for RDFa */
+                var lat = document.createElement('input');
+                lat.setAttribute("type", "hidden");
+                /* RDFa */
+                lat.setAttribute("property", "geo:lat");
+                lat.appendChild(document.createTextNode(bindings[i].lat.value));
+                var lon = document.createElement('input');
+                lon.setAttribute("type", "hidden");
+                /* RDFa */
+                lon.setAttribute("property", "geo:long");
+                lon.appendChild(document.createTextNode(bindings[i].long.value));
+                bikeStationLocation.appendChild(lat);
+                bikeStationLocation.appendChild(lon);
+
                 bikeStationLocation.setAttribute("id", "location");
-                var mapTitle = cityName + " - " + bindings[i].label.value
+                var mapTitle = cityName + " - " + bindings[i].label.value;
                 initMap(bindings[i].lat.value, bindings[i].long.value, bikeStationLocation, mapTitle);
                 bikeStation.appendChild(bikeStationLocation);
 
                 /* Available bikes */
                 var bikeStationAvailable = document.createElement('td');
+                /* RDFa */
+                bikeStationAvailable.setAttribute("property", "ex:available");
                 var bikeStationAvailableValue = document.createTextNode(bindings[i].available.value);
                 bikeStationAvailable.appendChild(bikeStationAvailableValue);
                 bikeStation.appendChild(bikeStationAvailable);
 
                 /* Free spots */
                 var bikeStationFree = document.createElement('td');
+                /* RDFa */
+                bikeStationFree.setAttribute("property", "ex:free");
                 var bikeStationFreeValue = document.createTextNode(bindings[i].free.value);
                 bikeStationFree.appendChild(bikeStationFreeValue);
                 bikeStation.appendChild(bikeStationFree);
 
                 /* Total capacity */
                 var bikeStationTotal = document.createElement('td');
+                /* RDFa */
+                bikeStationTotal.setAttribute("property", "ex:total");
                 var bikeStationTotalValue = document.createTextNode(bindings[i].total.value);
                 bikeStationTotal.appendChild(bikeStationTotalValue);
                 bikeStation.appendChild(bikeStationTotal);
 
                 /* Paiement method */
                 var bikeStationPaiement = document.createElement('td');
+                /* RDFa */
+                bikeStationPaiement.setAttribute("property", "ex:cardPaiement");
                 if (bindings[i].cardPaiement.value === "1") {
                     var bikeStationPaiementValue = document.createTextNode("Card accepted");
                 }

@@ -1,5 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html
+        base="http://localhost:63342/semantic-web-project-web-app/upload.html"
+        lang="en"
+        prefix="ex: http://example.org/
+			rdfs: http://www.w3.org/2000/01/rdf-schema#
+			geo: http://www.w3.org/2003/01/geo/wgs84_pos#
+			xsd: http://www.w3.org/2001/XMLSchema#
+			dbo: http://dbpedia.org/ontology/
+			dbr: http://dbpedia.org/page/"
+>
 <head>
     <meta charset="UTF-8">
     <title>Bike stations</title>
@@ -26,7 +35,7 @@
         <br/><br/>
 
         <form id="uploadDataForm">
-            <label>Country: </label>
+            <label>Country (.txt file): </label>
             <input type="file" accept=".txt" required>
 
             <br/><br/>
