@@ -20,7 +20,7 @@ body {
     background-size: cover;
 }
 
-#citiesList, #countriesList {
+#citiesList, #countriesList, #message {
     margin-top: 200px;
 }
 

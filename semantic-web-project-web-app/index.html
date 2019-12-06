@@ -6,8 +6,25 @@
 	<script type="text/javascript" src="js/rdf.js"></script>
 </head>
 
-<body id="body" onload="getAllCountries()">
+<body onload="getAllCountries()">
+	<div id="getData"></div>
 
+	<hr />
+
+	<div id="setData">
+		<h1>Upload new data</h1>
+		<form id="userForm">
+			<label>Country: </label>
+			<input type="text" required>
+
+			<label>City: </label>
+			<input type="text" required>
+
+			<br /><br />
+
+			<input type="submit" value="Submit" />
+		</form>
+	</div>
 </body>
 
 </html>

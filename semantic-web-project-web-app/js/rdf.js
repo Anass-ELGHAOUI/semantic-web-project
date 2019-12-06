@@ -6,28 +6,35 @@ function getAllCountries() {
                  "} ";
 
     var responseUrl = "http://localhost:3030/bike_station_db" + "?query=" + encodeURIComponent(query) + "&output=json";
-    console.log(responseUrl);
 
     $.getJSON(responseUrl, function(jsonData) {
         /* Parse json file */
         var bindings = jsonData.results.bindings;
 
-        /* Create html list */
-        var list = document.createElement('select');
-        list.setAttribute("id", "countriesList");
-        list.setAttribute("onchange", "getSelectedCountry()");
-        list.innerHTML += '<option selected> Select a country </option>';
-        document.getElementById("body").appendChild(list);
+        if (bindings.length > 0) {
+            /* Create html list */
+            var list = document.createElement('select');
+            list.setAttribute("id", "countriesList");
+            list.setAttribute("onchange", "getSelectedCountry()");
+            list.innerHTML += '<option selected> Select a country </option>';
+            document.getElementById("getData").appendChild(list);
 
-        for (var i = 0; i < bindings.length; i++) {
-            var countries = document.getElementById('countriesList');
-            var country = document.createElement('option');
-            country.setAttribute("id", bindings[i].country.value);
-            country.setAttribute("name", bindings[i].country.value);
-            var countryName = document.createTextNode(bindings[i].country.value);
+            for (var i = 0; i < bindings.length; i++) {
+                var countries = document.getElementById('countriesList');
+                var country = document.createElement('option');
+                country.setAttribute("id", bindings[i].country.value);
+                country.setAttribute("name", bindings[i].country.value);
+                var countryName = document.createTextNode(bindings[i].country.value);
 
-            country.appendChild(countryName);
-            countries.appendChild(country);
+                country.appendChild(countryName);
+                countries.appendChild(country);
+            }
+        }
+        else {
+            var message = document.createElement('h1');
+            message.setAttribute("id", "message")
+            message.appendChild(document.createTextNode("There's no data in the triplestore"));
+            document.getElementById("getData").appendChild(message);
         }
     });
 }
@@ -42,7 +49,6 @@ function getAllCities(country) {
     "} ";
 
     var responseUrl = "http://localhost:3030/bike_station_db" + "?query=" + encodeURIComponent(query) + "&output=json";
-    console.log(responseUrl);
 
     $.getJSON(responseUrl, function(jsonData) {
     	/* Parse json file */
@@ -53,18 +59,18 @@ function getAllCities(country) {
         list.setAttribute("id", "citiesList");
         list.setAttribute("onchange", "getSelectedCity()");
         list.innerHTML += '<option selected> Select a city </option>';
-        document.getElementById("body").appendChild(list);
+        document.getElementById("getData").appendChild(list);
 
-    	for (var i = 0; i < bindings.length; i++) {
-    		var cities = document.getElementById('citiesList');
-    		var city = document.createElement('option');
-    		city.setAttribute("id", bindings[i].label.value);
-    		city.setAttribute("name", bindings[i].label.value);
-    		var cityName = document.createTextNode(bindings[i].label.value);
+        for (var i = 0; i < bindings.length; i++) {
+            var cities = document.getElementById('citiesList');
+            var city = document.createElement('option');
+            city.setAttribute("id", bindings[i].label.value);
+            city.setAttribute("name", bindings[i].label.value);
+            var cityName = document.createTextNode(bindings[i].label.value);
 
-    		city.appendChild(cityName);
-    		cities.appendChild(city);
-    	}
+            city.appendChild(cityName);
+            cities.appendChild(city);
+        }
     });
 }
 
