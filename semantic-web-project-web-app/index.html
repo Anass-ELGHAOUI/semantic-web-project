@@ -1,5 +1,9 @@
+<!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<title>Bike stations</title>
+
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -13,7 +17,8 @@
 
 	<div id="setData">
 		<h1>Upload new data</h1>
-		<form id="userForm">
+
+		<form id="userForm" method="GET" action="upload.html">
 			<label>Country: </label>
 			<input type="text" required>
 
