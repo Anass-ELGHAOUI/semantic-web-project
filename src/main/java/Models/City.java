@@ -1,13 +1,11 @@
 package Models;
 
-import lombok.Data;
-
 import java.util.ArrayList;
 import java.util.List;
 
-@Data
 public class City {
     private String name;
+    private String country;
     private List<BikeStation> bikeStations = new ArrayList<BikeStation>();
 
     public void addBikeStation(BikeStation bikeStation) {
@@ -20,6 +18,14 @@ public class City {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
     }
 
     public List<BikeStation> getBikeStations() {

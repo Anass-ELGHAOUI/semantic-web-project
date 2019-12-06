@@ -24,7 +24,7 @@ import org.xml.sax.SAXException;
 
 public class XMLParser {
 
-    public void XMLFileParser (String url, String cityName) {
+    public void XMLFileParser (String url, String cityName, String country) {
         try {
             RDFGenerator rdfGenerator = new RDFGenerator();
 
@@ -52,6 +52,7 @@ public class XMLParser {
                 /* Create city */
                 City city = new City();
                 city.setName(cityName);
+                city.setCountry(country);
 
                 for (int i = 0; i < nodeList.getLength(); i++) {
                     if (nodeList.item(i).getNodeType() == Node.ELEMENT_NODE) {
@@ -66,7 +67,8 @@ public class XMLParser {
 
                                         if (bikeStations.item(j).getAttributes().getNamedItem("na") != null) {
                                             String name = bikeStations.item(j).getAttributes().getNamedItem("na").getNodeValue();
-                                            bikeStation.setName(name);
+                                            String [] removeId = name.split(" ", 2);
+                                            bikeStation.setName(removeId[1]);
                                         }
                                         if (bikeStations.item(j).getAttributes().getNamedItem("id") != null) {
                                             String id = bikeStations.item(j).getAttributes().getNamedItem("id").getNodeValue();

@@ -1,9 +1,44 @@
-function getAllCities() {
+function getAllCountries() {
+    var query = "PREFIX dbo: <http://dbpedia.org/ontology/>" +
+                 "SELECT DISTINCT ?country WHERE {" +
+                        "?city a dbo:city ." +
+                        "?city dbo:country ?country ." +
+                 "} ";
+
+    var responseUrl = "http://localhost:3030/bike_station_db" + "?query=" + encodeURIComponent(query) + "&output=json";
+    console.log(responseUrl);
+
+    $.getJSON(responseUrl, function(jsonData) {
+        /* Parse json file */
+        var bindings = jsonData.results.bindings;
+
+        /* Create html list */
+        var list = document.createElement('select');
+        list.setAttribute("id", "countriesList");
+        list.setAttribute("onchange", "getSelectedCountry()");
+        list.innerHTML += '<option selected> Select a country </option>';
+        document.getElementById("body").appendChild(list);
+
+        for (var i = 0; i < bindings.length; i++) {
+            var countries = document.getElementById('countriesList');
+            var country = document.createElement('option');
+            country.setAttribute("id", bindings[i].country.value);
+            country.setAttribute("name", bindings[i].country.value);
+            var countryName = document.createTextNode(bindings[i].country.value);
+
+            country.appendChild(countryName);
+            countries.appendChild(country);
+        }
+    });
+}
+
+function getAllCities(country) {
 	var query = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
     "PREFIX dbo: <http://dbpedia.org/ontology/>" +
     "SELECT ?label WHERE {" +
     "  ?city a dbo:city ." +
     "  ?city rdfs:label ?label ." +
+    "  ?city dbo:country \"" + country + "\" ." +
     "} ";
 
     var responseUrl = "http://localhost:3030/bike_station_db" + "?query=" + encodeURIComponent(query) + "&output=json";
@@ -12,6 +47,13 @@ function getAllCities() {
     $.getJSON(responseUrl, function(jsonData) {
     	/* Parse json file */
     	var bindings = jsonData.results.bindings;
+
+        /* Create html list */
+        var list = document.createElement('select');
+        list.setAttribute("id", "citiesList");
+        list.setAttribute("onchange", "getSelectedCity()");
+        list.innerHTML += '<option selected> Select a city </option>';
+        document.getElementById("body").appendChild(list);
 
     	for (var i = 0; i < bindings.length; i++) {
     		var cities = document.getElementById('citiesList');
@@ -24,6 +66,12 @@ function getAllCities() {
     		cities.appendChild(city);
     	}
     });
+}
+
+function getSelectedCountry() {
+    var countries = document.getElementById('countriesList');
+    var country = countries.options[countries.selectedIndex].id;
+    getAllCities(country);
 }
 
 function getSelectedCity() {

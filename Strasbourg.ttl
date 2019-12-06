@@ -5,7 +5,7 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Strasbourg12  a       geo:SpatialThing ;
-        rdfs:label       "113 Parking Broglie" ;
+        rdfs:label       "Parking Broglie" ;
         dbo:city         "Strasbourg" ;
         ex:available     "14" ;
         ex:cardPaiement  "1" ;
@@ -16,7 +16,7 @@ ex:Strasbourg12  a       geo:SpatialThing ;
         geo:long         7.749395 .
 
 ex:Strasbourg18  a       geo:SpatialThing ;
-        rdfs:label       "110 Robertsau Boecklin" ;
+        rdfs:label       "Robertsau Boecklin" ;
         dbo:city         "Strasbourg" ;
         ex:available     "7" ;
         ex:cardPaiement  "0" ;
@@ -27,7 +27,7 @@ ex:Strasbourg18  a       geo:SpatialThing ;
         geo:long         7.777902 .
 
 ex:Strasbourg21  a       geo:SpatialThing ;
-        rdfs:label       "107 Université" ;
+        rdfs:label       "Université" ;
         dbo:city         "Strasbourg" ;
         ex:available     "8" ;
         ex:cardPaiement  "1" ;
@@ -38,7 +38,7 @@ ex:Strasbourg21  a       geo:SpatialThing ;
         geo:long         7.766771 .
 
 ex:Strasbourg3  a        geo:SpatialThing ;
-        rdfs:label       "101 Centre" ;
+        rdfs:label       "Centre" ;
         dbo:city         "Strasbourg" ;
         ex:available     "22" ;
         ex:cardPaiement  "1" ;
@@ -49,7 +49,7 @@ ex:Strasbourg3  a        geo:SpatialThing ;
         geo:long         7.749776 .
 
 ex:Strasbourg9  a        geo:SpatialThing ;
-        rdfs:label       "123 Koenigshoffen" ;
+        rdfs:label       "Koenigshoffen" ;
         dbo:city         "Strasbourg" ;
         ex:available     "7" ;
         ex:cardPaiement  "1" ;
@@ -60,7 +60,7 @@ ex:Strasbourg9  a        geo:SpatialThing ;
         geo:long         7.713481 .
 
 ex:Strasbourg11  a       geo:SpatialThing ;
-        rdfs:label       "114 Parking Austerlitz" ;
+        rdfs:label       "Parking Austerlitz" ;
         dbo:city         "Strasbourg" ;
         ex:available     "9" ;
         ex:cardPaiement  "0" ;
@@ -71,7 +71,7 @@ ex:Strasbourg11  a       geo:SpatialThing ;
         geo:long         7.751863 .
 
 ex:Strasbourg17  a       geo:SpatialThing ;
-        rdfs:label       "125 Place du Marché Neudorf" ;
+        rdfs:label       "Place du Marché Neudorf" ;
         dbo:city         "Strasbourg" ;
         ex:available     "13" ;
         ex:cardPaiement  "1" ;
@@ -82,7 +82,7 @@ ex:Strasbourg17  a       geo:SpatialThing ;
         geo:long         7.759242 .
 
 ex:Strasbourg20  a       geo:SpatialThing ;
-        rdfs:label       "122 Schiltigheim Mairie" ;
+        rdfs:label       "Schiltigheim Mairie" ;
         dbo:city         "Strasbourg" ;
         ex:available     "7" ;
         ex:cardPaiement  "1" ;
@@ -93,7 +93,7 @@ ex:Strasbourg20  a       geo:SpatialThing ;
         geo:long         7.749183 .
 
 ex:Strasbourg2  a        geo:SpatialThing ;
-        rdfs:label       "111 Campus d'Illkirch" ;
+        rdfs:label       "Campus d'Illkirch" ;
         dbo:city         "Strasbourg" ;
         ex:available     "5" ;
         ex:cardPaiement  "0" ;
@@ -104,7 +104,7 @@ ex:Strasbourg2  a        geo:SpatialThing ;
         geo:long         7.734226 .
 
 ex:Strasbourg8  a        geo:SpatialThing ;
-        rdfs:label       "112 Hohwart" ;
+        rdfs:label       "Hohwart" ;
         dbo:city         "Strasbourg" ;
         ex:available     "7" ;
         ex:cardPaiement  "0" ;
@@ -115,7 +115,7 @@ ex:Strasbourg8  a        geo:SpatialThing ;
         geo:long         7.740754 .
 
 ex:Strasbourg10  a       geo:SpatialThing ;
-        rdfs:label       "127 Ostwald Hôtel de Ville" ;
+        rdfs:label       "Ostwald Hôtel de Ville" ;
         dbo:city         "Strasbourg" ;
         ex:available     "5" ;
         ex:cardPaiement  "0" ;
@@ -126,7 +126,7 @@ ex:Strasbourg10  a       geo:SpatialThing ;
         geo:long         7.7112 .
 
 ex:Strasbourg16  a       geo:SpatialThing ;
-        rdfs:label       "116 Place Islande" ;
+        rdfs:label       "Place Islande" ;
         dbo:city         "Strasbourg" ;
         ex:available     "9" ;
         ex:cardPaiement  "0" ;
@@ -137,7 +137,7 @@ ex:Strasbourg16  a       geo:SpatialThing ;
         geo:long         7.776203 .
 
 ex:Strasbourg1  a        geo:SpatialThing ;
-        rdfs:label       "124 Auberge de jeunesse" ;
+        rdfs:label       "Auberge de jeunesse" ;
         dbo:city         "Strasbourg" ;
         ex:available     "6" ;
         ex:cardPaiement  "1" ;
@@ -148,7 +148,7 @@ ex:Strasbourg1  a        geo:SpatialThing ;
         geo:long         7.795621 .
 
 ex:Strasbourg7  a        geo:SpatialThing ;
-        rdfs:label       "115 Hoenheim Gare" ;
+        rdfs:label       "Hoenheim Gare" ;
         dbo:city         "Strasbourg" ;
         ex:available     "12" ;
         ex:cardPaiement  "0" ;
@@ -159,7 +159,7 @@ ex:Strasbourg7  a        geo:SpatialThing ;
         geo:long         7.760103 .
 
 ex:Strasbourg15  a       geo:SpatialThing ;
-        rdfs:label       "106 Gare Sud" ;
+        rdfs:label       "Gare Sud" ;
         dbo:city         "Strasbourg" ;
         ex:available     "21" ;
         ex:cardPaiement  "1" ;
@@ -171,10 +171,11 @@ ex:Strasbourg15  a       geo:SpatialThing ;
 
 dbo:Strasbourg  a        dbo:city ;
         rdfs:label       "Strasbourg" ;
+        dbo:country      "France" ;
         ex:bikeStations  ex:Strasbourg10 , ex:Strasbourg21 , ex:Strasbourg16 , ex:Strasbourg19 , ex:Strasbourg7 , ex:Strasbourg2 , ex:Strasbourg5 , ex:Strasbourg14 , ex:Strasbourg12 , ex:Strasbourg20 , ex:Strasbourg15 , ex:Strasbourg18 , ex:Strasbourg6 , ex:Strasbourg9 , ex:Strasbourg1 , ex:Strasbourg4 , ex:Strasbourg13 , ex:Strasbourg11 , ex:Strasbourg17 , ex:Strasbourg8 , ex:Strasbourg3 .
 
 ex:Strasbourg6  a        geo:SpatialThing ;
-        rdfs:label       "103 Gare de Strasbourg" ;
+        rdfs:label       "Gare de Strasbourg" ;
         dbo:city         "Strasbourg" ;
         ex:available     "10" ;
         ex:cardPaiement  "1" ;
@@ -185,7 +186,7 @@ ex:Strasbourg6  a        geo:SpatialThing ;
         geo:long         7.735024 .
 
 ex:Strasbourg14  a       geo:SpatialThing ;
-        rdfs:label       "108 Gare Nord" ;
+        rdfs:label       "Gare Nord" ;
         dbo:city         "Strasbourg" ;
         ex:available     "5" ;
         ex:cardPaiement  "0" ;
@@ -196,7 +197,7 @@ ex:Strasbourg14  a       geo:SpatialThing ;
         geo:long         7.733542 .
 
 ex:Strasbourg5  a        geo:SpatialThing ;
-        rdfs:label       "126 Espace Européen de l'Entreprise" ;
+        rdfs:label       "Espace Européen de l'Entreprise" ;
         dbo:city         "Strasbourg" ;
         ex:available     "8" ;
         ex:cardPaiement  "1" ;
@@ -207,7 +208,7 @@ ex:Strasbourg5  a        geo:SpatialThing ;
         geo:long         7.71163 .
 
 ex:Strasbourg13  a       geo:SpatialThing ;
-        rdfs:label       "109 Place Arnold" ;
+        rdfs:label       "Place Arnold" ;
         dbo:city         "Strasbourg" ;
         ex:available     "10" ;
         ex:cardPaiement  "0" ;
@@ -218,7 +219,7 @@ ex:Strasbourg13  a       geo:SpatialThing ;
         geo:long         7.768772 .
 
 ex:Strasbourg19  a       geo:SpatialThing ;
-        rdfs:label       "105 Rotonde" ;
+        rdfs:label       "Rotonde" ;
         dbo:city         "Strasbourg" ;
         ex:available     "8" ;
         ex:cardPaiement  "0" ;
@@ -229,7 +230,7 @@ ex:Strasbourg19  a       geo:SpatialThing ;
         geo:long         7.725089 .
 
 ex:Strasbourg4  a        geo:SpatialThing ;
-        rdfs:label       "102 Centre 2" ;
+        rdfs:label       "Centre 2" ;
         dbo:city         "Strasbourg" ;
         ex:available     "1" ;
         ex:cardPaiement  "0" ;

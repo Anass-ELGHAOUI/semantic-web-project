@@ -22,10 +22,10 @@ public class Main {
             /* Parse bike station files */
             /* Montpellier - France */
             XMLParser xmlParser = new XMLParser();
-            xmlParser.XMLFileParser("https://data.montpellier3m.fr/sites/default/files/ressources/TAM_MMM_VELOMAG.xml", "Montpellier");
+            xmlParser.XMLFileParser("https://data.montpellier3m.fr/sites/default/files/ressources/TAM_MMM_VELOMAG.xml", "Montpellier", "France");
 
             /* Strasbourg - France */
-            xmlParser.XMLFileParser("http://velhop.strasbourg.eu/tvcstations.xml", "Strasbourg");
+            xmlParser.XMLFileParser("http://velhop.strasbourg.eu/tvcstations.xml", "Strasbourg", "France");
         }
     }
 }

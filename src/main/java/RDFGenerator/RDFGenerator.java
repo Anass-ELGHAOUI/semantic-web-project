@@ -26,6 +26,7 @@ public class RDFGenerator {
 
         Property typeProp = m.createProperty(rdf, "type");
         Property cityProp = m.createProperty(dbo + "city");
+        Property countryProp = m.createProperty(dbo + "country");
         Property labelProp = m.createProperty(rdfs + "label");
         Property bikeStationsProp = m.createProperty(ex + "bikeStations");
         Property[] bikeStationProp = new Property[city.getBikeStations().size()];
@@ -50,24 +51,28 @@ public class RDFGenerator {
 
         Resource cityRsrc = m.createResource(dbo + city.getName())
                 .addProperty(typeProp, cityProp)
-                .addProperty(labelProp, city.getName());
+                .addProperty(labelProp, city.getName())
+                .addProperty(countryProp, city.getCountry());
 
-//        ex:montpellier a dbo:city;
+//        ex:Montpellier a dbo:city;
 //        rdfs:label  "Montpellier";
-//        ex:bikeStations ex:bikeStation1, ex:bikeStation2, ex:bikeStation3 .
+//        dbo:country "France";
+//        ex:bikeStations ex:Montpellier1, ex:Montpellier2, ex:Montpellier3 .
         for (int i = 0; i < city.getBikeStations().size(); i++) {
             cityRsrc.addProperty(bikeStationsProp, bikeStationProp[i]);
         }
 
-//        ex:bikeStation1  a geo:SpatialThing;
-//        rdfs:label  "Bike Station Name"@fr;
+//        ex:Montpellier1  a geo:SpatialThing;
+//        dbo:city	ex:Montpellier;
+//        dbo:country	"France";
+//        rdfs:label  "Bike Station Name";
 //        ex:id 1;
 //        geo:lat  23.232^^xsd:decimal;
 //        geo:long  221.21^^xsd:decimal;
 //        ex:available  3;
 //        ex:free  4;
 //        ex:total  20;
-//        ex:cardpaiement 1 .
+//        ex:cardPaiement 1 .
         for (int i = 0; i < city.getBikeStations().size(); i++) {
             Resource bikeStationRsrc = m.createResource(ex + city.getName() + (i + 1))
                     .addProperty(typeProp, spatialThingProp);
@@ -116,7 +121,6 @@ public class RDFGenerator {
         }
 
         RDFConnection conn = RDFConnectionFactory.connect(Constants.triplestore);
-//        conn.delete();
         conn.load(city.getName() + ".ttl");
         conn.close();
     }
