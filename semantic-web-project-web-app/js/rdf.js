@@ -85,10 +85,10 @@ function getSelectedCountry() {
     getAllCities(country);
 }
 
-function getSelectedCity() {
+function getSelectedCity(country) {
 	var cities = document.getElementById('citiesList');
 	var city = cities.options[cities.selectedIndex].id;
-	window.location.replace("city.html?id=" + city);
+	window.location.href = "city.html?city=" + city;
 }
 
 /* Taken from: https://html-online.com/articles/get-url-parameters-javascript/
@@ -102,7 +102,7 @@ function getUrlVars() {
 }
 
 function getCityInfo() {
-    var cityName = getUrlVars()["id"];
+    var cityName = getUrlVars()["city"];
 
     if (cityName == null) {
         window.location.href = "index.html";
@@ -175,27 +175,26 @@ function getCityInfo() {
             "} ";
 
         var responseUrl = "http://localhost:3030/bike_station_db" + "?query=" + encodeURIComponent(query) + "&output=json";
-        console.log(responseUrl);
 
         $.getJSON(responseUrl, function (jsonData) {
             /* Parse json file */
             var bindings = jsonData.results.bindings;
 
             var table = document.getElementById('tableBody');
-            /* RDFa */
-            table.setAttribute("property", "ex:bikeStations");
 
             for (var i = 0; i < bindings.length; i++) {
                 var bikeStation = document.createElement('tr');
                 /* RDFa */
                 bikeStation.setAttribute("about", "ex:" + cityName + bindings[i].id.value);
 
-                /* Bike station id (hidden input for RDFa) */
-                var id = document.createElement('input');
-                id.setAttribute("type", "hidden");
+                /* Bike station id (hidden td for RDFa) */
+                var id = document.createElement('td');
                 /* RDFa */
                 id.setAttribute("property", "ex:id");
+                id.setAttribute("datatype", "xsd:integer");
                 id.appendChild(document.createTextNode(bindings[i].id.value));
+                id.style.display = "none";
+                bikeStation.appendChild(id);
 
                 /* Bike station name */
                 var bikeStationName = document.createElement('td');
@@ -205,32 +204,36 @@ function getCityInfo() {
                 bikeStationName.appendChild(bikeStationNameValue);
                 bikeStation.appendChild(bikeStationName);
 
-                /* Bike station location */
+                /* Bike station location (map) */
                 var bikeStationLocation = document.createElement('td');
-
-                /* Create hidden input fields to store lattitude and longitude values for RDFa */
-                var lat = document.createElement('input');
-                lat.setAttribute("type", "hidden");
-                /* RDFa */
-                lat.setAttribute("property", "geo:lat");
-                lat.appendChild(document.createTextNode(bindings[i].lat.value));
-                var lon = document.createElement('input');
-                lon.setAttribute("type", "hidden");
-                /* RDFa */
-                lon.setAttribute("property", "geo:long");
-                lon.appendChild(document.createTextNode(bindings[i].long.value));
-                bikeStationLocation.appendChild(lat);
-                bikeStationLocation.appendChild(lon);
-
                 bikeStationLocation.setAttribute("id", "location");
                 var mapTitle = cityName + " - " + bindings[i].label.value;
                 initMap(bindings[i].lat.value, bindings[i].long.value, bikeStationLocation, mapTitle);
                 bikeStation.appendChild(bikeStationLocation);
 
+                /* Bike station lat and lon (hidden td for RDFa) */
+                /* Lat */
+                var lat = document.createElement('td');
+                /* RDFa */
+                lat.setAttribute("property", "geo:lat");
+                lat.setAttribute("datatype", "xsd:decimal");
+                lat.appendChild(document.createTextNode(bindings[i].lat.value));
+                lat.style.display = "none";
+                bikeStation.appendChild(lat);
+                /* Lon */
+                var lon = document.createElement('td');
+                /* RDFa */
+                lon.setAttribute("property", "geo:long");
+                lon.setAttribute("datatype", "xsd:decimal");
+                lon.appendChild(document.createTextNode(bindings[i].long.value));
+                lon.style.display = "none";
+                bikeStation.appendChild(lon);
+
                 /* Available bikes */
                 var bikeStationAvailable = document.createElement('td');
                 /* RDFa */
                 bikeStationAvailable.setAttribute("property", "ex:available");
+                bikeStationAvailable.setAttribute("datatype", "xsd:integer");
                 var bikeStationAvailableValue = document.createTextNode(bindings[i].available.value);
                 bikeStationAvailable.appendChild(bikeStationAvailableValue);
                 bikeStation.appendChild(bikeStationAvailable);
@@ -239,6 +242,7 @@ function getCityInfo() {
                 var bikeStationFree = document.createElement('td');
                 /* RDFa */
                 bikeStationFree.setAttribute("property", "ex:free");
+                bikeStationFree.setAttribute("datatype", "xsd:integer");
                 var bikeStationFreeValue = document.createTextNode(bindings[i].free.value);
                 bikeStationFree.appendChild(bikeStationFreeValue);
                 bikeStation.appendChild(bikeStationFree);
@@ -247,14 +251,13 @@ function getCityInfo() {
                 var bikeStationTotal = document.createElement('td');
                 /* RDFa */
                 bikeStationTotal.setAttribute("property", "ex:total");
+                bikeStationTotal.setAttribute("datatype", "xsd:integer");
                 var bikeStationTotalValue = document.createTextNode(bindings[i].total.value);
                 bikeStationTotal.appendChild(bikeStationTotalValue);
                 bikeStation.appendChild(bikeStationTotal);
 
                 /* Paiement method */
                 var bikeStationPaiement = document.createElement('td');
-                /* RDFa */
-                bikeStationPaiement.setAttribute("property", "ex:cardPaiement");
                 if (bindings[i].cardPaiement.value === "1") {
                     var bikeStationPaiementValue = document.createTextNode("Card accepted");
                 }
@@ -263,6 +266,15 @@ function getCityInfo() {
                 }
                 bikeStationPaiement.appendChild(bikeStationPaiementValue);
                 bikeStation.appendChild(bikeStationPaiement);
+
+                /* Bike station payment method (hidden td for RDFa) */
+                var cardPaiement = document.createElement('td');
+                /* RDFa */
+                bikeStationPaiement.setAttribute("property", "ex:cardPaiement");
+                cardPaiement.setAttribute("datatype", "xsd:integer");
+                cardPaiement.appendChild(document.createTextNode(bindings[i].cardPaiement.value));
+                cardPaiement.style.display = "none";
+                bikeStation.appendChild(cardPaiement);
 
                 table.appendChild(bikeStation);
             }
