@@ -17,6 +17,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/rdf.js"></script>
+    <script type="text/javascript" src="js/parsers.js"></script>
 </head>
 
 <body onload="verifyUrlParams()">
@@ -25,7 +26,7 @@
 
         <br/><br/>
 
-        <SELECT id="fileFormat">
+        <SELECT id="fileFormat" name="fileFormat">
             <OPTION selected>Choose a file format</OPTION>
             <OPTION>Json</OPTION>
             <OPTION>XML</OPTION>
@@ -35,8 +36,9 @@
         <br/><br/>
 
         <form id="uploadDataForm">
-            <label>Country (.txt file): </label>
-            <input type="file" accept=".txt" required>
+            <label>Content: </label>
+            <textarea name="content" rows="10" cols="100">
+            </textarea>
 
             <br/><br/>
 

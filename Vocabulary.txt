@@ -11,8 +11,6 @@ dbr:Montpellier a dbo:city;
   ex:bikeStations ex:Montpellier1, ex:Montpellier2, ex:Montpellier3 .
 
 ex:Montpellier1  a dbr:Bicycle-sharing_system;
-  dbo:city	ex:Montpellier;
-  dbo:country	"France";
   rdfs:label  "Bike Station Name";
   ex:id 1^^xsd:integer;
   geo:lat  23.232^^xsd:decimal;

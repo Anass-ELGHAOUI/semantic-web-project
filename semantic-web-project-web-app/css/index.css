@@ -39,3 +39,9 @@ body {
 hr {
     margin: 100px;
 }
+
+textarea {
+    text-align: left;
+    resize: none;
+    font-size: 14px;
+}
