@@ -3,38 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.sem.app</groupId>
     <artifactId>semweb</artifactId>
     <version>1.0-SNAPSHOT</version>
-<<<<<<< HEAD
-    <packaging>war</packaging>
-
-    <dependencies>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <!--    JSTL -->
-
-        <dependency>
-            <groupId>org.apache.taglibs</groupId>
-            <artifactId>taglibs-standard-spec</artifactId>
-            <version>1.2.5</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.taglibs</groupId>
-            <artifactId>taglibs-standard-impl</artifactId>
-            <version>1.2.5</version>
-        </dependency>
-
-
-        <dependency>
-=======
     <url>http://maven.apache.org</url>
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -43,7 +14,6 @@
 
     <dependencies>
         <dependency>
->>>>>>> b3477b2c77bdc5fb7990dd7a6fd0639858dbfac4
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
