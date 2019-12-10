@@ -1,0 +1,47 @@
+* {
+    font-family: roboto;
+    font-size: 25px;
+    text-align: center;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    /*background: url(../img/bike_station1.png) no-repeat;*/
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#message {
+    margin-top: 200px;
+}
+
+#citiesList {
+    margin-left: 10px;
+}
+
+#countriesList {
+    margin-right: 10px;
+}
+
+#getData, #uploadData {
+    margin-top: 100px;
+}
+
+hr {
+    margin: 100px;
+}
+
+textarea {
+    text-align: left;
+    resize: none;
+    font-size: 14px;
+}

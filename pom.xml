@@ -7,6 +7,7 @@
     <groupId>com.sem.app</groupId>
     <artifactId>semweb</artifactId>
     <version>1.0-SNAPSHOT</version>
+<<<<<<< HEAD
     <packaging>war</packaging>
 
     <dependencies>
@@ -33,16 +34,19 @@
 
 
         <dependency>
+=======
+    <url>http://maven.apache.org</url>
+    <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
+
+    <dependencies>
+        <dependency>
+>>>>>>> b3477b2c77bdc5fb7990dd7a6fd0639858dbfac4
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.10</version>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
@@ -50,12 +54,6 @@
             <artifactId>apache-jena-libs</artifactId>
             <type>pom</type>
             <version>3.13.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.8.6</version>
         </dependency>
     </dependencies>
 </project>

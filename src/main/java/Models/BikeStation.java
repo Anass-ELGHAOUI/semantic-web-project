@@ -1,8 +1,5 @@
 package Models;
 
-import lombok.Data;
-
-@Data
 public class BikeStation {
     private String name;
     private String id;

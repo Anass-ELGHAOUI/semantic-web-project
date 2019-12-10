@@ -24,7 +24,7 @@ import org.xml.sax.SAXException;
 
 public class XMLParser {
 
-    public void XMLFileParser (String url) {
+    public void XMLFileParser (String url, String cityName, String country) {
         try {
             RDFGenerator rdfGenerator = new RDFGenerator();
 
@@ -50,8 +50,9 @@ public class XMLParser {
                 NodeList nodeList = root.getChildNodes();
 
                 /* Create city */
-                City montpellier = new City();
-                montpellier.setName("Montpellier");
+                City city = new City();
+                city.setName(cityName);
+                city.setCountry(country);
 
                 for (int i = 0; i < nodeList.getLength(); i++) {
                     if (nodeList.item(i).getNodeType() == Node.ELEMENT_NODE) {
@@ -66,18 +67,19 @@ public class XMLParser {
 
                                         if (bikeStations.item(j).getAttributes().getNamedItem("na") != null) {
                                             String name = bikeStations.item(j).getAttributes().getNamedItem("na").getNodeValue();
-                                            bikeStation.setName(name);
+                                            String [] removeId = name.split(" ", 2);
+                                            bikeStation.setName(removeId[1]);
                                         }
                                         if (bikeStations.item(j).getAttributes().getNamedItem("id") != null) {
                                             String id = bikeStations.item(j).getAttributes().getNamedItem("id").getNodeValue();
                                             bikeStation.setId(id);
                                         }
-                                        if (bikeStations.item(j).getAttributes().getNamedItem("id") != null) {
-                                            String lattitude = bikeStations.item(j).getAttributes().getNamedItem("id").getNodeValue();
+                                        if (bikeStations.item(j).getAttributes().getNamedItem("la") != null) {
+                                            String lattitude = bikeStations.item(j).getAttributes().getNamedItem("la").getNodeValue();
                                             bikeStation.setLattitude(lattitude);
                                         }
-                                        if (bikeStations.item(j).getAttributes().getNamedItem("id") != null) {
-                                            String longitude = bikeStations.item(j).getAttributes().getNamedItem("id").getNodeValue();
+                                        if (bikeStations.item(j).getAttributes().getNamedItem("lg") != null) {
+                                            String longitude = bikeStations.item(j).getAttributes().getNamedItem("lg").getNodeValue();
                                             bikeStation.setLongitude(longitude);
                                         }
                                         if (bikeStations.item(j).getAttributes().getNamedItem("av") != null) {
@@ -97,7 +99,7 @@ public class XMLParser {
                                             bikeStation.setCardPaiement(cardPaiement);
                                         }
 
-                                        montpellier.addBikeStation(bikeStation);
+                                        city.addBikeStation(bikeStation);
                                     }
                                 }
                             }
@@ -119,7 +121,7 @@ public class XMLParser {
 //                    System.out.println();
 //                }
 
-                rdfGenerator.generateRDF(montpellier);
+                rdfGenerator.generateRDF(city);
             }
 
         } catch (ParserConfigurationException e) {
