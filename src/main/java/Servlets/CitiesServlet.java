@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 
 public class CitiesServlet extends HttpServlet {
@@ -27,7 +28,11 @@ public class CitiesServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setAttribute("stations",cities.get(0).getBikeStations());
-        this.getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
+        /*request.setAttribute("stations",cities.get(0).getBikeStations());
+        this.getServletContext().getRequestDispatcher("/index.jsp").forward(request, response); */
+
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+        out.println("<h3>Hello World!</h3>");
     }
 }
