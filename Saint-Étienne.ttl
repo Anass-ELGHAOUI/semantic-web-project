@@ -1,0 +1,61 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Saint-Étienne2  a     <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Anatole France" ;
+        dbo:city         "Saint-Étienne" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "10" ;
+        geo:lat          43.608148 ;
+        geo:long         3.878778 .
+
+<http://dbpedia.org/resource/Saint-Étienne>
+        a                dbo:city ;
+        rdfs:label       "Saint-Étienne" ;
+        dbo:country      "France" ;
+        ex:bikeStations  ex:Saint-Étienne5 , ex:Saint-Étienne4 , ex:Saint-Étienne3 , ex:Saint-Étienne2 , ex:Saint-Étienne1 .
+
+ex:Saint-Étienne5  a     <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Hôtel de ville" ;
+        dbo:city         "Saint-Étienne" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "10" ;
+        geo:lat          43.608148 ;
+        geo:long         3.878778 .
+
+ex:Saint-Étienne3  a     <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Chateacreux" ;
+        dbo:city         "Saint-Étienne" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "10" ;
+        geo:lat          43.608148 ;
+        geo:long         3.878778 .
+
+ex:Saint-Étienne1  a     <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bellevue" ;
+        dbo:city         "Saint-Étienne" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "10" ;
+        geo:lat          43.608148 ;
+        geo:long         3.878778 .
+
+ex:Saint-Étienne4  a     <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Centre des congrès" ;
+        dbo:city         "Saint-Étienne" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "10" ;
+        geo:lat          43.608148 ;
+        geo:long         3.878778 .

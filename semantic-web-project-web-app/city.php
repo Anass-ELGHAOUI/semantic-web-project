@@ -24,6 +24,8 @@
 </head>
 
 <body onload="getCityInfo()" id="body">
+    <?php echo '<input type="hidden" id="cityName" value="'.$_GET['city'].'">'; ?>
+
 	<div class="container-flex">
 		<div id="rooms">
 			<table id="table">

@@ -88,7 +88,7 @@ function getSelectedCountry() {
 function getSelectedCity(country) {
 	var cities = document.getElementById('citiesList');
 	var city = cities.options[cities.selectedIndex].id;
-	window.location.href = "city.html?city=" + city;
+	window.location.href = "city.php?city=" + city;
 }
 
 /* Taken from: https://html-online.com/articles/get-url-parameters-javascript/
@@ -102,10 +102,11 @@ function getUrlVars() {
 }
 
 function getCityInfo() {
-    var cityName = getUrlVars()["city"];
+    // var cityName = getUrlVars()["city"];
+    var cityName = document.getElementById('cityName').value;
 
     if (cityName == null) {
-        window.location.href = "index.html";
+        window.location.href = "index.php";
     }
     else {
         /* RDFa */
@@ -161,11 +162,10 @@ function getCityInfo() {
 
         /* Table body */
         var query = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
-            " SELECT DISTINCT ?label ?id ?lat ?long ?available ?free ?total ?cardPaiement WHERE {" +
+            " SELECT DISTINCT ?label ?lat ?long ?available ?free ?total ?cardPaiement WHERE {" +
             " ?city rdfs:label \"" + cityName + "\" ." +
             " ?city <http://www.example.com/bikeStations> ?bikeStation ." +
             " ?bikeStation rdfs:label ?label ." +
-            " ?bikeStation <http://www.example.com/id> ?id ." +
             " ?bikeStation <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat ." +
             " ?bikeStation <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long ." +
             " ?bikeStation <http://www.example.com/available> ?available ." +
@@ -185,16 +185,16 @@ function getCityInfo() {
             for (var i = 0; i < bindings.length; i++) {
                 var bikeStation = document.createElement('tr');
                 /* RDFa */
-                bikeStation.setAttribute("about", "ex:" + cityName + bindings[i].id.value);
+                // bikeStation.setAttribute("about", "ex:" + cityName + bindings[i].id.value);
 
-                /* Bike station id (hidden td for RDFa) */
-                var id = document.createElement('td');
-                /* RDFa */
-                id.setAttribute("property", "ex:id");
-                id.setAttribute("datatype", "xsd:integer");
-                id.appendChild(document.createTextNode(bindings[i].id.value));
-                id.style.display = "none";
-                bikeStation.appendChild(id);
+                // /* Bike station id (hidden td for RDFa) */
+                // var id = document.createElement('td');
+                // /* RDFa */
+                // id.setAttribute("property", "ex:id");
+                // id.setAttribute("datatype", "xsd:integer");
+                // id.appendChild(document.createTextNode(bindings[i].id.value));
+                // id.style.display = "none";
+                // bikeStation.appendChild(id);
 
                 /* Bike station name */
                 var bikeStationName = document.createElement('td');
@@ -316,6 +316,6 @@ function verifyUrlParams () {
     var city = getUrlVars()["city"];
 
     if (country == null && city == null) {
-        window.location.href = "index.html";
+        window.location.href = "index.php";
     }
 }

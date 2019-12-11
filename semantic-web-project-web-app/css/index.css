@@ -45,3 +45,8 @@ textarea {
     resize: none;
     font-size: 14px;
 }
+
+#specifyAttributes {
+    margin-bottom: 100px;
+    visibility: hidden;
+}

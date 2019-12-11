@@ -1,9 +1,17 @@
 package Main;
 
 import Constants.Constants;
+import Models.BikeStation;
+import Models.City;
 import XMLParser.XMLParser;
 import org.apache.jena.rdfconnection.RDFConnection;
 import org.apache.jena.rdfconnection.RDFConnectionFactory;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+
+import FileReader.UserFilesParser;
 
 public class Main {
 
@@ -26,6 +34,15 @@ public class Main {
 
             /* Strasbourg - France */
             xmlParser.XMLFileParser("http://velhop.strasbourg.eu/tvcstations.xml", "Strasbourg", "France");
+
+            /* Parse CSV files from users */
+            UserFilesParser fr = new UserFilesParser();
+            String directory = System.getProperty("user.dir") + "/Manually-added-files";
+            final File folder = new File(directory);
+            List<String> files = new ArrayList<>();
+            files = fr.listFilesForFolder(folder);
+
+            fr.csvParser(files);
         }
     }
 }

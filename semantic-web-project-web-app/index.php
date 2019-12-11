@@ -27,7 +27,7 @@
 	<div id="setData">
 		<h1>Upload new data</h1>
 
-		<form id="userForm" method="GET" action="upload.html">
+		<form id="userForm" method="GET" action="upload.php">
 			<label>Country: </label>
 			<input type="text" name="country" required>
 
