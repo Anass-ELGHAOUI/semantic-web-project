@@ -39,10 +39,7 @@ function parser() {
 
         var attributes = data.data[0];
         if (attributes.length < 7) {
-            var countryName = document.getElementById('countryName').value;
-            var cityName = document.getElementById('cityName').value;
-            alert('The file content you gave doesn\'t contain enough information, please give a valid file');
-            window.location.href = "upload.php?country=" + countryName + "&city=" + cityName;
+            fileError();
         }
         else if (attributes.length >= 7) {
             for (var i = 0; i < attributes.length; i++) {
@@ -61,4 +58,72 @@ function parser() {
             document.getElementById('uploadData').style.visibility = "hidden";
         }
     }
+    else if (fileFormat === "xml") {
+        if (window.DOMParser) {
+            parser = new DOMParser();
+            xmlDoc = parser.parseFromString(content, "text/xml");
+
+            // var mainNode = parseXML(xmlDoc);
+            parseXML(xmlDoc);
+            if (document.getElementById('success') === null) {
+                fileError();
+            }
+            else {
+                /* Display the form to the user */
+                document.getElementById('specifyAttributes').style.visibility = "visible";
+                /* Hide first form */
+                document.getElementById('uploadData').style.visibility = "hidden";
+            }
+        }
+    }
+}
+
+function parseXML(xmlDoc) {
+    if (xmlDoc.hasChildNodes()) {
+        var children = [];
+        var parent;
+        for (var i = 0; i < xmlDoc.childNodes.length; i++) {
+            if (xmlDoc.childNodes[i].nodeName != "#text") {
+                parent = xmlDoc.childNodes[i].parentNode.nodeName;
+                children.push(xmlDoc.childNodes[i].nodeName);
+            }
+        }
+        if (children.length >= 7) {
+            for (var i = 0; i < children.length; i++) {
+                /* Put the attributes in the form */
+                for (var j = 1; j < 8; j++) {
+                    var select = document.getElementById('attribute' + j);
+                    var option = document.createElement('option');
+                    option.setAttribute('value', children[i]);
+                    option.appendChild(document.createTextNode(children[i]));
+                    select.appendChild(option);
+                }
+            }
+            var div = document.getElementById('specifyAttributes');
+            var result = document.createElement('input');
+            option.setAttribute('id', 'success');
+            option.setAttribute('type', 'hidden');
+            option.setAttribute('value', 'success');
+            div.appendChild(result);
+            return;
+        }
+        else {
+            for (var i = 0; i < xmlDoc.childNodes.length; i++) {
+                if (xmlDoc.childNodes[i].nodeName != "#text") {
+                    parseXML(xmlDoc.childNodes[i]);
+                }
+            }
+        }
+    }
+    /* Xml file doesn't contain enough information */
+    else {
+        fileError();
+    }
+}
+
+function fileError () {
+    var countryName = document.getElementById('countryName').value;
+    var cityName = document.getElementById('cityName').value;
+    alert('The file content you gave doesn\'t contain enough information, please give a valid file');
+    window.location.href = "upload.php?country=" + countryName + "&city=" + cityName;
 }
