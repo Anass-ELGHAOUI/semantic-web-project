@@ -1,20 +1,22 @@
 /* Taken from stackoverflom */
 function pagination (NumberOfRows) {
-    $('#table').after('<div id="nav"></div>');
+    $('#table thead th').css('text-align', 'center');
+    $('#table').after('<div id="pagination"></div>');
     var rowsShown = 5;
     var rowsTotal = NumberOfRows;
     var numPages = rowsTotal/rowsShown;
 
     for(i = 0;i < numPages;i++) {
         var pageNum = i + 1;
-        $('#nav').append('<a href="#" rel="'+i+'">'+pageNum+'</a> ');
+        $('#pagination').append('<a href="#" rel="'+i+'" id="'+i+'">'+pageNum+'</a> ');
     }
+
     $('#table tbody tr').hide();
     $('#table tbody tr').slice(0, rowsShown).show();
-    $('#nav a:first').addClass('active');
-    $('#nav a').bind('click', function(){
+    $('#pagination a:first').addClass('active');
+    $('#pagination a').bind('click', function(){
 
-        $('#nav a').removeClass('active');
+        $('#pagination a').removeClass('active');
         $(this).addClass('active');
         var currPage = $(this).attr('rel');
         var startItem = currPage * rowsShown;
@@ -306,8 +308,8 @@ function getCityInfo() {
             }
 
             pagination(bindings.length);
-        });
 
+        });
     }
 }
 

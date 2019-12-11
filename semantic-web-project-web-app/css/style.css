@@ -3,8 +3,7 @@
 	font-size: 25px;
 	text-align: center;
 }
-table,
-td {
+table, td {
     border: 1px solid #333;
 }
 
@@ -26,3 +25,12 @@ tr {
 	height: 300px;
 	width: 400px;
 }
+
+#pagination a.active {
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+	color: #4CAF50;
+}
+
+#pagination a:hover:not(.active) {background-color: #ddd;}
