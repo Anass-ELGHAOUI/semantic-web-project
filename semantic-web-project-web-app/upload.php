@@ -20,7 +20,25 @@
     <script type="text/javascript" src="js/parsers.js"></script>
 </head>
 
-<body onload="verifyUrlParams()">
+<body>
+    <?php
+        if (isset($_GET['city']) && isset($_GET['country'])) {
+            echo '<input type="hidden" id="cityName" value="'.$_GET['city'].'">';
+            echo '<input type="hidden" id="countryName" value="'.$_GET['country'].'">';
+
+            if ($_GET['city'] == "Montpellier" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Strasbourg" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Lyon" && $_GET['country'] == "France") {
+
+    ?>
+        <script>cityAlreadyExists()</script>
+    <?php
+            }
+        }
+        else {
+            header("Location: index.php");
+        }
+    ?>
     <form action="" method="POST">
         <div id="uploadData">
             <h1>Upload new data</h1>

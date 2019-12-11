@@ -38,17 +38,25 @@ function parser() {
         div.appendChild(delimiter);
 
         var attributes = data.data[0];
-        for (var i = 0; i < attributes.length; i++) {
-            /* Put the attributes in the form */
-            for (var j = 1; j < 8; j++) {
-                var select = document.getElementById('attribute' + j);
-                var option = document.createElement('option');
-                option.setAttribute('value', attributes[i]);
-                option.appendChild(document.createTextNode(attributes[i]));
-                select.appendChild(option);
-            }
+        if (attributes.length < 7) {
+            var countryName = document.getElementById('countryName').value;
+            var cityName = document.getElementById('cityName').value;
+            alert('The file content you gave doesn\'t contain enough information, please give a valid file');
+            window.location.href = "upload.php?country=" + countryName + "&city=" + cityName;
         }
-        /* Display the form to the user */
-        document.getElementById('specifyAttributes').style.visibility = "visible";
+        else if (attributes.length >= 7) {
+            for (var i = 0; i < attributes.length; i++) {
+                /* Put the attributes in the form */
+                for (var j = 1; j < 8; j++) {
+                    var select = document.getElementById('attribute' + j);
+                    var option = document.createElement('option');
+                    option.setAttribute('value', attributes[i]);
+                    option.appendChild(document.createTextNode(attributes[i]));
+                    select.appendChild(option);
+                }
+            }
+            /* Display the form to the user */
+            document.getElementById('specifyAttributes').style.visibility = "visible";
+        }
     }
 }

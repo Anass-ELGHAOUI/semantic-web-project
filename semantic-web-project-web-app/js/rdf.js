@@ -346,7 +346,15 @@ function verifyUrlParams () {
     var country = getUrlVars()["country"];
     var city = getUrlVars()["city"];
 
-    if (country == null && city == null) {
+    if ((country === "France" && city === "Montpellier"))
+
+    if (country == null || city == null || (country === "France" && city === "Montpellier") ||
+        (country === "France" && city === "Strasbourg") || (country === "France" && city === "Lyon")) {
         window.location.href = "index.php";
     }
+}
+
+function cityAlreadyExists() {
+    alert('This city already exists in the triplestore with real time data, please choose another one');
+    window.location.href = "index.php";
 }
