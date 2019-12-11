@@ -37,9 +37,15 @@ ex:Montpellier54  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier26  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Renouvier" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "4" ;
         ex:cardPaiement  "0" ;
         ex:free          "4" ;
+=======
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.603553 ;
         geo:long         3.867884 .
@@ -47,9 +53,15 @@ ex:Montpellier26  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier39  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Aiguelongue" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "4" ;
         ex:cardPaiement  "0" ;
         ex:free          "4" ;
+=======
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.626163 ;
         geo:long         3.882492 .
@@ -67,9 +79,15 @@ ex:Montpellier20  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier8  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Halles Castellane" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "3" ;
         ex:cardPaiement  "0" ;
         ex:free          "13" ;
+=======
+        ex:available     "11" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "16" ;
         geo:lat          43.609935 ;
         geo:long         3.877208 .
@@ -77,9 +95,13 @@ ex:Montpellier8  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier33  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Garcia Lorca" ;
         dbo:city         "Montpellier" ;
-        ex:available     "4" ;
+        ex:available     "7" ;
         ex:cardPaiement  "0" ;
+<<<<<<< HEAD
         ex:free          "4" ;
+=======
+        ex:free          "1" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.590757 ;
         geo:long         3.890616 .
@@ -87,9 +109,15 @@ ex:Montpellier33  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier46  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Père Soulas" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "8" ;
         ex:cardPaiement  "0" ;
         ex:free          "0" ;
+=======
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.621983 ;
         geo:long         3.855603 .
@@ -97,9 +125,15 @@ ex:Montpellier46  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier18  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Nombre d'Or" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "14" ;
         ex:cardPaiement  "1" ;
         ex:free          "2" ;
+=======
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "16" ;
         geo:lat          43.607859 ;
         geo:long         3.886644 .
@@ -107,9 +141,15 @@ ex:Montpellier18  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier2  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Comédie" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "20" ;
         ex:cardPaiement  "1" ;
         ex:free          "4" ;
+=======
+        ex:available     "19" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "5" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "24" ;
         geo:lat          43.608148 ;
         geo:long         3.878778 .
@@ -117,9 +157,15 @@ ex:Montpellier2  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier40  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Jeu de Mail des Abbés" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "3" ;
         ex:cardPaiement  "0" ;
         ex:free          "5" ;
+=======
+        ex:available     "6" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "2" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.619701 ;
         geo:long         3.883831 .
@@ -127,9 +173,15 @@ ex:Montpellier40  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier12  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Boutonnet" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "2" ;
         ex:cardPaiement  "1" ;
         ex:free          "10" ;
+=======
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "5" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "12" ;
         geo:lat          43.622629 ;
         geo:long         3.868375 .
@@ -137,9 +189,15 @@ ex:Montpellier12  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier53  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Providence - Ovalie" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "3" ;
         ex:cardPaiement  "0" ;
         ex:free          "5" ;
+=======
+        ex:available     "7" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.588239 ;
         geo:long         3.853421 .
@@ -147,9 +205,13 @@ ex:Montpellier53  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier25  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Nouveau Saint-Roch" ;
         dbo:city         "Montpellier" ;
-        ex:available     "1" ;
+        ex:available     "2" ;
         ex:cardPaiement  "0" ;
+<<<<<<< HEAD
         ex:free          "7" ;
+=======
+        ex:free          "6" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.599817 ;
         geo:long         3.875757 .
@@ -157,9 +219,15 @@ ex:Montpellier25  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier38  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Fac de Lettres" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "0" ;
         ex:cardPaiement  "1" ;
         ex:free          "16" ;
+=======
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "16" ;
         geo:lat          43.630665 ;
         geo:long         3.87023 .
@@ -167,9 +235,15 @@ ex:Montpellier38  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier7  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Foch" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "2" ;
         ex:cardPaiement  "0" ;
         ex:free          "6" ;
+=======
+        ex:available     "5" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.610989 ;
         geo:long         3.873345 .
@@ -177,9 +251,13 @@ ex:Montpellier7  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier32  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Prés d'Arènes" ;
         dbo:city         "Montpellier" ;
-        ex:available     "5" ;
+        ex:available     "8" ;
         ex:cardPaiement  "0" ;
+<<<<<<< HEAD
         ex:free          "3" ;
+=======
+        ex:free          "0" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.59048 ;
         geo:long         3.884611 .
@@ -187,9 +265,15 @@ ex:Montpellier32  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier45  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Jardin de la Lironde" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "4" ;
         ex:cardPaiement  "0" ;
         ex:free          "4" ;
+=======
+        ex:available     "5" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.60585 ;
         geo:long         3.911576 .
@@ -197,9 +281,15 @@ ex:Montpellier45  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier17  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Médiathèque Emile Zola" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "8" ;
         ex:cardPaiement  "1" ;
         ex:free          "8" ;
+=======
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "16" ;
         geo:lat          43.608218 ;
         geo:long         3.89314 .
@@ -217,9 +307,15 @@ ex:Montpellier1  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier11  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Plan Cabanes" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "5" ;
         ex:cardPaiement  "1" ;
         ex:free          "7" ;
+=======
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "12" ;
         geo:lat          43.608491 ;
         geo:long         3.868389 .
@@ -247,9 +343,15 @@ ex:Montpellier24  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier37  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "FacdesSciences" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "2" ;
         ex:cardPaiement  "0" ;
         ex:free          "22" ;
+=======
+        ex:available     "4" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "20" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "24" ;
         geo:lat          43.631018 ;
         geo:long         3.860697 .
@@ -257,9 +359,15 @@ ex:Montpellier37  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier6  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Place Albert 1er - St Charles" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "18" ;
         ex:cardPaiement  "1" ;
         ex:free          "13" ;
+=======
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "15" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "31" ;
         geo:lat          43.616768 ;
         geo:long         3.873375 .
@@ -267,9 +375,15 @@ ex:Montpellier6  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier31  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Voltaire" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "4" ;
         ex:cardPaiement  "0" ;
         ex:free          "4" ;
+=======
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.603767 ;
         geo:long         3.888659 .
@@ -277,9 +391,13 @@ ex:Montpellier31  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier44  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Celleneuve" ;
         dbo:city         "Montpellier" ;
-        ex:available     "1" ;
+        ex:available     "3" ;
         ex:cardPaiement  "0" ;
+<<<<<<< HEAD
         ex:free          "7" ;
+=======
+        ex:free          "5" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.61467 ;
         geo:long         3.832624 .
@@ -287,9 +405,15 @@ ex:Montpellier44  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier16  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Antigone centre" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "8" ;
         ex:cardPaiement  "1" ;
         ex:free          "8" ;
+=======
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "16" ;
         geo:lat          43.607942 ;
         geo:long         3.890634 .
@@ -323,9 +447,15 @@ ex:Montpellier29  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier10  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Rondelet" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "7" ;
         ex:cardPaiement  "1" ;
         ex:free          "9" ;
+=======
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "16" ;
         geo:lat          43.603038 ;
         geo:long         3.875796 .
@@ -333,9 +463,15 @@ ex:Montpellier10  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier51  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Pont de Lattes - Gare Saint-Roch" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "11" ;
         ex:cardPaiement  "1" ;
         ex:free          "1" ;
+=======
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "12" ;
         geo:lat          43.606036 ;
         geo:long         3.882393 .
@@ -343,9 +479,15 @@ ex:Montpellier51  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier23  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Les Arceaux" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "9" ;
         ex:cardPaiement  "1" ;
         ex:free          "7" ;
+=======
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "16" ;
         geo:lat          43.611991 ;
         geo:long         3.867157 .
@@ -353,9 +495,15 @@ ex:Montpellier23  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier36  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Occitanie" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "2" ;
         ex:cardPaiement  "1" ;
         ex:free          "30" ;
+=======
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "27" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "32" ;
         geo:lat          43.634242 ;
         geo:long         3.849128 .
@@ -383,9 +531,15 @@ ex:Montpellier5  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier30  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Charles Flahault" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "1" ;
         ex:cardPaiement  "0" ;
         ex:free          "7" ;
+=======
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.618762 ;
         geo:long         3.865971 .
@@ -405,7 +559,11 @@ ex:Montpellier15  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         dbo:city         "Montpellier" ;
         ex:available     "3" ;
         ex:cardPaiement  "0" ;
+<<<<<<< HEAD
         ex:free          "5" ;
+=======
+        ex:free          "0" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.618692 ;
         geo:long         3.893844 .
@@ -415,7 +573,11 @@ ex:Montpellier56  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         dbo:city         "Montpellier" ;
         ex:available     "8" ;
         ex:cardPaiement  "0" ;
+<<<<<<< HEAD
         ex:free          "0" ;
+=======
+        ex:free          "3" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.608996 ;
         geo:long         3.872752 .
@@ -433,9 +595,15 @@ ex:Montpellier28  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier50  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Parvis Jules Ferry - Gare Saint-Roch" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "1" ;
         ex:cardPaiement  "1" ;
         ex:free          "7" ;
+=======
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.603889 ;
         geo:long         3.879362 .
@@ -453,9 +621,15 @@ ex:Montpellier22  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier35  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Malbosc" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "4" ;
         ex:cardPaiement  "0" ;
         ex:free          "4" ;
+=======
+        ex:available     "2" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.633679 ;
         geo:long         3.832861 .
@@ -463,9 +637,15 @@ ex:Montpellier35  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier48  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Hôtel du Département" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "1" ;
         ex:cardPaiement  "0" ;
         ex:free          "7" ;
+=======
+        ex:available     "5" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.621682 ;
         geo:long         3.83477 .
@@ -485,7 +665,11 @@ ex:Montpellier42  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         dbo:city         "Montpellier" ;
         ex:available     "7" ;
         ex:cardPaiement  "0" ;
+<<<<<<< HEAD
         ex:free          "1" ;
+=======
+        ex:free          "3" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.619871 ;
         geo:long         3.873812 .
@@ -493,9 +677,15 @@ ex:Montpellier42  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier14  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Beaux-Arts" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "2" ;
         ex:cardPaiement  "0" ;
         ex:free          "6" ;
+=======
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.616698 ;
         geo:long         3.884981 .
@@ -503,9 +693,15 @@ ex:Montpellier14  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier55  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Albert 1er - Cathédrale" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "6" ;
         ex:cardPaiement  "1" ;
         ex:free          "6" ;
+=======
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "2" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "12" ;
         geo:lat          43.614005 ;
         geo:long         3.873218 .
@@ -513,9 +709,13 @@ ex:Montpellier55  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier27  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Odysseum" ;
         dbo:city         "Montpellier" ;
-        ex:available     "4" ;
+        ex:available     "1" ;
         ex:cardPaiement  "1" ;
+<<<<<<< HEAD
         ex:free          "4" ;
+=======
+        ex:free          "7" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.603727 ;
         geo:long         3.918979 .
@@ -523,9 +723,15 @@ ex:Montpellier27  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier21  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Port Marianne" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "8" ;
         ex:cardPaiement  "1" ;
         ex:free          "8" ;
+=======
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "16" ;
         geo:lat          43.60032 ;
         geo:long         3.89851 .
@@ -533,9 +739,15 @@ ex:Montpellier21  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier9  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Observatoire" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "5" ;
         ex:cardPaiement  "1" ;
         ex:free          "3" ;
+=======
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.606081 ;
         geo:long         3.876931 .
@@ -543,9 +755,15 @@ ex:Montpellier9  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier34  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Vert Bois" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "4" ;
         ex:cardPaiement  "0" ;
         ex:free          "12" ;
+=======
+        ex:available     "11" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "16" ;
         geo:lat          43.63458 ;
         geo:long         3.86823 .
@@ -553,9 +771,15 @@ ex:Montpellier34  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier47  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Place Viala" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "6" ;
         ex:cardPaiement  "1" ;
         ex:free          "2" ;
+=======
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "8" ;
         geo:lat          43.616812 ;
         geo:long         3.855075 .
@@ -563,9 +787,15 @@ ex:Montpellier47  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier19  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Louis Blanc" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "16" ;
         ex:cardPaiement  "1" ;
         ex:free          "0" ;
+=======
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "16" ;
         geo:lat          43.614642 ;
         geo:long         3.877648 .
@@ -573,9 +803,15 @@ ex:Montpellier19  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier3  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Esplanade" ;
         dbo:city         "Montpellier" ;
+<<<<<<< HEAD
         ex:available     "16" ;
         ex:cardPaiement  "1" ;
         ex:free          "16" ;
+=======
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "21" ;
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         ex:total         "32" ;
         geo:lat          43.609478 ;
         geo:long         3.881293 .

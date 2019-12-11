@@ -14,7 +14,10 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+<<<<<<< HEAD
 import java.util.ArrayList;
+=======
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
 import java.util.Iterator;
 import java.util.Map;
 
@@ -81,6 +84,7 @@ public class JSONCityParser {
 
             rdfGenerator.generateRDF(city);
 
+<<<<<<< HEAD
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
@@ -277,6 +281,9 @@ public class JSONCityParser {
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
+=======
+        } catch (IOException | ParseException e) {
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
             e.printStackTrace();
         }
     }

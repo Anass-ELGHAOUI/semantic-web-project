@@ -13,7 +13,11 @@ public class UserFilesParser {
     /* Method that return all file names from a selected directory
     * taken from Stackoverflow */
     public List<String> listFilesForFolder(final File folder) {
+<<<<<<< HEAD
         List<String> files = new ArrayList();
+=======
+        List<String> files = new ArrayList<>();
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
         for (final File fileEntry : folder.listFiles()) {
             if (fileEntry.isDirectory()) {
                 listFilesForFolder(fileEntry);

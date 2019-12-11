@@ -37,6 +37,7 @@ public class Main {
             JSONCityParser jsonParser = new JSONCityParser();
             jsonParser.jsonParser("https://download.data.grandlyon.com/wfs/rdata?SERVICE=WFS&VERSION=1.1.0&outputformat=GEOJSON&request=GetFeature&typename=jcd_jcdecaux.jcdvelov&SRSNAME=urn:ogc:def:crs:EPSG::4171", "Lyon", "France");
 
+<<<<<<< HEAD
             /* Rennes - France */
             jsonParser.jsonParserV2("https://data.rennesmetropole.fr/api/records/1.0/search/?dataset=etat-des-stations-le-velo-star-en-temps-reel", "Rennes", "France");
 
@@ -51,11 +52,17 @@ public class Main {
             jsonParser.jsonParserV4("http://opendata.nicecotedazur.org/data/storage/f/2014-05-13T08%3A20%3A37.361Z/velobleu.geojson", "Nice", "France");
 
 
+=======
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
             /* Parse CSV files from users */
             UserFilesParser fr = new UserFilesParser();
             String directory = System.getProperty("user.dir") + "/Manually-added-files";
             final File folder = new File(directory);
+<<<<<<< HEAD
             List<String> files = new ArrayList();
+=======
+            List<String> files = new ArrayList<>();
+>>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
             files = fr.listFilesForFolder(folder);
 
             fr.csvParser(files);
