@@ -32,7 +32,17 @@ body {
     margin-right: 10px;
 }
 
-#getData, #uploadData {
+#div {
+    position: relative;
+    padding: 30px;
+}
+
+#uploadData, #getData {
+    position: absolute;
+    width: 100%;
+}
+
+#getDataIndex, #setDataIndex {
     margin-top: 100px;
 }
 
@@ -44,4 +54,9 @@ textarea {
     text-align: left;
     resize: none;
     font-size: 14px;
+}
+
+#specifyAttributes {
+    margin-bottom: 100px;
+    visibility: hidden;
 }

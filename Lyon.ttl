@@ -1,0 +1,4051 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Lyon244  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Saint-Romain / Berliet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "5" ;
+        ex:total         "20" ;
+        geo:lat          45.74233259839518 ;
+        geo:long         4.8603433259917148 .
+
+ex:Lyon159  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place des Archives" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "26" ;
+        ex:total         "40" ;
+        geo:lat          45.747969141090174 ;
+        geo:long         4.8248617280093153 .
+
+ex:Lyon67  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Anatole France / Zola" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "13" ;
+        geo:lat          45.768876317906674 ;
+        geo:long         4.8842415132426114 .
+
+ex:Lyon214  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Vénissieux - Gare" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "17" ;
+        ex:total         "25" ;
+        geo:lat          45.706340382479453 ;
+        geo:long         4.8886809407000067 .
+
+ex:Lyon129  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Salengro / Vaillant" ;
+        dbo:city         "Lyon" ;
+        ex:available     "20" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "2" ;
+        ex:total         "24" ;
+        geo:lat          45.778368208004878 ;
+        geo:long         4.8796732813004162 .
+
+ex:Lyon37  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Tolozan" ;
+        dbo:city         "Lyon" ;
+        ex:available     "18" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "17" ;
+        ex:total         "36" ;
+        geo:lat          45.769600588825426 ;
+        geo:long         4.8376084367310748 .
+
+ex:Lyon190  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Primat / Decorps" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "12" ;
+        ex:total         "13" ;
+        geo:lat          45.757156014647244 ;
+        geo:long         4.8999652194279451 .
+
+ex:Lyon371  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Fontaines s/S - Gambetta" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "14" ;
+        ex:total         "20" ;
+        geo:lat          45.835405999771517 ;
+        geo:long         4.8457000001885611 .
+
+ex:Lyon286  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Blum / Faÿs" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "16" ;
+        ex:total         "16" ;
+        geo:lat          45.760521238802887 ;
+        geo:long         4.9059454396164748 .
+
+ex:Lyon160  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bron - Mairie" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "23" ;
+        geo:lat          45.73394552963007 ;
+        geo:long         4.9087206818679405 .
+
+ex:Lyon341  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Adrien Godien" ;
+        dbo:city         "Lyon" ;
+        ex:available     "29" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "1" ;
+        ex:total         "30" ;
+        geo:lat          45.778670615708087 ;
+        geo:long         4.8410134096251811 .
+
+ex:Lyon256  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place de l'Hippodrome" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "24" ;
+        geo:lat          45.745581552180482 ;
+        geo:long         4.8235326732363086 .
+
+ex:Lyon130  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Servant / Jaboulay" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "16" ;
+        geo:lat          45.746766225847374 ;
+        geo:long         4.8420506993495058 .
+
+ex:Lyon79  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place du 8 mai 1945" ;
+        dbo:city         "Lyon" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "4" ;
+        ex:total         "20" ;
+        geo:lat          45.72976635460067 ;
+        geo:long         4.8681665813493629 .
+
+ex:Lyon311  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Cité Scolaire Internationale" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "18" ;
+        ex:total         "25" ;
+        geo:lat          45.727918857641129 ;
+        geo:long         4.8235600814059092 .
+
+ex:Lyon226  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Delore / Audibert et Lavirotte" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "20" ;
+        geo:lat          45.735795232059289 ;
+        geo:long         4.8568128186711998 .
+
+ex:Lyon100  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Charpennes" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "38" ;
+        ex:total         "46" ;
+        geo:lat          45.770226769149353 ;
+        geo:long         4.8631327223602243 .
+
+ex:Lyon49  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Jean XXIII" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "16" ;
+        geo:lat          45.74032592964187 ;
+        geo:long         4.8741942706838781 .
+
+ex:Lyon383  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Rebatel / Saint-Maximin" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "30" ;
+        geo:lat          45.747843822700446 ;
+        geo:long         4.8721366022665133 .
+
+ex:Lyon172  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Carmélites" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "16" ;
+        geo:lat          45.770001574091083 ;
+        geo:long         4.8292695053207497 .
+
+ex:Lyon298  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Rue de la Baleine" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "14" ;
+        ex:total         "14" ;
+        geo:lat          45.763383710243431 ;
+        geo:long         4.8290114774217887 .
+
+ex:Lyon19  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Célestins" ;
+        dbo:city         "Lyon" ;
+        ex:available     "18" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "4" ;
+        ex:total         "22" ;
+        geo:lat          45.759939832589723 ;
+        geo:long         4.8320716113863762 .
+
+ex:Lyon2  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Sacré Coeur" ;
+        dbo:city         "Lyon" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "16" ;
+        geo:lat          45.757829669874603 ;
+        geo:long         4.868395040197143 .
+
+ex:Lyon80  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Créqui / Lafayette" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "12" ;
+        ex:total         "15" ;
+        geo:lat          45.763796012526328 ;
+        geo:long         4.8470620002854572 .
+
+ex:Lyon353  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Patinoire Charlemagne" ;
+        dbo:city         "Lyon" ;
+        ex:available     "25" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "37" ;
+        geo:lat          45.742611500554396 ;
+        geo:long         4.8204716703055039 .
+
+ex:Lyon268  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Sathonay" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "15" ;
+        geo:lat          45.769265846251287 ;
+        geo:long         4.830079788769563 .
+
+ex:Lyon142  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Corneille / Servient" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "13" ;
+        geo:lat          45.759930525883611 ;
+        geo:long         4.8445159039671504 .
+
+ex:Lyon50  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Trarieux / Lacassagne" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "19" ;
+        ex:total         "24" ;
+        geo:lat          45.745314592733372 ;
+        geo:long         4.8889645723972111 .
+
+ex:Lyon323  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Ennemond Fousseret" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "16" ;
+        geo:lat          45.764681505671227 ;
+        geo:long         4.8289833265225157 .
+
+ex:Lyon238  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Villeurbanne Saint-Jean" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "12" ;
+        geo:lat          45.780445821710941 ;
+        geo:long         4.9044888457892961 .
+
+ex:Lyon112  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Conservatoire" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "19" ;
+        geo:lat          45.769782212157409 ;
+        geo:long         4.8126762195854047 .
+
+ex:Lyon20  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Patinoire Baraban" ;
+        dbo:city         "Lyon" ;
+        ex:available     "20" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "20" ;
+        geo:lat          45.762051668903915 ;
+        geo:long         4.8685003507160687 .
+
+ex:Lyon395  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Philippe de Lassalle" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "22" ;
+        geo:lat          45.773723090464259 ;
+        geo:long         4.8213019761705525 .
+
+ex:Lyon208  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Martinière / Monplaisir" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "18" ;
+        ex:total         "20" ;
+        geo:lat          45.740847264386751 ;
+        geo:long         4.8682065451769923 .
+
+ex:Lyon184  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Tolstoï / Florian" ;
+        dbo:city         "Lyon" ;
+        ex:available     "21" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "21" ;
+        geo:lat          45.761805190330286 ;
+        geo:long         4.8807224046277389 .
+
+ex:Lyon92  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Vaulx - Poudrette / La Soie" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "19" ;
+        ex:total         "20" ;
+        geo:lat          45.764400313058779 ;
+        geo:long         4.9192757859473666 .
+
+ex:Lyon365  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "St Fons - Arsenal" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "19" ;
+        ex:total         "27" ;
+        geo:lat          45.712344801494439 ;
+        geo:long         4.8552741231339969 .
+
+ex:Lyon154  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "République" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "17" ;
+        geo:lat          45.770783840068383 ;
+        geo:long         4.8729593888672902 .
+
+ex:Lyon62  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Villette / Saint-Antoine" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:total         "23" ;
+        geo:lat          45.76285985089234 ;
+        geo:long         4.8622869000871978 .
+
+ex:Lyon335  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Ecole de musique" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "24" ;
+        geo:lat          45.767534302007626 ;
+        geo:long         4.873966209868982 .
+
+ex:Lyon124  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Carret / Sédaillan" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "14" ;
+        ex:total         "18" ;
+        geo:lat          45.792477738585937 ;
+        geo:long         4.8205782575315625 .
+
+ex:Lyon32  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Cité Internationale / Cinéma" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "21" ;
+        ex:total         "32" ;
+        geo:lat          45.784701503676423 ;
+        geo:long         4.8519081064540366 .
+
+ex:Lyon305  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Philippe de Lassalle / Pillement" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "13" ;
+        geo:lat          45.77742064793906 ;
+        geo:long         4.8205384707114511 .
+
+ex:Lyon281  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Sergent Berthet / Gorge de Loup" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "11" ;
+        ex:total         "16" ;
+        geo:lat          45.770134072017605 ;
+        geo:long         4.8051580030149461 .
+
+ex:Lyon196  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Regaud" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "12" ;
+        geo:lat          45.763076929566999 ;
+        geo:long         4.8342866883470439 .
+
+ex:Lyon377  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Ambroise Courtois" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "20" ;
+        geo:lat          45.745292616453497 ;
+        geo:long         4.8716789632578008 .
+
+ex:Lyon251  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Récamier / Tête d'Or" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "11" ;
+        ex:total         "16" ;
+        geo:lat          45.764333697561206 ;
+        geo:long         4.8534921297061953 .
+
+ex:Lyon166  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Caluire - Saint-Clair" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "20" ;
+        geo:lat          45.785470764441222 ;
+        geo:long         4.8478421222935548 .
+
+ex:Lyon74  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Saint-Just" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+        ex:total         "18" ;
+        geo:lat          45.755966642245085 ;
+        geo:long         4.8189064482919699 .
+
+ex:Lyon347  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Martinière" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "11" ;
+        geo:lat          45.768218316592197 ;
+        geo:long         4.8276217044711549 .
+
+ex:Lyon221  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Gryphe / Montesquieu" ;
+        dbo:city         "Lyon" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "25" ;
+        geo:lat          45.751911439310732 ;
+        geo:long         4.8437864046911105 .
+
+ex:Lyon136  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Jacques Brel" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "21" ;
+        ex:total         "23" ;
+        geo:lat          45.774225539718252 ;
+        geo:long         4.8642860657508757 .
+
+ex:Lyon44  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Sans Souci" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "20" ;
+        geo:lat          45.747248733821458 ;
+        geo:long         4.8652857830315162 .
+
+ex:Lyon402  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Pierre Bénite - Europe" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "15" ;
+        ex:total         "15" ;
+        geo:lat          45.703255857101233 ;
+        geo:long         4.8212003761276776 .
+
+ex:Lyon317  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Saint Louis" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "15" ;
+        geo:lat          45.749003727303453 ;
+        geo:long         4.8476441418616316 .
+
+ex:Lyon293  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Jaurès / Université" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "20" ;
+        geo:lat          45.748537433178754 ;
+        geo:long         4.8432493337468063 .
+
+ex:Lyon106  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Philomène Magnin" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "21" ;
+        ex:total         "24" ;
+        geo:lat          45.752612581845355 ;
+        geo:long         4.8587710033051472 .
+
+ex:Lyon14  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Chazière" ;
+        dbo:city         "Lyon" ;
+        ex:available     "20" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "20" ;
+        geo:lat          45.775422466898469 ;
+        geo:long         4.8178899295525035 .
+
+ex:Lyon389  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place du Port Mouton" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "16" ;
+        ex:total         "18" ;
+        geo:lat          45.77382011794392 ;
+        geo:long         4.8095603029641687 .
+
+ex:Lyon263  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Vaillant / Perroncel" ;
+        dbo:city         "Lyon" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "17" ;
+        geo:lat          45.775398810281359 ;
+        geo:long         4.8802630912578131 .
+
+ex:Lyon8  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Bertone" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "12" ;
+        geo:lat          45.777617376504985 ;
+        geo:long         4.8345009421112763 .
+
+ex:Lyon178  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Baldassini / Gerland" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "20" ;
+        geo:lat          45.727696780776718 ;
+        geo:long         4.8373820902736711 .
+
+ex:Lyon86  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Vaulx - La Soie" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "23" ;
+        ex:total         "25" ;
+        geo:lat          45.760813194682925 ;
+        geo:long         4.9206039456886055 .
+
+ex:Lyon359  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Ampère / Bourse" ;
+        dbo:city         "Lyon" ;
+        ex:available     "23" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "26" ;
+        geo:lat          45.765811382204056 ;
+        geo:long         4.8368957414205633 .
+
+ex:Lyon233  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Childebert / Rivière" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "23" ;
+        geo:lat          45.759886278647421 ;
+        geo:long         4.8357987999345911 .
+
+ex:Lyon148  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "CROUS" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "17" ;
+        geo:lat          45.745430515280802 ;
+        geo:long         4.8477802774631007 .
+
+ex:Lyon56  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Birmingham" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "18" ;
+        ex:total         "20" ;
+        geo:lat          45.774631109801675 ;
+        geo:long         4.8134162571603989 .
+
+ex:Lyon329  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Beauvisage / Préssensé" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "17" ;
+        geo:lat          45.7278718558835 ;
+        geo:long         4.8634420589052638 .
+
+ex:Lyon390  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Marseille / Université" ;
+        dbo:city         "Lyon" ;
+        ex:available     "30" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "40" ;
+        geo:lat          45.750954951184056 ;
+        geo:long         4.83926712071833 .
+
+ex:Lyon203  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Parc du Centre" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "2" ;
+        ex:total         "16" ;
+        geo:lat          45.771911925249078 ;
+        geo:long         4.8790707067819019 .
+
+ex:Lyon118  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Mairie du 4e" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "20" ;
+        geo:lat          45.774200440699957 ;
+        geo:long         4.8277652218641753 .
+
+ex:Lyon26  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Jaurès / Lagrange" ;
+        dbo:city         "Lyon" ;
+        ex:available     "19" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "30" ;
+        geo:lat          45.743925604621822 ;
+        geo:long         4.8415220893002839 .
+
+ex:Lyon360  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Stalingrad" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "13" ;
+        ex:total         "16" ;
+        geo:lat          45.774356828699524 ;
+        geo:long         4.8591545857608356 .
+
+ex:Lyon275  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Boiron Grangé" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "16" ;
+        ex:total         "16" ;
+        geo:lat          45.763158795690586 ;
+        geo:long         4.9004795303651321 .
+
+ex:Lyon98  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place d'Helvétie" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "30" ;
+        geo:lat          45.773186307210317 ;
+        geo:long         4.84195933544129 .
+
+ex:Lyon330  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BioParc" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "20" ;
+        ex:total         "20" ;
+        geo:lat          45.740483091025865 ;
+        geo:long         4.8880858101360474 .
+
+ex:Lyon245  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place de la paix" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "16" ;
+        ex:total         "17" ;
+        geo:lat          45.752099728219314 ;
+        geo:long         4.9146430086846324 .
+
+ex:Lyon68  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bron - Centre Nautique" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "13" ;
+        ex:total         "13" ;
+        geo:lat          45.742907285331448 ;
+        geo:long         4.9086250104223286 .
+
+ex:Lyon300  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Lyon Métropole" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "19" ;
+        ex:total         "25" ;
+        geo:lat          45.788170018823656 ;
+        geo:long         4.8185602866725281 .
+
+ex:Lyon215  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "4 Août / Racine" ;
+        dbo:city         "Lyon" ;
+        ex:available     "20" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "10" ;
+        ex:total         "30" ;
+        geo:lat          45.764482939173192 ;
+        geo:long         4.8779206263003294 .
+
+ex:Lyon38  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "République / Poulaillerie" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "7" ;
+        geo:lat          45.764072350311615 ;
+        geo:long         4.8355253578885975 .
+
+ex:Lyon191  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Laennec / Pinel" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "14" ;
+        ex:total         "15" ;
+        geo:lat          45.735346022546032 ;
+        geo:long         4.889583976281175 .
+
+ex:Lyon372  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bellecour / St Exupéry" ;
+        dbo:city         "Lyon" ;
+        ex:available     "19" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "20" ;
+        geo:lat          45.758156910932186 ;
+        geo:long         4.830434694909469 .
+
+ex:Lyon287  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Antonin Gourju" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "23" ;
+        ex:total         "30" ;
+        geo:lat          45.7594863490351 ;
+        geo:long         4.8301699554160633 .
+
+ex:Lyon161  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "République / Paufique" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "16" ;
+        ex:total         "28" ;
+        geo:lat          45.759380956346526 ;
+        geo:long         4.8353992022816499 .
+
+ex:Lyon342  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Vénissieux - Levy / Vienne" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "18" ;
+        geo:lat          45.7193988058185 ;
+        geo:long         4.8548015762351051 .
+
+ex:Lyon257  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Brotteaux / Vauban" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "5" ;
+        ex:total         "15" ;
+        geo:lat          45.766367311266961 ;
+        geo:long         4.8570018759142295 .
+
+ex:Lyon131  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "St Fons - 4 chemins" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "9" ;
+        ex:total         "11" ;
+        geo:lat          45.708454192618035 ;
+        geo:long         4.8547671040719056 .
+
+ex:Lyon312  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Edgar Quinet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "20" ;
+        geo:lat          45.76576559246292 ;
+        geo:long         4.8447318928504437 .
+
+ex:Lyon227  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Jacquart / Denfert-Rochereau" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "14" ;
+        geo:lat          45.775899511213836 ;
+        geo:long         4.8253789620711203 .
+
+ex:Lyon101  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "La Mulatière - Aquarium" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "24" ;
+        geo:lat          45.727369333276734 ;
+        geo:long         4.8146354766198369 .
+
+ex:Lyon384  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Lafayette / Inkermann" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "30" ;
+        geo:lat          45.763936024431679 ;
+        geo:long         4.8659132544557258 .
+
+ex:Lyon299  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place de la Reconnaissance" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "32" ;
+        geo:lat          45.754440243076644 ;
+        geo:long         4.885348918938023 .
+
+ex:Lyon3  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bel Air / Les Brosses" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "11" ;
+        ex:total         "20" ;
+        geo:lat          45.75790707323609 ;
+        geo:long         4.9108067086686678 .
+
+ex:Lyon173  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place de Trion" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "16" ;
+        ex:total         "16" ;
+        geo:lat          45.757906308906406 ;
+        geo:long         4.8131349528107474 .
+
+ex:Lyon81  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Zola / France" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "16" ;
+        geo:lat          45.768070420214578 ;
+        geo:long         4.8871237200591935 .
+
+ex:Lyon354  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Mairie du 8e" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "17" ;
+        ex:total         "21" ;
+        geo:lat          45.735150995790498 ;
+        geo:long         4.8728173875360472 .
+
+ex:Lyon269  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Confluence / Docks" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "26" ;
+        geo:lat          45.739627587333104 ;
+        geo:long         4.8150259306438121 .
+
+ex:Lyon143  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "IUT / Feyssine" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "26" ;
+        ex:total         "30" ;
+        geo:lat          45.785632462354499 ;
+        geo:long         4.8824104015349032 .
+
+ex:Lyon51  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Buyer / Apollinaire" ;
+        dbo:city         "Lyon" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+        ex:total         "22" ;
+        geo:lat          45.762013294361402 ;
+        geo:long         4.8027598903443769 .
+
+ex:Lyon324  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Garibaldi / Pensionnat" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "21" ;
+        ex:total         "30" ;
+        geo:lat          45.754706564249624 ;
+        geo:long         4.853404447409928 .
+
+ex:Lyon239  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Jaurès / Thibaudière" ;
+        dbo:city         "Lyon" ;
+        ex:available     "20" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:total         "28" ;
+        geo:lat          45.750344797573945 ;
+        geo:long         4.8450482534996375 .
+
+ex:Lyon113  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bron - Place Curial" ;
+        dbo:city         "Lyon" ;
+        ex:available     "19" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "25" ;
+        geo:lat          45.736674424241528 ;
+        geo:long         4.9171004856320097 .
+
+ex:Lyon21  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Quai Sarrail" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "14" ;
+        geo:lat          45.766829619624275 ;
+        geo:long         4.8411393393513276 .
+
+ex:Lyon396  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Kimmerling / Faure" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "15" ;
+        ex:total         "20" ;
+        geo:lat          45.754342779188676 ;
+        geo:long         4.8633437213905841 .
+
+ex:Lyon209  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Guillotière / Madeleine" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "9" ;
+        ex:total         "10" ;
+        geo:lat          45.751056546526208 ;
+        geo:long         4.8480482303453218 .
+
+ex:Lyon270  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Terreaux / Terme" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "16" ;
+        geo:lat          45.767734686369856 ;
+        geo:long         4.8321350621908303 .
+
+ex:Lyon185  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Château Gaillard / Bienvenus" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "15" ;
+        geo:lat          45.777864915253566 ;
+        geo:long         4.8842442857728363 .
+
+ex:Lyon93  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Champvert" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "16" ;
+        ex:total         "20" ;
+        geo:lat          45.759795954175956 ;
+        geo:long         4.79656418586963 .
+
+ex:Lyon366  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Parc Blandan" ;
+        dbo:city         "Lyon" ;
+        ex:available     "24" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "25" ;
+        geo:lat          45.745963728885009 ;
+        geo:long         4.8511961077823749 .
+
+ex:Lyon240  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place du Château" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "25" ;
+        geo:lat          45.74951707884712 ;
+        geo:long         4.8872857232192937 .
+
+ex:Lyon155  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Commandant Arnaud" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "17" ;
+        geo:lat          45.779725151967561 ;
+        geo:long         4.8347072824510775 .
+
+ex:Lyon63  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Masséna" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "20" ;
+        geo:lat          45.769672180690506 ;
+        geo:long         4.8523652715024763 .
+
+ex:Lyon336  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Cité Internationale / Tête d'Or nord" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "22" ;
+        geo:lat          45.784611049886635 ;
+        geo:long         4.8596391471386804 .
+
+ex:Lyon210  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Stalingard" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+        ex:total         "13" ;
+        geo:lat          45.749578881053431 ;
+        geo:long         4.8529655050157778 .
+
+ex:Lyon125  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Marietton Ouest" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "11" ;
+        ex:total         "20" ;
+        geo:lat          45.776085042876275 ;
+        geo:long         4.7997376609700089 .
+
+ex:Lyon33  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place de la Rhodiacéta" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "12" ;
+        geo:lat          45.770990641144856 ;
+        geo:long         4.8075804142518948 .
+
+ex:Lyon306  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Sala / Rue du Plat" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+        ex:total         "15" ;
+        geo:lat          45.756808487616944 ;
+        geo:long         4.828374380139512 .
+
+ex:Lyon282  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Universités Lyon III / Lyon II" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "35" ;
+        ex:total         "40" ;
+        geo:lat          45.7514132273513 ;
+        geo:long         4.836393181598778 .
+
+ex:Lyon197  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Part-Dieu / Villette" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "28" ;
+        ex:total         "30" ;
+        geo:lat          45.760055057814839 ;
+        geo:long         4.8616738805899402 .
+
+<http://dbpedia.org/resource/Lyon>
+        a                dbo:city ;
+        rdfs:label       "Lyon" ;
+        dbo:country      "France" ;
+        ex:bikeStations  ex:Lyon78 , ex:Lyon84 , ex:Lyon249 , ex:Lyon331 , ex:Lyon50 , ex:Lyon327 , ex:Lyon136 , ex:Lyon221 , ex:Lyon217 , ex:Lyon102 , ex:Lyon23 , ex:Lyon19 , ex:Lyon368 , ex:Lyon374 , ex:Lyon298 , ex:Lyon93 , ex:Lyon183 , ex:Lyon179 , ex:Lyon340 , ex:Lyon264 , ex:Lyon336 , ex:Lyon347 , ex:Lyon151 , ex:Lyon66 , ex:Lyon72 , ex:Lyon237 , ex:Lyon309 , ex:Lyon315 , ex:Lyon124 , ex:Lyon4 , ex:Lyon400 , ex:Lyon205 , ex:Lyon11 , ex:Lyon356 , ex:Lyon290 , ex:Lyon362 , ex:Lyon286 , ex:Lyon81 , ex:Lyon171 , ex:Lyon167 , ex:Lyon88 , ex:Lyon252 , ex:Lyon324 , ex:Lyon335 , ex:Lyon54 , ex:Lyon60 , ex:Lyon225 , ex:Lyon303 , ex:Lyon112 , ex:Lyon295 , ex:Lyon108 , ex:Lyon378 , ex:Lyon97 , ex:Lyon193 , ex:Lyon189 , ex:Lyon344 , ex:Lyon268 , ex:Lyon350 , ex:Lyon274 , ex:Lyon155 , ex:Lyon240 , ex:Lyon76 , ex:Lyon312 , ex:Lyon323 , ex:Lyon42 , ex:Lyon319 , ex:Lyon128 , ex:Lyon38 , ex:Lyon8 , ex:Lyon404 , ex:Lyon393 , ex:Lyon213 , ex:Lyon209 , ex:Lyon198 , ex:Lyon100 , ex:Lyon283 , ex:Lyon294 , ex:Lyon366 , ex:Lyon85 , ex:Lyon181 , ex:Lyon177 , ex:Lyon332 , ex:Lyon256 , ex:Lyon328 , ex:Lyon262 , ex:Lyon143 , ex:Lyon58 , ex:Lyon64 , ex:Lyon300 , ex:Lyon311 , ex:Lyon30 , ex:Lyon307 , ex:Lyon26 , ex:Lyon116 , ex:Lyon2 , ex:Lyon299 , ex:Lyon381 , ex:Lyon201 , ex:Lyon190 , ex:Lyon186 , ex:Lyon271 , ex:Lyon197 , ex:Lyon282 , ex:Lyon354 , ex:Lyon278 , ex:Lyon73 , ex:Lyon159 , ex:Lyon165 , ex:Lyon320 , ex:Lyon244 , ex:Lyon316 , ex:Lyon250 , ex:Lyon401 , ex:Lyon131 , ex:Lyon46 , ex:Lyon52 , ex:Lyon397 , ex:Lyon291 , ex:Lyon14 , ex:Lyon104 , ex:Lyon287 , ex:Lyon174 , ex:Lyon89 , ex:Lyon185 , ex:Lyon95 , ex:Lyon270 , ex:Lyon342 , ex:Lyon266 , ex:Lyon61 , ex:Lyon338 , ex:Lyon147 , ex:Lyon153 , ex:Lyon68 , ex:Lyon232 , ex:Lyon304 , ex:Lyon228 , ex:Lyon34 , ex:Lyon40 , ex:Lyon6 , ex:Lyon385 , ex:Lyon194 , ex:Lyon275 , ex:Lyon358 , ex:Lyon162 , ex:Lyon77 , ex:Lyon173 , ex:Lyon83 , ex:Lyon169 , ex:Lyon248 , ex:Lyon330 , ex:Lyon254 , ex:Lyon326 , ex:Lyon135 , ex:Lyon141 , ex:Lyon56 , ex:Lyon220 , ex:Lyon216 , ex:Lyon22 , ex:Lyon18 , ex:Lyon373 , ex:Lyon297 , ex:Lyon182 , ex:Lyon92 , ex:Lyon178 , ex:Lyon99 , ex:Lyon263 , ex:Lyon346 , ex:Lyon150 , ex:Lyon65 , ex:Lyon161 , ex:Lyon71 , ex:Lyon157 , ex:Lyon236 , ex:Lyon308 , ex:Lyon242 , ex:Lyon314 , ex:Lyon123 , ex:Lyon3 , ex:Lyon119 , ex:Lyon44 , ex:Lyon204 , ex:Lyon389 , ex:Lyon395 , ex:Lyon10 , ex:Lyon279 , ex:Lyon361 , ex:Lyon285 , ex:Lyon170 , ex:Lyon80 , ex:Lyon166 , ex:Lyon91 , ex:Lyon87 , ex:Lyon251 , ex:Lyon334 , ex:Lyon258 , ex:Lyon53 , ex:Lyon139 , ex:Lyon49 , ex:Lyon145 , ex:Lyon224 , ex:Lyon230 , ex:Lyon302 , ex:Lyon111 , ex:Lyon107 , ex:Lyon32 , ex:Lyon28 , ex:Lyon377 , ex:Lyon383 , ex:Lyon192 , ex:Lyon188 , ex:Lyon267 , ex:Lyon273 , ex:Lyon154 , ex:Lyon69 , ex:Lyon75 , ex:Lyon322 , ex:Lyon246 , ex:Lyon41 , ex:Lyon318 , ex:Lyon127 , ex:Lyon37 , ex:Lyon7 , ex:Lyon403 , ex:Lyon133 , ex:Lyon392 , ex:Lyon48 , ex:Lyon212 , ex:Lyon208 , ex:Lyon399 , ex:Lyon20 , ex:Lyon293 , ex:Lyon16 , ex:Lyon365 , ex:Lyon289 , ex:Lyon371 , ex:Lyon180 , ex:Lyon176 , ex:Lyon255 , ex:Lyon261 , ex:Lyon142 , ex:Lyon57 , ex:Lyon63 , ex:Lyon149 , ex:Lyon310 , ex:Lyon234 , ex:Lyon306 , ex:Lyon115 , ex:Lyon25 , ex:Lyon380 , ex:Lyon121 , ex:Lyon1 , ex:Lyon36 , ex:Lyon200 , ex:Lyon391 , ex:Lyon387 , ex:Lyon196 , ex:Lyon281 , ex:Lyon353 , ex:Lyon277 , ex:Lyon349 , ex:Lyon158 , ex:Lyon164 , ex:Lyon79 , ex:Lyon243 , ex:Lyon239 , ex:Lyon130 , ex:Lyon45 , ex:Lyon51 , ex:Lyon137 , ex:Lyon396 , ex:Lyon222 , ex:Lyon218 , ex:Lyon103 , ex:Lyon13 , ex:Lyon24 , ex:Lyon369 , ex:Lyon375 , ex:Lyon184 , ex:Lyon94 , ex:Lyon259 , ex:Lyon341 , ex:Lyon265 , ex:Lyon337 , ex:Lyon146 , ex:Lyon152 , ex:Lyon67 , ex:Lyon231 , ex:Lyon227 , ex:Lyon238 , ex:Lyon33 , ex:Lyon29 , ex:Lyon125 , ex:Lyon5 , ex:Lyon384 , ex:Lyon210 , ex:Lyon206 , ex:Lyon12 , ex:Lyon357 , ex:Lyon363 , ex:Lyon172 , ex:Lyon82 , ex:Lyon168 , ex:Lyon247 , ex:Lyon253 , ex:Lyon325 , ex:Lyon134 , ex:Lyon140 , ex:Lyon55 , ex:Lyon215 , ex:Lyon226 , ex:Lyon21 , ex:Lyon17 , ex:Lyon113 , ex:Lyon372 , ex:Lyon296 , ex:Lyon109 , ex:Lyon379 , ex:Lyon98 , ex:Lyon345 , ex:Lyon269 , ex:Lyon351 , ex:Lyon160 , ex:Lyon70 , ex:Lyon156 , ex:Lyon235 , ex:Lyon241 , ex:Lyon313 , ex:Lyon122 , ex:Lyon118 , ex:Lyon43 , ex:Lyon39 , ex:Lyon203 , ex:Lyon129 , ex:Lyon9 , ex:Lyon388 , ex:Lyon394 , ex:Lyon214 , ex:Lyon199 , ex:Lyon101 , ex:Lyon360 , ex:Lyon284 , ex:Lyon90 , ex:Lyon367 , ex:Lyon86 , ex:Lyon333 , ex:Lyon257 , ex:Lyon329 , ex:Lyon138 , ex:Lyon144 , ex:Lyon59 , ex:Lyon223 , ex:Lyon219 , ex:Lyon301 , ex:Lyon110 , ex:Lyon106 , ex:Lyon31 , ex:Lyon117 , ex:Lyon27 , ex:Lyon376 , ex:Lyon382 , ex:Lyon202 , ex:Lyon191 , ex:Lyon187 , ex:Lyon272 , ex:Lyon355 , ex:Lyon74 , ex:Lyon321 , ex:Lyon245 , ex:Lyon317 , ex:Lyon126 , ex:Lyon402 , ex:Lyon132 , ex:Lyon47 , ex:Lyon211 , ex:Lyon207 , ex:Lyon398 , ex:Lyon105 , ex:Lyon292 , ex:Lyon15 , ex:Lyon364 , ex:Lyon288 , ex:Lyon370 , ex:Lyon175 , ex:Lyon96 , ex:Lyon260 , ex:Lyon343 , ex:Lyon62 , ex:Lyon339 , ex:Lyon148 , ex:Lyon233 , ex:Lyon305 , ex:Lyon229 , ex:Lyon114 , ex:Lyon120 , ex:Lyon35 , ex:Lyon390 , ex:Lyon386 , ex:Lyon195 , ex:Lyon280 , ex:Lyon352 , ex:Lyon276 , ex:Lyon348 , ex:Lyon359 , ex:Lyon163 .
+
+ex:Lyon378  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Piaton / Condorcet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "20" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "20" ;
+        geo:lat          45.774215178418132 ;
+        geo:long         4.8675042131350823 .
+
+ex:Lyon252  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Cazeneuve" ;
+        dbo:city         "Lyon" ;
+        ex:available     "19" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "19" ;
+        geo:lat          45.734020091796637 ;
+        geo:long         4.8629023792941544 .
+
+ex:Lyon167  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bouvier" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "16" ;
+        geo:lat          45.779449926582608 ;
+        geo:long         4.8915008245270393 .
+
+ex:Lyon75  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Gerland" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "25" ;
+        ex:total         "40" ;
+        geo:lat          45.727573284825723 ;
+        geo:long         4.8311974821956261 .
+
+ex:Lyon348  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Centre Berthelot" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "18" ;
+        ex:total         "19" ;
+        geo:lat          45.747356174323087 ;
+        geo:long         4.8359996982041684 .
+
+ex:Lyon222  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Mendès France" ;
+        dbo:city         "Lyon" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "20" ;
+        geo:lat          45.739927058713477 ;
+        geo:long         4.8595210870362999 .
+
+ex:Lyon137  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Musée Guimet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "15" ;
+        geo:lat          45.774504872989269 ;
+        geo:long         4.8484771018513761 .
+
+ex:Lyon45  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Valdo / Rivet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "13" ;
+        ex:total         "18" ;
+        geo:lat          45.750481483431024 ;
+        geo:long         4.7887741211031214 .
+
+ex:Lyon403  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Oullins - Pont Blanc" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "20" ;
+        ex:total         "24" ;
+        geo:lat          45.720157776926051 ;
+        geo:long         4.7983317319214027 .
+
+ex:Lyon318  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Sainte-Irénée" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "18" ;
+        ex:total         "20" ;
+        geo:lat          45.754945881074001 ;
+        geo:long         4.8124212248457434 .
+
+ex:Lyon107  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Masaryk / Saint-Cyr" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "13" ;
+        geo:lat          45.77862889890703 ;
+        geo:long         4.8071200280976578 .
+
+ex:Lyon294  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Cusset" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "19" ;
+        ex:total         "20" ;
+        geo:lat          45.765042266927715 ;
+        geo:long         4.9011328928202982 .
+
+ex:Lyon15  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bayard / Rambaud" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "30" ;
+        ex:total         "30" ;
+        geo:lat          45.745916577563612 ;
+        geo:long         4.8171736085201431 .
+
+ex:Lyon264  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Ménival / Eisenhower" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "12" ;
+        geo:lat          45.756702735171551 ;
+        geo:long         4.7831510682805529 .
+
+ex:Lyon9  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Allée de l'Europe" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "12" ;
+        geo:lat          45.783637165054792 ;
+        geo:long         4.7945253084995629 .
+
+ex:Lyon179  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Ecully - Mairie" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "5" ;
+        ex:total         "12" ;
+        geo:lat          45.775089070244896 ;
+        geo:long         4.7786729160837336 .
+
+ex:Lyon87  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Condorcet / Galline" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "9" ;
+        ex:total         "15" ;
+        geo:lat          45.776453573141325 ;
+        geo:long         4.8671149219928846 .
+
+ex:Lyon234  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Quai du Commerce" ;
+        dbo:city         "Lyon" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "23" ;
+        geo:lat          45.78348566127314 ;
+        geo:long         4.8114878428420669 .
+
+ex:Lyon149  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place des tapis" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "11" ;
+        ex:total         "17" ;
+        geo:lat          45.776026491371141 ;
+        geo:long         4.8296210962258828 .
+
+ex:Lyon57  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Kimmerling" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "14" ;
+        ex:total         "16" ;
+        geo:lat          45.752972399586781 ;
+        geo:long         4.8988656628976361 .
+
+ex:Lyon391  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Bahadourian" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "18" ;
+        geo:lat          45.757622922858417 ;
+        geo:long         4.8451085953553852 .
+
+ex:Lyon204  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Mangini" ;
+        dbo:city         "Lyon" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "24" ;
+        geo:lat          45.790408807130731 ;
+        geo:long         4.8163493917942377 .
+
+ex:Lyon119  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Rillieux - Loup Pendu" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "13" ;
+        ex:total         "18" ;
+        geo:lat          45.815970110868662 ;
+        geo:long         4.8870434508176661 .
+
+ex:Lyon27  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Croix Luizet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "22" ;
+        geo:lat          45.780719847754419 ;
+        geo:long         4.88349957514267 .
+
+ex:Lyon180  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Farge / Ayasse" ;
+        dbo:city         "Lyon" ;
+        ex:available     "18" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "2" ;
+        ex:total         "20" ;
+        geo:lat          45.735673889781197 ;
+        geo:long         4.8277191559612227 .
+
+ex:Lyon361  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Techsud" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "12" ;
+        geo:lat          45.722799999740893 ;
+        geo:long         4.8427060003576159 .
+
+ex:Lyon276  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Saint-Paul" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "15" ;
+        ex:total         "23" ;
+        geo:lat          45.76627173729856 ;
+        geo:long         4.8274321226910386 .
+
+ex:Lyon150  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Charles Hernu" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "9" ;
+        ex:total         "16" ;
+        geo:lat          45.770310528129194 ;
+        geo:long         4.862002498921167 .
+
+ex:Lyon99  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Villette" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "29" ;
+        ex:total         "38" ;
+        geo:lat          45.757764556423531 ;
+        geo:long         4.8614965859401122 .
+
+ex:Lyon331  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Mémoire et Société" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "2" ;
+        ex:total         "18" ;
+        geo:lat          45.759577656417854 ;
+        geo:long         4.8827081207421843 .
+
+ex:Lyon246  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Vinatier" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "20" ;
+        geo:lat          45.741920861987147 ;
+        geo:long         4.8939627777052399 .
+
+ex:Lyon120  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Vaise Docks" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "10" ;
+        ex:total         "19" ;
+        geo:lat          45.786508444362028 ;
+        geo:long         4.8114412174203718 .
+
+ex:Lyon69  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Jean Jaurès" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "16" ;
+        geo:lat          45.737518097350936 ;
+        geo:long         4.8375089199170214 .
+
+ex:Lyon301  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Etats-Unis / Viviani" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "20" ;
+        geo:lat          45.724716265505009 ;
+        geo:long         4.870831654768776 .
+
+ex:Lyon216  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Totem" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "16" ;
+        geo:lat          45.763640703023498 ;
+        geo:long         4.8731410878807795 .
+
+ex:Lyon39  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Gabriel Péri" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:total         "20" ;
+        geo:lat          45.754879016464919 ;
+        geo:long         4.8436750818920178 .
+
+ex:Lyon192  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Université Lyon III" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "24" ;
+        ex:total         "26" ;
+        geo:lat          45.748539566259865 ;
+        geo:long         4.8615417793642548 .
+
+ex:Lyon373  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Collonges - Gare" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "21" ;
+        ex:total         "24" ;
+        geo:lat          45.830853962246685 ;
+        geo:long         4.8470037538635253 .
+
+ex:Lyon288  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Préfecture / Sarrail" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "13" ;
+        ex:total         "20" ;
+        geo:lat          45.76485827235323 ;
+        geo:long         4.8415654714910223 .
+
+ex:Lyon162  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Gailleton" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+        ex:total         "16" ;
+        geo:lat          45.753454914211439 ;
+        geo:long         4.8333538439572381 .
+
+ex:Lyon70  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Parc des Berges" ;
+        dbo:city         "Lyon" ;
+        ex:available     "22" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "25" ;
+        geo:lat          45.737740958689017 ;
+        geo:long         4.8244875157097109 .
+
+ex:Lyon343  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Musée Africain" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "14" ;
+        ex:total         "22" ;
+        geo:lat          45.750253311906036 ;
+        geo:long         4.8579250300630621 .
+
+ex:Lyon258  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Albéric Pont" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+        ex:total         "16" ;
+        geo:lat          45.753444343560041 ;
+        geo:long         4.8044009888454049 .
+
+ex:Lyon132  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Anatole France" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "2" ;
+        ex:total         "10" ;
+        geo:lat          45.769836000589763 ;
+        geo:long         4.8895260857893161 .
+
+ex:Lyon40  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Charcot / Résidence universitaire" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "27" ;
+        ex:total         "32" ;
+        geo:lat          45.755031088645261 ;
+        geo:long         4.8077850541519442 .
+
+ex:Lyon313  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "DOUA / Gaston Berger" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "29" ;
+        ex:total         "30" ;
+        geo:lat          45.780944479741017 ;
+        geo:long         4.8713269128915702 .
+
+ex:Lyon228  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Avenue Verguin" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "17" ;
+        ex:total         "20" ;
+        geo:lat          45.772911397448283 ;
+        geo:long         4.8563267813588187 .
+
+ex:Lyon102  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Saint-Cyr" ;
+        dbo:city         "Lyon" ;
+        ex:available     "29" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "30" ;
+        geo:lat          45.782828230375713 ;
+        geo:long         4.8072963588022786 .
+
+ex:Lyon10  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Baratin" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "12" ;
+        geo:lat          45.760603757368173 ;
+        geo:long         4.9006969683209185 .
+
+ex:Lyon385  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Anatole France / Alsace" ;
+        dbo:city         "Lyon" ;
+        ex:available     "" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "" ;
+        ex:total         "" ;
+        geo:lat          45.767082315331187 ;
+        geo:long         4.8706390455761799 .
+
+ex:Lyon4  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Clos Savaron" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "17" ;
+        ex:total         "20" ;
+        geo:lat          45.782636257479602 ;
+        geo:long         4.8255591851847726 .
+
+ex:Lyon174  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "République / Stella" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "23" ;
+        ex:total         "27" ;
+        geo:lat          45.760709786313122 ;
+        geo:long         4.8362889729420431 .
+
+ex:Lyon82  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place de la Croix-Rousse" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "11" ;
+        ex:total         "21" ;
+        geo:lat          45.776075139086394 ;
+        geo:long         4.8325539207543908 .
+
+ex:Lyon355  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Montgolfier / Château Gaillard" ;
+        dbo:city         "Lyon" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "17" ;
+        geo:lat          45.771557737667543 ;
+        geo:long         4.890369565771878 .
+
+ex:Lyon144  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Rouget de L'Isle" ;
+        dbo:city         "Lyon" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "16" ;
+        geo:lat          45.753963192967063 ;
+        geo:long         4.8673532946259153 .
+
+ex:Lyon52  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Marengo" ;
+        dbo:city         "Lyon" ;
+        ex:available     "27" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "27" ;
+        geo:lat          45.759143523051151 ;
+        geo:long         4.875993556109198 .
+
+ex:Lyon325  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Laënnec" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "15" ;
+        ex:total         "16" ;
+        geo:lat          45.741373737796557 ;
+        geo:long         4.8797369306165574 .
+
+ex:Lyon114  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Caluire - La Rochette" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "20" ;
+        geo:lat          45.791670182603994 ;
+        geo:long         4.8235970239637442 .
+
+ex:Lyon22  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Piscine du Rhône" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "25" ;
+        ex:total         "31" ;
+        geo:lat          45.75361070535952 ;
+        geo:long         4.8382209724032039 .
+
+ex:Lyon397  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Viabert / Thiers" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "16" ;
+        geo:lat          45.765987983382352 ;
+        geo:long         4.862092278200751 .
+
+ex:Lyon271  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "4 août 1789 / Pressensé" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "15" ;
+        ex:total         "19" ;
+        geo:lat          45.766058743658895 ;
+        geo:long         4.8987031427962373 .
+
+ex:Lyon186  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "République / Ferrandière" ;
+        dbo:city         "Lyon" ;
+        ex:available     "20" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "5" ;
+        ex:total         "25" ;
+        geo:lat          45.762173997021478 ;
+        geo:long         4.8359706936868223 .
+
+ex:Lyon94  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Dauphiné / Saint-Maximin" ;
+        dbo:city         "Lyon" ;
+        ex:available     "19" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "11" ;
+        ex:total         "30" ;
+        geo:lat          45.749946228841829 ;
+        geo:long         4.8646503841216662 .
+
+ex:Lyon367  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Mairie du 6e" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "21" ;
+        ex:total         "23" ;
+        geo:lat          45.768404168372825 ;
+        geo:long         4.8494967237845854 .
+
+ex:Lyon241  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Berlioz / Chalinel" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "2" ;
+        ex:total         "15" ;
+        geo:lat          45.801119808115821 ;
+        geo:long         4.8252725616689833 .
+
+ex:Lyon156  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "GrandClément" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "19" ;
+        geo:lat          45.759718320729569 ;
+        geo:long         4.8899469363178758 .
+
+ex:Lyon64  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Fontaines s/S - Quai Simon" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "20" ;
+        geo:lat          45.832465718330624 ;
+        geo:long         4.8487792326838308 .
+
+ex:Lyon337  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Meissonier" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "4" ;
+        ex:total         "16" ;
+        geo:lat          45.766085066859198 ;
+        geo:long         4.8328335830568179 .
+
+ex:Lyon211  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Doua / Avenue des Arts" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "26" ;
+        ex:total         "30" ;
+        geo:lat          45.78351367931986 ;
+        geo:long         4.8712731104104918 .
+
+ex:Lyon126  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Hôpital Neurologique" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "20" ;
+        ex:total         "20" ;
+        geo:lat          45.748183293843169 ;
+        geo:long         4.8969570575460013 .
+
+ex:Lyon34  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Jules Ferry" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "20" ;
+        geo:lat          45.768412261376461 ;
+        geo:long         4.8590705567383443 .
+
+ex:Lyon307  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Pêcherie" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "12" ;
+        ex:total         "17" ;
+        geo:lat          45.765954730034949 ;
+        geo:long         4.8311781246444845 .
+
+ex:Lyon283  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place d'Arsonval" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "29" ;
+        ex:total         "32" ;
+        geo:lat          45.743441684170989 ;
+        geo:long         4.8789031261753726 .
+
+ex:Lyon198  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Gerson" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+        ex:total         "20" ;
+        geo:lat          45.767054455141064 ;
+        geo:long         4.8270475070640995 .
+
+ex:Lyon379  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Gorge de Loup" ;
+        dbo:city         "Lyon" ;
+        ex:available     "36" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "40" ;
+        geo:lat          45.767365478519089 ;
+        geo:long         4.8056276995192775 .
+
+ex:Lyon253  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Lycée Louise Labé" ;
+        dbo:city         "Lyon" ;
+        ex:available     "20" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "20" ;
+        geo:lat          45.740280652650846 ;
+        geo:long         4.8320593704251733 .
+
+ex:Lyon168  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Neuville - Stade" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "2" ;
+        ex:total         "15" ;
+        geo:lat          45.870876246169921 ;
+        geo:long         4.8395985373186363 .
+
+ex:Lyon76  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Part-Dieu / Cuirassiers" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "57" ;
+        ex:total         "59" ;
+        geo:lat          45.75989765123542 ;
+        geo:long         4.8575730314142138 .
+
+ex:Lyon349  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Paul Bert / Vivier Merle" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "19" ;
+        ex:total         "21" ;
+        geo:lat          45.757147769752201 ;
+        geo:long         4.858090435481885 .
+
+ex:Lyon223  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Hachette" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "15" ;
+        geo:lat          45.752916021878924 ;
+        geo:long         4.8638526893825507 .
+
+ex:Lyon138  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "République / Maupin" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "25" ;
+        geo:lat          45.758739082193848 ;
+        geo:long         4.8340765154131455 .
+
+ex:Lyon46  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Saxe / Dunoir" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "26" ;
+        ex:total         "37" ;
+        geo:lat          45.760948381660583 ;
+        geo:long         4.8452325958943723 .
+
+ex:Lyon404  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "La Salette" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "15" ;
+        geo:lat          45.7496868148719 ;
+        geo:long         4.7956106152696716 .
+
+ex:Lyon319  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Mairie du 7e" ;
+        dbo:city         "Lyon" ;
+        ex:available     "28" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "1" ;
+        ex:total         "30" ;
+        geo:lat          45.746560173030552 ;
+        geo:long         4.8423412580916123 .
+
+ex:Lyon380  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Varillon (funiculaire Saint-Just)" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "16" ;
+        ex:total         "23" ;
+        geo:lat          45.757300321920503 ;
+        geo:long         4.8150900113095236 .
+
+ex:Lyon295  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Confluence Hôtel de Région" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "23" ;
+        ex:total         "32" ;
+        geo:lat          45.740538315203914 ;
+        geo:long         4.8191795184368047 .
+
+ex:Lyon108  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Berthelot / Cazeneuve" ;
+        dbo:city         "Lyon" ;
+        ex:available     "20" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "20" ;
+        geo:lat          45.737316287966294 ;
+        geo:long         4.8655284896846744 .
+
+ex:Lyon16  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Pont Masaryk" ;
+        dbo:city         "Lyon" ;
+        ex:available     "20" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "2" ;
+        ex:total         "22" ;
+        geo:lat          45.778278012980614 ;
+        geo:long         4.8106317576202677 .
+
+ex:Lyon350  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Moulin à Vent" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "22" ;
+        geo:lat          45.729676134064583 ;
+        geo:long         4.8541819412364093 .
+
+ex:Lyon265  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Zola / Passage Rey" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "19" ;
+        geo:lat          45.770097843265823 ;
+        geo:long         4.8766904175328012 .
+
+ex:Lyon88  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Einstein / 11 novembre 1918" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "22" ;
+        ex:total         "34" ;
+        geo:lat          45.779421486708728 ;
+        geo:long         4.8740757995838857 .
+
+ex:Lyon320  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Charité / Récamier" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "17" ;
+        geo:lat          45.749253395491387 ;
+        geo:long         4.8298441257520306 .
+
+ex:Lyon235  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "St Fons - Théatre" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "15" ;
+        ex:total         "18" ;
+        geo:lat          45.707986016338978 ;
+        geo:long         4.8601564934850359 .
+
+ex:Lyon58  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Musée des Confluences" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "20" ;
+        geo:lat          45.733308335927788 ;
+        geo:long         4.8189203135366743 .
+
+ex:Lyon392  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Charmettes / Zola" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "24" ;
+        geo:lat          45.770729745109776 ;
+        geo:long         4.8673418461692233 .
+
+ex:Lyon205  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Grégory Coupet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "9" ;
+        ex:total         "16" ;
+        geo:lat          45.78170010676795 ;
+        geo:long         4.8206000461275869 .
+
+ex:Lyon28  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Dumont / Jouvet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "9" ;
+        ex:total         "17" ;
+        geo:lat          45.744460628994261 ;
+        geo:long         4.8609937736791071 .
+
+ex:Lyon181  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Théâtre Romain" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "12" ;
+        geo:lat          45.758362396029291 ;
+        geo:long         4.8210866415482529 .
+
+ex:Lyon362  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Mermoz / Michelet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+        ex:total         "12" ;
+        geo:lat          45.733271780144399 ;
+        geo:long         4.8786008569623753 .
+
+ex:Lyon277  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Boussange / Austerlitz" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "9" ;
+        ex:total         "18" ;
+        geo:lat          45.775502359048581 ;
+        geo:long         4.8350625452914064 .
+
+ex:Lyon151  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Crépu" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "20" ;
+        geo:lat          45.75784167963824 ;
+        geo:long         4.8261054516922881 .
+
+ex:Lyon332  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Garibaldi" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "11" ;
+        geo:lat          45.770697483846341 ;
+        geo:long         4.849935729364379 .
+
+ex:Lyon247  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Quai Romain Rolland" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "17" ;
+        geo:lat          45.762037080692672 ;
+        geo:long         4.8288896824580405 .
+
+ex:Lyon121  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Halle Tony Garnier" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "5" ;
+        ex:total         "20" ;
+        geo:lat          45.730842238867318 ;
+        geo:long         4.8237404067653964 .
+
+ex:Lyon302  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Antonin Poncet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "24" ;
+        ex:total         "40" ;
+        geo:lat          45.756762321303221 ;
+        geo:long         4.8339273966533849 .
+
+ex:Lyon217  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Garibaldi / Domer" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "5" ;
+        ex:total         "19" ;
+        geo:lat          45.747732736880479 ;
+        geo:long         4.8516273700582797 .
+
+ex:Lyon193  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Cité Internationale" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "9" ;
+        ex:total         "21" ;
+        geo:lat          45.785421424962379 ;
+        geo:long         4.8541240727107642 .
+
+ex:Lyon374  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Mairie du 5e" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "10" ;
+        ex:total         "13" ;
+        geo:lat          45.756193928658881 ;
+        geo:long         4.802711079169014 .
+
+ex:Lyon289  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Maisons Neuves" ;
+        dbo:city         "Lyon" ;
+        ex:available     "21" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "2" ;
+        ex:total         "23" ;
+        geo:lat          45.755951029235611 ;
+        geo:long         4.8773464298740201 .
+
+ex:Lyon163  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Joannès Ambre" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "17" ;
+        ex:total         "20" ;
+        geo:lat          45.781575518520611 ;
+        geo:long         4.8328577220510196 .
+
+ex:Lyon71  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Tabareau" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+        ex:total         "10" ;
+        geo:lat          45.774080670534389 ;
+        geo:long         4.8251597121983645 .
+
+ex:Lyon344  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Verdun / Desgrand" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "10" ;
+        ex:total         "21" ;
+        geo:lat          45.784051343684737 ;
+        geo:long         4.8970859241187767 .
+
+ex:Lyon259  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Lumière / Trouilhet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "15" ;
+        ex:total         "16" ;
+        geo:lat          45.74357206905033 ;
+        geo:long         4.8701059691417319 .
+
+ex:Lyon133  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Challemel Lacour / Gerland" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+        ex:total         "12" ;
+        geo:lat          45.72980586520876 ;
+        geo:long         4.8381384383404171 .
+
+ex:Lyon41  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Pierre Delore" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "13" ;
+        ex:total         "20" ;
+        geo:lat          45.738741092341968 ;
+        geo:long         4.8522860109415236 .
+
+ex:Lyon314  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Perrache / Carnot" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "18" ;
+        geo:lat          45.750099643326067 ;
+        geo:long         4.828051501355155 .
+
+ex:Lyon229  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Colin / Perroncel" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "15" ;
+        geo:lat          45.774498464673428 ;
+        geo:long         4.8740523266943319 .
+
+ex:Lyon290  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Lacour / Artillerie" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "20" ;
+        geo:lat          45.729496999597231 ;
+        geo:long         4.8439379996052212 .
+
+ex:Lyon103  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Puvis de Chavannes" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "10" ;
+        geo:lat          45.771757085573398 ;
+        geo:long         4.8446036357483555 .
+
+ex:Lyon11  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Champvert" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "17" ;
+        ex:total         "18" ;
+        geo:lat          45.763897767424751 ;
+        geo:long         4.7927143081079864 .
+
+ex:Lyon386  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Subsistances" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+        ex:total         "22" ;
+        geo:lat          45.767895769476937 ;
+        geo:long         4.8198166574203691 .
+
+ex:Lyon260  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "L'Ile Barbe" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "16" ;
+        geo:lat          45.797412196271445 ;
+        geo:long         4.8290463533634593 .
+
+ex:Lyon175  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Aristide Briand" ;
+        dbo:city         "Lyon" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "21" ;
+        ex:total         "38" ;
+        geo:lat          45.753004353022099 ;
+        geo:long         4.8502474272199692 .
+
+ex:Lyon5  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Lycée Marie Curie" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "12" ;
+        ex:total         "15" ;
+        geo:lat          45.761527969875551 ;
+        geo:long         4.8956902199613603 .
+
+ex:Lyon83  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Lherminier / Pressensé" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "15" ;
+        geo:lat          45.771123244944057 ;
+        geo:long         4.8850235984658994 .
+
+ex:Lyon356  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Beauvoir / Marot" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "20" ;
+        ex:total         "20" ;
+        geo:lat          45.737307131322851 ;
+        geo:long         4.8329916088585998 .
+
+ex:Lyon230  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place de la Paix" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "5" ;
+        ex:total         "20" ;
+        geo:lat          45.768023612654652 ;
+        geo:long         4.831741251718416 .
+
+ex:Lyon145  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Gare des Brotteaux" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "16" ;
+        geo:lat          45.766909580266265 ;
+        geo:long         4.8589921673125618 .
+
+ex:Lyon53  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place d'Espagne / Stade Kruger" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "22" ;
+        geo:lat          45.754176701590822 ;
+        geo:long         4.9052991893735278 .
+
+ex:Lyon326  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Saint-Luc / Saint-Joseph" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "24" ;
+        ex:total         "28" ;
+        geo:lat          45.749417695294724 ;
+        geo:long         4.8347520047111061 .
+
+ex:Lyon200  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Saint Pierre de Vaise" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "15" ;
+        geo:lat          45.773099572533148 ;
+        geo:long         4.8078137222645942 .
+
+ex:Lyon115  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Marseille / Félissent" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "15" ;
+        geo:lat          45.752986343511608 ;
+        geo:long         4.8414152874617793 .
+
+ex:Lyon23  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Terreaux / Chenavard" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "5" ;
+        ex:total         "18" ;
+        geo:lat          45.766767104563002 ;
+        geo:long         4.8329314879659684 .
+
+ex:Lyon398  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "métro Flachet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "19" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "22" ;
+        geo:lat          45.767090945065711 ;
+        geo:long         4.8924286413845515 .
+
+ex:Lyon272  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Parc de Gerland" ;
+        dbo:city         "Lyon" ;
+        ex:available     "26" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "26" ;
+        geo:lat          45.724348355123013 ;
+        geo:long         4.8268214305884181 .
+
+ex:Lyon187  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Vienne  / Montagny" ;
+        dbo:city         "Lyon" ;
+        ex:available     "18" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "2" ;
+        ex:total         "20" ;
+        geo:lat          45.732360363435632 ;
+        geo:long         4.8534202156019024 .
+
+ex:Lyon95  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Danton" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "18" ;
+        geo:lat          45.754812448515437 ;
+        geo:long         4.8575743726010305 .
+
+ex:Lyon368  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Greuze" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+        ex:total         "18" ;
+        geo:lat          45.773843668198161 ;
+        geo:long         4.8938480167143412 .
+
+ex:Lyon242  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Berthelot / Route de Vienne" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "15" ;
+        geo:lat          45.742653761728292 ;
+        geo:long         4.8505369714596656 .
+
+ex:Lyon157  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Francis de Pressenssé" ;
+        dbo:city         "Lyon" ;
+        ex:available     "21" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "22" ;
+        geo:lat          45.731427267111762 ;
+        geo:long         4.8600379663129871 .
+
+ex:Lyon65  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Porte des Enfants du Rhône" ;
+        dbo:city         "Lyon" ;
+        ex:available     "20" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "40" ;
+        geo:lat          45.777493295953889 ;
+        geo:long         4.8448707260176658 .
+
+ex:Lyon338  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Gratte-Ciel" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "16" ;
+        geo:lat          45.769227436466906 ;
+        geo:long         4.8804622522382601 .
+
+ex:Lyon212  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Terreaux / Beaux Arts" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "2" ;
+        ex:total         "11" ;
+        geo:lat          45.76704100481097 ;
+        geo:long         4.8342839059717138 .
+
+ex:Lyon127  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Part-Dieu / Francfort" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "19" ;
+        ex:total         "28" ;
+        geo:lat          45.760608555644112 ;
+        geo:long         4.8630862498286334 .
+
+ex:Lyon35  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Saint-Jean" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "31" ;
+        ex:total         "39" ;
+        geo:lat          45.76048374389778 ;
+        geo:long         4.8265650503972601 .
+
+ex:Lyon308  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Raspail" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "16" ;
+        ex:total         "22" ;
+        geo:lat          45.755774769961079 ;
+        geo:long         4.8407411543374979 .
+
+ex:Lyon284  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Part-Dieu / Deruelle" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "28" ;
+        ex:total         "30" ;
+        geo:lat          45.762979012081544 ;
+        geo:long         4.8550066229887996 .
+
+ex:Lyon199  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Anatole France / Barbusse" ;
+        dbo:city         "Lyon" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "2" ;
+        ex:total         "20" ;
+        geo:lat          45.768130400229929 ;
+        geo:long         4.8791614891381103 .
+
+ex:Lyon254  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bellecour / République" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "4" ;
+        ex:total         "18" ;
+        geo:lat          45.757985099008813 ;
+        geo:long         4.8345938219838454 .
+
+ex:Lyon169  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Vaulx - Hôtel de ville" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "30" ;
+        geo:lat          45.778297309257972 ;
+        geo:long         4.9207001064103109 .
+
+ex:Lyon77  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Les Halles" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "18" ;
+        geo:lat          45.761518927436406 ;
+        geo:long         4.8504862573912657 .
+
+ex:Lyon224  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Conservatoire bis" ;
+        dbo:city         "Lyon" ;
+        ex:available     "22" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "22" ;
+        geo:lat          45.770389430222025 ;
+        geo:long         4.8142456674237 .
+
+ex:Lyon139  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Quai Lassagne" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "1" ;
+        ex:total         "16" ;
+        geo:lat          45.772201469257226 ;
+        geo:long         4.837911792926473 .
+
+ex:Lyon47  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Gabriel Péri" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "12" ;
+        geo:lat          45.772299593850811 ;
+        geo:long         4.8656992684460585 .
+
+ex:Lyon381  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Créqui / Voltaire" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "16" ;
+        ex:total         "30" ;
+        geo:lat          45.756698344175192 ;
+        geo:long         4.848403485755715 .
+
+ex:Lyon296  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Pizay" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "18" ;
+        ex:total         "22" ;
+        geo:lat          45.767200417220316 ;
+        geo:long         4.8363916853563289 .
+
+ex:Lyon109  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place des Compagnons de la chanson" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "9" ;
+        ex:total         "18" ;
+        geo:lat          45.756527336878399 ;
+        geo:long         4.7966121788894247 .
+
+ex:Lyon17  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Gambetta / Garibaldi" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "30" ;
+        ex:total         "40" ;
+        geo:lat          45.751790135547473 ;
+        geo:long         4.852607966008752 .
+
+ex:Lyon170  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Berthelot / Villon" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "13" ;
+        geo:lat          45.738272590258894 ;
+        geo:long         4.8626987923823561 .
+
+ex:Lyon351  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Docteur Long / Aubépins" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "16" ;
+        geo:lat          45.752542908533663 ;
+        geo:long         4.8942587457505971 .
+
+ex:Lyon266  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Vénissieux - Parilly" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "30" ;
+        geo:lat          45.71972577256566 ;
+        geo:long         4.8891375782826278 .
+
+ex:Lyon140  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Jacobins" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "15" ;
+        ex:total         "26" ;
+        geo:lat          45.760751695058154 ;
+        geo:long         4.8343042285358893 .
+
+ex:Lyon89  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Caluire - Gare de Cuire" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "18" ;
+        geo:lat          45.785775530846841 ;
+        geo:long         4.8337134215891258 .
+
+ex:Lyon321  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Vaulx - Bibliothèque" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "11" ;
+        ex:total         "15" ;
+        geo:lat          45.757069760064866 ;
+        geo:long         4.9273216112656586 .
+
+ex:Lyon236  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Institut Lumière" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "18" ;
+        geo:lat          45.745833233728661 ;
+        geo:long         4.8706387106502866 .
+
+ex:Lyon110  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Laurent Bonnevay - Astroballe" ;
+        dbo:city         "Lyon" ;
+        ex:available     "22" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "4" ;
+        ex:total         "29" ;
+        geo:lat          45.765124055355358 ;
+        geo:long         4.9098182197044347 .
+
+ex:Lyon59  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "11 novembre / Gaston Berger" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "24" ;
+        ex:total         "35" ;
+        geo:lat          45.779063986324246 ;
+        geo:long         4.8714964631896152 .
+
+ex:Lyon393  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Opéra" ;
+        dbo:city         "Lyon" ;
+        ex:available     "31" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:total         "41" ;
+        geo:lat          45.767569327000189 ;
+        geo:long         4.8363352069947023 .
+
+ex:Lyon206  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Rossellini / 11 Novembre" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "16" ;
+        ex:total         "20" ;
+        geo:lat          45.779408313608009 ;
+        geo:long         4.8629021690287688 .
+
+ex:Lyon29  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Rockfeller / Esquirol" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "19" ;
+        ex:total         "19" ;
+        geo:lat          45.741423112712951 ;
+        geo:long         4.885377197932872 .
+
+ex:Lyon182  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Albigny - Gare" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "18" ;
+        geo:lat          45.874993492537534 ;
+        geo:long         4.8330021360822784 .
+
+ex:Lyon90  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Tassin - Tuileries" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "12" ;
+        geo:lat          45.763256032595386 ;
+        geo:long         4.778610065670553 .
+
+ex:Lyon363  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Hôpital Saint-Jean de Dieu" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "15" ;
+        ex:total         "20" ;
+        geo:lat          45.724270502888913 ;
+        geo:long         4.8541521271275219 .
+
+ex:Lyon278  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Ambroise Paré" ;
+        dbo:city         "Lyon" ;
+        ex:available     "21" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "24" ;
+        geo:lat          45.736240494494069 ;
+        geo:long         4.883736826213056 .
+
+ex:Lyon152  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Cité Internationale / Interpol" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "27" ;
+        ex:total         "27" ;
+        geo:lat          45.782306112832835 ;
+        geo:long         4.8493439808167293 .
+
+ex:Lyon60  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Neuville - Quai Pasteur" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "20" ;
+        geo:lat          45.876608991312217 ;
+        geo:long         4.8386237264875973 .
+
+ex:Lyon333  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Debourg" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "20" ;
+        geo:lat          45.73175355481775 ;
+        geo:long         4.833961794123204 .
+
+ex:Lyon248  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Bir-Hakeim" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "4" ;
+        ex:total         "19" ;
+        geo:lat          45.752592143713962 ;
+        geo:long         4.8557101486887975 .
+
+ex:Lyon122  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Berthelot / Garibaldi" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "10" ;
+        geo:lat          45.743719525342676 ;
+        geo:long         4.847275267998711 .
+
+ex:Lyon30  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Sala / Charité" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "16" ;
+        geo:lat          45.754473276309135 ;
+        geo:long         4.8330110846859418 .
+
+ex:Lyon303  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Les Halles" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "15" ;
+        geo:lat          45.764057612718908 ;
+        geo:long         4.8499305460757522 .
+
+ex:Lyon218  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Part-Dieu / Garibaldi" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "20" ;
+        geo:lat          45.762751156995201 ;
+        geo:long         4.8524277723450728 .
+
+ex:Lyon194  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Aveyron" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "17" ;
+        geo:lat          45.774371615755548 ;
+        geo:long         4.8328150087604627 .
+
+ex:Lyon375  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Salengro / Descartes" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "15" ;
+        geo:lat          45.77625175150645 ;
+        geo:long         4.8716291781443655 .
+
+ex:Lyon164  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Joffre / Vaubecour" ;
+        dbo:city         "Lyon" ;
+        ex:available     "18" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "20" ;
+        geo:lat          45.751848242755536 ;
+        geo:long         4.8247344893159925 .
+
+ex:Lyon72  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Docteur Damidot" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+        ex:total         "10" ;
+        geo:lat          45.761788284968709 ;
+        geo:long         4.8861572848566013 .
+
+ex:Lyon345  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Feuillat / Lacassagne" ;
+        dbo:city         "Lyon" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "16" ;
+        geo:lat          45.749562706797079 ;
+        geo:long         4.8759334029685046 .
+
+ex:Lyon134  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bourse du travail" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "20" ;
+        geo:lat          45.759638232495469 ;
+        geo:long         4.8480846921356076 .
+
+ex:Lyon42  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Stade Vuillermet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "18" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "18" ;
+        geo:lat          45.725403717200798 ;
+        geo:long         4.8812948922096577 .
+
+ex:Lyon400  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Fulchiron" ;
+        dbo:city         "Lyon" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "2" ;
+        ex:total         "19" ;
+        geo:lat          45.752001176943288 ;
+        geo:long         4.8216617983516281 .
+
+ex:Lyon315  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Boulevard des Belges" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "15" ;
+        geo:lat          45.773327038274751 ;
+        geo:long         4.8519894989151782 .
+
+ex:Lyon291  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Musée d'art contemporain" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "23" ;
+        ex:total         "23" ;
+        geo:lat          45.783881614283054 ;
+        geo:long         4.8521404034163993 .
+
+ex:Lyon104  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Jean XXIII / Mermoz" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:total         "20" ;
+        geo:lat          45.736479605689141 ;
+        geo:long         4.8698054320071753 .
+
+ex:Lyon12  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Caluire - Passerelle de la Paix" ;
+        dbo:city         "Lyon" ;
+        ex:available     "25" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "25" ;
+        geo:lat          45.787951640291055 ;
+        geo:long         4.8530543333992187 .
+
+ex:Lyon387  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Foch" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "13" ;
+        ex:total         "20" ;
+        geo:lat          45.768851369759361 ;
+        geo:long         4.8447649388425829 .
+
+ex:Lyon261  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Paul Santy" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "16" ;
+        geo:lat          45.728518151016083 ;
+        geo:long         4.87730593439424 .
+
+ex:Lyon6  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Condorcet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:total         "12" ;
+        geo:lat          45.779045773718579 ;
+        geo:long         4.8667783280240924 .
+
+ex:Lyon176  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Liberté / Part-Dieu" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "15" ;
+        ex:total         "18" ;
+        geo:lat          45.759342266336446 ;
+        geo:long         4.8422275870211209 .
+
+ex:Lyon84  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Pressensé" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "16" ;
+        geo:lat          45.769168475385079 ;
+        geo:long         4.8967695846255017 .
+
+ex:Lyon357  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Sisley / Dauphiné" ;
+        dbo:city         "Lyon" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "17" ;
+        geo:lat          45.752827511315061 ;
+        geo:long         4.868768770804186 .
+
+ex:Lyon231  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Félix Faure / Vivier Merle" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "24" ;
+        ex:total         "35" ;
+        geo:lat          45.75381490562205 ;
+        geo:long         4.8598558941293657 .
+
+ex:Lyon146  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Oullins - Gare" ;
+        dbo:city         "Lyon" ;
+        ex:available     "36" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "40" ;
+        geo:lat          45.717029943491418 ;
+        geo:long         4.8141359805783805 .
+
+ex:Lyon54  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Perrin / Jean Jaurès" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "18" ;
+        ex:total         "34" ;
+        geo:lat          45.758391819431559 ;
+        geo:long         4.8856094344245129 .
+
+ex:Lyon327  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Domer / Chevreul" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "4" ;
+        ex:total         "12" ;
+        geo:lat          45.746674828538495 ;
+        geo:long         4.8444434656856057 .
+
+ex:Lyon201  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Sainte Anne" ;
+        dbo:city         "Lyon" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "1" ;
+        ex:total         "18" ;
+        geo:lat          45.75695497472752 ;
+        geo:long         4.865441659195346 .
+
+ex:Lyon116  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Frères Lumière" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "15" ;
+        geo:lat          45.745017432083195 ;
+        geo:long         4.8664523172668295 .
+
+ex:Lyon24  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "4 août 1789" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "10" ;
+        geo:lat          45.764821704518553 ;
+        geo:long         4.8843189291137268 .
+
+ex:Lyon399  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Confluence / Darse" ;
+        dbo:city         "Lyon" ;
+        ex:available     "18" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "22" ;
+        geo:lat          45.743414094707987 ;
+        geo:long         4.8158543610390252 .
+
+ex:Lyon273  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bancel / Chevreul" ;
+        dbo:city         "Lyon" ;
+        ex:available     "21" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "21" ;
+        geo:lat          45.74852028673056 ;
+        geo:long         4.8405245716725132 .
+
+ex:Lyon188  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Cité Internationale / Résidence hôtelière" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "16" ;
+        ex:total         "28" ;
+        geo:lat          45.784818155265391 ;
+        geo:long         4.8565116142349005 .
+
+ex:Lyon96  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Mermoz / Pinel" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "15" ;
+        ex:total         "23" ;
+        geo:lat          45.730793803610943 ;
+        geo:long         4.8874632602485164 .
+
+ex:Lyon369  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bataille / Krüger" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "18" ;
+        ex:total         "18" ;
+        geo:lat          45.736239596006733 ;
+        geo:long         4.879841841185379 .
+
+ex:Lyon243  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Charmettes / Bellecombe" ;
+        dbo:city         "Lyon" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "16" ;
+        geo:lat          45.766370349317626 ;
+        geo:long         4.865084163871062 .
+
+ex:Lyon158  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Masset / Saint-Pierre de Vaise" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "16" ;
+        geo:lat          45.770476920064574 ;
+        geo:long         4.8009004832411426 .
+
+ex:Lyon66  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Guichard" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "12" ;
+        ex:total         "16" ;
+        geo:lat          45.758825249533047 ;
+        geo:long         4.8465386095114376 .
+
+ex:Lyon339  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "St Priest - Cité Berliet" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "20" ;
+        geo:lat          45.705981972487642 ;
+        geo:long         4.9009848506091007 .
+
+ex:Lyon213  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Quai Augagneur" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "13" ;
+        ex:total         "19" ;
+        geo:lat          45.761965130115485 ;
+        geo:long         4.841053430766209 .
+
+ex:Lyon128  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Antoinette" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "21" ;
+        geo:lat          45.753644844595549 ;
+        geo:long         4.889268557413093 .
+
+ex:Lyon36  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Voyant / Chambord" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+        ex:total         "22" ;
+        geo:lat          45.767153312728034 ;
+        geo:long         4.9005991607433979 .
+
+ex:Lyon309  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Andréi Sakharov" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "12" ;
+        geo:lat          45.786524739349133 ;
+        geo:long         4.7970709023310114 .
+
+ex:Lyon370  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Claude Bernard Lyon I" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "16" ;
+        ex:total         "16" ;
+        geo:lat          45.738140056029494 ;
+        geo:long         4.8868803087115333 .
+
+ex:Lyon285  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Mairie du 9e" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "17" ;
+        ex:total         "27" ;
+        geo:lat          45.774240828078781 ;
+        geo:long         4.8056660114147771 .
+
+ex:Lyon340  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "11 novembre" ;
+        dbo:city         "Lyon" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "18" ;
+        ex:total         "35" ;
+        geo:lat          45.779701613248939 ;
+        geo:long         4.859991160995687 .
+
+ex:Lyon255  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Sainte-Blandine" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+        ex:total         "16" ;
+        geo:lat          45.744422301422304 ;
+        geo:long         4.8221428704396105 .
+
+ex:Lyon78  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Tronchet / Anatole France" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "10" ;
+        ex:total         "10" ;
+        geo:lat          45.770737154622886 ;
+        geo:long         4.8567521774675422 .
+
+ex:Lyon310  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place des Pavillons" ;
+        dbo:city         "Lyon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "13" ;
+        geo:lat          45.729500804311634 ;
+        geo:long         4.8297016085827407 .
+
+ex:Lyon225  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Salengro / Feyssine" ;
+        dbo:city         "Lyon" ;
+        ex:available     "18" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "2" ;
+        ex:total         "20" ;
+        geo:lat          45.78301107459788 ;
+        geo:long         4.8905858366251023 .
+
+ex:Lyon48  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place de la Ferrandière" ;
+        dbo:city         "Lyon" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+        ex:total         "20" ;
+        geo:lat          45.759473396594814 ;
+        geo:long         4.8693428966594272 .
+
+ex:Lyon382  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Garibaldi / Vauban" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "18" ;
+        ex:total         "20" ;
+        geo:lat          45.766692193882413 ;
+        geo:long         4.8520859812468151 .
+
+ex:Lyon1  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Gare de Villeurbanne" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "17" ;
+        ex:total         "22" ;
+        geo:lat          45.755766854637514 ;
+        geo:long         4.8914894327085978 .
+
+ex:Lyon297  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Desaix" ;
+        dbo:city         "Lyon" ;
+        ex:available     "22" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "28" ;
+        geo:lat          45.757261259925158 ;
+        geo:long         4.855200856422818 .
+
+ex:Lyon18  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Quartier Général Frère" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "30" ;
+        geo:lat          45.74322179772394 ;
+        geo:long         4.8342510240081396 .
+
+ex:Lyon171  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Louise" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "13" ;
+        ex:total         "16" ;
+        geo:lat          45.751205250881917 ;
+        geo:long         4.8848204636500698 .
+
+ex:Lyon352  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Stalingrad / Meliès" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "21" ;
+        ex:total         "24" ;
+        geo:lat          45.776705757801949 ;
+        geo:long         4.8595233537915794 .
+
+ex:Lyon267  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Maréchal Lyautey" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "20" ;
+        geo:lat          45.769373057756539 ;
+        geo:long         4.8423179538871635 .
+
+ex:Lyon141  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Santy / Beauvisage" ;
+        dbo:city         "Lyon" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "17" ;
+        geo:lat          45.731683314873898 ;
+        geo:long         4.8741275326105118 .
+
+ex:Lyon322  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "L'Homme de la Roche" ;
+        dbo:city         "Lyon" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "21" ;
+        geo:lat          45.766580344290809 ;
+        geo:long         4.8202302422982601 .
+
+ex:Lyon237  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Servient / Garibaldi" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "15" ;
+        ex:total         "17" ;
+        geo:lat          45.760775840999202 ;
+        geo:long         4.8526939571425469 .
+
+ex:Lyon111  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Tonkin" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "10" ;
+        geo:lat          45.776221014708135 ;
+        geo:long         4.8626475813297994 .
+
+ex:Lyon394  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Vivier Merle / Paul Bert" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "40" ;
+        geo:lat          45.757330738678966 ;
+        geo:long         4.8589349649959805 .
+
+ex:Lyon207  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Valmy" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "2" ;
+        ex:total         "16" ;
+        geo:lat          45.775674999643222 ;
+        geo:long         4.805303665120908 .
+
+ex:Lyon183  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Jean Jaurès / Guillotière" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "10" ;
+        geo:lat          45.75258090021488 ;
+        geo:long         4.8463206182240945 .
+
+ex:Lyon91  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Balmont" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "7" ;
+        ex:total         "12" ;
+        geo:lat          45.789315187584513 ;
+        geo:long         4.7991603409726267 .
+
+ex:Lyon364  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Jaurès / Bollier" ;
+        dbo:city         "Lyon" ;
+        ex:available     "32" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "2" ;
+        ex:total         "34" ;
+        geo:lat          45.734725490234723 ;
+        geo:long         4.8354967607642045 .
+
+ex:Lyon279  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Paul Bert / Garibaldi" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "20" ;
+        geo:lat          45.757102858168174 ;
+        geo:long         4.85348079711666 .
+
+ex:Lyon153  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Henri" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+        ex:total         "13" ;
+        geo:lat          45.748186906175142 ;
+        geo:long         4.8805939581712154 .
+
+ex:Lyon61  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place de l'Ecole" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "23" ;
+        ex:total         "28" ;
+        geo:lat          45.730079917040861 ;
+        geo:long         4.82782295642847 .
+
+ex:Lyon334  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Longefer / Kruger" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+        ex:total         "16" ;
+        geo:lat          45.738667883950932 ;
+        geo:long         4.8781309055528315 .
+
+ex:Lyon249  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Gambetta / Jusserand" ;
+        dbo:city         "Lyon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "13" ;
+        geo:lat          45.751112410276441 ;
+        geo:long         4.8555850883006508 .
+
+ex:Lyon123  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "La Pérralière" ;
+        dbo:city         "Lyon" ;
+        ex:available     "19" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+        ex:total         "22" ;
+        geo:lat          45.764563666529412 ;
+        geo:long         4.8923336071821142 .
+
+ex:Lyon31  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Rouville" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "16" ;
+        ex:total         "17" ;
+        geo:lat          45.769664442293802 ;
+        geo:long         4.8246123488633987 .
+
+ex:Lyon304  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Carnot" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "23" ;
+        ex:total         "30" ;
+        geo:lat          45.751230384098371 ;
+        geo:long         4.826890944673127 .
+
+ex:Lyon219  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Gare de Vaise" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "22" ;
+        geo:lat          45.779781983925538 ;
+        geo:long         4.8046653309593905 .
+
+ex:Lyon280  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Jaurès / Gerland" ;
+        dbo:city         "Lyon" ;
+        ex:available     "18" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "20" ;
+        geo:lat          45.739813234889681 ;
+        geo:long         4.8403073886228567 .
+
+ex:Lyon195  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bourbonnais" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "12" ;
+        geo:lat          45.773464565981961 ;
+        geo:long         4.8002879293936394 .
+
+ex:Lyon376  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Quai Paul Sédaillan" ;
+        dbo:city         "Lyon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "19" ;
+        ex:total         "20" ;
+        geo:lat          45.787509756731183 ;
+        geo:long         4.8144211278496751 .
+
+ex:Lyon250  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Piscine de Vaise" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "4" ;
+        ex:total         "19" ;
+        geo:lat          45.771018288451508 ;
+        geo:long         4.7964503487575509 .
+
+ex:Lyon165  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Vénissieux - Joliot Curie / Sembat" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "25" ;
+        geo:lat          45.715452952050136 ;
+        geo:long         4.8782350614798364 .
+
+ex:Lyon73  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place du Lac" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "16" ;
+        ex:total         "19" ;
+        geo:lat          45.758885622300127 ;
+        geo:long         4.8537678938544726 .
+
+ex:Lyon346  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Friche RVI" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "16" ;
+        ex:total         "20" ;
+        geo:lat          45.74832070512366 ;
+        geo:long         4.8759239595508284 .
+
+ex:Lyon220  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Château Gaillard / Fort" ;
+        dbo:city         "Lyon" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "16" ;
+        geo:lat          45.774750799311725 ;
+        geo:long         4.8880387408797779 .
+
+ex:Lyon135  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Albert Thomas / Villon" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "9" ;
+        ex:total         "20" ;
+        geo:lat          45.746716331494689 ;
+        geo:long         4.8674286445260062 .
+
+ex:Lyon43  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Croix Rousse / Perfetti" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "20" ;
+        geo:lat          45.772253841530492 ;
+        geo:long         4.8194608620100041 .
+
+ex:Lyon401  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Lafayette / Corneille" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "13" ;
+        geo:lat          45.763759478341875 ;
+        geo:long         4.8437773405191873 .
+
+ex:Lyon316  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "INSA" ;
+        dbo:city         "Lyon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "38" ;
+        ex:total         "40" ;
+        geo:lat          45.782189644124585 ;
+        geo:long         4.8768799244436716 .
+
+ex:Lyon292  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Clinique Montplaisir" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "13" ;
+        ex:total         "16" ;
+        geo:lat          45.747096714094674 ;
+        geo:long         4.8601437036179034 .
+
+ex:Lyon105  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Augagneur / Fosse aux Ours" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "36" ;
+        ex:total         "40" ;
+        geo:lat          45.757199702326538 ;
+        geo:long         4.840499137542488 .
+
+ex:Lyon13  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Mercière / Ferrandière" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "10" ;
+        geo:lat          45.762055301478128 ;
+        geo:long         4.8332059556379781 .
+
+ex:Lyon388  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Ste Foy - Place Saint-Luc" ;
+        dbo:city         "Lyon" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "15" ;
+        geo:lat          45.749565405204862 ;
+        geo:long         4.800896024092042 .
+
+ex:Lyon262  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "DOUA / Rue des sports" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "29" ;
+        ex:total         "30" ;
+        geo:lat          45.784485187238431 ;
+        geo:long         4.8774042325766302 .
+
+ex:Lyon177  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "St Genis L. - Médiathèque" ;
+        dbo:city         "Lyon" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "12" ;
+        geo:lat          45.697812001886902 ;
+        geo:long         4.7947728497160735 .
+
+ex:Lyon7  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Saint Exupéry" ;
+        dbo:city         "Lyon" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "15" ;
+        geo:lat          45.758858971047864 ;
+        geo:long         4.8787495764625985 .
+
+ex:Lyon85  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Ampère" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "5" ;
+        ex:total         "10" ;
+        geo:lat          45.75304370740951 ;
+        geo:long         4.8282672826226927 .
+
+ex:Lyon358  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Mairie de Villeurbanne" ;
+        dbo:city         "Lyon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "26" ;
+        geo:lat          45.766830606452515 ;
+        geo:long         4.8798938672774597 .
+
+ex:Lyon232  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Institut d'Art contemporain" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "1" ;
+        ex:total         "15" ;
+        geo:lat          45.761449644961935 ;
+        geo:long         4.8724655049634791 .
+
+ex:Lyon147  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Oullins - Mairie" ;
+        dbo:city         "Lyon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "18" ;
+        geo:lat          45.714001419025294 ;
+        geo:long         4.8065443341113525 .
+
+ex:Lyon55  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Etats-Unis / Lévigne" ;
+        dbo:city         "Lyon" ;
+        ex:available     "20" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "20" ;
+        geo:lat          45.732218010659686 ;
+        geo:long         4.865141536736715 .
+
+ex:Lyon328  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Ménival / Joliot Curie" ;
+        dbo:city         "Lyon" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "12" ;
+        ex:total         "20" ;
+        geo:lat          45.754640511526532 ;
+        geo:long         4.7881488839855884 .
+
+ex:Lyon202  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Saxe / Gambetta" ;
+        dbo:city         "Lyon" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "20" ;
+        geo:lat          45.753785865243557 ;
+        geo:long         4.8480424261036825 .
+
+ex:Lyon117  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Lebret" ;
+        dbo:city         "Lyon" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "14" ;
+        geo:lat          45.735613990648211 ;
+        geo:long         4.8529965568657403 .
+
+ex:Lyon25  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Rillieux - Canellas" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "12" ;
+        geo:lat          45.805091340265001 ;
+        geo:long         4.8847438731991382 .
+
+ex:Lyon274  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Hénon" ;
+        dbo:city         "Lyon" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "19" ;
+        ex:total         "22" ;
+        geo:lat          45.779755367114255 ;
+        geo:long         4.8276484010879557 .
+
+ex:Lyon189  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Théâtre Nouvelle Génération" ;
+        dbo:city         "Lyon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "16" ;
+        geo:lat          45.777295537372012 ;
+        geo:long         4.803311744565665 .
+
+ex:Lyon97  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place Flammarion" ;
+        dbo:city         "Lyon" ;
+        ex:available     "18" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "18" ;
+        geo:lat          45.77932645166068 ;
+        geo:long         4.8203031984414517 .

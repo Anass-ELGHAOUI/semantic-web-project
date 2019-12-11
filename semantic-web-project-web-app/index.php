@@ -20,23 +20,32 @@
 </head>
 
 <body onload="getAllCountries()">
-	<div id="getData"></div>
+    <?php
+    if (isset($_GET['exists'])) {
+        if ($_GET['exists'] == "1") {
+    ?>
+        <script>alert('The selected city already exists in real time data, choose another one')</script>
+    <?php
+        }
+    }
+    ?>
+	<div id="getDataIndex"></div>
 
 	<hr/>
 
-	<div id="setData">
+	<div id="setDataIndex">
 		<h1>Upload new data</h1>
 
-		<form id="userForm" method="GET" action="upload.html">
+		<form id="userForm" method="GET" action="upload.php">
 			<label>Country: </label>
-			<input type="text" name="country" required>
+			<input type="text" id="country" name="country" required>
 
 			<label>City: </label>
-			<input type="text" name="city" required>
+			<input type="text" id="city" name="city" required>
 
 			<br/><br/>
 
-			<input type="submit" value="Submit" />
+			<input type="submit" value="Submit"/>
 		</form>
 	</div>
 </body>

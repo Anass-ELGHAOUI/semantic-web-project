@@ -1,3 +1,31 @@
+/* Taken from stackoverflom */
+function pagination (NumberOfRows) {
+    $('#table thead th').css('text-align', 'center');
+    $('#table').after('<div id="pagination"></div>');
+    var rowsShown = 5;
+    var rowsTotal = NumberOfRows;
+    var numPages = rowsTotal/rowsShown;
+
+    for(i = 0;i < numPages;i++) {
+        var pageNum = i + 1;
+        $('#pagination').append('<a href="#" rel="'+i+'" id="'+i+'">'+pageNum+'</a> ');
+    }
+
+    $('#table tbody tr').hide();
+    $('#table tbody tr').slice(0, rowsShown).show();
+    $('#pagination a:first').addClass('active');
+    $('#pagination a').bind('click', function(){
+
+        $('#pagination a').removeClass('active');
+        $(this).addClass('active');
+        var currPage = $(this).attr('rel');
+        var startItem = currPage * rowsShown;
+        var endItem = startItem + rowsShown;
+        $('#table tbody tr').css('opacity','0.0').hide().slice(startItem, endItem).
+        css('display','table-row').animate({opacity:1}, 300);
+    });
+}
+
 function getAllCountries() {
     var query = "PREFIX dbo: <http://dbpedia.org/ontology/>" +
                  "SELECT DISTINCT ?country WHERE {" +
@@ -15,14 +43,14 @@ function getAllCountries() {
             var message = document.createElement('h1');
             message.setAttribute("id", "title")
             message.appendChild(document.createTextNode("Look at existing data"));
-            document.getElementById("getData").appendChild(message);
+            document.getElementById("getDataIndex").appendChild(message);
 
             /* Create html list */
             var list = document.createElement('select');
             list.setAttribute("id", "countriesList");
             list.setAttribute("onchange", "getSelectedCountry()");
             list.innerHTML += '<option selected> Select a country </option>';
-            document.getElementById("getData").appendChild(list);
+            document.getElementById("getDataIndex").appendChild(list);
 
             for (var i = 0; i < bindings.length; i++) {
                 var countries = document.getElementById('countriesList');
@@ -39,7 +67,7 @@ function getAllCountries() {
             var message = document.createElement('h1');
             message.setAttribute("id", "message")
             message.appendChild(document.createTextNode("There's no data in the triplestore"));
-            document.getElementById("getData").appendChild(message);
+            document.getElementById("getDataIndex").appendChild(message);
         }
     });
 }
@@ -64,7 +92,7 @@ function getAllCities(country) {
         list.setAttribute("id", "citiesList");
         list.setAttribute("onchange", "getSelectedCity()");
         list.innerHTML += '<option selected> Select a city </option>';
-        document.getElementById("getData").appendChild(list);
+        document.getElementById("getDataIndex").appendChild(list);
 
         for (var i = 0; i < bindings.length; i++) {
             var cities = document.getElementById('citiesList');
@@ -88,7 +116,7 @@ function getSelectedCountry() {
 function getSelectedCity(country) {
 	var cities = document.getElementById('citiesList');
 	var city = cities.options[cities.selectedIndex].id;
-	window.location.href = "city.html?city=" + city;
+	window.location.href = "city.php?city=" + city;
 }
 
 /* Taken from: https://html-online.com/articles/get-url-parameters-javascript/
@@ -102,10 +130,11 @@ function getUrlVars() {
 }
 
 function getCityInfo() {
-    var cityName = getUrlVars()["city"];
+    // var cityName = getUrlVars()["city"];
+    var cityName = document.getElementById('cityName').value;
 
     if (cityName == null) {
-        window.location.href = "index.html";
+        window.location.href = "index.php";
     }
     else {
         /* RDFa */
@@ -161,11 +190,10 @@ function getCityInfo() {
 
         /* Table body */
         var query = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
-            " SELECT DISTINCT ?label ?id ?lat ?long ?available ?free ?total ?cardPaiement WHERE {" +
+            " SELECT DISTINCT ?label ?lat ?long ?available ?free ?total ?cardPaiement WHERE {" +
             " ?city rdfs:label \"" + cityName + "\" ." +
             " ?city <http://www.example.com/bikeStations> ?bikeStation ." +
             " ?bikeStation rdfs:label ?label ." +
-            " ?bikeStation <http://www.example.com/id> ?id ." +
             " ?bikeStation <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat ." +
             " ?bikeStation <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long ." +
             " ?bikeStation <http://www.example.com/available> ?available ." +
@@ -185,16 +213,16 @@ function getCityInfo() {
             for (var i = 0; i < bindings.length; i++) {
                 var bikeStation = document.createElement('tr');
                 /* RDFa */
-                bikeStation.setAttribute("about", "ex:" + cityName + bindings[i].id.value);
+                // bikeStation.setAttribute("about", "ex:" + cityName + bindings[i].id.value);
 
-                /* Bike station id (hidden td for RDFa) */
-                var id = document.createElement('td');
-                /* RDFa */
-                id.setAttribute("property", "ex:id");
-                id.setAttribute("datatype", "xsd:integer");
-                id.appendChild(document.createTextNode(bindings[i].id.value));
-                id.style.display = "none";
-                bikeStation.appendChild(id);
+                // /* Bike station id (hidden td for RDFa) */
+                // var id = document.createElement('td');
+                // /* RDFa */
+                // id.setAttribute("property", "ex:id");
+                // id.setAttribute("datatype", "xsd:integer");
+                // id.appendChild(document.createTextNode(bindings[i].id.value));
+                // id.style.display = "none";
+                // bikeStation.appendChild(id);
 
                 /* Bike station name */
                 var bikeStationName = document.createElement('td');
@@ -278,6 +306,9 @@ function getCityInfo() {
 
                 table.appendChild(bikeStation);
             }
+
+            pagination(bindings.length);
+
         });
     }
 }
@@ -311,11 +342,7 @@ function initMap(lat, lon, id, mapTitle) {
     marker.setMap(map);
 }
 
-function verifyUrlParams () {
-    var country = getUrlVars()["country"];
-    var city = getUrlVars()["city"];
-
-    if (country == null && city == null) {
-        window.location.href = "index.html";
-    }
+function cityAlreadyExists() {
+    alert('This city already exists in the triplestore with real time data, please choose another one');
+    window.location.href = "index.php";
 }

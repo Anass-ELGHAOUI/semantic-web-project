@@ -21,9 +21,14 @@
 	<script src="https://maps.google.com/maps/api/js?key=AIzaSyDMy2HfZYaVHg2uuz9rVG1uYOyy-7wilNs" type="text/javascript"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/rdf.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <body onload="getCityInfo()" id="body">
+    <?php echo '<input type="hidden" id="cityName" value="'.$_GET['city'].'">'; ?>
+
 	<div class="container-flex">
 		<div id="rooms">
 			<table id="table">

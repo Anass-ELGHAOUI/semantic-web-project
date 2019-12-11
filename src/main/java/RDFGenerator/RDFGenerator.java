@@ -36,7 +36,7 @@ public class RDFGenerator {
         }
 
         Property bicycleSharingProp = m.createProperty(dbr + "Bicycle-sharing_system");
-        Property idProp = m.createProperty(ex + "id");
+//        Property idProp = m.createProperty(ex + "id");
         Property availableProp = m.createProperty(ex + "available");
         Property freeProp = m.createProperty(ex + "free");
         Property totalProp = m.createProperty(ex + "total");
@@ -82,9 +82,9 @@ public class RDFGenerator {
             if (city.getBikeStations().get(i).getName() != null) {
                 bikeStationRsrc.addProperty(labelProp, city.getBikeStations().get(i).getName());
             }
-            if (city.getBikeStations().get(i).getId() != null) {
-                bikeStationRsrc.addProperty(idProp, city.getBikeStations().get(i).getId());
-            }
+//            if (city.getBikeStations().get(i).getId() != null) {
+//                bikeStationRsrc.addProperty(idProp, city.getBikeStations().get(i).getId());
+//            }
             if (city.getBikeStations().get(i).getLattitude() != null) {
                 bikeStationRsrc.addProperty(latProp, m.createTypedLiteral(new BigDecimal(city.getBikeStations().get(i).getLattitude())));
             }

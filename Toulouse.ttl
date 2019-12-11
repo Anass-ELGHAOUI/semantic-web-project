@@ -1,0 +1,111 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Toulouse4  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACE DUPUY" ;
+        dbo:city         "Toulouse" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "22" ;
+        geo:lat          43.6001760983 ;
+        geo:long         1.45479064279 .
+
+ex:Toulouse9  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "MERLY -  ARCOLE" ;
+        dbo:city         "Toulouse" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.6103968154 ;
+        geo:long         1.44308450889 .
+
+ex:Toulouse2  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACE ROUAIX" ;
+        dbo:city         "Toulouse" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "17" ;
+        geo:lat          43.5995226263 ;
+        geo:long         1.44547250574 .
+
+ex:Toulouse7  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "VALADE" ;
+        dbo:city         "Toulouse" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "19" ;
+        geo:lat          43.6050782529 ;
+        geo:long         1.43731413053 .
+
+<http://dbpedia.org/resource/Toulouse>
+        a                dbo:city ;
+        rdfs:label       "Toulouse" ;
+        dbo:country      "France" ;
+        ex:bikeStations  ex:Toulouse6 , ex:Toulouse7 , ex:Toulouse8 , ex:Toulouse1 , ex:Toulouse9 , ex:Toulouse2 , ex:Toulouse4 , ex:Toulouse3 , ex:Toulouse5 , ex:Toulouse10 .
+
+ex:Toulouse5  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "DAURIAC - ESCANDE" ;
+        dbo:city         "Toulouse" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "23" ;
+        geo:lat          43.6016309305 ;
+        geo:long         1.45608133922 .
+
+ex:Toulouse3  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACE DE LA DAURADE" ;
+        dbo:city         "Toulouse" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "28" ;
+        geo:lat          43.601868123 ;
+        geo:long         1.44032777276 .
+
+ex:Toulouse8  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "DUPORTAL -  LASCROSSES" ;
+        dbo:city         "Toulouse" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "25" ;
+        geo:lat          43.6102092923 ;
+        geo:long         1.43502297348 .
+
+ex:Toulouse1  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "QUAI DE TOUNIS" ;
+        dbo:city         "Toulouse" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "22" ;
+        geo:lat          43.5990450941 ;
+        geo:long         1.44039892006 .
+
+ex:Toulouse6  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "JARDIN RAYMOND VI" ;
+        dbo:city         "Toulouse" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "33" ;
+        geo:lat          43.5998933097 ;
+        geo:long         1.42946749076 .
+
+ex:Toulouse10  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RAYMOND IV" ;
+        dbo:city         "Toulouse" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "20" ;
+        geo:lat          43.612382621 ;
+        geo:long         1.45141348837 .
