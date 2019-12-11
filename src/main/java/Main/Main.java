@@ -1,17 +1,15 @@
 package Main;
 
 import Constants.Constants;
-import Models.BikeStation;
-import Models.City;
+import FileReader.UserFilesParser;
 import XMLParser.XMLParser;
+import JSONCityParser.JSONCityParser;
 import org.apache.jena.rdfconnection.RDFConnection;
 import org.apache.jena.rdfconnection.RDFConnectionFactory;
 
-import java.io.*;
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-
-import FileReader.UserFilesParser;
 
 public class Main {
 
@@ -34,6 +32,10 @@ public class Main {
 
             /* Strasbourg - France */
             xmlParser.XMLFileParser("http://velhop.strasbourg.eu/tvcstations.xml", "Strasbourg", "France");
+
+            /* Lyon - France */
+            JSONCityParser jsonParser = new JSONCityParser();
+            jsonParser.jsonParser("https://download.data.grandlyon.com/wfs/rdata?SERVICE=WFS&VERSION=1.1.0&outputformat=GEOJSON&request=GetFeature&typename=jcd_jcdecaux.jcdvelov&SRSNAME=urn:ogc:def:crs:EPSG::4171", "Lyon", "France");
 
             /* Parse CSV files from users */
             UserFilesParser fr = new UserFilesParser();

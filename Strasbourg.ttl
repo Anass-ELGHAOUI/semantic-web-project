@@ -10,7 +10,6 @@ ex:Strasbourg12  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "14" ;
         ex:cardPaiement  "1" ;
         ex:free          "16" ;
-        ex:id            "113" ;
         ex:total         "30" ;
         geo:lat          48.585415 ;
         geo:long         7.749395 .
@@ -21,7 +20,6 @@ ex:Strasbourg18  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "7" ;
         ex:cardPaiement  "0" ;
         ex:free          "25" ;
-        ex:id            "110" ;
         ex:total         "32" ;
         geo:lat          48.598096 ;
         geo:long         7.777902 .
@@ -38,7 +36,6 @@ ex:Strasbourg21  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "8" ;
         ex:cardPaiement  "1" ;
         ex:free          "24" ;
-        ex:id            "107" ;
         ex:total         "32" ;
         geo:lat          48.582023 ;
         geo:long         7.766771 .
@@ -49,7 +46,6 @@ ex:Strasbourg3  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "22" ;
         ex:cardPaiement  "1" ;
         ex:free          "10" ;
-        ex:id            "101" ;
         ex:total         "32" ;
         geo:lat          48.578462 ;
         geo:long         7.749776 .
@@ -60,7 +56,6 @@ ex:Strasbourg9  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "7" ;
         ex:cardPaiement  "1" ;
         ex:free          "19" ;
-        ex:id            "123" ;
         ex:total         "26" ;
         geo:lat          48.5791 ;
         geo:long         7.713481 .
@@ -71,7 +66,6 @@ ex:Strasbourg11  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "9" ;
         ex:cardPaiement  "0" ;
         ex:free          "21" ;
-        ex:id            "114" ;
         ex:total         "30" ;
         geo:lat          48.578005 ;
         geo:long         7.751863 .
@@ -82,7 +76,6 @@ ex:Strasbourg17  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "13" ;
         ex:cardPaiement  "1" ;
         ex:free          "19" ;
-        ex:id            "125" ;
         ex:total         "32" ;
         geo:lat          48.565864 ;
         geo:long         7.759242 .
@@ -93,7 +86,6 @@ ex:Strasbourg20  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "7" ;
         ex:cardPaiement  "1" ;
         ex:free          "9" ;
-        ex:id            "122" ;
         ex:total         "16" ;
         geo:lat          48.606759 ;
         geo:long         7.749183 .
@@ -104,7 +96,6 @@ ex:Strasbourg2  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "5" ;
         ex:cardPaiement  "0" ;
         ex:free          "25" ;
-        ex:id            "111" ;
         ex:total         "30" ;
         geo:lat          48.529616 ;
         geo:long         7.734226 .
@@ -115,7 +106,6 @@ ex:Strasbourg8  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "7" ;
         ex:cardPaiement  "0" ;
         ex:free          "3" ;
-        ex:id            "112" ;
         ex:total         "10" ;
         geo:lat          48.54919 ;
         geo:long         7.740754 .
@@ -126,7 +116,6 @@ ex:Strasbourg10  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "5" ;
         ex:cardPaiement  "0" ;
         ex:free          "11" ;
-        ex:id            "127" ;
         ex:total         "16" ;
         geo:lat          48.551032 ;
         geo:long         7.7112 .
@@ -137,7 +126,6 @@ ex:Strasbourg16  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "9" ;
         ex:cardPaiement  "0" ;
         ex:free          "7" ;
-        ex:id            "116" ;
         ex:total         "16" ;
         geo:lat          48.580314 ;
         geo:long         7.776203 .
@@ -148,7 +136,6 @@ ex:Strasbourg1  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "6" ;
         ex:cardPaiement  "1" ;
         ex:free          "10" ;
-        ex:id            "124" ;
         ex:total         "16" ;
         geo:lat          48.568644 ;
         geo:long         7.795621 .
@@ -159,7 +146,6 @@ ex:Strasbourg7  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "12" ;
         ex:cardPaiement  "0" ;
         ex:free          "4" ;
-        ex:id            "115" ;
         ex:total         "16" ;
         geo:lat          48.628353 ;
         geo:long         7.760103 .
@@ -170,7 +156,6 @@ ex:Strasbourg15  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "21" ;
         ex:cardPaiement  "1" ;
         ex:free          "11" ;
-        ex:id            "106" ;
         ex:total         "32" ;
         geo:lat          48.584209 ;
         geo:long         7.734519 .
@@ -181,7 +166,6 @@ ex:Strasbourg6  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "10" ;
         ex:cardPaiement  "1" ;
         ex:free          "21" ;
-        ex:id            "103" ;
         ex:total         "31" ;
         geo:lat          48.585082 ;
         geo:long         7.735024 .
@@ -192,7 +176,6 @@ ex:Strasbourg14  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "5" ;
         ex:cardPaiement  "0" ;
         ex:free          "27" ;
-        ex:id            "108" ;
         ex:total         "32" ;
         geo:lat          48.585678 ;
         geo:long         7.733542 .
@@ -203,7 +186,6 @@ ex:Strasbourg5  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "8" ;
         ex:cardPaiement  "1" ;
         ex:free          "8" ;
-        ex:id            "126" ;
         ex:total         "16" ;
         geo:lat          48.612597 ;
         geo:long         7.71163 .
@@ -214,7 +196,6 @@ ex:Strasbourg13  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "10" ;
         ex:cardPaiement  "0" ;
         ex:free          "18" ;
-        ex:id            "109" ;
         ex:total         "28" ;
         geo:lat          48.584504 ;
         geo:long         7.768772 .
@@ -225,7 +206,6 @@ ex:Strasbourg19  a       <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "8" ;
         ex:cardPaiement  "0" ;
         ex:free          "24" ;
-        ex:id            "105" ;
         ex:total         "32" ;
         geo:lat          48.591639 ;
         geo:long         7.725089 .
@@ -236,7 +216,6 @@ ex:Strasbourg4  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:available     "1" ;
         ex:cardPaiement  "0" ;
         ex:free          "19" ;
-        ex:id            "102" ;
         ex:total         "20" ;
         geo:lat          48.578462 ;
         geo:long         7.749776 .
