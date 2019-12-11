@@ -29,11 +29,11 @@
         }
     }
     ?>
-	<div id="getData"></div>
+	<div id="getDataIndex"></div>
 
 	<hr/>
 
-	<div id="setData">
+	<div id="setDataIndex">
 		<h1>Upload new data</h1>
 
 		<form id="userForm" method="GET" action="upload.php">

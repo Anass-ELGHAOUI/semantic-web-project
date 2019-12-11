@@ -57,6 +57,8 @@ function parser() {
             }
             /* Display the form to the user */
             document.getElementById('specifyAttributes').style.visibility = "visible";
+            /* Hide first form */
+            document.getElementById('uploadData').style.visibility = "hidden";
         }
     }
 }

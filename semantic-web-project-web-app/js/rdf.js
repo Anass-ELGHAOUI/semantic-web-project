@@ -43,14 +43,14 @@ function getAllCountries() {
             var message = document.createElement('h1');
             message.setAttribute("id", "title")
             message.appendChild(document.createTextNode("Look at existing data"));
-            document.getElementById("getData").appendChild(message);
+            document.getElementById("getDataIndex").appendChild(message);
 
             /* Create html list */
             var list = document.createElement('select');
             list.setAttribute("id", "countriesList");
             list.setAttribute("onchange", "getSelectedCountry()");
             list.innerHTML += '<option selected> Select a country </option>';
-            document.getElementById("getData").appendChild(list);
+            document.getElementById("getDataIndex").appendChild(list);
 
             for (var i = 0; i < bindings.length; i++) {
                 var countries = document.getElementById('countriesList');
@@ -67,7 +67,7 @@ function getAllCountries() {
             var message = document.createElement('h1');
             message.setAttribute("id", "message")
             message.appendChild(document.createTextNode("There's no data in the triplestore"));
-            document.getElementById("getData").appendChild(message);
+            document.getElementById("getDataIndex").appendChild(message);
         }
     });
 }
@@ -92,7 +92,7 @@ function getAllCities(country) {
         list.setAttribute("id", "citiesList");
         list.setAttribute("onchange", "getSelectedCity()");
         list.innerHTML += '<option selected> Select a city </option>';
-        document.getElementById("getData").appendChild(list);
+        document.getElementById("getDataIndex").appendChild(list);
 
         for (var i = 0; i < bindings.length; i++) {
             var cities = document.getElementById('citiesList');
@@ -340,18 +340,6 @@ function initMap(lat, lon, id, mapTitle) {
         map: map
     });
     marker.setMap(map);
-}
-
-function verifyUrlParams () {
-    var country = getUrlVars()["country"];
-    var city = getUrlVars()["city"];
-
-    if ((country === "France" && city === "Montpellier"))
-
-    if (country == null || city == null || (country === "France" && city === "Montpellier") ||
-        (country === "France" && city === "Strasbourg") || (country === "France" && city === "Lyon")) {
-        window.location.href = "index.php";
-    }
 }
 
 function cityAlreadyExists() {

@@ -32,7 +32,17 @@ body {
     margin-right: 10px;
 }
 
-#getData, #uploadData {
+#div {
+    position: relative;
+    padding: 30px;
+}
+
+#uploadData, #getData {
+    position: absolute;
+    width: 100%;
+}
+
+#getDataIndex, #setDataIndex {
     margin-top: 100px;
 }
 

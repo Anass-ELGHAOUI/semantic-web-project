@@ -39,100 +39,100 @@
             header("Location: index.php");
         }
     ?>
-    <form action="" method="POST">
-        <div id="uploadData">
-            <h1>Upload new data</h1>
+    <form action="index.php" method="POST">
+        <div id="div">
+            <div id="uploadData">
+                <h1>Upload new data</h1>
 
-            <br/><br/>
-            <SELECT id="fileFormat" name="fileFormat" required>
-                <OPTION selected value="">Choose a file format</OPTION>
-                <OPTION value="json">Json</OPTION>
-                <OPTION value="xml">XML</OPTION>
-                <OPTION value="csv">CSV</OPTION>
-            </SELECT>
+                <br/><br/>
+                <SELECT id="fileFormat" name="fileFormat" required>
+                    <OPTION selected value="">Choose a file format</OPTION>
+                    <OPTION value="json">Json</OPTION>
+                    <OPTION value="xml">XML</OPTION>
+                    <OPTION value="csv">CSV</OPTION>
+                </SELECT>
 
-            <br/><br/>
+                <br/><br/>
 
-            <label>Content: </label>
-            <textarea name="content" id="content" rows="10" cols="100" required></textarea>
-            <!--            <input type="file" name="content" id="content">-->
+                <label>Content: </label>
+                <textarea name="content" id="content" rows="10" cols="100" required></textarea>
+                <!--            <input type="file" name="content" id="content">-->
 
-            <br/><br/>
+                <br/><br/>
 
-            <button type="button" onclick="parser()">Submit</button>
-        </div>
+                <button type="button" onclick="parser()">Submit</button>
+            </div>
 
-        <div id="specifyAttributes">
-            <hr>
+            <div id="specifyAttributes">
+                <h1>Define uploaded file's attributes</h1>
 
-            <h1>Define uploaded file's attributes</h1>
+                <br/><br/>
 
-            <br/><br/>
+                <label>Attribute: </label>
+                <SELECT id="attribute1" name="attribute1" required>
+                    <OPTION selected value="">Choose an attribute</OPTION>
+                </SELECT>
+                <label>Meaning: </label>
+                <input id="attributeMeaning1" name="attributeMeaning1" type="text" value="Bike station name" disabled>
 
-            <label>Attribute: </label>
-            <SELECT id="attribute1" name="attribute1" required>
-                <OPTION selected value="">Choose an attribute</OPTION>
-            </SELECT>
-            <label>Meaning: </label>
-            <input id="attributeMeaning1" name="attributeMeaning1" type="text" value="Bike station name" disabled>
+                <br/><br/>
 
-            <br/><br/>
+                <label>Attribute: </label>
+                <SELECT id="attribute2" name="attribute2" required>
+                    <OPTION selected value="">Choose an attribute</OPTION>
+                </SELECT>
+                <label>Meaning: </label>
+                <input id="attributeMeaning2" name="attributeMeaning2" type="text" value="Latitude" disabled>
 
-            <label>Attribute: </label>
-            <SELECT id="attribute2" name="attribute2" required>
-                <OPTION selected value="">Choose an attribute</OPTION>
-            </SELECT>
-            <label>Meaning: </label>
-            <input id="attributeMeaning2" name="attributeMeaning2" type="text" value="Latitude" disabled>
+                <br/><br/>
 
-            <br/><br/>
+                <label>Attribute: </label>
+                <SELECT id="attribute3" name="attribute3" required>
+                    <OPTION selected value="">Choose an attribute</OPTION>
+                </SELECT>
+                <label>Meaning: </label>
+                <input id="attributeMeaning3" name="attributeMeaning3" type="text" value="Longitude" disabled>
 
-            <label>Attribute: </label>
-            <SELECT id="attribute3" name="attribute3" required>
-                <OPTION selected value="">Choose an attribute</OPTION>
-            </SELECT>
-            <label>Meaning: </label>
-            <input id="attributeMeaning3" name="attributeMeaning3" type="text" value="Longitude" disabled>
+                <br/><br/>
 
-            <br/><br/>
+                <label>Attribute: </label>
+                <SELECT id="attribute4" name="attribute4" required>
+                    <OPTION selected value="">Choose an attribute</OPTION>
+                </SELECT>
+                <label>Meaning: </label>
+                <input id="attributeMeaning4" name="attributeMeaning4" type="text" value="Available bikes" disabled>
 
-            <label>Attribute: </label>
-            <SELECT id="attribute4" name="attribute4" required>
-                <OPTION selected value="">Choose an attribute</OPTION>
-            </SELECT>
-            <label>Meaning: </label>
-            <input id="attributeMeaning4" name="attributeMeaning4" type="text" value="Available bikes" disabled>
+                <br/><br/>
 
-            <br/><br/>
+                <label>Attribute: </label>
+                <SELECT id="attribute5" name="attribute5" required>
+                    <OPTION selected value="">Choose an attribute</OPTION>
+                </SELECT>
+                <label>Meaning: </label>
+                <input id="attributeMeaning5" name="attributeMeaning5" type="text" value="Free spots" disabled>
 
-            <label>Attribute: </label>
-            <SELECT id="attribute5" name="attribute5" required>
-                <OPTION selected value="">Choose an attribute</OPTION>
-            </SELECT>
-            <label>Meaning: </label>
-            <input id="attributeMeaning5" name="attributeMeaning5" type="text" value="Free spots" disabled>
+                <br/><br/>
 
-            <br/><br/>
+                <label>Attribute: </label>
+                <SELECT id="attribute6" name="attribute6" required>
+                    <OPTION selected value="">Choose an attribute</OPTION>
+                </SELECT>
+                <label>Meaning: </label>
+                <input id="attributeMeaning6" name="attributeMeaning6" type="text" value="Total spots" disabled>
 
-            <label>Attribute: </label>
-            <SELECT id="attribute6" name="attribute6" required>
-                <OPTION selected value="">Choose an attribute</OPTION>
-            </SELECT>
-            <label>Meaning: </label>
-            <input id="attributeMeaning6" name="attributeMeaning6" type="text" value="Total spots" disabled>
+                <br/><br/>
 
-            <br/><br/>
+                <label>Attribute: </label>
+                <SELECT id="attribute7" name="attribute7" required>
+                    <OPTION selected value="">Choose an attribute</OPTION>
+                </SELECT>
+                <label>Meaning: </label>
+                <input id="attributeMeaning7" name="attributeMeaning7" type="text" value="Payment method" disabled>
 
-            <label>Attribute: </label>
-            <SELECT id="attribute7" name="attribute7" required>
-                <OPTION selected value="">Choose an attribute</OPTION>
-            </SELECT>
-            <label>Meaning: </label>
-            <input id="attributeMeaning7" name="attributeMeaning7" type="text" value="Payment method" disabled>
+                <br/><br/>
 
-            <br/><br/>
-
-            <input name = "submit" type="submit" value="Submit">
+                <input name = "submit" type="submit" value="Submit">
+            </div>
         </div>
     </form>
 

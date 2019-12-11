@@ -40,10 +40,6 @@
 			</table>
 		</div>
 	</div>
-
-    <div class="col-md-12 text-center">
-        <ul class="pagination pagination-lg pager" id="myPager"></ul>
-    </div>
 </body>
 
 </html>
