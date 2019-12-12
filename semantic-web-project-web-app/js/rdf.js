@@ -88,21 +88,42 @@ function getAllCities(country) {
     	var bindings = jsonData.results.bindings;
 
         /* Create html list */
-        var list = document.createElement('select');
-        list.setAttribute("id", "citiesList");
-        list.setAttribute("onchange", "getSelectedCity()");
-        list.innerHTML += '<option selected> Select a city </option>';
-        document.getElementById("getDataIndex").appendChild(list);
+        if (document.getElementById('citiesList') === null) {
+            var list = document.createElement('select');
+            list.setAttribute("id", "citiesList");
+            list.setAttribute("onchange", "getSelectedCity()");
+            list.innerHTML += '<option selected> Select a city </option>';
+            document.getElementById("getDataIndex").appendChild(list);
 
-        for (var i = 0; i < bindings.length; i++) {
-            var cities = document.getElementById('citiesList');
-            var city = document.createElement('option');
-            city.setAttribute("id", bindings[i].label.value);
-            city.setAttribute("name", bindings[i].label.value);
-            var cityName = document.createTextNode(bindings[i].label.value);
+            for (var i = 0; i < bindings.length; i++) {
+                var cities = document.getElementById('citiesList');
+                var city = document.createElement('option');
+                city.setAttribute("id", bindings[i].label.value);
+                city.setAttribute("name", bindings[i].label.value);
+                var cityName = document.createTextNode(bindings[i].label.value);
 
-            city.appendChild(cityName);
-            cities.appendChild(city);
+                city.appendChild(cityName);
+                cities.appendChild(city);
+            }
+        }
+        else {
+            var list = document.getElementById('citiesList').remove();
+            var list = document.createElement('select');
+            list.setAttribute("id", "citiesList");
+            list.setAttribute("onchange", "getSelectedCity()");
+            list.innerHTML += '<option selected> Select a city </option>';
+            document.getElementById("getDataIndex").appendChild(list);
+
+            for (var i = 0; i < bindings.length; i++) {
+                var cities = document.getElementById('citiesList');
+                var city = document.createElement('option');
+                city.setAttribute("id", bindings[i].label.value);
+                city.setAttribute("name", bindings[i].label.value);
+                var cityName = document.createTextNode(bindings[i].label.value);
+
+                city.appendChild(cityName);
+                cities.appendChild(city);
+            }
         }
     });
 }

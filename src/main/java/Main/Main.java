@@ -1,15 +1,10 @@
 package Main;
 
 import Constants.Constants;
-import FileReader.UserFilesParser;
-import XMLParser.XMLParser;
 import JSONCityParser.JSONCityParser;
+import XMLParser.XMLParser;
 import org.apache.jena.rdfconnection.RDFConnection;
 import org.apache.jena.rdfconnection.RDFConnectionFactory;
-
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
 
