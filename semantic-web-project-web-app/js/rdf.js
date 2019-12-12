@@ -235,6 +235,7 @@ function getCityInfo() {
                 var bikeStation = document.createElement('tr');
                 /* RDFa */
                 // bikeStation.setAttribute("about", "ex:" + cityName + bindings[i].id.value);
+                bikeStation.setAttribute("about", "ex:" + cityName + (i+1));
 
                 // /* Bike station id (hidden td for RDFa) */
                 // var id = document.createElement('td');
