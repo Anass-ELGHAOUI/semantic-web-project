@@ -307,12 +307,8 @@ public class JSONCityParser {
                 bikeStation.setTotal(String.valueOf(fields.get("bike_stands")));
                 bikeStation.setAvailable(String.valueOf(fields.get("available_bikes")));
                 bikeStation.setFree(String.valueOf(fields.get("available_bike_stands")));
-                if (((String) fields.get("banking")).equals("false")) {
-                    bikeStation.setCardPaiement("0");
-                }
-                else if (((String)fields.get("banking")).equals("true")) {
-                    bikeStation.setCardPaiement("1");
-                }
+                String cardValue = String.valueOf(fields.get("banking")).equals("false") ? "0" : "1";
+                bikeStation.setCardPaiement(cardValue);
                 ArrayList position = (ArrayList)fields.get("position");
                 bikeStation.setLattitude(String.valueOf(position.get(0)));
                 bikeStation.setLongitude(String.valueOf(position.get(1)));
