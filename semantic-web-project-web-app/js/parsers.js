@@ -78,6 +78,7 @@ function parser() {
     }
 }
 
+var pathToNode = "";
 function parseXML(xmlDoc) {
     if (xmlDoc.hasChildNodes()) {
         var children = [];
@@ -88,7 +89,9 @@ function parseXML(xmlDoc) {
                 children.push(xmlDoc.childNodes[i].nodeName);
             }
         }
+        pathToNode += "::" + parent;
         if (children.length >= 7) {
+            pathToNode += "::" + children[0];
             for (var i = 0; i < children.length; i++) {
                 /* Put the attributes in the form */
                 for (var j = 1; j < 8; j++) {
@@ -101,10 +104,26 @@ function parseXML(xmlDoc) {
             }
             var div = document.getElementById('specifyAttributes');
             var result = document.createElement('input');
-            option.setAttribute('id', 'success');
-            option.setAttribute('type', 'hidden');
-            option.setAttribute('value', 'success');
+            result.setAttribute('id', 'success');
+            result.setAttribute('name', 'success');
+            result.setAttribute('type', 'hidden');
+            result.setAttribute('value', parent);
             div.appendChild(result);
+
+            var node = document.createElement('input');
+            node.setAttribute('id', 'node');
+            node.setAttribute('name', 'node');
+            node.setAttribute('type', 'hidden');
+            node.setAttribute('value', xmlDoc.nodeName);
+            div.appendChild(node);
+
+            var path = document.createElement('input');
+            path.setAttribute('id', 'pathToNode');
+            path.setAttribute('name', 'pathToNode');
+            path.setAttribute('type', 'hidden');
+            path.setAttribute('value', pathToNode);
+            div.appendChild(path);
+
             return;
         }
         else {
@@ -121,7 +140,7 @@ function parseXML(xmlDoc) {
     }
 }
 
-function fileError () {
+function fileError() {
     var countryName = document.getElementById('countryName').value;
     var cityName = document.getElementById('cityName').value;
     alert('The file content you gave doesn\'t contain enough information, please give a valid file');

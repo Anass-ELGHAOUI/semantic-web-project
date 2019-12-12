@@ -39,7 +39,7 @@
             header("Location: index.php");
         }
     ?>
-    <form action="index.php" method="POST">
+    <form action="" method="POST">
         <div id="div">
             <div id="uploadData">
                 <h1>Upload new data</h1>
@@ -131,7 +131,7 @@
 
                 <br/><br/>
 
-                <input name = "submit" type="submit" value="Submit">
+                <input name="submit" type="submit" value="Submit">
             </div>
         </div>
     </form>
@@ -145,7 +145,6 @@
             isset($_POST['attribute5']) &&
             isset($_POST['attribute6']) &&
             isset($_POST['attribute7']) &&
-            isset($_POST['delimiter']) &&
             isset($_POST['content']) &&
             isset($_POST['fileFormat'])) {
             /* CSV file */
@@ -199,9 +198,60 @@
                     $content .= $array[$i][$attribute1].",".$array[$i][$attribute2].",".$array[$i][$attribute3].",".$array[$i][$attribute4].",".$array[$i][$attribute5].",".$array[$i][$attribute6].",".$array[$i][$attribute7]."\n";
                 }
                 $path = $_SERVER['DOCUMENT_ROOT'].'/semantic-web-project/Manually-added-files/'. $_GET['country']."::".$_GET['city'] . '.txt';
+                echo $path;
                 $fp = fopen( $path,"wb");
                 fwrite($fp,$content);
                 fclose($fp);
+            }
+
+            else if ($_POST['fileFormat'] == "xml") {
+                $xmlFile = $_POST['content'];
+                $xmlParser = new SimpleXMLElement($xmlFile);
+
+                $nodes = explode("::", $_POST['pathToNode']);
+
+                $node = 0;
+                for ($i = 3; $i < sizeof($nodes); $i++) {
+                    if ($nodes[$i] != $_POST['node']) {
+                        $node = strval($nodes[$i]);
+                        $xmlParser = $xmlParser->$node;
+                    }
+                    else {
+                        $node = strval($nodes[$i]);
+
+                        $j = 0;
+                        $bikeStationName = strval($_POST['attribute1']);
+                        $latitude = strval($_POST['attribute2']);
+                        $longitude = strval($_POST['attribute3']);
+                        $available = strval($_POST['attribute4']);
+                        $free = strval($_POST['attribute5']);
+                        $total = strval($_POST['attribute6']);
+                        $payment = strval($_POST['attribute7']);
+                        $csvFile = "";
+
+                        $extractNodeContent = $xmlParser->$node[$j];
+                        while ($extractNodeContent->$bikeStationName != "" &&
+                            $extractNodeContent->$latitude != "" &&
+                            $extractNodeContent->$longitude != "" &&
+                            $extractNodeContent->$available != "" &&
+                            $extractNodeContent->$free != "" &&
+                            $extractNodeContent->$total != "" &&
+                            $extractNodeContent->$payment != "") {
+                            $csvFile .= $extractNodeContent->$bikeStationName.",".$extractNodeContent->$latitude.",".$extractNodeContent->$longitude.",".$extractNodeContent->$available.",".$extractNodeContent->$free.",".$extractNodeContent->$total.",".$extractNodeContent->$payment."\n";
+                            $j++;
+                            $extractNodeContent = $xmlParser->$node[$j];
+                        }
+
+                        /* Create the csv file */
+                        $path = $_SERVER['DOCUMENT_ROOT'].'/semantic-web-project/Manually-added-files/'. $_GET['country']."::".$_GET['city'] . '.txt';
+                        $fp = fopen( $path,"wb");
+                        fwrite($fp,$csvFile);
+                        fclose($fp);
+
+                        break;
+                    }
+                }
+
             }
         }
     }
