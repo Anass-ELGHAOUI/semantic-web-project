@@ -1,0 +1,5 @@
+Bellevue, 52.236, 42.656, 3, 6,10, 1
+Anatole France, 52.236, 42.656, 3, 6,10, 1
+Chateacreux, 52.236, 42.656, 3, 6,10, 1
+Centre des congrès, 52.236, 42.656, 3, 6,10, 1
+Hôtel de ville, 52.236, 42.656, 3, 6,10, 1

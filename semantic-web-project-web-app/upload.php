@@ -67,7 +67,7 @@
                 <br/><br/>
                 <SELECT id="fileFormat" name="fileFormat" required>
                     <OPTION selected value="">Choose a file format</OPTION>
-                    <OPTION value="json">Json</OPTION>
+<!--                    <OPTION value="json">Json</OPTION>-->
                     <OPTION value="xml">XML</OPTION>
                     <OPTION value="csv">CSV</OPTION>
                 </SELECT>
