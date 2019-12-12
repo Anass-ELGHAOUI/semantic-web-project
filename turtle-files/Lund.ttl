@@ -1,0 +1,111 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Lund8  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "STADSPARKEN NORR" ;
+        dbo:city         "Lund" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "20" ;
+        geo:lat          55.7013726686 ;
+        geo:long         13.1856563687 .
+
+ex:Lund10  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ALLHELGONAKYRKAN" ;
+        dbo:city         "Lund" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "21" ;
+        ex:total         "21" ;
+        geo:lat          55.710366 ;
+        geo:long         13.192236 .
+
+ex:Lund1  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "UNIVERSITETSBIBLIOTEKET" ;
+        dbo:city         "Lund" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "21" ;
+        geo:lat          55.7080949825 ;
+        geo:long         13.1963047385 .
+
+ex:Lund6  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "IDEON SÖDER" ;
+        dbo:city         "Lund" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "21" ;
+        geo:lat          55.712961 ;
+        geo:long         13.213704 .
+
+ex:Lund4  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BANTORGET" ;
+        dbo:city         "Lund" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "25" ;
+        geo:lat          55.7042412794 ;
+        geo:long         13.1876116991 .
+
+ex:Lund9  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOTANISKA TRÄDGÅRDEN" ;
+        dbo:city         "Lund" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "5" ;
+        ex:total         "20" ;
+        geo:lat          55.7059732259 ;
+        geo:long         13.2012400031 .
+
+ex:Lund2  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "GALTEN" ;
+        dbo:city         "Lund" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "20" ;
+        geo:lat          55.7008134312 ;
+        geo:long         13.1956234574 .
+
+ex:Lund7  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "UNIVERSITETSSJUKHUSET" ;
+        dbo:city         "Lund" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "22" ;
+        ex:total         "30" ;
+        geo:lat          55.7128579365 ;
+        geo:long         13.1967929006 .
+
+<http://dbpedia.org/resource/Lund>
+        a                dbo:city ;
+        rdfs:label       "Lund" ;
+        dbo:country      "Sweden" ;
+        ex:bikeStations  ex:Lund10 , ex:Lund1 , ex:Lund9 , ex:Lund8 , ex:Lund6 , ex:Lund7 , ex:Lund5 , ex:Lund4 , ex:Lund2 , ex:Lund3 .
+
+ex:Lund5  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "STORTORGET" ;
+        dbo:city         "Lund" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "21" ;
+        geo:lat          55.7029777866 ;
+        geo:long         13.1933650374 .
+
+ex:Lund3  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PROFESSORSGATAN" ;
+        dbo:city         "Lund" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "21" ;
+        ex:total         "23" ;
+        geo:lat          55.709632 ;
+        geo:long         13.20595 .

@@ -1,0 +1,51 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Kazan3  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "04 KFU - КФУ" ;
+        dbo:city         "Kazan" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "30" ;
+        ex:total         "30" ;
+        geo:lat          55.790813 ;
+        geo:long         49.123093 .
+
+ex:Kazan1  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "03 KREMLIN - КРЕМЛЬ" ;
+        dbo:city         "Kazan" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "20" ;
+        geo:lat          55.79583 ;
+        geo:long         49.1091 .
+
+ex:Kazan4  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "01 KSTU - КГТУ /МГАХИ ИМ. СУРИКОВА" ;
+        dbo:city         "Kazan" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "20" ;
+        geo:lat          55.794903 ;
+        geo:long         49.138706 .
+
+ex:Kazan2  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "06 KAMAL THEATER - ТЕАТР ИМ. Г. КАМАЛА" ;
+        dbo:city         "Kazan" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "25" ;
+        ex:total         "25" ;
+        geo:lat          55.784126 ;
+        geo:long         49.118286 .
+
+<http://dbpedia.org/resource/Kazan>
+        a                dbo:city ;
+        rdfs:label       "Kazan" ;
+        dbo:country      "Russia" ;
+        ex:bikeStations  ex:Kazan4 , ex:Kazan3 , ex:Kazan2 , ex:Kazan1 .

@@ -1,0 +1,111 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dbpedia.org/resource/Seville>
+        a                dbo:city ;
+        rdfs:label       "Seville" ;
+        dbo:country      "Spain" ;
+        ex:bikeStations  ex:Seville9 , ex:Seville4 , ex:Seville7 , ex:Seville2 , ex:Seville1 , ex:Seville8 , ex:Seville10 , ex:Seville6 , ex:Seville5 , ex:Seville3 .
+
+ex:Seville5  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "257_TORRES ALBARRACIN" ;
+        dbo:city         "Seville" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "18" ;
+        ex:total         "20" ;
+        geo:lat          37.3837694879 ;
+        geo:long         -5.90892191424 .
+
+ex:Seville10  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "202_AVENIDA MUJER TRABAJADORA" ;
+        dbo:city         "Seville" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "20" ;
+        geo:lat          37.4114665772 ;
+        geo:long         -5.96676313291 .
+
+ex:Seville3  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "251_AVDA. CRUZ CAMPO" ;
+        dbo:city         "Seville" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "15" ;
+        ex:total         "15" ;
+        geo:lat          37.3843494246 ;
+        geo:long         -5.96537836525 .
+
+ex:Seville8  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "230_AVENIDA DE LAS CIENCIAS" ;
+        dbo:city         "Seville" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "14" ;
+        geo:lat          37.4039275594 ;
+        geo:long         -5.9281399932 .
+
+ex:Seville1  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "186_CALLE ORFEBRE DOMINGUEZ VÁZQUEZ" ;
+        dbo:city         "Seville" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "20" ;
+        geo:lat          37.4086045634 ;
+        geo:long         -5.9731611537 .
+
+ex:Seville6  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "086_CAMINO DE LOS DESCUBRIMIENTOS" ;
+        dbo:city         "Seville" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "28" ;
+        ex:total         "40" ;
+        geo:lat          37.3970725053 ;
+        geo:long         -6.00630426334 .
+
+ex:Seville4  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "048_CALLE CHURRUCA" ;
+        dbo:city         "Seville" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "15" ;
+        geo:lat          37.3971565112 ;
+        geo:long         -5.99106620992 .
+
+ex:Seville9  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "215_CALLE ZORZAL" ;
+        dbo:city         "Seville" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "2" ;
+        ex:total         "15" ;
+        geo:lat          37.3866414803 ;
+        geo:long         -5.95398107415 .
+
+ex:Seville2  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "203_CALLE TESALÓNICA" ;
+        dbo:city         "Seville" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "17" ;
+        ex:total         "20" ;
+        geo:lat          37.3960935188 ;
+        geo:long         -5.95876409602 .
+
+ex:Seville7  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "193_AVENIDA DE CORIA" ;
+        dbo:city         "Seville" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "20" ;
+        geo:lat          37.3811114395 ;
+        geo:long         -6.01200527417 .

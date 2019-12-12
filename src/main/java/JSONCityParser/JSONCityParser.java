@@ -199,7 +199,7 @@ public class JSONCityParser {
 //            System.out.println("Toal : "+bikeStation.getTotal());
 //            System.out.println("Available : "+bikeStation.getAvailable());
 //            System.out.println("Free : "+bikeStation.getFree());
-//            System.out.println("Card Paiement : "+bikeStation.getCardPaiement()+"\n\n");
+//            System.out.print  ln("Card Paiement : "+bikeStation.getCardPaiement()+"\n\n");
 //        }
 
             rdfGenerator.generateRDF(city);

@@ -1,0 +1,111 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Dublin1  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BARROW STREET" ;
+        dbo:city         "Dublin" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "28" ;
+        geo:lat          53.341655 ;
+        geo:long         -6.236198 .
+
+ex:Dublin6  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ROYAL HOSPITAL" ;
+        dbo:city         "Dublin" ;
+        ex:available     "21" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "19" ;
+        ex:total         "40" ;
+        geo:lat          53.343897 ;
+        geo:long         -6.29706 .
+
+ex:Dublin4  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "MERRION SQUARE EAST" ;
+        dbo:city         "Dublin" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "28" ;
+        ex:total         "30" ;
+        geo:lat          53.339434 ;
+        geo:long         -6.246548 .
+
+ex:Dublin9  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "WILTON TERRACE (PARK)" ;
+        dbo:city         "Dublin" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "40" ;
+        ex:total         "40" ;
+        geo:lat          53.333653 ;
+        geo:long         -6.248345 .
+
+ex:Dublin2  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "NORTH CIRCULAR ROAD" ;
+        dbo:city         "Dublin" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "30" ;
+        geo:lat          53.359624 ;
+        geo:long         -6.260348 .
+
+ex:Dublin7  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "HEUSTON STATION (CAR PARK)" ;
+        dbo:city         "Dublin" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "25" ;
+        ex:total         "40" ;
+        geo:lat          53.346985 ;
+        geo:long         -6.297804 .
+
+ex:Dublin10  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "MERRION SQUARE SOUTH" ;
+        dbo:city         "Dublin" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "34" ;
+        ex:total         "40" ;
+        geo:lat          53.338614 ;
+        geo:long         -6.248606 .
+
+<http://dbpedia.org/resource/Dublin>
+        a                dbo:city ;
+        rdfs:label       "Dublin" ;
+        dbo:country      "Irland" ;
+        ex:bikeStations  ex:Dublin7 , ex:Dublin4 , ex:Dublin2 , ex:Dublin6 , ex:Dublin10 , ex:Dublin9 , ex:Dublin1 , ex:Dublin5 , ex:Dublin8 , ex:Dublin3 .
+
+ex:Dublin5  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ST. STEPHEN'S GREEN SOUTH" ;
+        dbo:city         "Dublin" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "30" ;
+        ex:total         "30" ;
+        geo:lat          53.337494 ;
+        geo:long         -6.26199 .
+
+ex:Dublin3  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "GOLDEN LANE" ;
+        dbo:city         "Dublin" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "20" ;
+        geo:lat          53.340803 ;
+        geo:long         -6.267732 .
+
+ex:Dublin8  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "COLLINS BARRACKS MUSEUM" ;
+        dbo:city         "Dublin" ;
+        ex:available     "20" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "18" ;
+        ex:total         "38" ;
+        geo:lat          53.347477 ;
+        geo:long         -6.28525 .

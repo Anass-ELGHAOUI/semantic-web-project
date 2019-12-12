@@ -1,0 +1,111 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dbpedia.org/resource/Bruxelles>
+        a                dbo:city ;
+        rdfs:label       "Bruxelles" ;
+        dbo:country      "Belgium" ;
+        ex:bikeStations  ex:Bruxelles2 , ex:Bruxelles8 , ex:Bruxelles5 , ex:Bruxelles6 , ex:Bruxelles3 , ex:Bruxelles9 , ex:Bruxelles7 , ex:Bruxelles4 , ex:Bruxelles1 , ex:Bruxelles10 .
+
+ex:Bruxelles1  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BORNE ATELIER MECANOS SPL" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "1" ;
+        ex:total         "1" ;
+        geo:lat          50.7978663478 ;
+        geo:long         4.29006826753 .
+
+ex:Bruxelles6  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "275 - VERSAILLES" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "20" ;
+        geo:lat          50.896278 ;
+        geo:long         4.372427 .
+
+ex:Bruxelles4  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "111 - ETANGS MELLAERTS VIJVERS" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:total         "25" ;
+        geo:lat          50.827831 ;
+        geo:long         4.431822 .
+
+ex:Bruxelles9  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "290 - GARE DE CALEVOET / KALEVOET STATION" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "18" ;
+        ex:total         "24" ;
+        geo:lat          50.79158 ;
+        geo:long         4.332669 .
+
+ex:Bruxelles2  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "283 - PISCINE / ZWEMBAD" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "5" ;
+        ex:total         "14" ;
+        geo:lat          50.893158 ;
+        geo:long         4.376931 .
+
+ex:Bruxelles7  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "220 - LUTHER KING" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "25" ;
+        geo:lat          50.825706 ;
+        geo:long         4.288377 .
+
+ex:Bruxelles5  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "217 - BIZET" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "16" ;
+        ex:total         "23" ;
+        geo:lat          50.824913 ;
+        geo:long         4.297248 .
+
+ex:Bruxelles10  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "005 - BOURSE / BEURS" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "24" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "19" ;
+        ex:total         "44" ;
+        geo:lat          50.848893 ;
+        geo:long         4.349396 .
+
+ex:Bruxelles3  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "130 - ROND POINT DU SOUVERAIN" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:total         "23" ;
+        geo:lat          50.819448 ;
+        geo:long         4.429082 .
+
+ex:Bruxelles8  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "338 - UCL" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "26" ;
+        geo:lat          50.851073 ;
+        geo:long         4.452706 .

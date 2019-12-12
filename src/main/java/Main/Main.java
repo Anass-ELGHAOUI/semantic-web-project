@@ -1,10 +1,15 @@
 package Main;
 
 import Constants.Constants;
+import FileReader.UserFilesParser;
 import JSONCityParser.JSONCityParser;
 import XMLParser.XMLParser;
 import org.apache.jena.rdfconnection.RDFConnection;
 import org.apache.jena.rdfconnection.RDFConnectionFactory;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -81,7 +86,7 @@ public class Main {
             jsonParser.jcdecauxParser("https://public.opendatasoft.com/api/records/1.0/search/?dataset=jcdecaux_bike_data&facet=banking&facet=bonus&facet=status&facet=contract_name&refine.contract_name=kazan", "Kazan", "Russia");
 
             /* Stockholm - Sweden */
-            jsonParser.jcdecauxParser("https://public.opendatasoft.com/api/records/1.0/search/?dataset=jcdecaux_bike_data&facet=banking&facet=bonus&facet=status&facet=contract_name&refine.contract_name=stockholm", "Stockholm", "Sweden");
+            jsonParser.jcdecauxParser("https://public.opendatasoft.com/api/records/1.0/search/?dataset=jcdecaux_bike_data&facet=banking&facet=bonus&facet=status&facet=contract_name&refine.contract_name=Stockholm", "Stockholm", "Sweden");
 
             /* Creteil - France */
             jsonParser.jcdecauxParser("https://public.opendatasoft.com/api/records/1.0/search/?dataset=jcdecaux_bike_data&facet=banking&facet=bonus&facet=status&facet=contract_name&refine.contract_name=creteil", "Creteil", "France");
@@ -114,14 +119,13 @@ public class Main {
             jsonParser.jcdecauxParser("https://public.opendatasoft.com/api/records/1.0/search/?dataset=jcdecaux_bike_data&facet=banking&facet=bonus&facet=status&facet=contract_name&refine.contract_name=lillestorm", "Lillestorm", "Norway");
 
             /* Parse CSV files from users */
-            /*
             UserFilesParser fr = new UserFilesParser();
             String directory = System.getProperty("user.dir") + "/Manually-added-files";
             final File folder = new File(directory);
             List<String> files = new ArrayList();
             files = fr.listFilesForFolder(folder);
 
-            fr.csvParser(files); */
+            fr.csvParser(files);
 
         }
     }

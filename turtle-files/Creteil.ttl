@@ -1,0 +1,111 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Creteil3  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "04 - UNIVERSITE - MAIL DES MECHES" ;
+        dbo:city         "Creteil" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "31" ;
+        ex:total         "40" ;
+        geo:lat          48.7881107808 ;
+        geo:long         2.44624865216 .
+
+ex:Creteil8  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "08 - ROND POINT HOTEL DE VILLE" ;
+        dbo:city         "Creteil" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "21" ;
+        ex:total         "34" ;
+        geo:lat          48.7773524472 ;
+        geo:long         2.45537843176 .
+
+ex:Creteil1  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "03 - RUE DU GENERAL LECLERC - CENTRE ANCIEN" ;
+        dbo:city         "Creteil" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "18" ;
+        ex:total         "24" ;
+        geo:lat          48.7907886168 ;
+        geo:long         2.46489018474 .
+
+ex:Creteil6  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "10 - MAGELLAN" ;
+        dbo:city         "Creteil" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "20" ;
+        geo:lat          48.7689563311 ;
+        geo:long         2.45666466766 .
+
+ex:Creteil10  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "06 - AVENUE DE LA BRECHE" ;
+        dbo:city         "Creteil" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "17" ;
+        ex:total         "24" ;
+        geo:lat          48.7835010267 ;
+        geo:long         2.4545763584 .
+
+ex:Creteil4  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "02 - HOPITAL INTERCOMMUNAL (CHIC)" ;
+        dbo:city         "Creteil" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "16" ;
+        ex:total         "22" ;
+        geo:lat          48.7961736331 ;
+        geo:long         2.46370624552 .
+
+ex:Creteil9  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "01 - LATTRE DE TASSIGNY" ;
+        dbo:city         "Creteil" ;
+        ex:available     "15" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "26" ;
+        geo:lat          48.7988350968 ;
+        geo:long         2.45387633773 .
+
+ex:Creteil2  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "05 - GENERAL LECLERC / BARRAGE" ;
+        dbo:city         "Creteil" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "18" ;
+        geo:lat          48.7868389124 ;
+        geo:long         2.46856657249 .
+
+ex:Creteil7  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "09 - EUROPARC" ;
+        dbo:city         "Creteil" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "22" ;
+        geo:lat          48.7660375642 ;
+        geo:long         2.47131485523 .
+
+<http://dbpedia.org/resource/Creteil>
+        a                dbo:city ;
+        rdfs:label       "Creteil" ;
+        dbo:country      "France" ;
+        ex:bikeStations  ex:Creteil10 , ex:Creteil6 , ex:Creteil3 , ex:Creteil8 , ex:Creteil7 , ex:Creteil4 , ex:Creteil1 , ex:Creteil9 , ex:Creteil5 , ex:Creteil2 .
+
+ex:Creteil5  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "07- AVENUE DU DOCTEUR PAUL CASALIS" ;
+        dbo:city         "Creteil" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "20" ;
+        geo:lat          48.7802135295 ;
+        geo:long         2.46969223099 .

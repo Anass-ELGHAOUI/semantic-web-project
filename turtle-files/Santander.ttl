@@ -1,0 +1,111 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Santander3  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "009_AVENIDA DE LA MAGDALENA" ;
+        dbo:city         "Santander" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "15" ;
+        geo:lat          43.469149414 ;
+        geo:long         -3.77327597558 .
+
+ex:Santander8  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "007_FACULTAD DE DERECHO" ;
+        dbo:city         "Santander" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "30" ;
+        ex:total         "30" ;
+        geo:lat          43.4701661089 ;
+        geo:long         -3.80649947753 .
+
+ex:Santander1  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "016_SEVERO OCHOA" ;
+        dbo:city         "Santander" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "20" ;
+        geo:lat          43.452813055 ;
+        geo:long         -3.87139068298 .
+
+ex:Santander6  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "010_PLAZA DE SAN MARTIN" ;
+        dbo:city         "Santander" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "15" ;
+        geo:lat          43.4635521249 ;
+        geo:long         -3.78800547923 .
+
+<http://dbpedia.org/resource/Santander>
+        a                dbo:city ;
+        rdfs:label       "Santander" ;
+        dbo:country      "Spain" ;
+        ex:bikeStations  ex:Santander10 , ex:Santander4 , ex:Santander7 , ex:Santander5 , ex:Santander1 , ex:Santander3 , ex:Santander8 , ex:Santander9 , ex:Santander6 , ex:Santander2 .
+
+ex:Santander10  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "014_ATILANO RODRIGUEZ" ;
+        dbo:city         "Santander" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "30" ;
+        geo:lat          43.4583838909 ;
+        geo:long         -3.81046839133 .
+
+ex:Santander4  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "012_CALLE ALTA" ;
+        dbo:city         "Santander" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "15" ;
+        geo:lat          43.4579662522 ;
+        geo:long         -3.82480124235 .
+
+ex:Santander9  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "004_CORMORÁN" ;
+        dbo:city         "Santander" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "20" ;
+        geo:lat          43.478471811 ;
+        geo:long         -3.78865314567 .
+
+ex:Santander2  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "011_PUERTO CHICO" ;
+        dbo:city         "Santander" ;
+        ex:available     "24" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "1" ;
+        ex:total         "25" ;
+        geo:lat          43.4621430816 ;
+        geo:long         -3.79724144947 .
+
+ex:Santander7  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "006_FACULDAD DE CIENCIAS" ;
+        dbo:city         "Santander" ;
+        ex:available     "23" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "2" ;
+        ex:total         "25" ;
+        geo:lat          43.4711061117 ;
+        geo:long         -3.8005864589 .
+
+ex:Santander5  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "013_CALLE DE SAN FERNANDO" ;
+        dbo:city         "Santander" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "25" ;
+        geo:lat          43.4607255432 ;
+        geo:long         -3.81797824492 .

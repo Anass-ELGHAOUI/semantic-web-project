@@ -1,0 +1,1761 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Nice174  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE SAUVAIGO" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.66378948 ;
+        geo:long         7.18531524 .
+
+ex:Nice89  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE FREDERIC PASSY" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69952187 ;
+        geo:long         7.25222303 .
+
+ex:Nice153  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE REINE JEANNE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70572523 ;
+        geo:long         7.25960167 .
+
+ex:Nice68  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACE SASSERNO" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70266672 ;
+        geo:long         7.2712116 .
+
+ex:Nice132  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE LOUIS DE COPPET" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "33" ;
+        geo:lat          43.69357858 ;
+        geo:long         7.24406537 .
+
+ex:Nice47  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PROMENADE DES ANGLAIS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.67732678 ;
+        geo:long         7.22918451 .
+
+ex:Nice111  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE BONAPARTE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "21" ;
+        geo:lat          43.70053619 ;
+        geo:long         7.28577493 .
+
+ex:Nice26  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE BIRHAKEIM" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.65740343 ;
+        geo:long         7.15173224 .
+
+ex:Nice97  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE EMMA ET PHILIPPE TIRANTY" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.70291949 ;
+        geo:long         7.26687018 .
+
+ex:Nice161  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE MARECHAL VAUBAN" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71195794 ;
+        geo:long         7.28555504 .
+
+ex:Nice76  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE SAINTE MARGUERITE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.67721975 ;
+        geo:long         7.22552722 .
+
+ex:Nice140  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DE DIJON" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.70712227 ;
+        geo:long         7.26269918 .
+
+ex:Nice55  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DE LA PREFECTURE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.69664467 ;
+        geo:long         7.27456173 .
+
+ex:Nice34  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE MOSCHETTI" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "12" ;
+        geo:lat          43.66636518 ;
+        geo:long         7.18724423 .
+
+ex:Nice119  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DES PONCHETTES" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.69506783 ;
+        geo:long         7.27756289 .
+
+ex:Nice13  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD JEAN BAPTISTE VERANY" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71534061 ;
+        geo:long         7.28262388 .
+
+ex:Nice169  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DU MARECHAL JUIN" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "12" ;
+        geo:lat          43.66067231 ;
+        geo:long         7.15066405 .
+
+ex:Nice84  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE ALEXIS MOSSA" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69604344 ;
+        geo:long         7.25192337 .
+
+ex:Nice148  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE RAIBERTI" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71043071 ;
+        geo:long         7.26286952 .
+
+ex:Nice63  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD FRANCK PILATTE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69362921 ;
+        geo:long         7.28998846 .
+
+ex:Nice127  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD PAUL MONTEL" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.67330183 ;
+        geo:long         7.20883028 .
+
+ex:Nice42  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD RENE CASSIN" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.66846981 ;
+        geo:long         7.21159093 .
+
+ex:Nice21  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DE LA PLAGE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "21" ;
+        geo:lat          43.65644778 ;
+        geo:long         7.17805319 .
+
+ex:Nice106  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DE LEPANTE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.70420212 ;
+        geo:long         7.27000735 .
+
+ex:Nice6  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE MARECHAL LYAUTEY" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71951949 ;
+        geo:long         7.28348669 .
+
+ex:Nice92  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DE FRANCE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69561318 ;
+        geo:long         7.25871022 .
+
+ex:Nice156  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DE LA MADELEINE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70787951 ;
+        geo:long         7.23089041 .
+
+ex:Nice71  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACE AUGUSTE BLANQUI (RIQUIER)" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "36" ;
+        geo:lat          43.70556713 ;
+        geo:long         7.28975651 .
+
+ex:Nice135  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE CLEMENT ROASSAL" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70807643 ;
+        geo:long         7.25679961 .
+
+ex:Nice50  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DE FRANCE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.69388933 ;
+        geo:long         7.25209362 .
+
+ex:Nice114  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD RISSO" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70487954 ;
+        geo:long         7.28166934 .
+
+ex:Nice29  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Espace Fernand Sastre" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.66488647 ;
+        geo:long         7.15122359 .
+
+ex:Nice164  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DENIS SEMERIA" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71552786 ;
+        geo:long         7.28973601 .
+
+ex:Nice79  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DE LA CALIFORNIE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "12" ;
+        geo:lat          43.67877651 ;
+        geo:long         7.22917642 .
+
+ex:Nice143  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DES REGIMENTS NICOIS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70768483 ;
+        geo:long         7.29299767 .
+
+ex:Nice58  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "QUAI DES ETATS-UNIS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.69508183 ;
+        geo:long         7.27438163 .
+
+ex:Nice122  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE BERLIOZ" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70248974 ;
+        geo:long         7.25964645 .
+
+ex:Nice37  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE SIMONE VEIL" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.67798086 ;
+        geo:long         7.20510724 .
+
+ex:Nice101  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD JEAN JAURES" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69733887 ;
+        geo:long         7.27353486 .
+
+ex:Nice16  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DU GENERAL DE GAULLE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.66254405 ;
+        geo:long         7.19423445 .
+
+ex:Nice1  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ROUTE DE TURIN" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.7227177 ;
+        geo:long         7.29039162 .
+
+ex:Nice172  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE LOUIS NEGRO" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.66348248 ;
+        geo:long         7.15250952 .
+
+ex:Nice87  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DES FLEURS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.6979853 ;
+        geo:long         7.2515248 .
+
+ex:Nice151  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DE CESSOLE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71470578 ;
+        geo:long         7.25404058 .
+
+ex:Nice66  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE AUGUSTE GAL" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.70508983 ;
+        geo:long         7.28644126 .
+
+ex:Nice130  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DE LA CALIFORNIE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.68158842 ;
+        geo:long         7.23154259 .
+
+ex:Nice45  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD RENE CASSIN" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.66965123 ;
+        geo:long         7.21682915 .
+
+ex:Nice24  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DE LA PLAGE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.65069424 ;
+        geo:long         7.15155042 .
+
+ex:Nice109  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD STALINGRAD" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69718585 ;
+        geo:long         7.2869189 .
+
+ex:Nice9  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE MARECHAL LYAUTEY" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71224649 ;
+        geo:long         7.28281898 .
+
+ex:Nice95  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE D'ITALIE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70257514 ;
+        geo:long         7.26268519 .
+
+ex:Nice159  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DE LA MADELEINE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70052016 ;
+        geo:long         7.23745924 .
+
+ex:Nice74  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DE LA CALIFORNIE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.67552746 ;
+        geo:long         7.22725846 .
+
+ex:Nice53  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACE MASSENA" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.69740734 ;
+        geo:long         7.27050391 .
+
+ex:Nice138  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE MICHEL ANGE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71233505 ;
+        geo:long         7.26199652 .
+
+ex:Nice32  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "CHEMIN DU VAL FLEURI" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.66471243 ;
+        geo:long         7.17156522 .
+
+ex:Nice117  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE GEORGES VILLE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.70385948 ;
+        geo:long         7.28393569 .
+
+ex:Nice11  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD JEAN BAPTISTE VERANY" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71866617 ;
+        geo:long         7.28457419 .
+
+ex:Nice167  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ESPLANADE JOUHAUD" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "12" ;
+        geo:lat          43.67849467 ;
+        geo:long         7.19055404 .
+
+ex:Nice82  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PROMENADE DES ANGLAIS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.68699328 ;
+        geo:long         7.23880426 .
+
+ex:Nice61  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE EMMANUEL-PHILIBERT" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70015102 ;
+        geo:long         7.28328914 .
+
+ex:Nice146  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE MARECHAL LYAUTEY" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71080987 ;
+        geo:long         7.28284533 .
+
+ex:Nice40  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BRETELLE SORTIE AEROPORT-CORNIGLION-MOLINIER" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.66523201 ;
+        geo:long         7.20342966 .
+
+ex:Nice125  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DES GRENOUILLERES" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.66902515 ;
+        geo:long         7.22068471 .
+
+ex:Nice104  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACE GENERAL MARSHALL" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70256525 ;
+        geo:long         7.2756661 .
+
+ex:Nice19  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DU GENERAL DE GAULLE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.66843771 ;
+        geo:long         7.19203805 .
+
+ex:Nice4  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DOCTEUR FIGHIERA" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.7102717 ;
+        geo:long         7.29311454 .
+
+ex:Nice175  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD AUGUSTE RAYNAUD" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71411092 ;
+        geo:long         7.25885877 .
+
+ex:Nice90  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE THIERS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.70219448 ;
+        geo:long         7.25778082 .
+
+ex:Nice154  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PROMENADE DES ANGLAIS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.69437819 ;
+        geo:long         7.26072879 .
+
+ex:Nice69  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DUBOUCHAGE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "30" ;
+        geo:lat          43.70082836 ;
+        geo:long         7.26836798 .
+
+ex:Nice133  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE TRACHEL" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.70587481 ;
+        geo:long         7.25636567 .
+
+ex:Nice48  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DE LA CALIFORNIE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.68874166 ;
+        geo:long         7.2402127 .
+
+ex:Nice112  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE BOYER" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70194027 ;
+        geo:long         7.28204379 .
+
+ex:Nice27  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DE LA GARE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "21" ;
+        geo:lat          43.65807011 ;
+        geo:long         7.14835514 .
+
+ex:Nice98  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DU CONGRES" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69599045 ;
+        geo:long         7.26329182 .
+
+ex:Nice162  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DE ROQUEBILLIERE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "27" ;
+        geo:lat          43.71045361 ;
+        geo:long         7.28811121 .
+
+ex:Nice77  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DE LA CALIFORNIE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.69030882 ;
+        geo:long         7.24260637 .
+
+ex:Nice141  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD RAIMBALDI" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.7059898 ;
+        geo:long         7.26510205 .
+
+ex:Nice56  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "QUAI DES ETATS-UNIS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.69459645 ;
+        geo:long         7.27830642 .
+
+ex:Nice120  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACETTE JACQUES TOJA" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70036137 ;
+        geo:long         7.27842594 .
+
+ex:Nice35  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE EUGENE DONADEI" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.65846497 ;
+        geo:long         7.1954421 .
+
+ex:Nice14  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE PROFESSEUR DELVALLE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.72320273 ;
+        geo:long         7.28443485 .
+
+ex:Nice170  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DE LA PLAGE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.64373378 ;
+        geo:long         7.14438328 .
+
+ex:Nice85  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD GAMBETTA" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.69583963 ;
+        geo:long         7.25627091 .
+
+ex:Nice149  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE 22EME BATAILLON DE CHASSEURS ALPINS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.70901462 ;
+        geo:long         7.28897653 .
+
+ex:Nice64  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE JEAN ALLEGRE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.70807969 ;
+        geo:long         7.28170182 .
+
+ex:Nice128  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD MAITRE MAURICE SLAMA" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.6832646 ;
+        geo:long         7.20297059 .
+
+ex:Nice43  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ROUTE DE GRENOBLE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.67009567 ;
+        geo:long         7.21373753 .
+
+ex:Nice107  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "JARDIN AU 52 BD STALINGRAD" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.6948625 ;
+        geo:long         7.28639108 .
+
+ex:Nice22  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DE LA PLAGE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.65762082 ;
+        geo:long         7.16856461 .
+
+ex:Nice7  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE MARECHAL LYAUTEY" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.7170269 ;
+        geo:long         7.28149203 .
+
+ex:Nice93  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE MEYERBEER" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.69826303 ;
+        geo:long         7.26014338 .
+
+ex:Nice157  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DE LA MADELEINE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70469779 ;
+        geo:long         7.23327966 .
+
+ex:Nice72  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD RENE CASSIN" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.67097376 ;
+        geo:long         7.2224641 .
+
+ex:Nice136  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD JOSEPH GARNIER" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.7100138 ;
+        geo:long         7.25565292 .
+
+ex:Nice51  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACE GRIMALDI" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69755811 ;
+        geo:long         7.26545017 .
+
+ex:Nice115  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DE ORESTIS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70408982 ;
+        geo:long         7.28726028 .
+
+ex:Nice30  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DE NICE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.65798709 ;
+        geo:long         7.15999403 .
+
+ex:Nice165  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE PIE FRANCOIS TOESCA" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71761231 ;
+        geo:long         7.29115823 .
+
+ex:Nice80  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DE LA CALIFORNIE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.68568061 ;
+        geo:long         7.23550328 .
+
+ex:Nice144  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE ROMAIN ROLLAND" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71170925 ;
+        geo:long         7.26472978 .
+
+ex:Nice59  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE SAINT JEAN-BAPTISTE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.70177522 ;
+        geo:long         7.27802397 .
+
+ex:Nice123  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PROMENADE DES ANGLAIS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "27" ;
+        geo:lat          43.6936139 ;
+        geo:long         7.25650528 .
+
+ex:Nice38  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "VOIE D'ACCES AU CADAM" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.67545247 ;
+        geo:long         7.19931521 .
+
+ex:Nice102  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ESPACE PERE AMBROISE STEVE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.70069595 ;
+        geo:long         7.27575811 .
+
+ex:Nice17  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DU 11 NOVEMBRE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "12" ;
+        geo:lat          43.6738875 ;
+        geo:long         7.19120642 .
+
+ex:Nice2  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DENIS SEMERIA" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71540983 ;
+        geo:long         7.29245427 .
+
+ex:Nice173  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DE NICE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "12" ;
+        geo:lat          43.66050775 ;
+        geo:long         7.17559124 .
+
+ex:Nice88  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACE FRANKLIN" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69970776 ;
+        geo:long         7.25601836 .
+
+ex:Nice152  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE VALROSE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "36" ;
+        geo:lat          43.71599101 ;
+        geo:long         7.26561349 .
+
+ex:Nice67  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DELILLE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70250708 ;
+        geo:long         7.27347916 .
+
+ex:Nice131  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DES DIABLES BLEUS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.70840612 ;
+        geo:long         7.28832794 .
+
+ex:Nice46  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE AUGUSTE PEGURIER" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.67477637 ;
+        geo:long         7.22541559 .
+
+ex:Nice110  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DE FORESTA" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69718727 ;
+        geo:long         7.28291413 .
+
+ex:Nice25  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DU MARECHAL JUIN" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.65543864 ;
+        geo:long         7.15142585 .
+
+ex:Nice96  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD VICTOR HUGO" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.69970323 ;
+        geo:long         7.26518741 .
+
+ex:Nice160  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DE LA MADELEINE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69890058 ;
+        geo:long         7.2395665 .
+
+ex:Nice75  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE SAINT AUGUSTIN" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.67467171 ;
+        geo:long         7.22303192 .
+
+ex:Nice54  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE SAINT FRANCOIS DE PAULE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.695705 ;
+        geo:long         7.27055569 .
+
+ex:Nice139  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE MOLIERE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71290238 ;
+        geo:long         7.25905493 .
+
+ex:Nice33  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ROUTE DU BORD DE MER" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "21" ;
+        geo:lat          43.65954667 ;
+        geo:long         7.1912389 .
+
+ex:Nice118  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACE GUYNEMER" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69408468 ;
+        geo:long         7.28234908 .
+
+ex:Nice12  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE ALFRED DAUMAS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71208063 ;
+        geo:long         7.29131521 .
+
+ex:Nice168  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PASSAGE DU LIDO" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.65889451 ;
+        geo:long         7.16976316 .
+
+ex:Nice83  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE DE FRANCE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.6928936 ;
+        geo:long         7.24885958 .
+
+ex:Nice62  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE EMMANUEL PHILIBERT" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69849166 ;
+        geo:long         7.28312232 .
+
+ex:Nice147  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE ALFRED BINET" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.7086623 ;
+        geo:long         7.26018399 .
+
+ex:Nice41  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PROMENADE GENERAL EDOUARD CORNIGLION MOLINIER" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.66625422 ;
+        geo:long         7.21208303 .
+
+ex:Nice126  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ROUTE DE GRENOBLE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.67078862 ;
+        geo:long         7.2101664 .
+
+ex:Nice20  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DU PONANT" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.65785151 ;
+        geo:long         7.18624399 .
+
+ex:Nice105  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE ASSALIT" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70647878 ;
+        geo:long         7.26874392 .
+
+ex:Nice5  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACE MASSENA" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.69646251 ;
+        geo:long         7.26999784 .
+
+<http://dbpedia.org/resource/Nice>
+        a                dbo:city ;
+        rdfs:label       "Nice" ;
+        dbo:country      "France" ;
+        ex:bikeStations  ex:Nice1 , ex:Nice154 , ex:Nice35 , ex:Nice87 , ex:Nice81 , ex:Nice165 , ex:Nice51 , ex:Nice97 , ex:Nice10 , ex:Nice142 , ex:Nice23 , ex:Nice92 , ex:Nice75 , ex:Nice39 , ex:Nice153 , ex:Nice85 , ex:Nice55 , ex:Nice119 , ex:Nice63 , ex:Nice27 , ex:Nice96 , ex:Nice110 , ex:Nice141 , ex:Nice43 , ex:Nice38 , ex:Nice121 , ex:Nice54 , ex:Nice31 , ex:Nice95 , ex:Nice126 , ex:Nice37 , ex:Nice42 , ex:Nice83 , ex:Nice11 , ex:Nice48 , ex:Nice25 , ex:Nice30 , ex:Nice94 , ex:Nice77 , ex:Nice71 , ex:Nice2 , ex:Nice88 , ex:Nice36 , ex:Nice19 , ex:Nice166 , ex:Nice82 , ex:Nice65 , ex:Nice98 , ex:Nice29 , ex:Nice143 , ex:Nice24 , ex:Nice76 , ex:Nice124 , ex:Nice70 , ex:Nice40 , ex:Nice86 , ex:Nice170 , ex:Nice134 , ex:Nice50 , ex:Nice33 , ex:Nice148 , ex:Nice64 , ex:Nice28 , ex:Nice112 , ex:Nice74 , ex:Nice128 , ex:Nice44 , ex:Nice122 , ex:Nice174 , ex:Nice90 , ex:Nice9 , ex:Nice21 , ex:Nice108 , ex:Nice100 , ex:Nice133 , ex:Nice116 , ex:Nice32 , ex:Nice162 , ex:Nice73 , ex:Nice127 , ex:Nice173 , ex:Nice5 , ex:Nice168 , ex:Nice104 , ex:Nice84 , ex:Nice20 , ex:Nice61 , ex:Nice115 , ex:Nice26 , ex:Nice156 , ex:Nice72 , ex:Nice89 , ex:Nice172 , ex:Nice167 , ex:Nice66 , ex:Nice144 , ex:Nice60 , ex:Nice114 , ex:Nice160 , ex:Nice91 , ex:Nice109 , ex:Nice155 , ex:Nice138 , ex:Nice125 , ex:Nice57 , ex:Nice3 , ex:Nice171 , ex:Nice102 , ex:Nice135 , ex:Nice118 , ex:Nice149 , ex:Nice159 , ex:Nice113 , ex:Nice45 , ex:Nice129 , ex:Nice175 , ex:Nice7 , ex:Nice123 , ex:Nice106 , ex:Nice22 , ex:Nice137 , ex:Nice56 , ex:Nice101 , ex:Nice117 , ex:Nice163 , ex:Nice111 , ex:Nice158 , ex:Nice136 , ex:Nice13 , ex:Nice6 , ex:Nice169 , ex:Nice105 , ex:Nice146 , ex:Nice151 , ex:Nice62 , ex:Nice130 , ex:Nice79 , ex:Nice157 , ex:Nice17 , ex:Nice12 , ex:Nice67 , ex:Nice150 , ex:Nice145 , ex:Nice78 , ex:Nice161 , ex:Nice16 , ex:Nice139 , ex:Nice58 , ex:Nice4 , ex:Nice103 , ex:Nice164 , ex:Nice80 , ex:Nice46 , ex:Nice15 , ex:Nice152 , ex:Nice8 , ex:Nice107 , ex:Nice49 , ex:Nice132 , ex:Nice34 , ex:Nice140 , ex:Nice120 , ex:Nice14 , ex:Nice69 , ex:Nice53 , ex:Nice147 , ex:Nice131 , ex:Nice59 , ex:Nice18 , ex:Nice41 , ex:Nice68 , ex:Nice52 , ex:Nice47 , ex:Nice99 , ex:Nice93 .
+
+ex:Nice91  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE FRANCOIS AUNE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70106049 ;
+        geo:long         7.25505528 .
+
+ex:Nice155  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DE LA MADELEINE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69660197 ;
+        geo:long         7.24164161 .
+
+ex:Nice70  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE THIERS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "45" ;
+        geo:lat          43.70436378 ;
+        geo:long         7.26230294 .
+
+ex:Nice134  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD TZAREWITCH" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.702706 ;
+        geo:long         7.2551177 .
+
+ex:Nice49  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DE LA MADELEINE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "27" ;
+        geo:lat          43.69182348 ;
+        geo:long         7.24495903 .
+
+ex:Nice113  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE SCALIERO" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70224103 ;
+        geo:long         7.28642676 .
+
+ex:Nice28  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACE GABRIEL PERI" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.663129 ;
+        geo:long         7.14827523 .
+
+ex:Nice99  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE GUSTAVE DELOYE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69917765 ;
+        geo:long         7.26989183 .
+
+ex:Nice163  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE CHANOINE ALBIN" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71265203 ;
+        geo:long         7.28906469 .
+
+ex:Nice78  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PROMENADE DES ANGLAIS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.67999258 ;
+        geo:long         7.2310618 .
+
+ex:Nice142  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD JEAN-BAPTISTE VERANY" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71054999 ;
+        geo:long         7.28403462 .
+
+ex:Nice57  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE SAINT JEAN-BAPTISTE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69961195 ;
+        geo:long         7.27656961 .
+
+ex:Nice121  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD JEAN JAURES" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.69845251 ;
+        geo:long         7.27670673 .
+
+ex:Nice36  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "VOIE D'ACCES AU CADAM" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.67649735 ;
+        geo:long         7.19864827 .
+
+ex:Nice100  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ALLEE SANDRO PERTINI" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70042538 ;
+        geo:long         7.27287063 .
+
+ex:Nice15  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE EUGENE DONADEI" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "9" ;
+        geo:lat          43.6601953 ;
+        geo:long         7.19515789 .
+
+ex:Nice171  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE GENERAL LECLERC" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "12" ;
+        geo:lat          43.65696854 ;
+        geo:long         7.16461523 .
+
+ex:Nice86  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE ANDRIOLI" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69439585 ;
+        geo:long         7.25443815 .
+
+ex:Nice150  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DOYEN JEAN LEPINE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71576167 ;
+        geo:long         7.26179884 .
+
+ex:Nice65  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE MARALDI" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70650619 ;
+        geo:long         7.28313892 .
+
+ex:Nice44  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE CHARLES BUCHET" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.66806555 ;
+        geo:long         7.21519604 .
+
+ex:Nice129  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "SQUARE ROGER BOYER" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.7167521 ;
+        geo:long         7.25700942 .
+
+ex:Nice108  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE FODERE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69895932 ;
+        geo:long         7.28747776 .
+
+ex:Nice23  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DE LA PLAGE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.65444754 ;
+        geo:long         7.15779542 .
+
+ex:Nice8  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE MARECHAL LYAUTEY" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71389632 ;
+        geo:long         7.28239508 .
+
+ex:Nice94  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE ROSSINI" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70055345 ;
+        geo:long         7.26033186 .
+
+ex:Nice158  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD DE LA MADELEINE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70389549 ;
+        geo:long         7.23458784 .
+
+ex:Nice73  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE LEON BERTRAND" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.67344096 ;
+        geo:long         7.22536187 .
+
+ex:Nice52  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DE SUEDE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.69624591 ;
+        geo:long         7.2665947 .
+
+ex:Nice137  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOULEVARD JOSEPH GARNIER" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71003216 ;
+        geo:long         7.25833994 .
+
+ex:Nice31  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DE NICE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.65617872 ;
+        geo:long         7.15515027 .
+
+ex:Nice116  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE SMOLETT" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70220639 ;
+        geo:long         7.28854333 .
+
+ex:Nice10  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ROUTE DE TURIN" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "12" ;
+        geo:lat          43.71636156 ;
+        geo:long         7.28429917 .
+
+ex:Nice166  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PLACE JEAN MEDECIN" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.67402581 ;
+        geo:long         7.18978138 .
+
+ex:Nice81  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PROMENADE DES ANGLAIS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.68270136 ;
+        geo:long         7.23384455 .
+
+ex:Nice60  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ESPLANADE FRANCIS GIORDAN" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "24" ;
+        geo:lat          43.70333046 ;
+        geo:long         7.2794847 .
+
+ex:Nice145  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE MIRABEAU" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70903787 ;
+        geo:long         7.26662073 .
+
+ex:Nice124  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PROMENADE DES ANGLAIS" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.69158474 ;
+        geo:long         7.24901718 .
+
+ex:Nice39  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ROUTE DE GRENOBLE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.67083776 ;
+        geo:long         7.2085399 .
+
+ex:Nice103  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "RUE EDOUARD BERI" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.70383689 ;
+        geo:long         7.27356934 .
+
+ex:Nice18  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE DU GENERAL DE GAULLE" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "18" ;
+        geo:lat          43.67132467 ;
+        geo:long         7.19036755 .
+
+ex:Nice3  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AVENUE MILON DE VERAILLON" ;
+        dbo:city         "Nice" ;
+        ex:available     "NBR_PT_ACC" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "15" ;
+        geo:lat          43.71678927 ;
+        geo:long         7.29416794 .

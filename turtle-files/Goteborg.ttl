@@ -1,0 +1,111 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Goteborg3  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ENGELBREKTSGATAN" ;
+        dbo:city         "Goteborg" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "15" ;
+        geo:lat          57.69841 ;
+        geo:long         11.97694 .
+
+ex:Goteborg8  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "LINDHOLMSPLATSEN" ;
+        dbo:city         "Goteborg" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "2" ;
+        ex:total         "19" ;
+        geo:lat          57.707608 ;
+        geo:long         11.938275 .
+
+ex:Goteborg1  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "SLOTTSKOGEN/PLIKTA" ;
+        dbo:city         "Goteborg" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "25" ;
+        geo:lat          57.689983 ;
+        geo:long         11.947047 .
+
+ex:Goteborg6  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "LÄRAREGATAN/MOLINSGATAN" ;
+        dbo:city         "Goteborg" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "33" ;
+        ex:total         "40" ;
+        geo:lat          57.69418 ;
+        geo:long         11.97451 .
+
+ex:Goteborg4  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BOHUSGATAN" ;
+        dbo:city         "Goteborg" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "37" ;
+        ex:total         "40" ;
+        geo:lat          57.70452 ;
+        geo:long         11.984298 .
+
+ex:Goteborg9  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ESPERANTOPLATSEN" ;
+        dbo:city         "Goteborg" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "25" ;
+        ex:total         "27" ;
+        geo:lat          57.702793 ;
+        geo:long         11.955461 .
+
+<http://dbpedia.org/resource/Goteborg>
+        a                dbo:city ;
+        rdfs:label       "Goteborg" ;
+        dbo:country      "Sweden" ;
+        ex:bikeStations  ex:Goteborg5 , ex:Goteborg6 , ex:Goteborg7 , ex:Goteborg10 , ex:Goteborg3 , ex:Goteborg8 , ex:Goteborg4 , ex:Goteborg9 , ex:Goteborg1 , ex:Goteborg2 .
+
+ex:Goteborg2  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "SVINGELN" ;
+        dbo:city         "Goteborg" ;
+        ex:available     "37" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "1" ;
+        ex:total         "40" ;
+        geo:lat          57.712972 ;
+        geo:long         11.991427999999999 .
+
+ex:Goteborg7  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "KAPELLPLATSEN" ;
+        dbo:city         "Goteborg" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "27" ;
+        ex:total         "28" ;
+        geo:lat          57.69358 ;
+        geo:long         11.97199 .
+
+ex:Goteborg5  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "KASTELLGATAN" ;
+        dbo:city         "Goteborg" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:total         "20" ;
+        geo:lat          57.693029 ;
+        geo:long         11.955691999999999 .
+
+ex:Goteborg10  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "SKANSTORGET" ;
+        dbo:city         "Goteborg" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "18" ;
+        ex:total         "30" ;
+        geo:lat          57.695909 ;
+        geo:long         11.958548 .

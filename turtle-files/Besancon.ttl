@@ -1,0 +1,111 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Besancon4  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "15 - TASSIGNY" ;
+        dbo:city         "Besancon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "10" ;
+        geo:lat          47.231111 ;
+        geo:long         6.026695 .
+
+ex:Besancon9  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "17 - PREFECTURE" ;
+        dbo:city         "Besancon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "13" ;
+        ex:total         "14" ;
+        geo:lat          47.232903 ;
+        geo:long         6.020116 .
+
+ex:Besancon2  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "22 - LIBERTE" ;
+        dbo:city         "Besancon" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "2" ;
+        ex:total         "12" ;
+        geo:lat          47.247455 ;
+        geo:long         6.028569 .
+
+ex:Besancon7  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "30 - XAVIER MARMIER" ;
+        dbo:city         "Besancon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "12" ;
+        geo:lat          47.241652 ;
+        geo:long         6.007549 .
+
+ex:Besancon5  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "03 - MADELEINE (CB)" ;
+        dbo:city         "Besancon" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:total         "15" ;
+        geo:lat          47.239978 ;
+        geo:long         6.019691 .
+
+ex:Besancon3  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "28 - LECLERC" ;
+        dbo:city         "Besancon" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "10" ;
+        geo:lat          47.242273 ;
+        geo:long         6.014452 .
+
+ex:Besancon8  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "02 - SQUARE BOUCHOT" ;
+        dbo:city         "Besancon" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "10" ;
+        geo:lat          47.243569 ;
+        geo:long         6.021966 .
+
+ex:Besancon1  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "27 - MAIRIE" ;
+        dbo:city         "Besancon" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "13" ;
+        ex:total         "15" ;
+        geo:lat          47.23678 ;
+        geo:long         6.022275 .
+
+ex:Besancon6  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "29 - BELFORT" ;
+        dbo:city         "Besancon" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "12" ;
+        geo:lat          47.248886 ;
+        geo:long         6.030818 .
+
+ex:Besancon10  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "10 - 8 SEPTEMBRE (CB)" ;
+        dbo:city         "Besancon" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:total         "15" ;
+        geo:lat          47.237665 ;
+        geo:long         6.024203 .
+
+<http://dbpedia.org/resource/Besancon>
+        a                dbo:city ;
+        rdfs:label       "Besancon" ;
+        dbo:country      "France" ;
+        ex:bikeStations  ex:Besancon6 , ex:Besancon3 , ex:Besancon4 , ex:Besancon10 , ex:Besancon7 , ex:Besancon8 , ex:Besancon1 , ex:Besancon2 , ex:Besancon9 , ex:Besancon5 .
