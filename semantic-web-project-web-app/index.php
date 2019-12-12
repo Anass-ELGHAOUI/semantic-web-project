@@ -20,15 +20,6 @@
 </head>
 
 <body onload="getAllCountries()">
-    <?php
-    if (isset($_GET['exists'])) {
-        if ($_GET['exists'] == "1") {
-    ?>
-        <script>alert('The selected city already exists in real time data, choose another one')</script>
-    <?php
-        }
-    }
-    ?>
 	<div id="getDataIndex"></div>
 
 	<hr/>

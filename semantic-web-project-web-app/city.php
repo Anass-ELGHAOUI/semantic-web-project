@@ -13,20 +13,21 @@
 	<meta charset="UTF-8">
 	<title>Bike stations</title>
 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
 	integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
 	crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	<script src="https://maps.google.com/maps/api/js?key=AIzaSyDMy2HfZYaVHg2uuz9rVG1uYOyy-7wilNs" type="text/javascript"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/rdf.js"></script>
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<script type="text/javascript" src="js/rdf.js"></script>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyDMy2HfZYaVHg2uuz9rVG1uYOyy-7wilNs" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
-<body onload="getCityInfo()" id="body">
+<body onload="getCityInfo(); getAllCountries();" id="body">
+    <div id="getDataIndex"></div>
+
     <?php echo '<input type="hidden" id="cityName" value="'.$_GET['city'].'">'; ?>
 
 	<div class="container-flex">

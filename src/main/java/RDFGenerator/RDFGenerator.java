@@ -9,6 +9,7 @@ import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdfconnection.RDFConnection;
 import org.apache.jena.rdfconnection.RDFConnectionFactory;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -108,7 +109,7 @@ public class RDFGenerator {
             }
         }
 
-        FileWriter out = new FileWriter(city.getName() + ".ttl");
+        FileWriter out = new FileWriter(new File("turtle-files/", city.getCountry() + "::" + city.getName() + ".ttl"));
         try {
             m.write( out, "Turtle" );
         }
@@ -122,7 +123,7 @@ public class RDFGenerator {
         }
 
         RDFConnection conn = RDFConnectionFactory.connect(Constants.triplestore);
-        conn.load(city.getName() + ".ttl");
+        conn.load("turtle-files/" + city.getCountry() + "::" + city.getName() + ".ttl");
         conn.close();
     }
 }

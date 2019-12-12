@@ -3,6 +3,7 @@
 	font-size: 25px;
 	text-align: center;
 }
+
 table, td {
     border: 1px solid #333;
 }
@@ -33,4 +34,14 @@ tr {
 	color: #4CAF50;
 }
 
-#pagination a:hover:not(.active) {background-color: #ddd;}
+#pagination a:hover:not(.active) {
+	background-color: #ddd;
+}
+
+#citiesList {
+	margin-left: 10px;
+}
+
+#countriesList {
+	margin-right: 10px;
+}
