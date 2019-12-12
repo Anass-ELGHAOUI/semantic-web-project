@@ -92,37 +92,46 @@ function parseXML(xmlDoc) {
         pathToNode += "::" + parent;
         if (children.length >= 7) {
             pathToNode += "::" + children[0];
-            for (var i = 0; i < children.length; i++) {
-                /* Put the attributes in the form */
-                for (var j = 1; j < 8; j++) {
-                    var select = document.getElementById('attribute' + j);
-                    var option = document.createElement('option');
-                    option.setAttribute('value', children[i]);
-                    option.appendChild(document.createTextNode(children[i]));
-                    select.appendChild(option);
+            /* Put the attributes in the form */
+            for (var j = 1; j < 8; j++) {
+                for (var i = 0; i < children.length; i++) {
+                    if (document.getElementById('pathToNode') == null) {
+                        var select = document.getElementById('attribute' + j);
+                        var option = document.createElement('option');
+                        option.setAttribute('value', children[i]);
+                        option.setAttribute('id', children[i]);
+                        option.appendChild(document.createTextNode(children[i]));
+                        select.appendChild(option);
+                    }
                 }
             }
             var div = document.getElementById('specifyAttributes');
-            var result = document.createElement('input');
-            result.setAttribute('id', 'success');
-            result.setAttribute('name', 'success');
-            result.setAttribute('type', 'hidden');
-            result.setAttribute('value', parent);
-            div.appendChild(result);
+            if (document.getElementById('success') == null) {
+                var result = document.createElement('input');
+                result.setAttribute('id', 'success');
+                result.setAttribute('name', 'success');
+                result.setAttribute('type', 'hidden');
+                result.setAttribute('value', parent);
+                div.appendChild(result);
+            }
 
-            var node = document.createElement('input');
-            node.setAttribute('id', 'node');
-            node.setAttribute('name', 'node');
-            node.setAttribute('type', 'hidden');
-            node.setAttribute('value', xmlDoc.nodeName);
-            div.appendChild(node);
+            if (document.getElementById('node') == null) {
+                var node = document.createElement('input');
+                node.setAttribute('id', 'node');
+                node.setAttribute('name', 'node');
+                node.setAttribute('type', 'hidden');
+                node.setAttribute('value', xmlDoc.nodeName);
+                div.appendChild(node);
+            }
 
-            var path = document.createElement('input');
-            path.setAttribute('id', 'pathToNode');
-            path.setAttribute('name', 'pathToNode');
-            path.setAttribute('type', 'hidden');
-            path.setAttribute('value', pathToNode);
-            div.appendChild(path);
+            if (document.getElementById('pathToNode') == null) {
+                var path = document.createElement('input');
+                path.setAttribute('id', 'pathToNode');
+                path.setAttribute('name', 'pathToNode');
+                path.setAttribute('type', 'hidden');
+                path.setAttribute('value', pathToNode);
+                div.appendChild(path);
+            }
 
             return;
         }
