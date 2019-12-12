@@ -5,24 +5,24 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Toulouse4  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00224 - CAMPUS SUPAERO" ;
+        rdfs:label       "00084 - BRIENNE MANUFACTURE" ;
         dbo:city         "Toulouse" ;
-        ex:available     "9" ;
+        ex:available     "5" ;
         ex:cardPaiement  "1" ;
-        ex:free          "10" ;
-        ex:total         "20" ;
-        geo:lat          43.5665957614 ;
-        geo:long         1.4748819617 .
+        ex:free          "19" ;
+        ex:total         "24" ;
+        geo:lat          43.605242396 ;
+        geo:long         1.43268768272 .
 
 ex:Toulouse9  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00244 - RENAN / VITRY" ;
+        rdfs:label       "00047 - NAZARETH LANGUEDOC" ;
         dbo:city         "Toulouse" ;
-        ex:available     "7" ;
+        ex:available     "6" ;
         ex:cardPaiement  "1" ;
-        ex:free          "11" ;
-        ex:total         "18" ;
-        geo:lat          43.6357067761 ;
-        geo:long         1.4437518224 .
+        ex:free          "24" ;
+        ex:total         "30" ;
+        geo:lat          43.5954617576 ;
+        geo:long         1.44553144517 .
 
 ex:Toulouse2  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "00036 - PLACE SCHUMAN" ;
@@ -35,14 +35,14 @@ ex:Toulouse2  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         1.44936782298 .
 
 ex:Toulouse7  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00178 - BRUNAUD / PLANA" ;
+        rdfs:label       "00161 - RANGUEIL - BEDOUCE" ;
         dbo:city         "Toulouse" ;
         ex:available     "11" ;
         ex:cardPaiement  "1" ;
-        ex:free          "9" ;
-        ex:total         "20" ;
-        geo:lat          43.6192814029 ;
-        geo:long         1.46875376692 .
+        ex:free          "4" ;
+        ex:total         "15" ;
+        geo:lat          43.576447511 ;
+        geo:long         1.45491511202 .
 
 <http://dbpedia.org/resource/Toulouse>
         a                dbo:city ;
@@ -51,34 +51,34 @@ ex:Toulouse7  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:bikeStations  ex:Toulouse6 , ex:Toulouse7 , ex:Toulouse8 , ex:Toulouse1 , ex:Toulouse9 , ex:Toulouse2 , ex:Toulouse4 , ex:Toulouse3 , ex:Toulouse5 , ex:Toulouse10 .
 
 ex:Toulouse5  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00071 - COURS DILLON" ;
+        rdfs:label       "00259 - PLACE RICHE" ;
         dbo:city         "Toulouse" ;
-        ex:available     "8" ;
+        ex:available     "10" ;
         ex:cardPaiement  "1" ;
-        ex:free          "14" ;
-        ex:total         "22" ;
-        geo:lat          43.5931893428 ;
-        geo:long         1.43489432835 .
+        ex:free          "10" ;
+        ex:total         "20" ;
+        geo:lat          43.64751 ;
+        geo:long         1.43298 .
 
 ex:Toulouse3  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "280 - CHARBONNIERE" ;
+        rdfs:label       "00093 - PRINTEMPS" ;
         dbo:city         "Toulouse" ;
-        ex:available     "3" ;
+        ex:available     "1" ;
         ex:cardPaiement  "1" ;
-        ex:free          "15" ;
-        ex:total         "18" ;
-        geo:lat          43.57383 ;
-        geo:long         1.44871 .
+        ex:free          "16" ;
+        ex:total         "17" ;
+        geo:lat          43.6144655444 ;
+        geo:long         1.44361404386 .
 
 ex:Toulouse8  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00147 - CHAUSSAS - DAUDET" ;
+        rdfs:label       "00123 - CHAUSSAS EMBOUCHURE" ;
         dbo:city         "Toulouse" ;
-        ex:available     "11" ;
+        ex:available     "7" ;
         ex:cardPaiement  "1" ;
-        ex:free          "9" ;
-        ex:total         "20" ;
-        geo:lat          43.6199074847 ;
-        geo:long         1.42896628242 .
+        ex:free          "16" ;
+        ex:total         "23" ;
+        geo:lat          43.6149246512 ;
+        geo:long         1.43288072067 .
 
 ex:Toulouse1  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "283 - PLACE MICOULEAU" ;
@@ -91,21 +91,21 @@ ex:Toulouse1  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         1.44442 .
 
 ex:Toulouse6  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00075 - CHATEAU D EAU" ;
+        rdfs:label       "00178 - BRUNAUD / PLANA" ;
         dbo:city         "Toulouse" ;
-        ex:available     "8" ;
+        ex:available     "10" ;
         ex:cardPaiement  "1" ;
-        ex:free          "12" ;
-        ex:total         "21" ;
-        geo:lat          43.5985426071 ;
-        geo:long         1.43659075722 .
+        ex:free          "10" ;
+        ex:total         "20" ;
+        geo:lat          43.6192814029 ;
+        geo:long         1.46875376692 .
 
 ex:Toulouse10  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00085 - MARECHAL LECLERC" ;
+        rdfs:label       "00142 - SEVERAC" ;
         dbo:city         "Toulouse" ;
-        ex:available     "22" ;
+        ex:available     "19" ;
         ex:cardPaiement  "1" ;
-        ex:free          "0" ;
-        ex:total         "22" ;
-        geo:lat          43.6067080086 ;
-        geo:long         1.43059871626 .
+        ex:free          "1" ;
+        ex:total         "20" ;
+        geo:lat          43.58807 ;
+        geo:long         1.42438 .

@@ -23,10 +23,30 @@ function getUrlVars() {
 
 function parser() {
     var fileFormat = document.getElementById('fileFormat').value;
+    var inputType = document.getElementById('inputType').value;
     var content = document.getElementById('content').value;
 
     /* CSV content */
     if (fileFormat === "csv") {
+
+        console.log("OOOOOK");
+        var readCSV = function(inputType){
+            Papa.parse(inputType, {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    var listen = results.data;
+                    console.log("HAHIA");
+                    console.log(listen);
+                }
+            });
+        }
+
+        console.log(readCSV);
+        console.log(readCSV.data);
+
+
+
         var data = Papa.parse(content);
         /* Get csv delimiter */
         var div = document.getElementById('specifyAttributes');
@@ -39,7 +59,7 @@ function parser() {
 
         var attributes = data.data[0];
         if (attributes.length < 7) {
-            fileError();
+            // fileError();
         }
         else if (attributes.length >= 7) {
             for (var i = 0; i < attributes.length; i++) {

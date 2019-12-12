@@ -64,13 +64,24 @@
             <div id="uploadData">
                 <h1>Upload new data</h1>
 
-                <br/><br/>
+                <br/>
+
                 <SELECT id="fileFormat" name="fileFormat" required>
                     <OPTION selected value="">Choose a file format</OPTION>
-<!--                    <OPTION value="json">Json</OPTION>-->
+                    <!--                    <OPTION value="json">Json</OPTION>-->
                     <OPTION value="xml">XML</OPTION>
                     <OPTION value="csv">CSV</OPTION>
                 </SELECT>
+
+                <br/><br/>
+
+                <SELECT id="inputType" name="inputType" required>
+                    <OPTION selected value="">Choose an input type</OPTION>
+                    <!--                    <OPTION value="json">Json</OPTION>-->
+                    <OPTION value="url">URL</OPTION>
+                    <OPTION value="text">Text input</OPTION>
+                </SELECT>
+
 
                 <br/><br/>
 

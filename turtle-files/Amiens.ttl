@@ -11,24 +11,24 @@
         ex:bikeStations  ex:Amiens7 , ex:Amiens4 , ex:Amiens3 , ex:Amiens8 , ex:Amiens5 , ex:Amiens1 , ex:Amiens10 , ex:Amiens9 , ex:Amiens6 , ex:Amiens2 .
 
 ex:Amiens2  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "27- CITÉ SCOLAIRE" ;
+        rdfs:label       "19- REPUBLIQUE" ;
         dbo:city         "Amiens" ;
-        ex:available     "9" ;
+        ex:available     "3" ;
         ex:cardPaiement  "1" ;
-        ex:free          "31" ;
-        ex:total         "40" ;
-        geo:lat          49.879239 ;
-        geo:long         2.296116 .
+        ex:free          "17" ;
+        ex:total         "20" ;
+        geo:lat          49.8927200733 ;
+        geo:long         2.29707581964 .
 
 ex:Amiens7  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "25- LA HOTOIE" ;
+        rdfs:label       "07- COLLEGE SAINT-MARTIN" ;
         dbo:city         "Amiens" ;
-        ex:available     "8" ;
+        ex:available     "6" ;
         ex:cardPaiement  "1" ;
-        ex:free          "12" ;
-        ex:total         "20" ;
-        geo:lat          49.8968625368 ;
-        geo:long         2.28286774758 .
+        ex:free          "9" ;
+        ex:total         "15" ;
+        geo:lat          49.8842726 ;
+        geo:long         2.294836 .
 
 ex:Amiens10  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "18- PREFECTURE" ;
@@ -41,34 +41,34 @@ ex:Amiens10  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         2.295865 .
 
 ex:Amiens5  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "07- COLLEGE SAINT-MARTIN" ;
+        rdfs:label       "08- VANMARCKE" ;
         dbo:city         "Amiens" ;
-        ex:available     "6" ;
+        ex:available     "8" ;
         ex:cardPaiement  "1" ;
-        ex:free          "9" ;
-        ex:total         "15" ;
-        geo:lat          49.8842726 ;
-        geo:long         2.294836 .
+        ex:free          "4" ;
+        ex:total         "13" ;
+        geo:lat          49.8968515059 ;
+        geo:long         2.3015758288 .
 
 ex:Amiens3  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "19- REPUBLIQUE" ;
+        rdfs:label       "22- QUATRE CHENES" ;
         dbo:city         "Amiens" ;
-        ex:available     "3" ;
+        ex:available     "8" ;
         ex:cardPaiement  "1" ;
-        ex:free          "17" ;
+        ex:free          "12" ;
         ex:total         "20" ;
-        geo:lat          49.8927200733 ;
-        geo:long         2.29707581964 .
+        geo:lat          49.890242 ;
+        geo:long         2.282163 .
 
 ex:Amiens8  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "20- BRANLY" ;
+        rdfs:label       "13- GARE JULES BARNI" ;
         dbo:city         "Amiens" ;
-        ex:available     "13" ;
+        ex:available     "10" ;
         ex:cardPaiement  "1" ;
-        ex:free          "7" ;
-        ex:total         "20" ;
-        geo:lat          49.8900155143 ;
-        geo:long         2.29122726422 .
+        ex:free          "8" ;
+        ex:total         "18" ;
+        geo:lat          49.889774 ;
+        geo:long         2.3091 .
 
 ex:Amiens1  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "09- CATHEDRALE" ;
@@ -81,31 +81,31 @@ ex:Amiens1  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         2.2993950039 .
 
 ex:Amiens6  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "13- GARE JULES BARNI" ;
+        rdfs:label       "27- CITÉ SCOLAIRE" ;
         dbo:city         "Amiens" ;
-        ex:available     "10" ;
+        ex:available     "9" ;
         ex:cardPaiement  "1" ;
-        ex:free          "8" ;
-        ex:total         "18" ;
-        geo:lat          49.889774 ;
-        geo:long         2.3091 .
+        ex:free          "31" ;
+        ex:total         "40" ;
+        geo:lat          49.879239 ;
+        geo:long         2.296116 .
 
 ex:Amiens4  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "22- QUATRE CHENES" ;
+        rdfs:label       "20- BRANLY" ;
+        dbo:city         "Amiens" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "20" ;
+        geo:lat          49.8900155143 ;
+        geo:long         2.29122726422 .
+
+ex:Amiens9  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "25- LA HOTOIE" ;
         dbo:city         "Amiens" ;
         ex:available     "8" ;
         ex:cardPaiement  "1" ;
         ex:free          "12" ;
         ex:total         "20" ;
-        geo:lat          49.890242 ;
-        geo:long         2.282163 .
-
-ex:Amiens9  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "08- VANMARCKE" ;
-        dbo:city         "Amiens" ;
-        ex:available     "8" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "4" ;
-        ex:total         "13" ;
-        geo:lat          49.8968515059 ;
-        geo:long         2.3015758288 .
+        geo:lat          49.8968625368 ;
+        geo:long         2.28286774758 .
