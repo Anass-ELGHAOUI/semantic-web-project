@@ -5,44 +5,44 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Nantes3  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "#00016-EDOUARD NORMAND" ;
+        rdfs:label       "#00115 - TRENTEMOULT" ;
         dbo:city         "Nantes" ;
         ex:available     "10" ;
         ex:cardPaiement  "1" ;
-        ex:free          "5" ;
-        ex:total         "15" ;
-        geo:lat          47.2190275447 ;
-        geo:long         -1.56341948405 .
+        ex:free          "16" ;
+        ex:total         "26" ;
+        geo:lat          47.19525 ;
+        geo:long         -1.580584 .
 
 ex:Nantes8  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "#00039-QUAI MONCOUSU" ;
+        rdfs:label       "#00033-RACINE" ;
         dbo:city         "Nantes" ;
         ex:available     "13" ;
         ex:cardPaiement  "1" ;
-        ex:free          "11" ;
-        ex:total         "24" ;
-        geo:lat          47.2094065739 ;
-        geo:long         -1.55523314463 .
+        ex:free          "2" ;
+        ex:total         "15" ;
+        geo:lat          47.2135226137 ;
+        geo:long         -1.56314087443 .
 
 ex:Nantes1  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "#00012-DELORME" ;
+        rdfs:label       "#00121-VICTOR RICHARD" ;
         dbo:city         "Nantes" ;
-        ex:available     "12" ;
+        ex:available     "11" ;
         ex:cardPaiement  "1" ;
-        ex:free          "8" ;
-        ex:total         "20" ;
-        geo:lat          47.2151581887 ;
-        geo:long         -1.56390067347 .
+        ex:free          "4" ;
+        ex:total         "15" ;
+        geo:lat          47.228614 ;
+        geo:long         -1.533329 .
 
 ex:Nantes6  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "#00067-WALDECK ROUSSEAU" ;
+        rdfs:label       "#00077-ECOLE D'ARCHITECTURE" ;
         dbo:city         "Nantes" ;
-        ex:available     "12" ;
+        ex:available     "9" ;
         ex:cardPaiement  "1" ;
-        ex:free          "10" ;
-        ex:total         "22" ;
-        geo:lat          47.2277747611 ;
-        geo:long         -1.55214798607 .
+        ex:free          "20" ;
+        ex:total         "32" ;
+        geo:lat          47.2076056402 ;
+        geo:long         -1.55753246791 .
 
 <http://dbpedia.org/resource/Nantes>
         a                dbo:city ;
@@ -51,61 +51,61 @@ ex:Nantes6  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:bikeStations  ex:Nantes5 , ex:Nantes1 , ex:Nantes8 , ex:Nantes3 , ex:Nantes9 , ex:Nantes7 , ex:Nantes6 , ex:Nantes10 , ex:Nantes2 , ex:Nantes4 .
 
 ex:Nantes4  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "#00085-BEL AIR" ;
+        dbo:city         "Nantes" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "14" ;
+        geo:lat          47.226394431 ;
+        geo:long         -1.56002281968 .
+
+ex:Nantes9  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "#00095-MICHELET" ;
+        dbo:city         "Nantes" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "25" ;
+        geo:lat          47.235158 ;
+        geo:long         -1.556322 .
+
+ex:Nantes10  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "#00075-LAMORICIERE" ;
+        dbo:city         "Nantes" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "18" ;
+        geo:lat          47.2123089588 ;
+        geo:long         -1.57136936022 .
+
+ex:Nantes2  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "#00047- MARTYRS NANTAIS" ;
+        dbo:city         "Nantes" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "21" ;
+        ex:total         "27" ;
+        geo:lat          47.206933 ;
+        geo:long         -1.548169 .
+
+ex:Nantes7  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "#00088-MELLINET" ;
         dbo:city         "Nantes" ;
-        ex:available     "4" ;
+        ex:available     "7" ;
         ex:cardPaiement  "1" ;
-        ex:free          "11" ;
+        ex:free          "8" ;
         ex:total         "15" ;
         geo:lat          47.2115010701 ;
         geo:long         -1.57717541432 .
 
-ex:Nantes9  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "#00033-RACINE" ;
-        dbo:city         "Nantes" ;
-        ex:available     "6" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "9" ;
-        ex:total         "15" ;
-        geo:lat          47.2135226137 ;
-        geo:long         -1.56314087443 .
-
-ex:Nantes10  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "#00065-COURS SULLY" ;
-        dbo:city         "Nantes" ;
-        ex:available     "9" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "6" ;
-        ex:total         "15" ;
-        geo:lat          47.2225873399 ;
-        geo:long         -1.55166644255 .
-
-ex:Nantes2  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "#00026-GUIST'HAU SUD" ;
-        dbo:city         "Nantes" ;
-        ex:available     "3" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "12" ;
-        ex:total         "15" ;
-        geo:lat          47.21682796 ;
-        geo:long         -1.56700452627 .
-
-ex:Nantes7  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "#00008-BOUCHERIE" ;
-        dbo:city         "Nantes" ;
-        ex:available     "11" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "13" ;
-        ex:total         "24" ;
-        geo:lat          47.2162008926 ;
-        geo:long         -1.5571116802 .
-
 ex:Nantes5  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "#00113 - MAIRIE DE REZE" ;
+        rdfs:label       "#00025-DALBY" ;
         dbo:city         "Nantes" ;
         ex:available     "10" ;
         ex:cardPaiement  "1" ;
-        ex:free          "11" ;
-        ex:total         "21" ;
-        geo:lat          47.191117 ;
-        geo:long         -1.569362 .
+        ex:free          "5" ;
+        ex:total         "15" ;
+        geo:lat          47.2235088698 ;
+        geo:long         -1.5299595927 .

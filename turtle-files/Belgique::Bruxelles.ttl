@@ -21,46 +21,6 @@ ex:Bruxelles1  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         4.29006826753 .
 
 ex:Bruxelles6  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "112 - PAGE/EDELKNAAP" ;
-        dbo:city         "Bruxelles" ;
-        ex:available     "0" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "14" ;
-        ex:total         "18" ;
-        geo:lat          50.821567 ;
-        geo:long         4.356508 .
-
-ex:Bruxelles4  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "202 - AUMALE" ;
-        dbo:city         "Bruxelles" ;
-        ex:available     "13" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "11" ;
-        ex:total         "25" ;
-        geo:lat          50.840217 ;
-        geo:long         4.313386 .
-
-ex:Bruxelles9  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "296 - GARE DE BOITSFORT" ;
-        dbo:city         "Bruxelles" ;
-        ex:available     "14" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "11" ;
-        ex:total         "25" ;
-        geo:lat          50.79528 ;
-        geo:long         4.40832 .
-
-ex:Bruxelles2  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "165 - CIMETIERE DE JETTE / KERKHOF JETTE" ;
-        dbo:city         "Bruxelles" ;
-        ex:available     "16" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "4" ;
-        ex:total         "20" ;
-        geo:lat          50.879668 ;
-        geo:long         4.33425 .
-
-ex:Bruxelles7  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "310 - SAINT-VINCENT / SINT-VINCENTIUS" ;
         dbo:city         "Bruxelles" ;
         ex:available     "9" ;
@@ -69,6 +29,46 @@ ex:Bruxelles7  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:total         "20" ;
         geo:lat          50.88058 ;
         geo:long         4.401674 .
+
+ex:Bruxelles4  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "345 - 3 TILLEULS" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "18" ;
+        geo:lat          50.802675 ;
+        geo:long         4.412073 .
+
+ex:Bruxelles9  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "120 - BLYCKAERTS" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "16" ;
+        ex:total         "25" ;
+        geo:lat          50.832872 ;
+        geo:long         4.37483 .
+
+ex:Bruxelles2  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "181 - LOUIS TITZ" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "25" ;
+        geo:lat          50.835723 ;
+        geo:long         4.394395 .
+
+ex:Bruxelles7  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "081 - PONT BOCKSTAEL/BRUG BOCKSTAEL" ;
+        dbo:city         "Bruxelles" ;
+        ex:available     "16" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "25" ;
+        geo:lat          50.870259 ;
+        geo:long         4.343195 .
 
 ex:Bruxelles5  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "133 - CHÂTEAU/KASTEEL" ;
@@ -81,31 +81,31 @@ ex:Bruxelles5  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         4.3092224 .
 
 ex:Bruxelles10  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "110 - RODIN" ;
+        rdfs:label       "010 - CHAPELLE / KAPEL" ;
         dbo:city         "Bruxelles" ;
-        ex:available     "1" ;
+        ex:available     "3" ;
         ex:cardPaiement  "1" ;
-        ex:free          "18" ;
-        ex:total         "22" ;
-        geo:lat          50.826992 ;
-        geo:long         4.382379 .
+        ex:free          "16" ;
+        ex:total         "20" ;
+        geo:lat          50.841345 ;
+        geo:long         4.351729 .
 
 ex:Bruxelles3  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "049 - WILLEBROECK/WILLEBROEK" ;
+        rdfs:label       "256 - VAN OVERBEKE" ;
         dbo:city         "Bruxelles" ;
         ex:available     "11" ;
         ex:cardPaiement  "1" ;
-        ex:free          "12" ;
-        ex:total         "25" ;
-        geo:lat          50.8615 ;
-        geo:long         4.351143 .
+        ex:free          "13" ;
+        ex:total         "24" ;
+        geo:lat          50.874767 ;
+        geo:long         4.308977 .
 
 ex:Bruxelles8  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "144 - SAINTE-MARIE/SINTE-MARIA" ;
+        rdfs:label       "028 - CLEMENCEAU / CLEMENCEAU" ;
         dbo:city         "Bruxelles" ;
-        ex:available     "17" ;
+        ex:available     "16" ;
         ex:cardPaiement  "1" ;
-        ex:free          "7" ;
-        ex:total         "25" ;
-        geo:lat          50.85778 ;
-        geo:long         4.368144 .
+        ex:free          "10" ;
+        ex:total         "27" ;
+        geo:lat          50.842005 ;
+        geo:long         4.3305 .

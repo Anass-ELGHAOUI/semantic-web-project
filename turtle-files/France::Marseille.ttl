@@ -5,14 +5,14 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Marseille7  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "8068-PRADO BORELY" ;
+        rdfs:label       "8307-PRADO MICHELET" ;
         dbo:city         "Marseille" ;
         ex:available     "2" ;
         ex:cardPaiement  "1" ;
-        ex:free          "7" ;
-        ex:total         "9" ;
-        geo:lat          43.2624559209 ;
-        geo:long         5.37579581617 .
+        ex:free          "18" ;
+        ex:total         "20" ;
+        geo:lat          43.2722414899 ;
+        geo:long         5.39166970262 .
 
 ex:Marseille2  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "1226-PLAINE-ST PIERRE" ;
@@ -31,44 +31,44 @@ ex:Marseille2  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:bikeStations  ex:Marseille5 , ex:Marseille8 , ex:Marseille2 , ex:Marseille3 , ex:Marseille1 , ex:Marseille9 , ex:Marseille6 , ex:Marseille7 , ex:Marseille10 , ex:Marseille4 .
 
 ex:Marseille10  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "6020-PLACE DE LA CORDERIE" ;
+        rdfs:label       "6114-JULIEN BARTHELEMY" ;
         dbo:city         "Marseille" ;
-        ex:available     "1" ;
+        ex:available     "5" ;
         ex:cardPaiement  "1" ;
-        ex:free          "14" ;
-        ex:total         "15" ;
-        geo:lat          43.2907643324 ;
-        geo:long         5.3722599324 .
+        ex:free          "5" ;
+        ex:total         "10" ;
+        geo:lat          43.2926045981 ;
+        geo:long         5.38413843526 .
 
 ex:Marseille5  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "8255-PRADO - PARADIS" ;
+        rdfs:label       "7212-SAINTE - NOTRE DAME" ;
         dbo:city         "Marseille" ;
-        ex:available     "9" ;
+        ex:available     "0" ;
         ex:cardPaiement  "1" ;
-        ex:free          "1" ;
+        ex:free          "10" ;
         ex:total         "10" ;
-        geo:lat          43.2695417969 ;
-        geo:long         5.38627377944 .
+        geo:lat          43.2916347097 ;
+        geo:long         5.37137038486 .
 
 ex:Marseille3  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "6113-LODI VILLAGE" ;
+        rdfs:label       "1316 -ST CHARLES FACULTÉ" ;
         dbo:city         "Marseille" ;
         ex:available     "0" ;
         ex:cardPaiement  "1" ;
         ex:free          "15" ;
         ex:total         "15" ;
-        geo:lat          43.2886166718 ;
-        geo:long         5.38777964271 .
+        geo:lat          43.3042443596 ;
+        geo:long         5.37829225018 .
 
 ex:Marseille8  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "6177-BAILLE FRIEDLAND" ;
+        rdfs:label       "9219-PUGETTE - ANDRE" ;
         dbo:city         "Marseille" ;
-        ex:available     "5" ;
+        ex:available     "1" ;
         ex:cardPaiement  "1" ;
-        ex:free          "12" ;
-        ex:total         "17" ;
-        geo:lat          43.2865946021 ;
-        geo:long         5.38678589002 .
+        ex:free          "14" ;
+        ex:total         "15" ;
+        geo:lat          43.2684051407 ;
+        geo:long         5.40063537111 .
 
 ex:Marseille1  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "1004-GENERAL DE GAULLE PARADIS" ;
@@ -81,31 +81,31 @@ ex:Marseille1  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         5.3760267473 .
 
 ex:Marseille6  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "5104-CHAVE EUGÈNE PIERRE" ;
-        dbo:city         "Marseille" ;
-        ex:available     "4" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "5" ;
-        ex:total         "10" ;
-        geo:lat          43.2953631454 ;
-        geo:long         5.39087139017 .
-
-ex:Marseille4  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "1245-GAMBETTA - LAFAYETTE" ;
-        dbo:city         "Marseille" ;
-        ex:available     "13" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "2" ;
-        ex:total         "15" ;
-        geo:lat          43.2990279383 ;
-        geo:long         5.38150004673 .
-
-ex:Marseille9  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "5107-BAILLE CONCEPTION" ;
+        rdfs:label       "6176-CANTINI ROUET" ;
         dbo:city         "Marseille" ;
         ex:available     "1" ;
         ex:cardPaiement  "1" ;
-        ex:free          "12" ;
-        ex:total         "13" ;
-        geo:lat          43.2887266909 ;
-        geo:long         5.39403885378 .
+        ex:free          "23" ;
+        ex:total         "24" ;
+        geo:lat          43.2847759836 ;
+        geo:long         5.38559376362 .
+
+ex:Marseille4  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "3322 - ARENC CHANTERAC" ;
+        dbo:city         "Marseille" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "20" ;
+        geo:lat          43.3123370339 ;
+        geo:long         5.36874180437 .
+
+ex:Marseille9  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "5024-BAILLE PAURIOL" ;
+        dbo:city         "Marseille" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "7" ;
+        geo:lat          43.2878144559 ;
+        geo:long         5.3913313928 .

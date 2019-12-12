@@ -4,7 +4,38 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+ex:Stockholm1  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "VOLVOCITY" ;
+        dbo:city         "Stockholm" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "30" ;
+        ex:total         "30" ;
+        geo:lat          59.32248 ;
+        geo:long         18.08564 .
+
 <http://dbpedia.org/resource/Stockholm>
-        a            dbo:city ;
-        rdfs:label   "Stockholm" ;
-        dbo:country  "Sweden" .
+        a                dbo:city ;
+        rdfs:label       "Stockholm" ;
+        dbo:country      "Sweden" ;
+        ex:bikeStations  ex:Stockholm3 , ex:Stockholm2 , ex:Stockholm1 .
+
+ex:Stockholm3  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "VOLVO VAK" ;
+        dbo:city         "Stockholm" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "30" ;
+        ex:total         "30" ;
+        geo:lat          59.32289 ;
+        geo:long         18.08289 .
+
+ex:Stockholm2  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "VOLVO PVE" ;
+        dbo:city         "Stockholm" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "30" ;
+        ex:total         "30" ;
+        geo:lat          59.32238 ;
+        geo:long         18.08095 .

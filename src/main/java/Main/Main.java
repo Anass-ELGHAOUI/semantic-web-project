@@ -81,7 +81,7 @@ public class Main {
             jsonParser.jcdecauxParser("https://public.opendatasoft.com/api/records/1.0/search/?dataset=jcdecaux_bike_data&facet=banking&facet=bonus&facet=status&facet=contract_name&refine.contract_name=kazan", "Kazan", "Russia");
 
             /* Stockholm - Sweden */
-            jsonParser.jcdecauxParser("https://public.opendatasoft.com/api/records/1.0/search/?dataset=jcdecaux_bike_data&facet=banking&facet=bonus&facet=status&facet=contract_name&refine.contract_name=stockholm", "Stockholm", "Sweden");
+            jsonParser.jcdecauxParser("https://public.opendatasoft.com/api/records/1.0/search/?dataset=jcdecaux_bike_data&facet=banking&facet=bonus&facet=status&facet=contract_name&refine.contract_name=Stockholm", "Stockholm", "Sweden");
 
             /* Creteil - France */
             jsonParser.jcdecauxParser("https://public.opendatasoft.com/api/records/1.0/search/?dataset=jcdecaux_bike_data&facet=banking&facet=bonus&facet=status&facet=contract_name&refine.contract_name=creteil", "Creteil", "France");

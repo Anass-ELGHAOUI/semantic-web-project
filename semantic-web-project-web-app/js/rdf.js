@@ -79,7 +79,8 @@ function getAllCities(country) {
     "  ?city a dbo:city ." +
     "  ?city rdfs:label ?label ." +
     "  ?city dbo:country \"" + country + "\" ." +
-    "} ";
+    "} " +
+    " ORDER BY ?label";
 
     var responseUrl = "http://localhost:3030/bike_station_db" + "?query=" + encodeURIComponent(query) + "&output=json";
 
@@ -221,7 +222,8 @@ function getCityInfo() {
             " ?bikeStation <http://www.example.com/free> ?free ." +
             " ?bikeStation <http://www.example.com/total> ?total ." +
             " ?bikeStation <http://www.example.com/cardPaiement> ?cardPaiement ." +
-            "} ";
+            "} " +
+            " ORDER BY ?label";
 
         var responseUrl = "http://localhost:3030/bike_station_db" + "?query=" + encodeURIComponent(query) + "&output=json";
 

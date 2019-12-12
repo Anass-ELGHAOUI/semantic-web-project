@@ -5,14 +5,14 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Brisbane5  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "24 - SIR WILLIAM MCGREGOR DR / SIR FRED SCHONNELL" ;
+        rdfs:label       "143 - REGATTA FERRY TERMINAL / SYLVAN RD" ;
         dbo:city         "Brisbane" ;
-        ex:available     "7" ;
+        ex:available     "1" ;
         ex:cardPaiement  "1" ;
         ex:free          "17" ;
-        ex:total         "24" ;
-        geo:lat          -27.493963 ;
-        geo:long         153.011938 .
+        ex:total         "18" ;
+        geo:lat          -27.483168 ;
+        geo:long         152.996419 .
 
 <http://dbpedia.org/resource/Brisbane>
         a                dbo:city ;
@@ -21,24 +21,24 @@ ex:Brisbane5  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:bikeStations  ex:Brisbane1 , ex:Brisbane6 , ex:Brisbane8 , ex:Brisbane3 , ex:Brisbane10 , ex:Brisbane5 , ex:Brisbane2 , ex:Brisbane7 , ex:Brisbane9 , ex:Brisbane4 .
 
 ex:Brisbane3  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "70 - MACQUARIE ST / BEESTON ST" ;
+        rdfs:label       "94 - GLENELG ST / MERIVALE ST" ;
         dbo:city         "Brisbane" ;
-        ex:available     "16" ;
+        ex:available     "13" ;
         ex:cardPaiement  "1" ;
-        ex:free          "1" ;
-        ex:total         "17" ;
-        geo:lat          -27.459091 ;
-        geo:long         153.050239 .
+        ex:free          "8" ;
+        ex:total         "21" ;
+        geo:lat          -27.478653 ;
+        geo:long         153.019123 .
 
 ex:Brisbane8  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "41 - ANN ST / WHARF ST" ;
+        rdfs:label       "105 - DORNOCH TCE / HARDGRAVE RD" ;
         dbo:city         "Brisbane" ;
-        ex:available     "2" ;
+        ex:available     "4" ;
         ex:cardPaiement  "1" ;
-        ex:free          "19" ;
-        ex:total         "21" ;
-        geo:lat          -27.46383 ;
-        geo:long         153.029125 .
+        ex:free          "5" ;
+        ex:total         "31" ;
+        geo:lat          -27.487155 ;
+        geo:long         153.007281 .
 
 ex:Brisbane1  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "146 - BRISBANE ST / GLEN RD" ;
@@ -51,44 +51,44 @@ ex:Brisbane1  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         152.993052 .
 
 ex:Brisbane6  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "93 - GREY ST / QCA" ;
+        rdfs:label       "26 - NORTH QUAY / REDDACLIFF PLACE" ;
         dbo:city         "Brisbane" ;
-        ex:available     "8" ;
+        ex:available     "1" ;
         ex:cardPaiement  "1" ;
-        ex:free          "12" ;
-        ex:total         "20" ;
-        geo:lat          -27.48148 ;
-        geo:long         153.02368 .
+        ex:free          "14" ;
+        ex:total         "15" ;
+        geo:lat          -27.471297 ;
+        geo:long         153.02257 .
 
 ex:Brisbane4  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "63 - ANN ST / MURRI WAY" ;
-        dbo:city         "Brisbane" ;
-        ex:available     "15" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "5" ;
-        ex:total         "20" ;
-        geo:lat          -27.452468 ;
-        geo:long         153.040565 .
-
-ex:Brisbane9  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "78 - MALT ST / BRUNSWICK ST" ;
         dbo:city         "Brisbane" ;
-        ex:available     "6" ;
+        ex:available     "4" ;
         ex:cardPaiement  "1" ;
-        ex:free          "9" ;
+        ex:free          "11" ;
         ex:total         "15" ;
         geo:lat          -27.461041 ;
         geo:long         153.037902 .
 
-ex:Brisbane10  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "68 - VERNON TCE / ETHEL ST" ;
+ex:Brisbane9  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "115 - MONTAGUE RD / BRERETON ST" ;
         dbo:city         "Brisbane" ;
-        ex:available     "16" ;
+        ex:available     "17" ;
         ex:cardPaiement  "1" ;
-        ex:free          "5" ;
-        ex:total         "21" ;
-        geo:lat          -27.454394 ;
-        geo:long         153.049519 .
+        ex:free          "3" ;
+        ex:total         "20" ;
+        geo:lat          -27.474227 ;
+        geo:long         153.011164 .
+
+ex:Brisbane10  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "37 - UPPER ROMA ST / EAGLE TCE" ;
+        dbo:city         "Brisbane" ;
+        ex:available     "18" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "24" ;
+        geo:lat          -27.466032 ;
+        geo:long         153.01476 .
 
 ex:Brisbane2  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "97 - THYNNE RD / COLLEGE RD" ;
@@ -101,11 +101,11 @@ ex:Brisbane2  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         153.017633 .
 
 ex:Brisbane7  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "94 - GLENELG ST / MERIVALE ST" ;
+        rdfs:label       "60 - WICKHAM STREET / BROOKES STREET" ;
         dbo:city         "Brisbane" ;
-        ex:available     "13" ;
+        ex:available     "5" ;
         ex:cardPaiement  "1" ;
-        ex:free          "8" ;
-        ex:total         "21" ;
-        geo:lat          -27.478653 ;
-        geo:long         153.019123 .
+        ex:free          "12" ;
+        ex:total         "23" ;
+        geo:lat          -27.453127 ;
+        geo:long         153.037559 .
