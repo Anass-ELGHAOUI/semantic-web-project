@@ -5,26 +5,16 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Valence2  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "263_PADRE ESTEBAN_PERNET_ANTES_CASA_MISERICORDIA" ;
+        rdfs:label       "255_SAN_VICENTE_MARTIR_TOMAS_DE_VILLAROYA" ;
         dbo:city         "Valence" ;
-        ex:available     "0" ;
+        ex:available     "2" ;
         ex:cardPaiement  "1" ;
-        ex:free          "18" ;
+        ex:free          "16" ;
         ex:total         "18" ;
-        geo:lat          39.4670110729 ;
-        geo:long         -0.409735197841 .
+        geo:lat          39.4476710152 ;
+        geo:long         -0.386120116565 .
 
 ex:Valence7  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "158_DR.LLUNCH" ;
-        dbo:city         "Valence" ;
-        ex:available     "0" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "15" ;
-        ex:total         "15" ;
-        geo:lat          39.4666660982 ;
-        geo:long         -0.327809952058 .
-
-ex:Valence5  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "242_LA_SAFOR_AVDA_MAESTRO_RODRIGO" ;
         dbo:city         "Valence" ;
         ex:available     "0" ;
@@ -34,25 +24,35 @@ ex:Valence5  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:lat          39.487875145 ;
         geo:long         -0.40428819268 .
 
-ex:Valence3  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "137_CALLE_ECONOMISTA_GAY" ;
+ex:Valence5  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "004_PLAZA_DE_LA_VIRGEN_CALLE_BAILIA" ;
         dbo:city         "Valence" ;
-        ex:available     "3" ;
+        ex:available     "0" ;
         ex:cardPaiement  "1" ;
-        ex:free          "16" ;
+        ex:free          "24" ;
+        ex:total         "25" ;
+        geo:lat          39.4767151167 ;
+        geo:long         -0.375433100164 .
+
+ex:Valence3  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "167_PAVIA 3" ;
+        dbo:city         "Valence" ;
+        ex:available     "19" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "1" ;
         ex:total         "20" ;
-        geo:lat          39.4890011566 ;
-        geo:long         -0.379987120406 .
+        geo:lat          39.4748761269 ;
+        geo:long         -0.324700947179 .
 
 ex:Valence8  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "268_PZA_LUIS_CANO_5" ;
+        rdfs:label       "43_C/ DE ORIENTE" ;
         dbo:city         "Valence" ;
-        ex:available     "2" ;
+        ex:available     "13" ;
         ex:cardPaiement  "1" ;
         ex:free          "7" ;
-        ex:total         "10" ;
-        geo:lat          39.5014131862 ;
-        geo:long         -0.418584242796 .
+        ex:total         "20" ;
+        geo:lat          39.459445063 ;
+        geo:long         -0.361244048329 .
 
 <http://dbpedia.org/resource/Valence>
         a                dbo:city ;
@@ -61,36 +61,16 @@ ex:Valence8  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:bikeStations  ex:Valence1 , ex:Valence10 , ex:Valence3 , ex:Valence2 , ex:Valence5 , ex:Valence4 , ex:Valence7 , ex:Valence6 , ex:Valence9 , ex:Valence8 .
 
 ex:Valence1  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "255_SAN_VICENTE_MARTIR_TOMAS_DE_VILLAROYA" ;
+        rdfs:label       "019_JUAN_LLORENS" ;
         dbo:city         "Valence" ;
-        ex:available     "4" ;
+        ex:available     "7" ;
         ex:cardPaiement  "1" ;
-        ex:free          "14" ;
-        ex:total         "18" ;
-        geo:lat          39.4476710152 ;
-        geo:long         -0.386120116565 .
+        ex:free          "8" ;
+        ex:total         "15" ;
+        geo:lat          39.4743371034 ;
+        geo:long         -0.39168114761 .
 
 ex:Valence6  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "253_PLAZA_JOSE_MELIA_CASTELLO_CAMPOS_CRESPO" ;
-        dbo:city         "Valence" ;
-        ex:available     "1" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "14" ;
-        ex:total         "15" ;
-        geo:lat          39.4526940273 ;
-        geo:long         -0.401192164498 .
-
-ex:Valence10  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "108_ LUIS PEIXO" ;
-        dbo:city         "Valence" ;
-        ex:available     "11" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "3" ;
-        ex:total         "15" ;
-        geo:lat          39.4736541198 ;
-        geo:long         -0.333702973476 .
-
-ex:Valence4  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "270_CALLE_NINOT_ESQ_PZA_REGINO_MAS" ;
         dbo:city         "Valence" ;
         ex:available     "2" ;
@@ -100,12 +80,32 @@ ex:Valence4  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:lat          39.5000431897 ;
         geo:long         -0.392980165265 .
 
-ex:Valence9  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "159_FRANCISCO CUBELLS" ;
+ex:Valence10  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "127_C/ DUQUE DE MANDAS" ;
         dbo:city         "Valence" ;
-        ex:available     "12" ;
+        ex:available     "17" ;
         ex:cardPaiement  "1" ;
-        ex:free          "5" ;
-        ex:total         "17" ;
-        geo:lat          39.463417085 ;
-        geo:long         -0.334812971277 .
+        ex:free          "3" ;
+        ex:total         "20" ;
+        geo:lat          39.4905591669 ;
+        geo:long         -0.364537074933 .
+
+ex:Valence4  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "210_CALLE_CAMPOS_CRESPO_ESQ_CALLE_JUAN_DE_GARAY" ;
+        dbo:city         "Valence" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "15" ;
+        geo:lat          39.4555210383 ;
+        geo:long         -0.396807152865 .
+
+ex:Valence9  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "228_AVDA_NICASIO_BENLLOCH_ESQ_CALLE_L'HORTA_SUD" ;
+        dbo:city         "Valence" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "15" ;
+        geo:lat          39.4936601663 ;
+        geo:long         -0.398762179197 .

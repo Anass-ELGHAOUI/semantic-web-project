@@ -28,7 +28,27 @@
 
             if ($_GET['city'] == "Montpellier" && $_GET['country'] == "France" ||
                 $_GET['city'] == "Strasbourg" && $_GET['country'] == "France" ||
-                $_GET['city'] == "Lyon" && $_GET['country'] == "France") {
+                $_GET['city'] == "Lyon" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Rennes" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Amiens" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Avignon" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Besancon" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Cergy-Pontoise" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Creteil" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Marseille" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Nancy" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Nantes" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Nice" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Rennes" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Rouen" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Toulouse" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Valence" && $_GET['country'] == "France" ||
+                $_GET['city'] == "Bruxelles" && $_GET['country'] == "Belgique" ||
+                $_GET['city'] == "Namur" && $_GET['country'] == "Belgique" ||
+                $_GET['city'] == "Dublin" && $_GET['country'] == "Irland" ||
+                $_GET['city'] == "Kazan" && $_GET['country'] == "Russia" ||
+                $_GET['city'] == "Seville" && $_GET['country'] == "Spain" ||
+                $_GET['city'] == "Stockholm" && $_GET['country'] == "Sweden") {
 
     ?>
         <script>cityAlreadyExists()</script>

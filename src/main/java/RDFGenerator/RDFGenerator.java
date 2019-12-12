@@ -109,7 +109,7 @@ public class RDFGenerator {
             }
         }
 
-        FileWriter out = new FileWriter(new File("turtle-files/", city.getName() + ".ttl"));
+        FileWriter out = new FileWriter(new File("turtle-files/", city.getCountry() + "::" + city.getName() + ".ttl"));
         try {
             m.write( out, "Turtle" );
         }
@@ -123,7 +123,7 @@ public class RDFGenerator {
         }
 
         RDFConnection conn = RDFConnectionFactory.connect(Constants.triplestore);
-        conn.load("turtle-files/" + city.getName() + ".ttl");
+        conn.load("turtle-files/" + city.getCountry() + "::" + city.getName() + ".ttl");
         conn.close();
     }
 }

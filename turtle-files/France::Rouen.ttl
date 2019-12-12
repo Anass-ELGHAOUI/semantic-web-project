@@ -5,36 +5,16 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Rouen4  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "05- HOTEL DE VILLE" ;
+        rdfs:label       "11- CLEMENCEAU JOFFRE" ;
         dbo:city         "Rouen" ;
         ex:available     "9" ;
         ex:cardPaiement  "1" ;
         ex:free          "11" ;
         ex:total         "20" ;
-        geo:lat          49.4425055864 ;
-        geo:long         1.09826633822 .
+        geo:lat          49.4346461396 ;
+        geo:long         1.08795949014 .
 
 ex:Rouen9  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "12- PLACE DES COTONNIERS" ;
-        dbo:city         "Rouen" ;
-        ex:available     "11" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "9" ;
-        ex:total         "20" ;
-        geo:lat          49.4308767168 ;
-        geo:long         1.08141210591 .
-
-ex:Rouen2  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "07- CHU - BOULEVARD GAMBETTA" ;
-        dbo:city         "Rouen" ;
-        ex:available     "12" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "8" ;
-        ex:total         "20" ;
-        geo:lat          49.4388537955 ;
-        geo:long         1.10748842685 .
-
-ex:Rouen7  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "23 - HANGAR 106" ;
         dbo:city         "Rouen" ;
         ex:available     "9" ;
@@ -44,53 +24,7 @@ ex:Rouen7  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:lat          49.440312 ;
         geo:long         1.075491 .
 
-<http://dbpedia.org/resource/Rouen>
-        a                dbo:city ;
-        rdfs:label       "Rouen" ;
-        dbo:country      "France" ;
-        ex:bikeStations  ex:Rouen5 , ex:Rouen7 , ex:Rouen6 , ex:Rouen8 , ex:Rouen3 , ex:Rouen4 , ex:Rouen1 , ex:Rouen2 , ex:Rouen10 , ex:Rouen9 .
-
-ex:Rouen5  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "08- SAINT MARC" ;
-        dbo:city         "Rouen" ;
-        ex:available     "9" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "11" ;
-        ex:total         "20" ;
-        geo:lat          49.4381121114 ;
-        geo:long         1.10085228191 .
-
-ex:Rouen10  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "25 - STATION MOBILE" ;
-        dbo:city         "Rouen" ;
-        ex:available     "0" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "0" ;
-        ex:total         "15" ;
-        geo:lat          49.442768 ;
-        geo:long         1.091251 .
-
-ex:Rouen3  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "11- CLEMENCEAU JOFFRE" ;
-        dbo:city         "Rouen" ;
-        ex:available     "8" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "12" ;
-        ex:total         "20" ;
-        geo:lat          49.4346461396 ;
-        geo:long         1.08795949014 .
-
-ex:Rouen8  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "19 - JARDIN DES PLANTES" ;
-        dbo:city         "Rouen" ;
-        ex:available     "6" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "9" ;
-        ex:total         "15" ;
-        geo:lat          49.4217492002 ;
-        geo:long         1.07970761766 .
-
-ex:Rouen1  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+ex:Rouen2  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "26 - SAINT-EXUPERY" ;
         dbo:city         "Rouen" ;
         ex:available     "10" ;
@@ -100,12 +34,78 @@ ex:Rouen1  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:lat          49.439524 ;
         geo:long         1.116237 .
 
-ex:Rouen6  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "15-GARE" ;
+ex:Rouen7  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "08- SAINT MARC" ;
+        dbo:city         "Rouen" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "20" ;
+        geo:lat          49.4381121114 ;
+        geo:long         1.10085228191 .
+
+<http://dbpedia.org/resource/Rouen>
+        a                dbo:city ;
+        rdfs:label       "Rouen" ;
+        dbo:country      "France" ;
+        ex:bikeStations  ex:Rouen5 , ex:Rouen7 , ex:Rouen6 , ex:Rouen8 , ex:Rouen3 , ex:Rouen4 , ex:Rouen1 , ex:Rouen2 , ex:Rouen10 , ex:Rouen9 .
+
+ex:Rouen5  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "25 - STATION MOBILE" ;
+        dbo:city         "Rouen" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "0" ;
+        ex:total         "15" ;
+        geo:lat          49.442768 ;
+        geo:long         1.091251 .
+
+ex:Rouen10  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "19 - JARDIN DES PLANTES" ;
+        dbo:city         "Rouen" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "15" ;
+        geo:lat          49.4217492002 ;
+        geo:long         1.07970761766 .
+
+ex:Rouen3  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "24 - HANGAR 108" ;
         dbo:city         "Rouen" ;
         ex:available     "15" ;
         ex:cardPaiement  "1" ;
-        ex:free          "10" ;
+        ex:free          "24" ;
+        ex:total         "40" ;
+        geo:lat          49.441286 ;
+        geo:long         1.07176 .
+
+ex:Rouen8  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "07- CHU - BOULEVARD GAMBETTA" ;
+        dbo:city         "Rouen" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "20" ;
+        geo:lat          49.4388537955 ;
+        geo:long         1.10748842685 .
+
+ex:Rouen1  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "15-GARE" ;
+        dbo:city         "Rouen" ;
+        ex:available     "18" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
         ex:total         "25" ;
         geo:lat          49.448285194 ;
         geo:long         1.09419956401 .
+
+ex:Rouen6  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "05- HOTEL DE VILLE" ;
+        dbo:city         "Rouen" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "20" ;
+        geo:lat          49.4425055864 ;
+        geo:long         1.09826633822 .
