@@ -31,7 +31,8 @@ function getAllCountries() {
                  "SELECT DISTINCT ?country WHERE {" +
                         "?city a dbo:city ." +
                         "?city dbo:country ?country ." +
-                 "} ";
+                 "} " +
+                 " ORDER BY ?country";
 
     var responseUrl = "http://localhost:3030/bike_station_db" + "?query=" + encodeURIComponent(query) + "&output=json";
 
