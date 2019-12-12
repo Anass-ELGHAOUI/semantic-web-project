@@ -1,0 +1,111 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Dublin1  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BARROW STREET" ;
+        dbo:city         "Dublin" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "28" ;
+        geo:lat          53.341655 ;
+        geo:long         -6.236198 .
+
+ex:Dublin6  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ST JAMES HOSPITAL (LUAS)" ;
+        dbo:city         "Dublin" ;
+        ex:available     "19" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "21" ;
+        ex:total         "40" ;
+        geo:lat          53.341359 ;
+        geo:long         -6.292951 .
+
+ex:Dublin4  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PARNELL STREET" ;
+        dbo:city         "Dublin" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "20" ;
+        geo:lat          53.350929 ;
+        geo:long         -6.265125 .
+
+ex:Dublin9  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "LEINSTER STREET SOUTH" ;
+        dbo:city         "Dublin" ;
+        ex:available     "30" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "30" ;
+        geo:lat          53.34218 ;
+        geo:long         -6.254485 .
+
+ex:Dublin2  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "NORTH CIRCULAR ROAD" ;
+        dbo:city         "Dublin" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "0" ;
+        ex:total         "30" ;
+        geo:lat          53.359624 ;
+        geo:long         -6.260348 .
+
+ex:Dublin7  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "COLLINS BARRACKS MUSEUM" ;
+        dbo:city         "Dublin" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "36" ;
+        ex:total         "38" ;
+        geo:lat          53.347477 ;
+        geo:long         -6.28525 .
+
+ex:Dublin10  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "KILMAINHAM GAOL" ;
+        dbo:city         "Dublin" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "37" ;
+        ex:total         "40" ;
+        geo:lat          53.342113 ;
+        geo:long         -6.310015 .
+
+<http://dbpedia.org/resource/Dublin>
+        a                dbo:city ;
+        rdfs:label       "Dublin" ;
+        dbo:country      "Irland" ;
+        ex:bikeStations  ex:Dublin7 , ex:Dublin4 , ex:Dublin2 , ex:Dublin6 , ex:Dublin10 , ex:Dublin9 , ex:Dublin1 , ex:Dublin5 , ex:Dublin8 , ex:Dublin3 .
+
+ex:Dublin5  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "CONVENTION CENTRE" ;
+        dbo:city         "Dublin" ;
+        ex:available     "17" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "23" ;
+        ex:total         "40" ;
+        geo:lat          53.34744 ;
+        geo:long         -6.238523 .
+
+ex:Dublin3  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "DAME STREET" ;
+        dbo:city         "Dublin" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "3" ;
+        ex:total         "16" ;
+        geo:lat          53.344007 ;
+        geo:long         -6.266802 .
+
+ex:Dublin8  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "MARKET STREET SOUTH" ;
+        dbo:city         "Dublin" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "31" ;
+        ex:total         "38" ;
+        geo:lat          53.342296 ;
+        geo:long         -6.287661 .

@@ -14,10 +14,7 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
-<<<<<<< HEAD
 import java.util.ArrayList;
-=======
->>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
 import java.util.Iterator;
 import java.util.Map;
 
@@ -84,7 +81,6 @@ public class JSONCityParser {
 
             rdfGenerator.generateRDF(city);
 
-<<<<<<< HEAD
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
@@ -183,17 +179,9 @@ public class JSONCityParser {
                 Map feature = ((Map) itr.next());
                 Map properties = (Map) feature.get("fields");
                 BikeStation bikeStation = new BikeStation();
-                if(cityName.equals("Toulouse")){
-                    bikeStation.setName((String)properties.get("nom"));
-                }else{
-                    bikeStation.setName((String)properties.get("name"));
-                }
+                bikeStation.setName((String)properties.get("name"));
                 bikeStation.setId((String)feature.get("recordid"));
-                if(cityName.equals("Toulouse")){
-                    bikeStation.setTotal(String.valueOf(properties.get("nb_bornettes")));
-                }else{
-                    bikeStation.setTotal(String.valueOf(properties.get("capacity")));
-                }
+                bikeStation.setTotal(String.valueOf(properties.get("capacity")));
                 bikeStation.setAvailable("-");
                 bikeStation.setFree("-");
                 ArrayList coordinates = (ArrayList) properties.get("geo_point_2d");
@@ -281,9 +269,71 @@ public class JSONCityParser {
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
-=======
-        } catch (IOException | ParseException e) {
->>>>>>> f312f314d6487c0620866e76178b0e6e2ff24f1e
+            e.printStackTrace();
+        }
+    }
+
+    public void jcdecauxParser (String sURL, String cityName, String country) {
+        // Connect to the URL using java's native library
+        try {
+            RDFGenerator rdfGenerator = new RDFGenerator();
+
+            URL url = new URL(sURL);
+            URLConnection request = url.openConnection();
+            request.connect();
+
+            // parsing file "JSONExample.json"
+            Object obj = new org.json.simple.parser.JSONParser().parse(new InputStreamReader((InputStream) request.getContent()));
+
+            City city = new City();
+            city.setName(cityName);
+            city.setCountry(country);
+
+            // typecasting obj to JSONObject
+            JSONObject jo = (JSONObject) obj;
+
+            // getting features
+            JSONArray ja = (JSONArray) jo.get("records");
+
+            // iterating features
+            Iterator itr2 = ja.iterator();
+
+            while (itr2.hasNext()) {
+                Map feature = ((Map) itr2.next());
+                Map fields = (Map) feature.get("fields");
+                BikeStation bikeStation = new BikeStation();
+                bikeStation.setName((String)fields.get("name"));
+                bikeStation.setId(String.valueOf(fields.get("number")));
+                bikeStation.setTotal(String.valueOf(fields.get("bike_stands")));
+                bikeStation.setAvailable(String.valueOf(fields.get("available_bikes")));
+                bikeStation.setFree(String.valueOf(fields.get("available_bike_stands")));
+                if (((String) fields.get("banking")).equals("false")) {
+                    bikeStation.setCardPaiement("0");
+                }
+                else if (((String)fields.get("banking")).equals("true")) {
+                    bikeStation.setCardPaiement("1");
+                }
+                ArrayList position = (ArrayList)fields.get("position");
+                bikeStation.setLattitude(String.valueOf(position.get(0)));
+                bikeStation.setLongitude(String.valueOf(position.get(1)));
+                city.addBikeStation(bikeStation);
+            }
+
+//        for (BikeStation bikeStation : lyon.getBikeStations()) {
+//            System.out.println("Name : "+bikeStation.getName());
+//            System.out.println("Id : "+bikeStation.getId());
+//            System.out.println("Lattitude : "+bikeStation.getLattitude());
+//            System.out.println("Longtitude : "+bikeStation.getLongitude());
+//            System.out.println("Toal : "+bikeStation.getTotal());
+//            System.out.println("Available : "+bikeStation.getAvailable());
+//            System.out.println("Free : "+bikeStation.getFree());
+//            System.out.println("Card Paiement : "+bikeStation.getCardPaiement()+"\n\n");
+//        }
+
+            rdfGenerator.generateRDF(city);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
             e.printStackTrace();
         }
     }

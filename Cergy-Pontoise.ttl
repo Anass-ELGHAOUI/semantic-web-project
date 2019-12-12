@@ -1,0 +1,111 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Cergy-Pontoise4  a    <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "50101 - PÔLE GARE (CB)" ;
+        dbo:city         "Cergy-Pontoise" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "11" ;
+        ex:total         "25" ;
+        geo:lat          49.014534 ;
+        geo:long         2.078945 .
+
+ex:Cergy-Pontoise9  a    <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "50014 - CER14 - AVENUE DU NORD" ;
+        dbo:city         "Cergy-Pontoise" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "12" ;
+        ex:total         "20" ;
+        geo:lat          49.043224 ;
+        geo:long         2.060405 .
+
+<http://dbpedia.org/resource/Cergy-Pontoise>
+        a                dbo:city ;
+        rdfs:label       "Cergy-Pontoise" ;
+        dbo:country      "France" ;
+        ex:bikeStations  ex:Cergy-Pontoise8 , ex:Cergy-Pontoise1 , ex:Cergy-Pontoise2 , ex:Cergy-Pontoise9 , ex:Cergy-Pontoise3 , ex:Cergy-Pontoise4 , ex:Cergy-Pontoise5 , ex:Cergy-Pontoise10 , ex:Cergy-Pontoise6 , ex:Cergy-Pontoise7 .
+
+ex:Cergy-Pontoise2  a    <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "50006 - CER06 - LE CHAT PERCHÉ" ;
+        dbo:city         "Cergy-Pontoise" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "12" ;
+        ex:total         "16" ;
+        geo:lat          49.048957 ;
+        geo:long         2.026947 .
+
+ex:Cergy-Pontoise7  a    <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "50021 - CER21 - DALLE PIÉTONNE GRAND CENTRE" ;
+        dbo:city         "Cergy-Pontoise" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "11" ;
+        ex:total         "20" ;
+        geo:lat          49.03632 ;
+        geo:long         2.079568 .
+
+ex:Cergy-Pontoise5  a    <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "50019 - CER19 - RUE DES LILAS" ;
+        dbo:city         "Cergy-Pontoise" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "6" ;
+        ex:total         "16" ;
+        geo:lat          49.034625 ;
+        geo:long         2.067596 .
+
+ex:Cergy-Pontoise10  a   <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "54901 - VAU01 - PLACE DU RDV (CB)" ;
+        dbo:city         "Cergy-Pontoise" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "15" ;
+        ex:total         "20" ;
+        geo:lat          49.0329335917 ;
+        geo:long         2.0203124293 .
+
+ex:Cergy-Pontoise3  a    <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "50015 - CER15 - PLACE DES LINANDES (CB)" ;
+        dbo:city         "Cergy-Pontoise" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "18" ;
+        geo:lat          49.043284 ;
+        geo:long         2.068934 .
+
+ex:Cergy-Pontoise8  a    <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "56401 - COU01 - LA LOUVIERE (CB)" ;
+        dbo:city         "Cergy-Pontoise" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "15" ;
+        geo:lat          49.0452230206 ;
+        geo:long         2.00250713459 .
+
+ex:Cergy-Pontoise1  a    <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "56101 - ERA01 - LA DANNE" ;
+        dbo:city         "Cergy-Pontoise" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "20" ;
+        ex:total         "24" ;
+        geo:lat          49.0242104711 ;
+        geo:long         2.1032675086 .
+
+ex:Cergy-Pontoise6  a    <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "50009 - CER09 - RUE DU BRÛLOIR" ;
+        dbo:city         "Cergy-Pontoise" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "8" ;
+        ex:total         "11" ;
+        geo:lat          49.027239 ;
+        geo:long         2.077178 .

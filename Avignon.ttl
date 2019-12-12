@@ -5,55 +5,6 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Avignon6  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "40 - Camping de Calais" ;
-        dbo:city         "Avignon" ;
-        ex:available     "-" ;
-        ex:cardPaiement  "0" ;
-        ex:free          "-" ;
-        ex:total         "9" ;
-        geo:lat          50.9589095 ;
-        geo:long         1.831935 .
-
-ex:Avignon4  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "Thouin · Cardinal Lemoine" ;
-        dbo:city         "Avignon" ;
-        ex:available     "-" ;
-        ex:cardPaiement  "0" ;
-        ex:free          "-" ;
-        ex:total         "16" ;
-        geo:lat          48.8450614 ;
-        geo:long         2.349494 .
-
-ex:Avignon9  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        dbo:city         "Avignon" ;
-        ex:available     "-" ;
-        ex:cardPaiement  "0" ;
-        ex:free          "-" ;
-        ex:total         "null" ;
-        geo:lat          47.6693308 ;
-        geo:long         1.5250151 .
-
-ex:Avignon10  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "Carnot" ;
-        dbo:city         "Avignon" ;
-        ex:available     "-" ;
-        ex:cardPaiement  "0" ;
-        ex:free          "-" ;
-        ex:total         "24" ;
-        geo:lat          45.7763583 ;
-        geo:long         3.0917339 .
-
-ex:Avignon2  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "37 - Claudel" ;
-        dbo:city         "Avignon" ;
-        ex:available     "-" ;
-        ex:cardPaiement  "0" ;
-        ex:free          "-" ;
-        ex:total         "12" ;
-        geo:lat          51.0337817 ;
-        geo:long         2.4106079 .
-
-ex:Avignon7  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Roulavélo" ;
         dbo:city         "Avignon" ;
         ex:available     "-" ;
@@ -62,6 +13,54 @@ ex:Avignon7  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:total         "null" ;
         geo:lat          46.6949644 ;
         geo:long         -1.9388281 .
+
+ex:Avignon4  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        dbo:city         "Avignon" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "12" ;
+        geo:lat          47.6651869 ;
+        geo:long         6.8413 .
+
+ex:Avignon9  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bosquet" ;
+        dbo:city         "Avignon" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "10" ;
+        geo:lat          43.2981865 ;
+        geo:long         -0.3666763 .
+
+ex:Avignon10  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Place de la vache noire" ;
+        dbo:city         "Avignon" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "25" ;
+        geo:lat          48.8104537 ;
+        geo:long         2.3269638 .
+
+ex:Avignon2  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Mairie Annexe de Villeneuve" ;
+        dbo:city         "Avignon" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "8" ;
+        geo:lat          46.1518327 ;
+        geo:long         -1.1227754 .
+
+ex:Avignon7  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        dbo:city         "Avignon" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "null" ;
+        geo:lat          47.6693308 ;
+        geo:long         1.5250151 .
 
 ex:Avignon5  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "La Maison du Vélo" ;
@@ -74,33 +73,34 @@ ex:Avignon5  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         6.5990584 .
 
 ex:Avignon3  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Garonnette" ;
         dbo:city         "Avignon" ;
         ex:available     "-" ;
         ex:cardPaiement  "0" ;
         ex:free          "-" ;
-        ex:total         "12" ;
-        geo:lat          47.6651869 ;
-        geo:long         6.8413 .
+        ex:total         "23" ;
+        geo:lat          43.5943605 ;
+        geo:long         1.4409705 .
 
 ex:Avignon8  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "Arthur Auger - Jean Jaurès" ;
-        dbo:city         "Avignon" ;
-        ex:available     "-" ;
-        ex:cardPaiement  "0" ;
-        ex:free          "-" ;
-        ex:total         "26" ;
-        geo:lat          48.8138429 ;
-        geo:long         2.3069478 .
-
-ex:Avignon1  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "23 - Sainte-Germaine" ;
+        rdfs:label       "42 - Terminal Transmanche" ;
         dbo:city         "Avignon" ;
         ex:available     "-" ;
         ex:cardPaiement  "0" ;
         ex:free          "-" ;
         ex:total         "12" ;
-        geo:lat          51.0240634 ;
-        geo:long         2.3878812 .
+        geo:lat          50.9664173 ;
+        geo:long         1.8626547 .
+
+ex:Avignon1  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Porte de Cougnes" ;
+        dbo:city         "Avignon" ;
+        ex:available     "-" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "-" ;
+        ex:total         "8" ;
+        geo:lat          46.1629704 ;
+        geo:long         -1.1458343 .
 
 <http://dbpedia.org/resource/Avignon>
         a                dbo:city ;

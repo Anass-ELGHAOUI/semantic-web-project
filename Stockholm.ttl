@@ -1,0 +1,10 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dbpedia.org/resource/Stockholm>
+        a            dbo:city ;
+        rdfs:label   "Stockholm" ;
+        dbo:country  "Sweden" .
