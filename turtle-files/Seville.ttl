@@ -11,6 +11,26 @@
         ex:bikeStations  ex:Seville9 , ex:Seville4 , ex:Seville7 , ex:Seville2 , ex:Seville1 , ex:Seville8 , ex:Seville10 , ex:Seville6 , ex:Seville5 , ex:Seville3 .
 
 ex:Seville5  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "202_AVENIDA MUJER TRABAJADORA" ;
+        dbo:city         "Seville" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "20" ;
+        geo:lat          37.4114665772 ;
+        geo:long         -5.96676313291 .
+
+ex:Seville10  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "239_CALLE CIUDAD DE LIRIA" ;
+        dbo:city         "Seville" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "15" ;
+        geo:lat          37.4086915827 ;
+        geo:long         -5.92771899455 .
+
+ex:Seville3  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "170_PLAZA ANTONIO APARICIO HERRERO" ;
         dbo:city         "Seville" ;
         ex:available     "9" ;
@@ -20,35 +40,15 @@ ex:Seville5  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:lat          37.3789664467 ;
         geo:long         -5.96892312176 .
 
-ex:Seville10  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "011_ALBERTO JIMÉNEZ BECERRIL" ;
-        dbo:city         "Seville" ;
-        ex:available     "4" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "16" ;
-        ex:total         "20" ;
-        geo:lat          37.4071428839 ;
-        geo:long         -5.99259029973 .
-
-ex:Seville3  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "122_CALLE ENRAMADILLA" ;
-        dbo:city         "Seville" ;
-        ex:available     "8" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "12" ;
-        ex:total         "20" ;
-        geo:lat          37.3784844413 ;
-        geo:long         -5.97838915468 .
-
 ex:Seville8  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "202_AVENIDA MUJER TRABAJADORA" ;
+        rdfs:label       "044_RONDA CAPUCHINOS" ;
         dbo:city         "Seville" ;
-        ex:available     "8" ;
+        ex:available     "9" ;
         ex:cardPaiement  "1" ;
-        ex:free          "12" ;
-        ex:total         "20" ;
-        geo:lat          37.4114665772 ;
-        geo:long         -5.96676313291 .
+        ex:free          "6" ;
+        ex:total         "15" ;
+        geo:lat          37.3983389723 ;
+        geo:long         -5.98164002676 .
 
 ex:Seville1  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "143_CALLE RAMON DE CARRANZA" ;
@@ -61,6 +61,16 @@ ex:Seville1  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         -6.00331223824 .
 
 ex:Seville6  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "011_ALBERTO JIMÉNEZ BECERRIL" ;
+        dbo:city         "Seville" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "16" ;
+        ex:total         "20" ;
+        geo:lat          37.4071428839 ;
+        geo:long         -5.99259029973 .
+
+ex:Seville4  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "204_CALLE DOCTOR LAFFON" ;
         dbo:city         "Seville" ;
         ex:available     "6" ;
@@ -70,7 +80,17 @@ ex:Seville6  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:lat          37.3976896919 ;
         geo:long         -5.96160136487 .
 
-ex:Seville4  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+ex:Seville9  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "245_CALLE LAS LEANDRAS" ;
+        dbo:city         "Seville" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "14" ;
+        ex:total         "15" ;
+        geo:lat          37.3753988112 ;
+        geo:long         -5.95254946625 .
+
+ex:Seville2  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "136_CALLE ASUNCIÓN" ;
         dbo:city         "Seville" ;
         ex:available     "20" ;
@@ -80,32 +100,12 @@ ex:Seville4  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:lat          37.3731194128 ;
         geo:long         -5.99761021903 .
 
-ex:Seville9  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "058_CALLE REGINA" ;
-        dbo:city         "Seville" ;
-        ex:available     "6" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "12" ;
-        ex:total         "19" ;
-        geo:lat          37.3943672228 ;
-        geo:long         -5.99154499304 .
-
-ex:Seville2  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "087_PLAZA NUEVA" ;
-        dbo:city         "Seville" ;
-        ex:available     "40" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "0" ;
-        ex:total         "40" ;
-        geo:lat          37.388966477 ;
-        geo:long         -5.99529422004 .
-
 ex:Seville7  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "078_CALLE ALFARERIA" ;
+        rdfs:label       "115_CALLE LOPEZ DE GOMARA" ;
         dbo:city         "Seville" ;
-        ex:available     "5" ;
+        ex:available     "19" ;
         ex:cardPaiement  "1" ;
-        ex:free          "14" ;
+        ex:free          "1" ;
         ex:total         "20" ;
-        geo:lat          37.3885711332 ;
-        geo:long         -6.01028237835 .
+        geo:lat          37.3778924284 ;
+        geo:long         -6.00723725557 .

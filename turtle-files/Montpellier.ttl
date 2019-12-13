@@ -443,9 +443,9 @@ ex:Montpellier50  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier22  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Clemenceau" ;
         dbo:city         "Montpellier" ;
-        ex:available     "6" ;
+        ex:available     "5" ;
         ex:cardPaiement  "0" ;
-        ex:free          "6" ;
+        ex:free          "7" ;
         ex:total         "12" ;
         geo:lat          43.603539 ;
         geo:long         3.872394 .
@@ -463,9 +463,9 @@ ex:Montpellier35  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Montpellier48  a      <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "Hôtel du Département" ;
         dbo:city         "Montpellier" ;
-        ex:available     "1" ;
+        ex:available     "4" ;
         ex:cardPaiement  "0" ;
-        ex:free          "7" ;
+        ex:free          "4" ;
         ex:total         "8" ;
         geo:lat          43.621682 ;
         geo:long         3.83477 .

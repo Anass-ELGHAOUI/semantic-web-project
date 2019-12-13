@@ -35,14 +35,14 @@ ex:Nancy4  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         6.20473563987 .
 
 ex:Nancy9  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00008 - COURS LEOPOLD - SAINT MICHEL (CB)" ;
+        rdfs:label       "00027 - NANCY THERMAL (CB)" ;
         dbo:city         "Nancy" ;
-        ex:available     "5" ;
+        ex:available     "7" ;
         ex:cardPaiement  "1" ;
-        ex:free          "13" ;
+        ex:free          "11" ;
         ex:total         "18" ;
-        geo:lat          48.6956140663 ;
-        geo:long         6.17676840786 .
+        geo:lat          48.6789996768 ;
+        geo:long         6.1676325674 .
 
 ex:Nancy2  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "00004 - MARCHE CENTRAL (CB)" ;
@@ -93,19 +93,19 @@ ex:Nancy3  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Nancy8  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "00016 - PORTE DE LA CRAFFE (CB)" ;
         dbo:city         "Nancy" ;
-        ex:available     "3" ;
+        ex:available     "4" ;
         ex:cardPaiement  "1" ;
-        ex:free          "17" ;
+        ex:free          "16" ;
         ex:total         "20" ;
         geo:lat          48.6984724452 ;
         geo:long         6.17798553706 .
 
 ex:Nancy10  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00027 - NANCY THERMAL (CB)" ;
+        rdfs:label       "00021 - HOPITAL CENTRAL (CB)" ;
         dbo:city         "Nancy" ;
         ex:available     "7" ;
         ex:cardPaiement  "1" ;
-        ex:free          "11" ;
-        ex:total         "18" ;
-        geo:lat          48.6789996768 ;
-        geo:long         6.1676325674 .
+        ex:free          "13" ;
+        ex:total         "20" ;
+        geo:lat          48.6833502131 ;
+        geo:long         6.19029660802 .

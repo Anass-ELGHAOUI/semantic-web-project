@@ -37,9 +37,9 @@ ex:Lund1  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Lund6  a              <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "PROFESSORSGATAN" ;
         dbo:city         "Lund" ;
-        ex:available     "2" ;
+        ex:available     "1" ;
         ex:cardPaiement  "1" ;
-        ex:free          "19" ;
+        ex:free          "20" ;
         ex:total         "23" ;
         geo:lat          55.709632 ;
         geo:long         13.20595 .

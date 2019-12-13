@@ -41,14 +41,14 @@ ex:Bruxelles4  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         4.379577 .
 
 ex:Bruxelles9  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "223 - WIELS" ;
+        rdfs:label       "151 - LOUVAIN 488-494/LEUVEN 488-494" ;
         dbo:city         "Bruxelles" ;
-        ex:available     "1" ;
+        ex:available     "12" ;
         ex:cardPaiement  "1" ;
-        ex:free          "23" ;
+        ex:free          "12" ;
         ex:total         "25" ;
-        geo:lat          50.824055 ;
-        geo:long         4.326376 .
+        geo:lat          50.853518 ;
+        geo:long         4.392491 .
 
 ex:Bruxelles2  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "184 - PHILIPPE BAUCQ" ;
@@ -81,14 +81,14 @@ ex:Bruxelles5  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         4.404311 .
 
 ex:Bruxelles10  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "151 - LOUVAIN 488-494/LEUVEN 488-494" ;
+        rdfs:label       "282 - CENTENAIRE / EEUWFEEST" ;
         dbo:city         "Bruxelles" ;
-        ex:available     "12" ;
+        ex:available     "17" ;
         ex:cardPaiement  "1" ;
-        ex:free          "12" ;
+        ex:free          "8" ;
         ex:total         "25" ;
-        geo:lat          50.853518 ;
-        geo:long         4.392491 .
+        geo:lat          50.89097 ;
+        geo:long         4.344827 .
 
 ex:Bruxelles3  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "200 - VETERANS COLONIAUX / KOLONIALE VETERANEN" ;
@@ -101,11 +101,11 @@ ex:Bruxelles3  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         4.313537 .
 
 ex:Bruxelles8  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "349 - FONSNY" ;
+        rdfs:label       "223 - WIELS" ;
         dbo:city         "Bruxelles" ;
-        ex:available     "6" ;
+        ex:available     "1" ;
         ex:cardPaiement  "1" ;
-        ex:free          "13" ;
-        ex:total         "20" ;
-        geo:lat          50.833444 ;
-        geo:long         4.334857 .
+        ex:free          "23" ;
+        ex:total         "25" ;
+        geo:lat          50.824055 ;
+        geo:long         4.326376 .
