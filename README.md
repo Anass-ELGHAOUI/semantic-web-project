@@ -1,3 +1,4 @@
+
 # semantic-web-project
 Authors: 
 <ul>
@@ -23,6 +24,7 @@ Authors:
   - Setup and interact with an RDF database
   - Exploit multiple sources of heterogeneous data
   - Present information online with rich metadata
+ 
 
 ## How to run the code
 ### 1) Requirements
@@ -48,6 +50,15 @@ You can check the pre-added data from the Java application, and also the data ad
 **3-2- Add data to the web application** <br/>
 In the front page of the web application, you have a form that you'll have to complete if you want to add a city.
 Two file formats are supported to add data: XML and CSV.
+The user is not allowed to change the data of pre-existing cities.
 
 **3-3- RDFa** <br/>
 The page which displays information about the bike stations of a certain city has RDFa in it. You can get the RDFa content by copying the page code from the console (not by accessing the source code as the page is dynamically generated using JavaScript) and parsing it using the RDFa distiller: [https://www.w3.org/2012/pyRdfa/#distill_by_input](https://www.w3.org/2012/pyRdfa/#distill_by_input)
+
+**3-3- How it works** <br/>
+- The Java program creates an RDF (turtle) file for each city that we have added following a vocabulary that we have created to describe the bike stations of a certain city: [https://github.com/Anass-ELGHAOUI/semantic-web-project/blob/master/Vocabulary.txt](https://github.com/Anass-ELGHAOUI/semantic-web-project/blob/master/Vocabulary.txt)
+- The created RDF files are loaded to the triplestore.
+- When the user adds data through the website (XML or CSV), it gets transformed to a CSV file following the user choices on the attributes, then it gets loaded to the triplestore.
+
+
+
