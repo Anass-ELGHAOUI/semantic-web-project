@@ -57,8 +57,6 @@ The page which displays information about the bike stations of a certain city ha
 
 **3-3- How it works** <br/>
 - The Java program creates an RDF (turtle) file for each city that we have added following a vocabulary that we have created to describe the bike stations of a certain city: [https://github.com/Anass-ELGHAOUI/semantic-web-project/blob/master/Vocabulary.txt](https://github.com/Anass-ELGHAOUI/semantic-web-project/blob/master/Vocabulary.txt)
+- The generated RDF files are stored in this folder: [https://github.com/Anass-ELGHAOUI/semantic-web-project/tree/master/turtle-files](https://github.com/Anass-ELGHAOUI/semantic-web-project/tree/master/turtle-files)
 - The created RDF files are loaded to the triplestore.
 - When the user adds data through the website (XML or CSV), it gets transformed to a CSV file following the user choices on the attributes, then it gets loaded to the triplestore.
-
-
-
