@@ -17,4 +17,4 @@ ex:Montpellier1  a dbr:Bicycle-sharing_system;
   ex:available  3;
   ex:free  4;
   ex:total  20;
-  ex:cardPaiement 1 .
+  ex:cardPaiement "Card accepted" .
