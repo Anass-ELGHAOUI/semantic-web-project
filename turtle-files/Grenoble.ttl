@@ -1,0 +1,31 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://www.example.com/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Grenoble1  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bike station 1" ;
+        dbo:city         "Grenoble" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "0" ;
+        ex:free          "10" ;
+        ex:total         "10" ;
+        geo:lat          42.656 ;
+        geo:long         52.236 .
+
+ex:Grenoble2  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "Bike station 2" ;
+        dbo:city         "Grenoble" ;
+        ex:available     "14" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "1" ;
+        ex:total         "15" ;
+        geo:lat          42.656 ;
+        geo:long         52.236 .
+
+<http://dbpedia.org/resource/Grenoble>
+        a                dbo:city ;
+        rdfs:label       "Grenoble" ;
+        dbo:country      "France" ;
+        ex:bikeStations  ex:Grenoble2 , ex:Grenoble1 .

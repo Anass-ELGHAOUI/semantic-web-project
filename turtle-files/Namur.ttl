@@ -5,24 +5,24 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Namur3  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "029 - WIERTZ" ;
+        rdfs:label       "021 - CASINO" ;
         dbo:city         "Namur" ;
-        ex:available     "14" ;
+        ex:available     "8" ;
         ex:cardPaiement  "1" ;
-        ex:free          "1" ;
+        ex:free          "7" ;
         ex:total         "15" ;
-        geo:lat          50.464476 ;
-        geo:long         4.849289 .
+        geo:lat          50.45617 ;
+        geo:long         4.86269 .
 
 ex:Namur8  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "027 - OMALIUS" ;
+        rdfs:label       "016 - PLACE DE WALLONIE" ;
         dbo:city         "Namur" ;
-        ex:available     "10" ;
+        ex:available     "8" ;
         ex:cardPaiement  "1" ;
         ex:free          "5" ;
         ex:total         "15" ;
-        geo:lat          50.4674 ;
-        geo:long         4.8581 .
+        geo:lat          50.45602 ;
+        geo:long         4.87266 .
 
 ex:Namur1  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "031-PLACE DE BERCK-SUR-MER" ;
@@ -37,9 +37,9 @@ ex:Namur1  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Namur6  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "028 - EXPO" ;
         dbo:city         "Namur" ;
-        ex:available     "4" ;
+        ex:available     "9" ;
         ex:cardPaiement  "1" ;
-        ex:free          "11" ;
+        ex:free          "5" ;
         ex:total         "15" ;
         geo:lat          50.46675 ;
         geo:long         4.84834 .
@@ -51,34 +51,34 @@ ex:Namur6  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:bikeStations  ex:Namur2 , ex:Namur6 , ex:Namur3 , ex:Namur7 , ex:Namur1 , ex:Namur5 , ex:Namur9 , ex:Namur10 , ex:Namur4 , ex:Namur8 .
 
 ex:Namur4  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "021 - CASINO" ;
+        rdfs:label       "027 - OMALIUS" ;
         dbo:city         "Namur" ;
         ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "15" ;
+        geo:lat          50.4674 ;
+        geo:long         4.8581 .
+
+ex:Namur9  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "025 - AUBERGE DE JEUNESSE" ;
+        dbo:city         "Namur" ;
+        ex:available     "9" ;
         ex:cardPaiement  "1" ;
         ex:free          "6" ;
         ex:total         "15" ;
-        geo:lat          50.45617 ;
-        geo:long         4.86269 .
-
-ex:Namur9  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "032- ECOLE DES CADETS" ;
-        dbo:city         "Namur" ;
-        ex:available     "8" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "9" ;
-        ex:total         "17" ;
-        geo:lat          50.46603 ;
-        geo:long         4.87735 .
+        geo:lat          50.448224 ;
+        geo:long         4.859506 .
 
 ex:Namur10  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "025 - AUBERGE DE JEUNESSE" ;
+        rdfs:label       "029 - WIERTZ" ;
         dbo:city         "Namur" ;
         ex:available     "10" ;
         ex:cardPaiement  "1" ;
         ex:free          "5" ;
         ex:total         "15" ;
-        geo:lat          50.448224 ;
-        geo:long         4.859506 .
+        geo:lat          50.464476 ;
+        geo:long         4.849289 .
 
 ex:Namur2  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "018 - CPAS" ;
@@ -93,19 +93,19 @@ ex:Namur2  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
 ex:Namur7  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "030 - PLACE LOUISE GODIN" ;
         dbo:city         "Namur" ;
-        ex:available     "5" ;
+        ex:available     "10" ;
         ex:cardPaiement  "1" ;
-        ex:free          "10" ;
+        ex:free          "5" ;
         ex:total         "15" ;
         geo:lat          50.460596 ;
         geo:long         4.842836 .
 
 ex:Namur5  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "017 - GARE DE JAMBES" ;
+        rdfs:label       "032- ECOLE DES CADETS" ;
         dbo:city         "Namur" ;
-        ex:available     "12" ;
+        ex:available     "11" ;
         ex:cardPaiement  "1" ;
-        ex:free          "3" ;
-        ex:total         "15" ;
-        geo:lat          50.455072 ;
-        geo:long         4.8755827 .
+        ex:free          "6" ;
+        ex:total         "17" ;
+        geo:lat          50.46603 ;
+        geo:long         4.87735 .

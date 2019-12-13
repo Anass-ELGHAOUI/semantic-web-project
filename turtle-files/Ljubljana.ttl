@@ -5,54 +5,54 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Ljubljana5  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "PARK NAVJE-ŽELEZNA CESTA" ;
+        rdfs:label       "ŠMARTINSKI PARK" ;
+        dbo:city         "Ljubljana" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "20" ;
+        ex:total         "20" ;
+        geo:lat          46.065206 ;
+        geo:long         14.529911 .
+
+ex:Ljubljana3  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "GRUDNOVO NABREŽJE-KARLOVŠKA C." ;
+        dbo:city         "Ljubljana" ;
+        ex:available     "10" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "8" ;
+        ex:total         "18" ;
+        geo:lat          46.045748 ;
+        geo:long         14.506196 .
+
+ex:Ljubljana8  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "AMBROŽEV TRG" ;
+        dbo:city         "Ljubljana" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "10" ;
+        ex:total         "18" ;
+        geo:lat          46.049877 ;
+        geo:long         14.516308 .
+
+ex:Ljubljana6  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "ILIRSKA ULICA" ;
+        dbo:city         "Ljubljana" ;
+        ex:available     "6" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "18" ;
+        geo:lat          46.053144 ;
+        geo:long         14.513479 .
+
+ex:Ljubljana1  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "HOFER-KAJUHOVA" ;
         dbo:city         "Ljubljana" ;
         ex:available     "10" ;
         ex:cardPaiement  "1" ;
         ex:free          "10" ;
         ex:total         "20" ;
-        geo:lat          46.06361 ;
-        geo:long         14.51315 .
-
-ex:Ljubljana3  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "KOPRSKA ULICA" ;
-        dbo:city         "Ljubljana" ;
-        ex:available     "0" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "8" ;
-        ex:total         "8" ;
-        geo:lat          46.033408 ;
-        geo:long         14.482468 .
-
-ex:Ljubljana8  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "BRATOVŠEVA PLOŠČAD" ;
-        dbo:city         "Ljubljana" ;
-        ex:available     "12" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "8" ;
-        ex:total         "20" ;
-        geo:lat          46.08929 ;
-        geo:long         14.513751 .
-
-ex:Ljubljana6  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "HOFER-KAJUHOVA" ;
-        dbo:city         "Ljubljana" ;
-        ex:available     "14" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "6" ;
-        ex:total         "20" ;
         geo:lat          46.056405 ;
         geo:long         14.540901 .
-
-ex:Ljubljana1  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "BAVARSKI DVOR" ;
-        dbo:city         "Ljubljana" ;
-        ex:available     "9" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "11" ;
-        ex:total         "20" ;
-        geo:lat          46.05682 ;
-        geo:long         14.50551 .
 
 <http://dbpedia.org/resource/Ljubljana>
         a                dbo:city ;
@@ -61,51 +61,51 @@ ex:Ljubljana1  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:bikeStations  ex:Ljubljana3 , ex:Ljubljana8 , ex:Ljubljana10 , ex:Ljubljana9 , ex:Ljubljana6 , ex:Ljubljana7 , ex:Ljubljana1 , ex:Ljubljana4 , ex:Ljubljana5 , ex:Ljubljana2 .
 
 ex:Ljubljana4  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "MIKLOŠIČEV PARK" ;
+        rdfs:label       "PREGLOV TRG" ;
         dbo:city         "Ljubljana" ;
-        ex:available     "0" ;
+        ex:available     "1" ;
         ex:cardPaiement  "1" ;
-        ex:free          "18" ;
-        ex:total         "18" ;
-        geo:lat          46.054168 ;
-        geo:long         14.50706 .
+        ex:free          "19" ;
+        ex:total         "20" ;
+        geo:lat          46.054554 ;
+        geo:long         14.55908 .
 
 ex:Ljubljana9  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "AMBROŽEV TRG" ;
-        dbo:city         "Ljubljana" ;
-        ex:available     "5" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "13" ;
-        ex:total         "18" ;
-        geo:lat          46.049877 ;
-        geo:long         14.516308 .
-
-ex:Ljubljana10  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "BTC CITY ATLANTIS" ;
-        dbo:city         "Ljubljana" ;
-        ex:available     "13" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "7" ;
-        ex:total         "20" ;
-        geo:lat          46.063081 ;
-        geo:long         14.547851 .
-
-ex:Ljubljana2  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "STARA CERKEV" ;
-        dbo:city         "Ljubljana" ;
-        ex:available     "13" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "1" ;
-        ex:total         "14" ;
-        geo:lat          46.06342 ;
-        geo:long         14.494588 .
-
-ex:Ljubljana7  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "PARKIRIŠČE NUK 2-FF" ;
         dbo:city         "Ljubljana" ;
-        ex:available     "0" ;
+        ex:available     "11" ;
         ex:cardPaiement  "1" ;
-        ex:free          "20" ;
+        ex:free          "9" ;
         ex:total         "20" ;
         geo:lat          46.046377 ;
         geo:long         14.501256 .
+
+ex:Ljubljana10  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "BAVARSKI DVOR" ;
+        dbo:city         "Ljubljana" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "13" ;
+        ex:total         "20" ;
+        geo:lat          46.05682 ;
+        geo:long         14.50551 .
+
+ex:Ljubljana2  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "MERCATOR CENTER ŠIŠKA" ;
+        dbo:city         "Ljubljana" ;
+        ex:available     "13" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "22" ;
+        geo:lat          46.087079 ;
+        geo:long         14.475439 .
+
+ex:Ljubljana7  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "PARK NAVJE-ŽELEZNA CESTA" ;
+        dbo:city         "Ljubljana" ;
+        ex:available     "8" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "12" ;
+        ex:total         "20" ;
+        geo:lat          46.06361 ;
+        geo:long         14.51315 .

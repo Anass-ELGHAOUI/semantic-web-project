@@ -5,14 +5,14 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Marseille7  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "02279 - DOCKS LES TERRASSES DU PORT" ;
+        rdfs:label       "8053-PRADO - PERIER" ;
         dbo:city         "Marseille" ;
-        ex:available     "17" ;
+        ex:available     "2" ;
         ex:cardPaiement  "1" ;
-        ex:free          "5" ;
-        ex:total         "22" ;
-        geo:lat          43.308731 ;
-        geo:long         5.36651 .
+        ex:free          "11" ;
+        ex:total         "13" ;
+        geo:lat          43.2797421461 ;
+        geo:long         5.38743104726 .
 
 ex:Marseille2  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "1226-PLAINE-ST PIERRE" ;
@@ -31,44 +31,44 @@ ex:Marseille2  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:bikeStations  ex:Marseille5 , ex:Marseille8 , ex:Marseille2 , ex:Marseille3 , ex:Marseille1 , ex:Marseille9 , ex:Marseille6 , ex:Marseille7 , ex:Marseille10 , ex:Marseille4 .
 
 ex:Marseille10  a        <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "8053-PRADO - PERIER" ;
-        dbo:city         "Marseille" ;
-        ex:available     "7" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "6" ;
-        ex:total         "13" ;
-        geo:lat          43.2797421461 ;
-        geo:long         5.38743104726 .
-
-ex:Marseille5  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "5280-CHAVE CAMAS" ;
-        dbo:city         "Marseille" ;
-        ex:available     "5" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "8" ;
-        ex:total         "13" ;
-        geo:lat          43.2958110232 ;
-        geo:long         5.39631219912 .
-
-ex:Marseille3  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "9219-PUGETTE - ANDRE" ;
-        dbo:city         "Marseille" ;
-        ex:available     "1" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "14" ;
-        ex:total         "15" ;
-        geo:lat          43.2684051407 ;
-        geo:long         5.40063537111 .
-
-ex:Marseille8  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "8068-PRADO BORELY" ;
+        rdfs:label       "6176-CANTINI ROUET" ;
         dbo:city         "Marseille" ;
         ex:available     "3" ;
         ex:cardPaiement  "1" ;
+        ex:free          "21" ;
+        ex:total         "24" ;
+        geo:lat          43.2847759836 ;
+        geo:long         5.38559376362 .
+
+ex:Marseille5  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "7062-88 CORNICHE - KENNEDY" ;
+        dbo:city         "Marseille" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "15" ;
+        geo:lat          43.2842139794 ;
+        geo:long         5.34969647547 .
+
+ex:Marseille3  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "6113-LODI VILLAGE" ;
+        dbo:city         "Marseille" ;
+        ex:available     "9" ;
+        ex:cardPaiement  "1" ;
         ex:free          "6" ;
-        ex:total         "9" ;
-        geo:lat          43.2624559209 ;
-        geo:long         5.37579581617 .
+        ex:total         "15" ;
+        geo:lat          43.2886166718 ;
+        geo:long         5.38777964271 .
+
+ex:Marseille8  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "8261- 318 MAZARGUES" ;
+        dbo:city         "Marseille" ;
+        ex:available     "12" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "3" ;
+        ex:total         "15" ;
+        geo:lat          43.2606996091 ;
+        geo:long         5.39397389933 .
 
 ex:Marseille1  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "1004-GENERAL DE GAULLE PARADIS" ;
@@ -81,31 +81,31 @@ ex:Marseille1  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         5.3760267473 .
 
 ex:Marseille6  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "2200-MUCEM" ;
+        rdfs:label       "8255-PRADO - PARADIS" ;
         dbo:city         "Marseille" ;
-        ex:available     "2" ;
+        ex:available     "8" ;
         ex:cardPaiement  "1" ;
-        ex:free          "24" ;
-        ex:total         "26" ;
-        geo:lat          43.2984594666 ;
-        geo:long         5.36291062832 .
+        ex:free          "2" ;
+        ex:total         "10" ;
+        geo:lat          43.2695417969 ;
+        geo:long         5.38627377944 .
 
 ex:Marseille4  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "7062-88 CORNICHE - KENNEDY" ;
+        rdfs:label       "8307-PRADO MICHELET" ;
         dbo:city         "Marseille" ;
         ex:available     "3" ;
         ex:cardPaiement  "1" ;
-        ex:free          "12" ;
-        ex:total         "15" ;
-        geo:lat          43.2842139794 ;
-        geo:long         5.34969647547 .
-
-ex:Marseille9  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "8307-PRADO MICHELET" ;
-        dbo:city         "Marseille" ;
-        ex:available     "2" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "18" ;
+        ex:free          "17" ;
         ex:total         "20" ;
         geo:lat          43.2722414899 ;
         geo:long         5.39166970262 .
+
+ex:Marseille9  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "7212-SAINTE - NOTRE DAME" ;
+        dbo:city         "Marseille" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "9" ;
+        ex:total         "10" ;
+        geo:lat          43.2916347097 ;
+        geo:long         5.37137038486 .

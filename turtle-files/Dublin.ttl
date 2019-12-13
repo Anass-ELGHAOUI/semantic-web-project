@@ -15,34 +15,34 @@ ex:Dublin1  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         -6.236198 .
 
 ex:Dublin6  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "WILTON TERRACE (PARK)" ;
+        rdfs:label       "MOUNT BROWN" ;
+        dbo:city         "Dublin" ;
+        ex:available     "0" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "22" ;
+        ex:total         "22" ;
+        geo:lat          53.341645 ;
+        geo:long         -6.29719 .
+
+ex:Dublin4  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "HEUSTON STATION (CENTRAL)" ;
         dbo:city         "Dublin" ;
         ex:available     "0" ;
         ex:cardPaiement  "1" ;
         ex:free          "40" ;
         ex:total         "40" ;
-        geo:lat          53.333653 ;
-        geo:long         -6.248345 .
-
-ex:Dublin4  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "EXCISE WALK" ;
-        dbo:city         "Dublin" ;
-        ex:available     "5" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "35" ;
-        ex:total         "40" ;
-        geo:lat          53.347777 ;
-        geo:long         -6.244239 .
+        geo:lat          53.346603 ;
+        geo:long         -6.296924 .
 
 ex:Dublin9  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "KILMAINHAM GAOL" ;
+        rdfs:label       "HARDWICKE STREET" ;
         dbo:city         "Dublin" ;
-        ex:available     "23" ;
+        ex:available     "1" ;
         ex:cardPaiement  "1" ;
-        ex:free          "17" ;
-        ex:total         "40" ;
-        geo:lat          53.342113 ;
-        geo:long         -6.310015 .
+        ex:free          "15" ;
+        ex:total         "16" ;
+        geo:lat          53.355473 ;
+        geo:long         -6.264423 .
 
 ex:Dublin2  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "NORTH CIRCULAR ROAD" ;
@@ -55,24 +55,24 @@ ex:Dublin2  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         -6.260348 .
 
 ex:Dublin7  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "JOHN STREET WEST" ;
+        rdfs:label       "HARCOURT TERRACE" ;
         dbo:city         "Dublin" ;
-        ex:available     "31" ;
+        ex:available     "0" ;
         ex:cardPaiement  "1" ;
-        ex:free          "0" ;
-        ex:total         "31" ;
-        geo:lat          53.343105 ;
-        geo:long         -6.277167 .
+        ex:free          "20" ;
+        ex:total         "20" ;
+        geo:lat          53.332763 ;
+        geo:long         -6.257942 .
 
 ex:Dublin10  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "HARDWICKE PLACE" ;
+        rdfs:label       "MOUNTJOY SQUARE WEST" ;
         dbo:city         "Dublin" ;
-        ex:available     "7" ;
+        ex:available     "0" ;
         ex:cardPaiement  "1" ;
-        ex:free          "18" ;
-        ex:total         "25" ;
-        geo:lat          53.357043 ;
-        geo:long         -6.263232 .
+        ex:free          "29" ;
+        ex:total         "30" ;
+        geo:lat          53.356299 ;
+        geo:long         -6.258586 .
 
 <http://dbpedia.org/resource/Dublin>
         a                dbo:city ;
@@ -81,31 +81,31 @@ ex:Dublin10  a           <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         ex:bikeStations  ex:Dublin7 , ex:Dublin4 , ex:Dublin2 , ex:Dublin6 , ex:Dublin10 , ex:Dublin9 , ex:Dublin1 , ex:Dublin5 , ex:Dublin8 , ex:Dublin3 .
 
 ex:Dublin5  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "KILMAINHAM GAOL" ;
+        dbo:city         "Dublin" ;
+        ex:available     "2" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "38" ;
+        ex:total         "40" ;
+        geo:lat          53.342113 ;
+        geo:long         -6.310015 .
+
+ex:Dublin3  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "GOLDEN LANE" ;
         dbo:city         "Dublin" ;
-        ex:available     "16" ;
+        ex:available     "8" ;
         ex:cardPaiement  "1" ;
-        ex:free          "4" ;
+        ex:free          "12" ;
         ex:total         "20" ;
         geo:lat          53.340803 ;
         geo:long         -6.267732 .
 
-ex:Dublin3  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "GRANTHAM STREET" ;
-        dbo:city         "Dublin" ;
-        ex:available     "2" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "28" ;
-        ex:total         "30" ;
-        geo:lat          53.334123 ;
-        geo:long         -6.265436 .
-
 ex:Dublin8  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "MERRION SQUARE SOUTH" ;
+        rdfs:label       "HEUSTON STATION (CAR PARK)" ;
         dbo:city         "Dublin" ;
-        ex:available     "6" ;
+        ex:available     "9" ;
         ex:cardPaiement  "1" ;
-        ex:free          "34" ;
+        ex:free          "31" ;
         ex:total         "40" ;
-        geo:lat          53.338614 ;
-        geo:long         -6.248606 .
+        geo:lat          53.346985 ;
+        geo:long         -6.297804 .

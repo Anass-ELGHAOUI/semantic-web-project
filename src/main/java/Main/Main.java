@@ -25,6 +25,15 @@ public class Main {
             RDFConnection conn = RDFConnectionFactory.connect(Constants.triplestore);
             conn.delete();
 
+            /* Parse CSV files from users */
+            UserFilesParser fr = new UserFilesParser();
+            String directory = System.getProperty("user.dir") + "/Manually-added-files";
+            final File folder = new File(directory);
+            List<String> files = new ArrayList();
+            files = fr.listFilesForFolder(folder);
+
+            fr.csvParser(files);
+
             /* Parse bike station files */
             /* Montpellier - France */
             XMLParser xmlParser = new XMLParser();
@@ -117,15 +126,6 @@ public class Main {
 
             /* Lillestorm - Norway */
             jsonParser.jcdecauxParser("https://public.opendatasoft.com/api/records/1.0/search/?dataset=jcdecaux_bike_data&facet=banking&facet=bonus&facet=status&facet=contract_name&refine.contract_name=lillestorm", "Lillestorm", "Norway");
-
-            /* Parse CSV files from users */
-            UserFilesParser fr = new UserFilesParser();
-            String directory = System.getProperty("user.dir") + "/Manually-added-files";
-            final File folder = new File(directory);
-            List<String> files = new ArrayList();
-            files = fr.listFilesForFolder(folder);
-
-            fr.csvParser(files);
 
         }
     }

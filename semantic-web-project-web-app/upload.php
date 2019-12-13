@@ -66,7 +66,7 @@ else {
     header("Location: index.php");
 }
 ?>
-<form name="userForm" action="" method="POST">
+<form name="userForm" action="index.php" method="POST">
     <div id="div">
         <div id="uploadData">
             <h1>Upload new data</h1>
