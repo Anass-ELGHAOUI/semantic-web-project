@@ -338,7 +338,6 @@ function getCityInfo() {
     }
 }
 
-
 /* Taken from: https://nouvelle-techno.fr/actualites/2017/12/06/pas-a-pas-inserer-une-carte-google-maps-avec-lapi-google-maps-javascript
 *  Function to show the map using google maps api */
 function initMap(lat, lon, id, mapTitle) {
@@ -370,4 +369,20 @@ function initMap(lat, lon, id, mapTitle) {
 function cityAlreadyExists() {
     alert('This city already exists in the triplestore with real time data, please choose another one');
     window.location.href = "index.php";
+}
+
+function initializeCountry() {
+    var input = document.getElementById('country');
+    var options = {
+        types: ['geocode']
+    };
+    new google.maps.places.Autocomplete(input, options);
+}
+
+function initializeCity() {
+    var input = document.getElementById('city');
+    var options = {
+        types: ['geocode']
+    };
+    new google.maps.places.Autocomplete(input, options);
 }

@@ -16,7 +16,12 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMy2HfZYaVHg2uuz9rVG1uYOyy-7wilNs&libraries=places"></script>
 	<script type="text/javascript" src="js/rdf.js"></script>
+    <script>
+        google.maps.event.addDomListener(window, 'load', initializeCountry);
+        google.maps.event.addDomListener(window, 'load', initializeCity);
+    </script>
 </head>
 
 <body onload="getAllCountries()">

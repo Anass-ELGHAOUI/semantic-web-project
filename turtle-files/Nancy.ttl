@@ -5,14 +5,14 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Nancy1  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00004 - MARCHE CENTRAL (CB)" ;
+        rdfs:label       "00013 - SAINT NICOLAS - CHARLES III" ;
         dbo:city         "Nancy" ;
-        ex:available     "1" ;
+        ex:available     "2" ;
         ex:cardPaiement  "1" ;
-        ex:free          "17" ;
-        ex:total         "18" ;
-        geo:lat          48.6891733258 ;
-        geo:long         6.18390463044 .
+        ex:free          "14" ;
+        ex:total         "16" ;
+        geo:lat          48.6878319691 ;
+        geo:long         6.18780151508 .
 
 ex:Nancy6  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "00028 - MARCHÉ D'HAUSSONVILLE" ;
@@ -25,24 +25,24 @@ ex:Nancy6  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         6.16571070912 .
 
 ex:Nancy4  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00013 - SAINT NICOLAS - CHARLES III" ;
+        rdfs:label       "00004 - MARCHE CENTRAL (CB)" ;
         dbo:city         "Nancy" ;
-        ex:available     "2" ;
+        ex:available     "1" ;
         ex:cardPaiement  "1" ;
-        ex:free          "14" ;
-        ex:total         "16" ;
-        geo:lat          48.6878319691 ;
-        geo:long         6.18780151508 .
+        ex:free          "17" ;
+        ex:total         "18" ;
+        geo:lat          48.6891733258 ;
+        geo:long         6.18390463044 .
 
 ex:Nancy9  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00003 - PLACE DE DOMBASLE (CB)" ;
+        rdfs:label       "00024 - 3 MAISONS - CHARLES V (CB)" ;
         dbo:city         "Nancy" ;
-        ex:available     "18" ;
+        ex:available     "14" ;
         ex:cardPaiement  "1" ;
-        ex:free          "10" ;
-        ex:total         "28" ;
-        geo:lat          48.6919579484 ;
-        geo:long         6.17851021951 .
+        ex:free          "9" ;
+        ex:total         "23" ;
+        geo:lat          48.7008781485 ;
+        geo:long         6.17706203367 .
 
 ex:Nancy2  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "00019 - COMMANDERIE - CHALNOT" ;
@@ -55,14 +55,14 @@ ex:Nancy2  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         6.17234789239 .
 
 ex:Nancy7  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00016 - PORTE DE LA CRAFFE (CB)" ;
+        rdfs:label       "00009 - PLACE BARROIS (CB)" ;
         dbo:city         "Nancy" ;
-        ex:available     "7" ;
+        ex:available     "6" ;
         ex:cardPaiement  "1" ;
-        ex:free          "13" ;
-        ex:total         "20" ;
-        geo:lat          48.6984724452 ;
-        geo:long         6.17798553706 .
+        ex:free          "11" ;
+        ex:total         "17" ;
+        geo:lat          48.6995023285 ;
+        geo:long         6.20473563987 .
 
 <http://dbpedia.org/resource/Nancy>
         a                dbo:city ;
@@ -91,21 +91,21 @@ ex:Nancy3  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:long         6.19067948967 .
 
 ex:Nancy8  a             <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00009 - PLACE BARROIS (CB)" ;
+        rdfs:label       "00016 - PORTE DE LA CRAFFE (CB)" ;
         dbo:city         "Nancy" ;
-        ex:available     "5" ;
+        ex:available     "7" ;
         ex:cardPaiement  "1" ;
-        ex:free          "12" ;
-        ex:total         "17" ;
-        geo:lat          48.6995023285 ;
-        geo:long         6.20473563987 .
+        ex:free          "13" ;
+        ex:total         "20" ;
+        geo:lat          48.6984724452 ;
+        geo:long         6.17798553706 .
 
 ex:Nancy10  a            <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "00020 - PLACE DES VOSGES" ;
+        rdfs:label       "00017 - CONSERVATOIRE - MANUFACTURE" ;
         dbo:city         "Nancy" ;
-        ex:available     "14" ;
+        ex:available     "4" ;
         ex:cardPaiement  "1" ;
-        ex:free          "1" ;
+        ex:free          "11" ;
         ex:total         "15" ;
-        geo:lat          48.684781 ;
-        geo:long         6.187631 .
+        geo:lat          48.6957176857 ;
+        geo:long         6.17133838702 .

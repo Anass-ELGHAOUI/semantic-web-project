@@ -5,66 +5,6 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 ex:Mulhouse10  a         <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "37 - TUNNEL" ;
-        dbo:city         "Mulhouse" ;
-        ex:available     "8" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "4" ;
-        ex:total         "12" ;
-        geo:lat          47.7432963155 ;
-        geo:long         7.31549439585 .
-
-ex:Mulhouse5  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "31 - KINEPOLIS" ;
-        dbo:city         "Mulhouse" ;
-        ex:available     "7" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "8" ;
-        ex:total         "15" ;
-        geo:lat          47.76001 ;
-        geo:long         7.351265 .
-
-ex:Mulhouse3  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "06 - PORTE JEUNE" ;
-        dbo:city         "Mulhouse" ;
-        ex:available     "1" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "17" ;
-        ex:total         "18" ;
-        geo:lat          47.7500690513 ;
-        geo:long         7.33871413913 .
-
-ex:Mulhouse8  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "16 - PLACE FRANKLIN" ;
-        dbo:city         "Mulhouse" ;
-        ex:available     "5" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "6" ;
-        ex:total         "11" ;
-        geo:lat          47.751456 ;
-        geo:long         7.33392 .
-
-ex:Mulhouse1  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "39 - PORTE DE RIEDISHEIM" ;
-        dbo:city         "Mulhouse" ;
-        ex:available     "3" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "11" ;
-        ex:total         "14" ;
-        geo:lat          47.746152 ;
-        geo:long         7.357114 .
-
-ex:Mulhouse6  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "05 - METZ" ;
-        dbo:city         "Mulhouse" ;
-        ex:available     "1" ;
-        ex:cardPaiement  "1" ;
-        ex:free          "14" ;
-        ex:total         "15" ;
-        geo:lat          47.749314 ;
-        geo:long         7.341124 .
-
-ex:Mulhouse4  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "18 - CLEMENCEAU" ;
         dbo:city         "Mulhouse" ;
         ex:available     "1" ;
@@ -74,17 +14,27 @@ ex:Mulhouse4  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:lat          47.744426 ;
         geo:long         7.340096 .
 
-ex:Mulhouse9  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "08 - PORTE HAUTE" ;
+ex:Mulhouse5  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "16 - PLACE FRANKLIN" ;
         dbo:city         "Mulhouse" ;
-        ex:available     "11" ;
+        ex:available     "5" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "11" ;
+        geo:lat          47.751456 ;
+        geo:long         7.33392 .
+
+ex:Mulhouse3  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "37 - TUNNEL" ;
+        dbo:city         "Mulhouse" ;
+        ex:available     "8" ;
         ex:cardPaiement  "1" ;
         ex:free          "4" ;
-        ex:total         "15" ;
-        geo:lat          47.7469931995 ;
-        geo:long         7.33206326835 .
+        ex:total         "12" ;
+        geo:lat          47.7432963155 ;
+        geo:long         7.31549439585 .
 
-ex:Mulhouse7  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+ex:Mulhouse8  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         rdfs:label       "40 - GARE DE DORNACH" ;
         dbo:city         "Mulhouse" ;
         ex:available     "2" ;
@@ -94,15 +44,65 @@ ex:Mulhouse7  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
         geo:lat          47.7464909918 ;
         geo:long         7.30843259023 .
 
-ex:Mulhouse2  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
-        rdfs:label       "38 - WANNE" ;
+ex:Mulhouse1  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "08 - PORTE HAUTE" ;
+        dbo:city         "Mulhouse" ;
+        ex:available     "11" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "4" ;
+        ex:total         "15" ;
+        geo:lat          47.7469931995 ;
+        geo:long         7.33206326835 .
+
+ex:Mulhouse6  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "11 - PLACE DU PRINTEMPS" ;
+        dbo:city         "Mulhouse" ;
+        ex:available     "7" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "6" ;
+        ex:total         "13" ;
+        geo:lat          47.750127 ;
+        geo:long         7.348552 .
+
+ex:Mulhouse4  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "31 - KINEPOLIS" ;
         dbo:city         "Mulhouse" ;
         ex:available     "5" ;
         ex:cardPaiement  "1" ;
-        ex:free          "5" ;
-        ex:total         "10" ;
-        geo:lat          47.743132 ;
-        geo:long         7.352147 .
+        ex:free          "10" ;
+        ex:total         "15" ;
+        geo:lat          47.76001 ;
+        geo:long         7.351265 .
+
+ex:Mulhouse9  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "06 - PORTE JEUNE" ;
+        dbo:city         "Mulhouse" ;
+        ex:available     "1" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "17" ;
+        ex:total         "18" ;
+        geo:lat          47.7500690513 ;
+        geo:long         7.33871413913 .
+
+ex:Mulhouse7  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "39 - PORTE DE RIEDISHEIM" ;
+        dbo:city         "Mulhouse" ;
+        ex:available     "3" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "11" ;
+        ex:total         "14" ;
+        geo:lat          47.746152 ;
+        geo:long         7.357114 .
+
+ex:Mulhouse2  a          <http://dbpedia.org/resource/Bicycle-sharing_system> ;
+        rdfs:label       "29 - LAURENT" ;
+        dbo:city         "Mulhouse" ;
+        ex:available     "4" ;
+        ex:cardPaiement  "1" ;
+        ex:free          "7" ;
+        ex:total         "11" ;
+        geo:lat          47.752205822 ;
+        geo:long         7.35230611412 .
 
 <http://dbpedia.org/resource/Mulhouse>
         a                dbo:city ;

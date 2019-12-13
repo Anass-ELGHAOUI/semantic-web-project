@@ -11,42 +11,12 @@ $(document).ready(function(){
     $(this).scrollTop(0);
 });
 
-/* Taken from: https://html-online.com/articles/get-url-parameters-javascript/
-Function that return url parameters */
-function getUrlVars() {
-    var vars = {};
-    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-        vars[key] = value;
-    });
-    return vars;
-}
-
 function parser() {
     var fileFormat = document.getElementById('fileFormat').value;
-    var inputType = document.getElementById('inputType').value;
     var content = document.getElementById('content').value;
 
     /* CSV content */
     if (fileFormat === "csv") {
-
-        console.log("OOOOOK");
-        var readCSV = function(inputType){
-            Papa.parse(inputType, {
-                download: true,
-                header: true,
-                complete: function(results) {
-                    var listen = results.data;
-                    console.log("HAHIA");
-                    console.log(listen);
-                }
-            });
-        }
-
-        console.log(readCSV);
-        console.log(readCSV.data);
-
-
-
         var data = Papa.parse(content);
         /* Get csv delimiter */
         var div = document.getElementById('specifyAttributes');
@@ -59,7 +29,7 @@ function parser() {
 
         var attributes = data.data[0];
         if (attributes.length < 7) {
-            // fileError();
+            fileError();
         }
         else if (attributes.length >= 7) {
             for (var i = 0; i < attributes.length; i++) {
@@ -174,4 +144,35 @@ function fileError() {
     var cityName = document.getElementById('cityName').value;
     alert('The file content you gave doesn\'t contain enough information, please give a valid file');
     window.location.href = "upload.php?country=" + countryName + "&city=" + cityName;
+}
+
+/* Taken from stackoverflow */
+function hasDuplicates(array) {
+    var valuesSoFar = Object.create(null);
+    for (var i = 0; i < array.length; ++i) {
+        var value = array[i];
+        if (value in valuesSoFar) {
+            return true;
+        }
+        valuesSoFar[value] = true;
+    }
+    return false;
+}
+
+function verifyFormParams() {
+    var attributes = [];
+    attributes.push(document.getElementById('attribute1').options[document.getElementById('attribute1').selectedIndex].value);
+    attributes.push(document.getElementById('attribute2').options[document.getElementById('attribute2').selectedIndex].value);
+    attributes.push(document.getElementById('attribute3').options[document.getElementById('attribute3').selectedIndex].value);
+    attributes.push(document.getElementById('attribute4').options[document.getElementById('attribute4').selectedIndex].value);
+    attributes.push(document.getElementById('attribute5').options[document.getElementById('attribute5').selectedIndex].value);
+    attributes.push(document.getElementById('attribute6').options[document.getElementById('attribute6').selectedIndex].value);
+    attributes.push(document.getElementById('attribute7').options[document.getElementById('attribute7').selectedIndex].value);
+
+    if (hasDuplicates(attributes) === true) {
+        alert("Please choose a unique attribute for each predefined one");
+    }
+    else {
+        document.forms["userForm"].submit();
+    }
 }
