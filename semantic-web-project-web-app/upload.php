@@ -66,7 +66,7 @@ else {
     header("Location: index.php");
 }
 ?>
-<form name="userForm" action="index.php" method="POST">
+<form name="userForm" action="" method="POST">
     <div id="div">
         <div id="uploadData">
             <h1>Upload new data</h1>
@@ -166,7 +166,7 @@ else {
 </form>
 
 <?php
-if (isset($_POST['btnSubmit'])) {
+//if (isset($_POST['btnSubmit'])) {
     if (isset($_POST['attribute1']) &&
         isset($_POST['attribute2']) &&
         isset($_POST['attribute3']) &&
@@ -281,7 +281,7 @@ if (isset($_POST['btnSubmit'])) {
 
         }
     }
-}
+//}
 ?>
 
 </body>
