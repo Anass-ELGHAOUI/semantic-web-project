@@ -26,7 +26,7 @@ Authors:
 
 ## How to run the code
 ### 1) Requirements
-To run this code you will need an Apache HTTP server, the Apache Jena Fuseki engine.
+To run this code you will need an Apache HTTP server and the Apache Jena Fuseki engine.
 
 ### 2) Steps
 
