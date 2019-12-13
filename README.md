@@ -43,7 +43,7 @@ Second step is to run the Java code through the **"Main.java"** class. This Java
 The web application which is located in the folder: [https://github.com/Anass-ELGHAOUI/semantic-web-project/tree/master/semantic-web-project-web-app](https://github.com/Anass-ELGHAOUI/semantic-web-project/tree/master/semantic-web-project-web-app) can be accessed through the HTTP Apache server.
 
 ### 3) Additional information
-On the web application you have two possible use cases:
+On the web application you have two possible use cases: <br/>
 **3-1- Access data on the web application** <br/>
 You can check the pre-added data from the Java application, and also the data added by users.
 
