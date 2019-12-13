@@ -34,7 +34,7 @@ To run this code you will need an Apache HTTP server and the Apache Jena Fuseki 
 First step is to create the triplestore, with the name: **"bike_station_db"** (Apache Jena Fuseki server must be running on port 3030), or create it with a custom name and change the url to the triplestore in the interface **"Constants**" in the Java project folder: [https://github.com/Anass-ELGHAOUI/semantic-web-project/tree/master/src/main/java](https://github.com/Anass-ELGHAOUI/semantic-web-project/tree/master/src/main/java)
 
 **2-2- Run the Java code** <br/>
-Before doing any of the remaining steps download the repository content and put it in the HTTP apache directory.
+Before doing any of the remaining steps download the repository content and put it in the HTTP Apache Server directory.
 Second step is to run the Java code through the **"Main.java"** class. This Java program parses the given open data urls and loads it to the triplestore.
 
 **2-3- Access the wep application** <br/>
